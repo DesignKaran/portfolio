@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Karan</title>
+<meta name="description" content="Karan is an HCI grad student who brings a scientist's rigor to human-centered design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .page--about{ background:#f2ecdd; display:flex; flex-direction:column; }
+  .page--about ::selection{ background:#e8552d; color:#fff; }
+
+  .about-main{
+    width:100%; max-width:1180px; margin:0 auto;
+    padding:clamp(16px,3vw,36px) clamp(20px,5vw,40px) clamp(48px,7vw,84px);
+    flex:1 0 auto;
+  }
+  .page--about .footer{ flex:0 0 auto; margin-top:0; }
+
+  .about-hero{
+    display:flex; flex-wrap:wrap; gap:clamp(28px,5vw,56px); align-items:center;
+    padding:clamp(12px,2.5vw,28px) 0 0; width:100%; max-width:1100px;
+  }
+  .about-hero-copy{ flex:1.35 1 320px; min-width:260px; }
+  .about-eyebrow{
+    font:600 13px/1 'Inter',sans-serif; letter-spacing:0.14em;
+    text-transform:uppercase; color:#e8552d;
+  }
+  .about-heading{
+    margin:16px 0 0;
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-size:clamp(38px,6.4vw,66px); line-height:0.98; letter-spacing:-0.024em;
+    font-variation-settings:'opsz' 40,'wght' 700,'wdth' 95;
+  }
+  .about-lede{
+    margin:18px 0 0; font:400 clamp(16px,2vw,19px)/1.5 'Inter',sans-serif;
+    color:#4a463f; max-width:38ch;
+  }
+  .about-body{
+    margin:16px 0 0; font:400 clamp(15px,1.8vw,17px)/1.72 'Inter',sans-serif;
+    color:#3d3934; max-width:56ch;
+  }
+
+  .about-actions{
+    display:flex; flex-wrap:wrap; gap:14px;
+    margin-top:clamp(24px,3vw,30px); align-items:center;
+  }
+  .btn-resume{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:13px 24px; border-radius:999px;
+    background:#e8552d; color:#fdf2ec;
+    font:500 15px/1 'Inter',sans-serif; text-decoration:none;
+    transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .btn-resume:hover, .btn-resume:focus-visible{ transform:scale(1.05); border-radius:12px; }
+  .btn-hello{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:11px 24px; border-radius:999px;
+    background:transparent; border:2px solid #1c1a17; color:#1c1a17;
+    font:500 15px/1 'Inter',sans-serif; text-decoration:none;
+    transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1), background .3s ease;
+  }
+  .btn-hello:hover, .btn-hello:focus-visible{ transform:scale(1.05); border-radius:12px; background:rgba(28,26,23,0.05); }
+
+  .about-photo{ flex:0.9 1 360px; min-width:260px; max-width:420px; margin:0 auto; }
+  .about-photo-stage{ position:relative; padding:0 0 26px 26px; }
+  .about-photo-splash{ position:absolute; left:0; bottom:0; width:78%; height:auto; }
+  .about-photo-frame{ position:relative; width:100%; aspect-ratio:4/5; }
+  .about-photo-clipped{
+    position:absolute; inset:0; background:#faf3e6;
+    clip-path:url(#about-blob-clip); overflow:hidden;
+  }
+  .about-photo-clipped img{
+    width:100%; height:100%; object-fit:cover; object-position:50% 22%; display:block;
+  }
+  .about-photo-stroke{
+    position:absolute; inset:0; width:100%; height:100%;
+    pointer-events:none; overflow:visible;
+  }
+
+  .about-quote{
+    margin:clamp(30px,4.5vw,44px) 0 0; position:relative; overflow:hidden;
+    background:#e8552d; color:#ffffff; border-radius:28px;
+    padding:clamp(26px,4.5vw,44px) clamp(24px,5vw,52px);
+  }
+  .about-quote-mark{
+    position:absolute; top:-14px; right:20px;
+    font-family:'Bricolage Grotesque',sans-serif; font-size:130px; line-height:1;
+    color:#ffffff; opacity:0.18;
+    font-variation-settings:'opsz' 60,'wght' 700,'wdth' 90;
+  }
+  .about-quote p{
+    margin:0; font-family:'Bricolage Grotesque',sans-serif;
+    font-size:clamp(20px,3.2vw,30px); line-height:1.22; letter-spacing:-0.012em;
+    font-variation-settings:'opsz' 28,'wght' 600,'wdth' 92;
+    max-width:34ch; position:relative;
+  }
+
+  .hobbies{ margin-top:clamp(32px,5vw,48px); }
+  .hobbies h2{
+    margin:0; font-family:'Bricolage Grotesque',sans-serif;
+    font-size:clamp(21px,2.8vw,27px); line-height:1.1; letter-spacing:-0.014em;
+    font-variation-settings:'opsz' 24,'wght' 700,'wdth' 92;
+  }
+  .hobby-grid{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:14px; margin-top:18px;
+  }
+  .hobby{ border-radius:22px; min-height:150px; padding:22px; }
+  .hobby-icon{
+    width:48px; height:48px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .hobby-title{
+    margin:12px 0 6px; font-family:'Bricolage Grotesque',sans-serif;
+    font-size:18px; line-height:1.15;
+    font-variation-settings:'opsz' 18,'wght' 600,'wdth' 94;
+  }
+  .hobby p{ margin:0; font:400 13.5px/1.45 'Inter',sans-serif; color:#3d3934; }
+
+  @media (max-width:620px){
+    .about-hero{ flex-direction:column-reverse; }
+    .about-photo{ max-width:min(88vw,340px); }
+  }
+</style>
+</head>
+<body>
+
+<div class="page page--about">
+
+  <nav class="nav">
+    <a href="index.html" class="wordmark" aria-label="karan, home">karan<span class="accent">.</span></a>
+    <div class="nav-links">
+      <a href="index.html#work">Work</a>
+      <a href="about.html" aria-current="page" style="opacity:1;text-decoration:underline;text-underline-offset:4px;">About</a>
+    </div>
+  </nav>
+
+  <div class="about-main">
+
+    <section class="about-hero">
+      <div class="about-hero-copy" data-reveal>
+        <div class="about-eyebrow">About</div>
+        <h1 class="about-heading" data-warp="700,95,40,800,100,48" aria-label="Hi, I'm Karan.">
+          <span class="warp-word" aria-hidden="true"><span data-l>H</span><span data-l>i</span><span data-l>,</span></span>
+          <span class="warp-word" aria-hidden="true"><span data-l>I</span><span data-l>’</span><span data-l>m</span></span>
+          <span class="warp-word" aria-hidden="true"><span data-l>K</span><span data-l>a</span><span data-l>r</span><span data-l>a</span><span data-l>n</span><span data-l class="accent">.</span></span>
+        </h1>
+        <p class="about-lede">An HCI grad student who brings a scientist's rigor to human-centered design.</p>
+        <p class="about-body" data-reveal>My path started in biology, where good work meant anticipating variables and planning for what could go wrong. That way of thinking is what pulled me toward human-computer interaction. I wanted to shape not just how systems function, but how people actually experience and trust them. I bring the same scrutiny to UX, building for reliability and inclusive design rather than surface-level trends.</p>
+        <div class="about-actions" data-reveal>
+          <!-- Replace href with the real resume URL (PDF or Drive link) when ready. -->
+          <a href="#" target="_blank" rel="noopener" class="btn-resume">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13.5 3 H7 A1.6 1.6 0 0 0 5.4 4.6 V19.4 A1.6 1.6 0 0 0 7 21 H17 A1.6 1.6 0 0 0 18.6 19.4 V8.1 Z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"></path><path d="M13.5 3 V8.1 H18.6" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"></path><path d="M9 13 H15 M9 16.5 H13" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg>
+            View my resume
+          </a>
+          <a href="mailto:karanqmr@gmail.com" class="btn-hello">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.9"></rect><path d="M4.5 7 L12 12.6 L19.5 7" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            Say hello
+          </a>
+        </div>
+      </div>
+
+      <div class="about-photo" data-reveal>
+        <div class="about-photo-stage">
+          <svg viewBox="0 0 200 200" aria-hidden="true" class="about-photo-splash"><path d="M45 33 C74 8 133 12 158 38 C184 65 191 112 168 145 C144 179 88 194 53 172 C18 150 5 108 14 76 C21 52 30 46 45 33 Z" fill="#ffd23f"></path></svg>
+          <div class="about-photo-frame">
+            <svg aria-hidden="true" width="0" height="0" style="position:absolute;"><defs><clipPath id="about-blob-clip" clipPathUnits="objectBoundingBox"><path id="about-blob-clip-path" d="M0.5 0.04 C0.72 0.04 0.93 0.17 0.95 0.4 C0.97 0.62 0.91 0.83 0.72 0.93 C0.52 0.98 0.26 0.96 0.12 0.83 C0.0 0.7 0.02 0.44 0.1 0.26 C0.18 0.1 0.3 0.04 0.5 0.04 Z"></path></clipPath></defs></svg>
+            <div class="about-photo-clipped">
+              <img src="assets/karan-headshot.jpeg" alt="Karan, smiling under a cafe umbrella at night">
+            </div>
+            <svg viewBox="0 0 100 125" preserveAspectRatio="none" aria-hidden="true" class="about-photo-stroke"><path id="about-blob-stroke" d="M50 5 C72 5 93 21.25 95 50 C97 77.5 91 103.75 72 116.25 C52 122.5 26 120 12 103.75 C0 87.5 2 55 10 32.5 C18 12.5 30 5 50 5 Z" fill="none" stroke="#1c1a17" stroke-width="3" vector-effect="non-scaling-stroke"></path></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <blockquote class="about-quote" data-reveal>
+      <div class="about-quote-mark" aria-hidden="true">”</div>
+      <p>In science, an experiment is only as good as its fail-safes. I bring that same obsession with edge cases to my design process.</p>
+    </blockquote>
+
+    <section class="hobbies">
+      <h2 data-reveal>When I'm not designing</h2>
+      <div class="hobby-grid">
+        <div class="hobby" data-reveal style="background:#fbecc1;">
+          <div class="hobby-icon" style="background:#ffd23f;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#1c1a17" stroke-width="1.8"></circle><path d="M15.5 8.5 L13.4 13.4 L8.5 15.5 L10.6 10.6 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="hobby-title">Wandering for ideas</div>
+          <p>New cities, parks, and museums, where I quietly collect inspiration the world hands me.</p>
+        </div>
+        <div class="hobby" data-reveal style="background:#d0e0e7;">
+          <div class="hobby-icon" style="background:#3d9be9;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 4.2 A1.9 1.9 0 0 1 13.8 4.2 V5.2 H17 A1.3 1.3 0 0 1 18.3 6.5 V9.7 H17.3 A1.9 1.9 0 0 0 17.3 13.5 H18.3 V16.7 A1.3 1.3 0 0 1 17 18 H13.8 V17 A1.9 1.9 0 0 0 10 17 V18 H6.8 A1.3 1.3 0 0 1 5.5 16.7 V13.5 H6.5 A1.9 1.9 0 0 0 6.5 9.7 H5.5 V6.5 A1.3 1.3 0 0 1 6.8 5.2 H10 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+          </div>
+          <div class="hobby-title">Strategy and puzzles</div>
+          <p>A good strategy game or a knotty puzzle and I happily lose track of time.</p>
+        </div>
+        <div class="hobby" data-reveal style="background:#c7e8d4;">
+          <div class="hobby-icon" style="background:#13c296;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6.5 C10.5 4.9 8.2 4.4 5.5 4.4 V17.6 C8.2 17.6 10.5 18.1 12 19.7 C13.5 18.1 15.8 17.6 18.5 17.6 V4.4 C15.8 4.4 13.5 4.9 12 6.5 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path><path d="M12 6.5 V19.7" stroke="#1c1a17" stroke-width="1.8"></path></svg>
+          </div>
+          <div class="hobby-title">Stories, on and off screen</div>
+          <p>Winding down with a book, a film, or an album I can sink into.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0 0 L0 26 Q80 10 160 26 T320 26 T480 26 T640 26 T800 26 T960 26 T1120 26 T1280 26 T1440 26 L1440 0 Z" fill="#f2ecdd"></path></svg>
+    </div>
+
+    <div class="playground" id="playground" aria-hidden="true">
+      <div class="shape" data-color="#e8552d" style="left:4%;top:60%;width:92px;height:92px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#e8552d"></path></svg></div>
+      <div class="shape" data-color="#13c296" style="left:14%;top:85%;width:56px;height:56px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#13c296"></path></svg></div>
+      <div class="shape" data-color="#3d9be9" style="left:85%;top:18%;width:78px;height:78px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#3d9be9"></path></svg></div>
+      <div class="shape" data-color="#ffd23f" style="left:92%;top:55%;width:104px;height:104px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#ffd23f"></path></svg></div>
+      <div class="shape" data-color="#d6356a" style="left:74%;top:84%;width:54px;height:54px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#d6356a"></path></svg></div>
+      <div class="shape" data-color="#3d9be9" style="left:62%;top:21%;width:46px;height:46px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#3d9be9"></path></svg></div>
+      <div class="shape" data-color="#e8552d" style="left:47%;top:88%;width:64px;height:64px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#e8552d"></path></svg></div>
+      <div class="shape" data-color="#13c296" style="left:96%;top:34%;width:58px;height:58px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#13c296"></path></svg></div>
+    </div>
+
+    <div class="footer-inner">
+      <h2 id="footer-heading" class="warp-heading warp-heading-footer" data-warp="470,90,50,800,100,82" aria-label="Let's build something.">
+        <span class="warp-word" aria-hidden="true"><span data-l>L</span><span data-l>e</span><span data-l>t</span><span data-l>’</span><span data-l>s</span></span>
+        <span class="warp-word" aria-hidden="true"><span data-l>b</span><span data-l>u</span><span data-l>i</span><span data-l>l</span><span data-l>d</span></span>
+        <span class="warp-word" aria-hidden="true"><span data-l>s</span><span data-l>o</span><span data-l>m</span><span data-l>e</span><span data-l>t</span><span data-l>h</span><span data-l>i</span><span data-l>n</span><span data-l>g</span><span data-l class="accent">.</span></span>
+      </h2>
+      <a href="mailto:karanqmr@gmail.com" class="footer-email">karanqmr@gmail.com →</a>
+
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <span class="footer-copyright">© 2026 Karan. Designed and built with Claude</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

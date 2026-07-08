@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ElderMotion — case study — Karan</title>
+<meta name="description" content="Designing an accessibility-first fitness companion for older adults. UX case study by Karan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  ::selection{ background:#1a7d5c; color:#fff; }
+  section[id]{ scroll-margin-top:24px; }
+  [data-sidenav]{ display:flex; }
+  @media (max-width:1439px){ [data-sidenav]{ display:none !important; } }
+
+  .hov-navlink:hover, .hov-navlink:focus-visible{ opacity:1 !important; text-decoration:underline !important; text-underline-offset:4px; }
+  .hov-accent:hover, .hov-accent:focus-visible{ color:#e8552d !important; }
+  .hov-figma:hover, .hov-figma:focus-visible{ transform:scale(1.04); background:#13674d !important; }
+  .hov-totop:hover, .hov-totop:focus-visible{ transform:scale(1.08); border-radius:44% 56% 56% 44% / 56% 44% 58% 42%; background:#13674d !important; }
+  .hov-lift:hover, .hov-lift:focus-visible{ transform:translateY(-4px); }
+
+  .ia-node::before{ content:''; position:absolute; left:-17px; top:0.7em; width:11px; height:2px; background:rgba(24,36,31,0.3); }
+</style>
+</head>
+<body>
+
+<div style="min-height:100vh;background:#f0ece2;color:#18241f;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;">
+
+  <nav style="max-width:1180px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;">
+    <a href="index.html" aria-label="karan, home" style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-variation-settings:'opsz' 16,'wght' 650,'wdth' 92;color:#18241f;text-decoration:none;letter-spacing:-0.01em;">karan<span style="color:#0f5b43">.</span></a>
+    <div style="display:flex;align-items:center;gap:clamp(16px,3vw,28px);">
+      <a href="index.html#work" style="color:#18241f;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Work</a>
+      <a href="about.html" style="color:#18241f;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">About</a>
+    </div>
+  </nav>
+
+  <nav data-sidenav data-active-color="#0f5b43" data-idle-color="#8a938c" data-dot-idle="#c3ccc5" aria-label="Sections" style="position:fixed;left:26px;top:50%;transform:translateY(-50%);z-index:60;flex-direction:column;gap:1px;transition:opacity .3s ease,visibility .3s ease;">
+    <a href="#overview" data-sidelink="overview" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Overview</a>
+    <a href="#problem" data-sidelink="problem" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Problem</a>
+    <a href="#research" data-sidelink="research" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Research</a>
+    <a href="#ia" data-sidelink="ia" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Definition &amp; IA</a>
+    <a href="#design" data-sidelink="design" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Design</a>
+    <a href="#validation" data-sidelink="validation" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Validation</a>
+    <a href="#outcome" data-sidelink="outcome" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Outcome</a>
+    <a href="#next" data-sidelink="next" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#8a938c;text-decoration:none;transition:color .2s ease;"><span data-sidedot style="width:18px;height:2px;border-radius:2px;background:#c3ccc5;transition:all .25s ease;"></span>Next</a>
+  </nav>
+
+  <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);">
+
+    <!-- HERO -->
+    <section id="top" style="padding:clamp(20px,4vw,48px) 0 clamp(36px,5vw,60px);display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center;">
+      <div style="flex:1 1 420px;min-width:280px;">
+        <div data-reveal style="display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:22px;">
+          <span style="font:600 11.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#0f5b43;background:#dcece3;border:1px solid rgba(15,91,67,0.28);padding:7px 12px;border-radius:999px;">Accessible design</span>
+        </div>
+        <h1 data-reveal style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(3.2rem,8vw,6rem);line-height:0.92;letter-spacing:-0.028em;font-variation-settings:'opsz' 60,'wght' 560,'wdth' 88;">ElderMotion</h1>
+        <p data-reveal style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.25rem,2.5vw,1.7rem);line-height:1.22;letter-spacing:-0.012em;font-variation-settings:'opsz' 24,'wght' 480,'wdth' 92;color:#243029;max-width:20ch;">Designing an accessibility-first fitness companion for older adults.</p>
+        <p data-reveal style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.6 'Inter',sans-serif;color:#4b564f;max-width:46ch;">Accessible from the first sketch, not the last settings menu. Built for Elias: 85, low vision, a tremor, and no patience for apps that don't remember him.</p>
+        <div data-reveal style="margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;">
+          <a href="https://www.figma.com/proto/LQB6sRamhBaXbBTFkoOEke/Elder-Fitness-App--Copy-?node-id=315-820&amp;viewport=2423%2C631%2C0.34&amp;t=zg7C9EHJSYeXby8k-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=315%3A820&amp;page-id=0%3A1" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;background:#0f5b43;color:#eaf3ee;font:600 15px/1 'Inter',sans-serif;text-decoration:none;box-shadow:0 12px 26px -14px rgba(15,91,67,0.7);transition:transform .3s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-figma">▶ View the working Figma prototype</a>
+        </div>
+      </div>
+      <div data-reveal style="flex:1 1 360px;min-width:280px;">
+        <img src="assets/ElderMotionCover.png" alt="ElderMotion Community and Activity Overview screens" style="display:block;width:100%;height:auto;border-radius:24px;box-shadow:0 30px 60px -34px rgba(24,36,31,0.6);">
+      </div>
+    </section>
+
+    <!-- FACTS (moved above overview) -->
+    <section style="padding:0 0 clamp(20px,3vw,32px);">
+      <div data-reveal style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:20px;padding:clamp(20px,3vw,28px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 16px 36px -30px rgba(24,36,31,0.4);display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:24px 36px;align-items:start;">
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:7px;">Role</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#18241f;">Research lead · IA · Community flow</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:7px;">Team</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#18241f;">Karan Kumar + 3 designers</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:7px;">Timeline</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#18241f;">3 weeks</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:7px;">Tools</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#18241f;">Figma · FigJam · Figma Make · Google Scholar</div></div>
+      </div>
+
+    </section>
+
+    <!-- 1 · OVERVIEW / TL;DR -->
+    <section id="overview" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">01</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Overview</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:20ch;">Built for people who don't call themselves athletes</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">Most fitness apps are built for people who already think of themselves as athletes. ElderMotion is built for people who don't. Specifically, it's for older adults navigating vision loss, hand tremors, and unfamiliar interfaces who still want to garden, walk to the market, and see their neighbors.</p>
+        <p data-reveal style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">We grounded the whole project in a real W3C accessibility persona instead of inventing one, and we built every interface decision off findings from HCI and DIX literature: touch target size, navigation pattern, language, and notification tone.</p>
+
+        <div data-reveal style="margin-top:22px;background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:16px;padding:20px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#0b4835;margin-bottom:9px;">My contribution</div>
+          <p style="margin:0;font:400 14.5px/1.6 'Inter',sans-serif;color:#22302a;">I led the literature review, which included a critical read of where the source studies' own evidence had limits. I owned the app's full information architecture, and I designed the Community flow end to end.</p>
+        </div>
+
+        <ul data-reveal style="margin:22px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#0f5b43;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Grounded in the W3C persona “Elias,” not an invented user</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#0f5b43;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>5 papers reviewed across HCI, UX, and DIX, each read critically for its own limitations</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#0f5b43;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>High-fidelity prototype with a working Figma click-through, including a dedicated high-contrast / dark mode</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2 · PROBLEM & CONTEXT -->
+    <section id="problem" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">02</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Problem &amp; context</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Two barriers, stacked on top of each other</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">Older adults adopting mobile health technology face two barriers stacked on top of each other: age-related physical impairment (vision loss, tremors) <em style="font-style:normal;color:#0f5b43;font-weight:500;">and</em> low digital literacy. Most fitness apps address neither. They're built around complex data visualization and a fitness-culture aesthetic that assumes the user already sees themselves as athletic.</p>
+        <p data-reveal style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">We grounded this in Elias, the W3C's own standardized accessibility persona. He's an 85-year-old retired architect with low vision and a hand tremor, someone who uses technology often but gets stopped cold by apps that won't let him increase text size, or that make him re-enter information every time because nothing is remembered.</p>
+      </div>
+
+      <blockquote data-reveal style="margin:clamp(34px,5vw,52px) 0 0;">
+        <div aria-hidden="true" style="font-family:'Bricolage Grotesque',sans-serif;font-size:72px;line-height:0.5;color:#1a7d5c;">“</div>
+        <p style="margin:8px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,4.4vw,3rem);line-height:1.12;letter-spacing:-0.02em;font-variation-settings:'opsz' 40,'wght' 520,'wdth' 90;color:#16241d;max-width:24ch;">The tech doesn't fail because older adults can't use it. It fails because it doesn't speak their language.</p>
+      </blockquote>
+
+      <div data-reveal style="margin-top:clamp(32px,4vw,44px);background:#0f5b43;border-radius:20px;padding:clamp(22px,3vw,30px);color:#eaf3ee;max-width:820px;">
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#9ad9c0;margin-bottom:11px;">How might we</div>
+        <p style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.15rem,2.2vw,1.45rem);line-height:1.35;letter-spacing:-0.01em;font-variation-settings:'opsz' 22,'wght' 460,'wdth' 92;">…help someone like Elias build physical activity into daily life, not as a workout but as an extension of things he already does, without ever asking him to fight the interface to get there?</p>
+      </div>
+
+      <p data-reveal style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#6b756e;max-width:760px;">A note on framing: the “double burden” above is a synthesis I pulled together while leading the literature review. It isn't a direct quote from any one paper, but the pattern that showed up once I'd read all five side by side.</p>
+    </section>
+
+    <!-- 3 · RESEARCH & INSIGHTS -->
+    <section id="research" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">03</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Research &amp; insights</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Five papers, read for their limits</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">We reviewed five papers spanning HCI, UX, and DIX research on older adults and mobile health technology, and grounded every finding against Elias rather than a persona we invented ourselves.</p>
+      </div>
+
+      <div data-reveal style="margin-top:22px;border-left:4px solid #a9761a;background:#f6ecd5;border-radius:0 14px 14px 0;padding:16px 20px;max-width:760px;">
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a5e10;margin-bottom:8px;">On scope, stated plainly</div>
+        <p style="margin:0;font:400 14px/1.6 'Inter',sans-serif;color:#5c400d;">This was secondary research, a literature review rather than primary user testing. We didn't talk to older adults directly for this project. Every design decision below is a strong, evidence-backed hypothesis rather than a validated one; the Validation section covers what that means going forward.</p>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;"><strong style="font-weight:600;color:#18241f;">The key insight:</strong> every paper pointed at the same root cause from a different angle. The barrier isn't capability, it's design that assumes the wrong user. Small buttons assume steady hands. Swipe gestures assume fine motor control. “Cardio session” assumes someone who already calls themselves active. Fix the assumption, and a lot of the “accessibility problem” disappears.</p>
+        <p data-reveal style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;"><strong style="font-weight:600;color:#18241f;">What makes the differentiator real:</strong> I didn't just extract findings. I read each study for where its own evidence had limits, and let that shape how much weight each finding actually deserved. That critical read is the traceability chart below.</p>
+      </div>
+
+      <!-- VISUAL: research-traceability chart -->
+      <div data-reveal style="margin-top:clamp(28px,4vw,40px);">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;">Figure · Research-traceability chart</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6b756e;">click Source, Finding, Caveat, or Decision to expand all four papers</span></div>
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:22px;padding:clamp(16px,2.4vw,26px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 18px 40px -30px rgba(24,36,31,0.4);">
+          <div data-acc-group style="display:flex;flex-direction:column;gap:10px;">
+
+            <div style="border:1px solid rgba(24,36,31,0.12);border-radius:14px;background:#fbfaf6;">
+              <button type="button" data-acc-btn aria-expanded="false" style="width:100%;display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:15px 18px;background:transparent;border:none;cursor:pointer;text-align:left;">
+                <span aria-hidden="true" style="flex:0 0 auto;width:12px;height:12px;border-radius:4px;background:#0f5b43;"></span>
+                <span style="flex:0 0 auto;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.08em;text-transform:uppercase;color:#18241f;">Source</span>
+                <span data-acc-sum style="flex:1 1 240px;font:400 13px/1.45 'Inter',sans-serif;color:#6b756e;opacity:1;transition:opacity .3s ease;">Bailey 2025 · Daniels 2023 · McCaskey 2018 · Hong 2014, spanning HCI, UX, and DIX</span>
+                <span aria-hidden="true" data-acc-chev style="flex:0 0 auto;margin-left:auto;display:inline-block;font:600 13px/1 'Inter',sans-serif;color:#586b62;transform:rotate(0deg);transition:transform .35s cubic-bezier(.22,1,.36,1);">▸</span>
+              </button>
+              <div data-acc-body style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.22,1,.36,1);"><div style="overflow:hidden;min-height:0;">
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;padding:2px 16px 16px;">
+                  <div style="background:#0f5b43;color:#eaf3ee;border-radius:12px;padding:14px;"><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;">Bailey et al.</div><div style="font:400 12px/1.4 'Inter',sans-serif;color:rgba(234,243,238,0.72);margin-top:3px;">2025 · 56-study review</div></div>
+                  <div style="background:#0f5b43;color:#eaf3ee;border-radius:12px;padding:14px;"><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;">Daniels et al.</div><div style="font:400 12px/1.4 'Inter',sans-serif;color:rgba(234,243,238,0.72);margin-top:3px;">2023 · design-thinking study</div></div>
+                  <div style="background:#0f5b43;color:#eaf3ee;border-radius:12px;padding:14px;"><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;">McCaskey et al.</div><div style="font:400 12px/1.4 'Inter',sans-serif;color:rgba(234,243,238,0.72);margin-top:3px;">2018 · geriatric ICT review</div></div>
+                  <div style="background:#0f5b43;color:#eaf3ee;border-radius:12px;padding:14px;"><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;">Hong et al.</div><div style="font:400 12px/1.4 'Inter',sans-serif;color:rgba(234,243,238,0.72);margin-top:3px;">2014 · iCanFit usability test</div></div>
+                </div>
+              </div></div>
+            </div>
+
+            <div style="border:1px solid rgba(24,36,31,0.12);border-radius:14px;background:#fbfaf6;">
+              <button type="button" data-acc-btn aria-expanded="false" style="width:100%;display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:15px 18px;background:transparent;border:none;cursor:pointer;text-align:left;">
+                <span aria-hidden="true" style="flex:0 0 auto;width:12px;height:12px;border-radius:4px;background:#1a7d5c;"></span>
+                <span style="flex:0 0 auto;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.08em;text-transform:uppercase;color:#0f7a58;">Finding</span>
+                <span data-acc-sum style="flex:1 1 240px;font:400 13px/1.45 'Inter',sans-serif;color:#6b756e;opacity:1;transition:opacity .3s ease;">Motor control gets ignored, activity means purposeful living, isolation blocks movement, and logins stall users</span>
+                <span aria-hidden="true" data-acc-chev style="flex:0 0 auto;margin-left:auto;display:inline-block;font:600 13px/1 'Inter',sans-serif;color:#586b62;transform:rotate(0deg);transition:transform .35s cubic-bezier(.22,1,.36,1);">▸</span>
+              </button>
+              <div data-acc-body style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.22,1,.36,1);"><div style="overflow:hidden;min-height:0;">
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;padding:2px 16px 16px;">
+                  <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#0f7a58;margin-bottom:7px;">Bailey et al. · 2025</span>Designers scale fonts but ignore motor control; swipe and pinch fail aging hands.</div>
+                  <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#0f7a58;margin-bottom:7px;">Daniels et al. · 2023</span>Seniors define activity as purposeful living, things like gardening and cleaning, and reject pushy prompts.</div>
+                  <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#0f7a58;margin-bottom:7px;">McCaskey et al. · 2018</span>Social exergames improve motivation and adherence; isolation and stigma keep older adults from moving.</div>
+                  <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#0f7a58;margin-bottom:7px;">Hong et al. · 2014</span>Users stalled at account creation and asked for clearer icons and larger fonts.</div>
+                </div>
+              </div></div>
+            </div>
+
+            <div style="border:1px solid rgba(24,36,31,0.12);border-radius:14px;background:#fbfaf6;">
+              <button type="button" data-acc-btn aria-expanded="false" style="width:100%;display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:15px 18px;background:transparent;border:none;cursor:pointer;text-align:left;">
+                <span aria-hidden="true" style="flex:0 0 auto;width:12px;height:12px;border-radius:4px;background:#a9761a;"></span>
+                <span style="flex:0 0 auto;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.08em;text-transform:uppercase;color:#8a5e10;">◆ Caveat: my critical appraisal</span>
+                <span data-acc-sum style="flex:1 1 240px;font:400 13px/1.45 'Inter',sans-serif;color:#6b756e;opacity:1;transition:opacity .3s ease;">Each paper read for its own limits: reporting bias, selection bias, thin evidence, and a small skewed sample</span>
+                <span aria-hidden="true" data-acc-chev style="flex:0 0 auto;margin-left:auto;display:inline-block;font:600 13px/1 'Inter',sans-serif;color:#586b62;transform:rotate(0deg);transition:transform .35s cubic-bezier(.22,1,.36,1);">▸</span>
+              </button>
+              <div data-acc-body style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.22,1,.36,1);"><div style="overflow:hidden;min-height:0;">
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;padding:2px 16px 16px;">
+                  <div style="background:#f6ecd5;border:1px solid rgba(169,118,26,0.5);border-radius:12px;padding:13px 15px;font:500 13px/1.5 'Inter',sans-serif;color:#5c400d;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#8a5e10;margin-bottom:7px;">Bailey et al. · 2025</span>Reporting bias: only 38% of reviewed papers followed WCAG, so the evidence base is shakier than it looks.</div>
+                  <div style="background:#f6ecd5;border:1px solid rgba(169,118,26,0.5);border-radius:12px;padding:13px 15px;font:500 13px/1.5 'Inter',sans-serif;color:#5c400d;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#8a5e10;margin-bottom:7px;">Daniels et al. · 2023</span>Selection bias: 91% were already motivated enough to join a health workshop, so it may not hold for a sedentary user like Elias.</div>
+                  <div style="background:#f6ecd5;border:1px solid rgba(169,118,26,0.5);border-radius:12px;padding:13px 15px;font:500 13px/1.5 'Inter',sans-serif;color:#5c400d;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#8a5e10;margin-bottom:7px;">McCaskey et al. · 2018</span>Thin evidence: few interventions are built for this demographic, and efficacy isn't well validated yet.</div>
+                  <div style="background:#f6ecd5;border:1px solid rgba(169,118,26,0.5);border-radius:12px;padding:13px 15px;font:500 13px/1.5 'Inter',sans-serif;color:#5c400d;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#8a5e10;margin-bottom:7px;">Hong et al. · 2014</span>Small sample of mostly computer-literate seniors, likely understates barriers for less-experienced users.</div>
+                </div>
+              </div></div>
+            </div>
+
+            <div style="border:1px solid rgba(24,36,31,0.12);border-radius:14px;background:#fbfaf6;">
+              <button type="button" data-acc-btn aria-expanded="false" style="width:100%;display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:15px 18px;background:transparent;border:none;cursor:pointer;text-align:left;">
+                <span aria-hidden="true" style="flex:0 0 auto;width:12px;height:12px;border-radius:4px;background:#3d77a8;"></span>
+                <span style="flex:0 0 auto;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.08em;text-transform:uppercase;color:#3167a0;">Decision</span>
+                <span data-acc-sum style="flex:1 1 240px;font:400 13px/1.45 'Inter',sans-serif;color:#6b756e;opacity:1;transition:opacity .3s ease;">Two-finger targets, everyday activity language, a Community tab, and labeled icons with no repeat logins</span>
+                <span aria-hidden="true" data-acc-chev style="flex:0 0 auto;margin-left:auto;display:inline-block;font:600 13px/1 'Inter',sans-serif;color:#586b62;transform:rotate(0deg);transition:transform .35s cubic-bezier(.22,1,.36,1);">▸</span>
+              </button>
+              <div data-acc-body style="display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.22,1,.36,1);"><div style="overflow:hidden;min-height:0;">
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;padding:2px 16px 16px;">
+                  <div style="background:#e4edf5;border:1px solid rgba(49,103,160,0.32);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#3167a0;margin-bottom:7px;">Bailey et al. · 2025</span>Two-finger-width touch targets, generous padding, single-tap navigation, no swipe or pinch.</div>
+                  <div style="background:#e4edf5;border:1px solid rgba(49,103,160,0.32);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#3167a0;margin-bottom:7px;">Daniels et al. · 2023</span>Reframe tracking as “garden time” and “market walks”; supportive, non-punitive notifications.</div>
+                  <div style="background:#e4edf5;border:1px solid rgba(49,103,160,0.32);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#3167a0;margin-bottom:7px;">McCaskey et al. · 2018</span>A Community tab to join and host local outings; social pull as the motivator, not streak guilt.</div>
+                  <div style="background:#e4edf5;border:1px solid rgba(49,103,160,0.32);border-radius:12px;padding:13px 14px;font:400 13px/1.5 'Inter',sans-serif;color:#22302a;"><span style="display:block;font:600 11px/1 ui-monospace,Menlo,monospace;color:#3167a0;margin-bottom:7px;">Hong et al. · 2014</span>Text labels on every icon, high contrast, and a stay-signed-in model that skips repeat logins.</div>
+                </div>
+              </div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal style="margin:22px 0 0;font:400 15px/1.6 'Inter',sans-serif;color:#3f4b45;max-width:760px;"><strong style="font-weight:600;color:#18241f;">What we built off it:</strong> two-finger-width tap targets with dead space around every button, single-tap-only navigation, activity language reframed around daily life (“garden time,” not “cardio”), and supportive rather than demanding notification copy.</p>
+    </section>
+
+    <!-- 4 · DEFINITION & IA -->
+    <section id="ia" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">04</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Definition &amp; IA</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">From findings to requirements</h2>
+      <p data-reveal style="margin:22px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;max-width:760px;">We translated every research finding into a concrete functional requirement, organized into four categories.</p>
+
+      <div data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px;">
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#0b4835;margin-bottom:12px;">Interface &amp; interaction</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#3f4b45;">
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Two-finger-width targets</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Gesture-free single-tap navigation</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>A 3-option ceiling per screen</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Text labels on every icon</li>
+          </ul>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#0b4835;margin-bottom:12px;">Content &amp; motivation</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#3f4b45;">
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Everyday-life activity language</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Supportive, not urgent, notifications</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Milestone tracking over data charts</li>
+          </ul>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#0b4835;margin-bottom:12px;">Accessibility &amp; customization</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#3f4b45;">
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>High-contrast mode &amp; adjustable fonts that don't break layout</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Text-to-speech</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Large undo / confirm states</li>
+          </ul>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#0b4835;margin-bottom:12px;">Social &amp; community</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#3f4b45;">
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Local activity discovery</li>
+            <li style="display:flex;gap:9px;"><span style="color:#0f5b43;font-weight:700;">—</span>Scheduling walks &amp; outings with neighbors</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Persona (real artifact) -->
+      <div data-reveal style="margin-top:26px;">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:14px;">Figure · Persona: Elias (W3C standardized accessibility persona)</div>
+        <img src="assets/PersonaMVP.png" alt="Persona: Elias, 85, retired architect, constraints and goals" style="display:block;width:100%;height:auto;border-radius:18px;border:1px solid rgba(24,36,31,0.1);box-shadow:0 18px 40px -30px rgba(24,36,31,0.45);">
+      </div>
+
+      <!-- IA ownership intro -->
+      <h3 data-reveal style="margin:clamp(34px,4vw,46px) 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Information architecture, my ownership</h3>
+      <p data-reveal style="margin:12px 0 0;font:400 15px/1.6 'Inter',sans-serif;color:#3f4b45;max-width:760px;">I designed the app's full IA. Three decisions mattered most, all built over a card-based home hub with four primary branches, laid out here as a vertical indented tree.</p>
+
+      <!-- VISUAL: site map (nested outline) -->
+      <div data-reveal style="margin-top:24px;background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:22px;padding:clamp(20px,3vw,32px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 18px 40px -30px rgba(24,36,31,0.4);">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px 26px;">
+          <div style="grid-column:1/-1;display:inline-flex;align-self:start;width:max-content;align-items:center;gap:9px;padding:11px 18px;border-radius:12px;background:#0f5b43;color:#eaf3ee;"><span style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 18,'wght' 680,'wdth' 92;font-size:16px;">Home</span><span style="font:500 12.5px/1 'Inter',sans-serif;opacity:0.8;">card-based hub</span></div>
+
+          <div style="border-left:2px solid rgba(15,91,67,0.45);padding-left:16px;">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;color:#0b4835;margin-bottom:9px;">Activity Log</div>
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Activity Overview</div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Log an activity <span style="color:#6b756e;font-weight:400;">· type, length</span></div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Exercise guides</div>
+            </div>
+          </div>
+
+          <div style="border-left:2px solid rgba(15,91,67,0.45);padding-left:16px;">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;color:#0b4835;margin-bottom:9px;">Community</div>
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Happening now <span style="color:#6b756e;font-weight:400;">· join a friend</span></div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Host an outing <span style="color:#6b756e;font-weight:400;">· date, time, place</span></div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Discover events</div>
+            </div>
+          </div>
+
+          <div style="border-left:2px solid rgba(15,91,67,0.45);padding-left:16px;">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;color:#0b4835;margin-bottom:9px;">Accessibility</div>
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">VoiceOver, narrator</div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Display, text size</div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Motion, head track</div>
+            </div>
+          </div>
+
+          <div style="border-left:2px solid rgba(15,91,67,0.45);padding-left:16px;">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:14.5px;color:#0b4835;margin-bottom:9px;">Settings</div>
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Daily goal</div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Contrast mode</div>
+              <div class="ia-node" style="position:relative;font:500 13px/1.35 'Inter',sans-serif;color:#22302a;">Notifications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:16px;">
+        <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.26);border-radius:16px;padding:20px;">
+          <div style="width:30px;height:30px;border-radius:9px;background:#0f5b43;color:#eaf3ee;display:flex;align-items:center;justify-content:center;font:700 14px/1 'Inter',sans-serif;margin-bottom:13px;">1</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;margin-bottom:6px;">Cards, not a nav bar</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#4b564f;">Primary actions live as home-screen cards ordered by frequency of use, rather than a bottom nav or sidebar. Fewer things to scan, larger tap targets.</p>
+        </div>
+        <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.26);border-radius:16px;padding:20px;">
+          <div style="width:30px;height:30px;border-radius:9px;background:#0f5b43;color:#eaf3ee;display:flex;align-items:center;justify-content:center;font:700 14px/1 'Inter',sans-serif;margin-bottom:13px;">2</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;margin-bottom:6px;">No logout</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#4b564f;">Users stay signed in by default. One less place a low-vision user can get stuck or locked out.</p>
+        </div>
+        <div style="background:#dcece3;border:1px solid rgba(15,91,67,0.26);border-radius:16px;padding:20px;">
+          <div style="width:30px;height:30px;border-radius:9px;background:#0f5b43;color:#eaf3ee;display:flex;align-items:center;justify-content:center;font:700 14px/1 'Inter',sans-serif;margin-bottom:13px;">3</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;margin-bottom:6px;">A hard 3-option ceiling</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#4b564f;">Every screen caps its choices, to keep cognitive load down for a user managing mild memory lapses.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · DESIGN & KEY DECISIONS -->
+    <section id="design" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">05</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Design &amp; key decisions</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Where the research becomes visible</h2>
+      <p data-reveal style="margin:22px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;max-width:760px;">Every major UI choice on the screens below traces back to a specific finding rather than a style preference. <strong style="font-weight:600;color:#18241f;">My flow: Community.</strong> It's the app's answer to isolation: instead of tracking numbers, it surfaces a real person doing something nearby right now, and makes joining a single tap.</p>
+
+      <!-- Low-fi origin -->
+      <div data-reveal style="margin-top:26px;display:flex;flex-wrap:wrap;gap:clamp(20px,4vw,40px);align-items:center;background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:22px;padding:clamp(20px,3vw,30px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 18px 40px -30px rgba(24,36,31,0.4);">
+        <div style="flex:0 0 auto;width:clamp(180px,22vw,220px);margin:0 auto;">
+          <img src="assets/CommunityLowFiMVP.png" alt="Low-fidelity Community wireframe" style="display:block;width:100%;height:auto;border-radius:16px;border:1px solid rgba(24,36,31,0.12);">
+        </div>
+        <div style="flex:1 1 300px;min-width:260px;">
+          <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:10px;">Where it started</div>
+          <p style="margin:0;font:400 15px/1.62 'Inter',sans-serif;color:#3f4b45;">Community began as a grayscale wireframe: structure and hierarchy first, before any color or type. Locking the layout at low fidelity kept the two-choice actions, plain-language cards, and single-tap targets from getting lost once the visual layer went on.</p>
+        </div>
+      </div>
+
+      <!-- VISUAL: annotated Community screen -->
+      <div data-reveal style="margin-top:20px;background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:22px;padding:clamp(20px,3vw,34px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 18px 40px -30px rgba(24,36,31,0.4);display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,52px);align-items:stretch;">
+        <div style="flex:0 0 auto;width:clamp(230px,26vw,286px);">
+          <div style="position:relative;border-radius:26px;overflow:hidden;border:1px solid rgba(24,36,31,0.14);box-shadow:0 22px 44px -26px rgba(24,36,31,0.55);background:#f4ede0;">
+            <img src="assets/community-screen.png" alt="ElderMotion Community screen" style="display:block;width:100%;height:auto;">
+            <div style="position:absolute;top:14.6%;left:52%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:#0f5b43;color:#fff;border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;font:700 12px/1 'Inter',sans-serif;">1</div>
+            <div style="position:absolute;top:22%;left:50%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:#0f5b43;color:#fff;border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;font:700 12px/1 'Inter',sans-serif;">2</div>
+            <div style="position:absolute;top:33%;left:50%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:#0f5b43;color:#fff;border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;font:700 12px/1 'Inter',sans-serif;">3</div>
+            <div style="position:absolute;top:54%;left:46%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:#0f5b43;color:#fff;border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;font:700 12px/1 'Inter',sans-serif;">4</div>
+            <div style="position:absolute;top:73.5%;left:45%;transform:translate(-50%,-50%);width:24px;height:24px;border-radius:50%;background:#0f5b43;color:#fff;border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;font:700 12px/1 'Inter',sans-serif;">5</div>
+          </div>
+        </div>
+
+        <div style="flex:1 1 380px;min-width:280px;display:flex;flex-direction:column;gap:16px;justify-content:center;">
+          <div style="display:flex;gap:13px;align-items:flex-start;">
+            <span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:#0f5b43;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-top:2px;">1</span>
+            <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15.5px;color:#18241f;margin-bottom:3px;">Live “happening now” pull</div><p style="margin:0 0 5px;font:400 13.5px/1.5 'Inter',sans-serif;color:#4b564f;">Social presence at the top; a real person is out now. Motivation via community, not streak guilt.</p><p style="margin:0;font:italic 400 12.5px/1.4 'Inter',sans-serif;color:#0f7a58;">McCaskey et al.: isolation and adherence</p></div>
+          </div>
+          <div style="display:flex;gap:13px;align-items:flex-start;">
+            <span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:#0f5b43;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-top:2px;">2</span>
+            <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15.5px;color:#18241f;margin-bottom:3px;">Two-choice actions only</div><p style="margin:0 0 5px;font:400 13.5px/1.5 'Inter',sans-serif;color:#4b564f;">Join or Not now, no third path to weigh. Both large, single-tap, two-finger-width tall.</p><p style="margin:0;font:italic 400 12.5px/1.4 'Inter',sans-serif;color:#0f7a58;">Bailey et al.: motor tolerance, 3-option ceiling</p></div>
+          </div>
+          <div style="display:flex;gap:13px;align-items:flex-start;">
+            <span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:#0f5b43;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-top:2px;">3</span>
+            <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15.5px;color:#18241f;margin-bottom:3px;">Host, not just attend</div><p style="margin:0 0 5px;font:400 13.5px/1.5 'Inter',sans-serif;color:#4b564f;">Users create outings, not only join them; agency over passive consumption fights self-isolation.</p><p style="margin:0;font:italic 400 12.5px/1.4 'Inter',sans-serif;color:#0f7a58;">Napetschnig: group activity, social connectivity</p></div>
+          </div>
+          <div style="display:flex;gap:13px;align-items:flex-start;">
+            <span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:#0f5b43;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-top:2px;">4</span>
+            <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15.5px;color:#18241f;margin-bottom:3px;">Plain-language event cards</div><p style="margin:0 0 5px;font:400 13.5px/1.5 'Inter',sans-serif;color:#4b564f;">“Park Walk,” “Gardening,” everyday terms, not “cardio session.” Icon plus text label on every card.</p><p style="margin:0;font:italic 400 12.5px/1.4 'Inter',sans-serif;color:#0f7a58;">Daniels et al.: purposeful-living reframing</p></div>
+          </div>
+          <div style="display:flex;gap:13px;align-items:flex-start;">
+            <span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:#0f5b43;color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-top:2px;">5</span>
+            <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15.5px;color:#18241f;margin-bottom:3px;">Spots-left, no pressure</div><p style="margin:0 0 5px;font:400 13.5px/1.5 'Inter',sans-serif;color:#4b564f;">“3 spots left” invites without nagging; informational, never a countdown to guilt.</p><p style="margin:0;font:italic 400 12.5px/1.4 'Inter',sans-serif;color:#0f7a58;">Daniels et al.: non-punitive prompts</p></div>
+          </div>
+        </div>
+      </div>
+      <p data-reveal style="margin:16px 0 0;font:500 13.5px/1.5 'Inter',sans-serif;color:#6b756e;display:flex;align-items:center;gap:9px;"><span style="width:12px;height:12px;border-radius:50%;background:#0f5b43;flex:0 0 auto;"></span>Numbered pins mark the five decisions I owned as Community flow lead.</p>
+
+      <!-- Button contrast decision -->
+      <div data-reveal style="margin-top:clamp(28px,4vw,40px);">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:14px;">Figure · Confirm-button contrast: the version I shipped, and the one I rejected</div>
+        <img src="assets/ButtonComparisonMVP.png" alt="Button comparison: low-contrast outline (rejected) vs solid high-contrast fill (shipped)" style="display:block;width:100%;height:auto;border-radius:18px;border:1px solid rgba(24,36,31,0.1);box-shadow:0 18px 40px -30px rgba(24,36,31,0.45);">
+        <p style="margin:14px 0 0;font:400 14.5px/1.62 'Inter',sans-serif;color:#3f4b45;max-width:720px;">The primary action gets a solid, high-contrast fill; the secondary stays a quiet outline. For a low-vision user, an ambiguous pair of equally-weighted buttons is a failure state. The shipped version makes “I'll join” unmistakable at a glance.</p>
+      </div>
+    </section>
+
+    <!-- 6 · VALIDATION -->
+    <section id="validation" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">06</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Validation</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">What we didn't test, and why that matters</h2>
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">We didn't run a formal usability study on this project. The honest limitation is that our research population itself skewed toward sedentary, higher-need seniors.</p>
+        <div data-reveal style="margin-top:20px;border-left:4px solid #a9761a;background:#f6ecd5;border-radius:0 14px 14px 0;padding:18px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a5e10;margin-bottom:9px;">Named plainly</div>
+          <p style="margin:0;font:400 14.5px/1.62 'Inter',sans-serif;color:#5c400d;">Most of the source literature centered on older adults who were already inactive or had pronounced special needs. ElderMotion is well-tuned for someone like Elias, but may under-serve a more active older adult who'd want a bigger challenge than “garden time.” That's a real gap, not a footnote. Noticing this was part of the same critical read I did on the source studies; the sample-bias question doesn't stop at the literature, it carries into what we built from it.</p>
+        </div>
+        <p data-reveal style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;"><strong style="font-weight:600;color:#18241f;">What that means going forward:</strong> usability testing with actual older adults is the explicit next step, not a someday-maybe. Everything here is a strong first hypothesis, not a validated one.</p>
+      </div>
+    </section>
+
+    <!-- 7 · OUTCOME & REFLECTION -->
+    <section id="outcome" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(24,36,31,0.1);">
+      <div data-reveal style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#0f5b43;letter-spacing:0.05em;">07</span>
+        <span style="height:1px;width:26px;background:rgba(15,91,67,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#586b62;">Outcome &amp; reflection</span>
+      </div>
+      <h2 data-reveal style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">A prototype grounded in evidence</h2>
+      <div style="max-width:760px;">
+        <p data-reveal style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;">A high-fidelity, working prototype grounded in real accessibility research rather than assumption. It covers a home dashboard, activity tracking, community discovery, and a full high-contrast / dark mode, all traceable back to a specific finding in the literature.</p>
+        <p data-reveal style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#3f4b45;"><strong style="font-weight:600;color:#18241f;">The lesson I'd flag first:</strong> each of the four of us owned a separate flow and built somewhat in parallel, which meant visual style drifted. Corner radii, contrast levels, and button shapes diverged. I put together a lightweight shared component set to pull it back together, and it helped, but only partially, because it arrived after the drift had already happened rather than before it.</p>
+      </div>
+
+      <!-- VISUAL: design-system evolution -->
+      <div data-reveal style="margin-top:clamp(28px,4vw,40px);">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:14px;">Figure · Design-system evolution: parallel build → drift → retrofit</div>
+        <div style="background:#ffffff;border:1px solid rgba(24,36,31,0.1);border-radius:22px;padding:clamp(22px,3.4vw,38px);box-shadow:0 1px 0 rgba(24,36,31,0.03),0 18px 40px -30px rgba(24,36,31,0.4);">
+
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#586b62;">STAGE 1</span><span style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;">Parallel build · each owned one flow</span></div>
+          <p style="margin:0 0 20px;font:400 13px/1.5 'Inter',sans-serif;color:#586b62;">Different background, corner radius, and bar colour per teammate. Divergence, baked in from day one.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:clamp(14px,3vw,30px);justify-content:center;">
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:24px;background:#eef4f0;border:1px solid rgba(24,36,31,0.12);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="height:7px;width:38px;border-radius:99px;background:rgba(24,36,31,0.2);margin:2px auto 3px;"></div>
+                <div style="height:32px;border-radius:8px;background:#0f5b43;"></div>
+                <div style="height:28px;border-radius:8px;background:rgba(24,36,31,0.07);"></div>
+                <div style="height:28px;border-radius:8px;background:rgba(24,36,31,0.07);"></div>
+                <div style="margin-top:auto;height:26px;border-radius:8px;background:#0f5b43;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Karan</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:34px;background:#e3f1ec;border:1px solid rgba(24,36,31,0.12);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="height:7px;width:38px;border-radius:99px;background:rgba(24,36,31,0.2);margin:2px auto 3px;"></div>
+                <div style="height:32px;border-radius:16px;background:#12977f;"></div>
+                <div style="height:28px;border-radius:16px;background:rgba(18,151,127,0.16);"></div>
+                <div style="height:28px;border-radius:16px;background:rgba(18,151,127,0.16);"></div>
+                <div style="margin-top:auto;height:26px;border-radius:99px;background:#12977f;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Nandana</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:16px;background:#18241f;border:1px solid rgba(234,243,238,0.14);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="height:7px;width:38px;border-radius:99px;background:rgba(234,243,238,0.3);margin:2px auto 3px;"></div>
+                <div style="height:32px;border-radius:6px;background:#c99a2e;"></div>
+                <div style="height:28px;border-radius:6px;background:rgba(234,243,238,0.1);"></div>
+                <div style="height:28px;border-radius:6px;background:rgba(234,243,238,0.1);"></div>
+                <div style="margin-top:auto;height:26px;border-radius:6px;background:#c99a2e;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Saumya</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:30px;background:#e4edf5;border:1px solid rgba(24,36,31,0.12);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="height:7px;width:38px;border-radius:99px;background:rgba(24,36,31,0.2);margin:2px auto 3px;"></div>
+                <div style="height:32px;border-radius:4px;background:#3d77a8;"></div>
+                <div style="height:28px;border-radius:4px;background:rgba(61,119,168,0.16);"></div>
+                <div style="height:28px;border-radius:4px;background:rgba(61,119,168,0.16);"></div>
+                <div style="margin-top:auto;height:26px;border-radius:12px;background:#3d77a8;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Sneha</span>
+            </div>
+
+          </div>
+
+          <div style="display:flex;justify-content:center;margin:22px 0;"><svg width="22" height="34" viewBox="0 0 22 34" fill="none" aria-hidden="true"><path d="M11 3 V27 M4 20 L11 28 L18 20" stroke="#9aa39c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+
+          <div style="max-width:640px;margin:0 auto;text-align:center;padding:18px 20px;background:#f4f1e8;border:1px dashed rgba(24,36,31,0.24);border-radius:16px;">
+            <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:8px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#586b62;">STAGE 2</span><span style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;">Style drift · four visual dialects</span></div>
+            <p style="margin:0;font:400 14.5px/1.6 'Inter',sans-serif;color:#3f4b45;">Corner radii, contrast levels, button shapes, and card padding diverged. Nothing was technically wrong, but the four flows didn't read as one product.</p>
+          </div>
+
+          <div style="display:flex;justify-content:center;margin:22px 0;"><svg width="22" height="34" viewBox="0 0 22 34" fill="none" aria-hidden="true"><path d="M11 3 V27 M4 20 L11 28 L18 20" stroke="#9aa39c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#586b62;">STAGE 3</span><span style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#18241f;">Retrofit system · my attempt to unify</span></div>
+          <p style="margin:0 0 20px;font:400 13px/1.5 'Inter',sans-serif;color:#586b62;">One shared card, nav, and toggle set. Every flow now on identical dimensions and treatment.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:clamp(14px,3vw,30px);justify-content:center;">
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:24px;background:#ffffff;border:1px solid rgba(24,36,31,0.14);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="display:flex;align-items:center;gap:5px;margin:1px 2px 3px;"><span style="width:9px;height:9px;border-radius:50%;background:#0f5b43;"></span><span style="height:7px;width:30px;border-radius:99px;background:rgba(24,36,31,0.18);"></span></div>
+                <div style="height:32px;border-radius:12px;background:#0f5b43;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="margin-top:auto;height:26px;border-radius:999px;background:#1a7d5c;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Activity</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:24px;background:#ffffff;border:1px solid rgba(24,36,31,0.14);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="display:flex;align-items:center;gap:5px;margin:1px 2px 3px;"><span style="width:9px;height:9px;border-radius:50%;background:#0f5b43;"></span><span style="height:7px;width:30px;border-radius:99px;background:rgba(24,36,31,0.18);"></span></div>
+                <div style="height:32px;border-radius:12px;background:#0f5b43;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="margin-top:auto;height:26px;border-radius:999px;background:#1a7d5c;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Community</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:24px;background:#ffffff;border:1px solid rgba(24,36,31,0.14);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="display:flex;align-items:center;gap:5px;margin:1px 2px 3px;"><span style="width:9px;height:9px;border-radius:50%;background:#0f5b43;"></span><span style="height:7px;width:30px;border-radius:99px;background:rgba(24,36,31,0.18);"></span></div>
+                <div style="height:32px;border-radius:12px;background:#0f5b43;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="margin-top:auto;height:26px;border-radius:999px;background:#1a7d5c;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Accessibility</span>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;gap:9px;">
+              <div style="width:118px;height:226px;border-radius:24px;background:#ffffff;border:1px solid rgba(24,36,31,0.14);padding:10px 9px;display:flex;flex-direction:column;gap:7px;box-shadow:0 12px 24px -18px rgba(24,36,31,0.6);">
+                <div style="display:flex;align-items:center;gap:5px;margin:1px 2px 3px;"><span style="width:9px;height:9px;border-radius:50%;background:#0f5b43;"></span><span style="height:7px;width:30px;border-radius:99px;background:rgba(24,36,31,0.18);"></span></div>
+                <div style="height:32px;border-radius:12px;background:#0f5b43;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="height:28px;border-radius:12px;background:#e7f1ea;"></div>
+                <div style="margin-top:auto;height:26px;border-radius:999px;background:#1a7d5c;"></div>
+              </div>
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#586b62;">Settings</span>
+            </div>
+
+          </div>
+          <p style="margin:20px auto 0;max-width:560px;text-align:center;font:italic 400 13px/1.55 'Inter',sans-serif;color:#6b756e;">A shared card, nav, and accessibility-toggle set, built after the flows, so it only partly reconciled them.</p>
+        </div>
+      </div>
+
+      <div data-reveal style="margin-top:22px;background:#dcece3;border:1px solid rgba(15,91,67,0.28);border-radius:22px;padding:clamp(24px,3.4vw,38px);color:#16241d;">
+        <svg width="132" height="12" viewBox="0 0 132 12" fill="none" aria-hidden="true" style="display:block;margin-bottom:16px;"><path d="M2 6 Q10 0 18 6 T34 6 T50 6 T66 6 T82 6 T98 6 T114 6 T130 6" stroke="#0f5b43" stroke-width="3" fill="none" stroke-linecap="round"></path></svg>
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#0b4835;margin-bottom:12px;">What I'd do differently</div>
+        <p style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 22,'wght' 520,'wdth' 92;font-size:clamp(1.15rem,2.2vw,1.5rem);line-height:1.3;letter-spacing:-0.01em;max-width:32ch;color:#16241d;">Establish shared components and tokens <em style="font-style:italic;font-variation-settings:'opsz' 22,'wght' 620,'wdth' 92;color:#0f5b43;">before</em> parallel work begins, not after.</p>
+        <p style="margin:14px 0 0;font:400 14.5px/1.6 'Inter',sans-serif;color:#324039;max-width:60ch;">A retrofitted system can only patch drift that's already happened. A shared foundation prevents it in the first place. This is the single biggest process lesson I took from ElderMotion.</p>
+      </div>
+
+      <div data-reveal style="margin-top:24px;max-width:760px;">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#586b62;margin-bottom:12px;">Future work</div>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:11px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#0f5b43;margin-top:8px;"></span>Usability testing with real older adults</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#0f5b43;margin-top:8px;"></span>Dedicated help &amp; support entry points</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#0f5b43;margin-top:8px;"></span>Voice-assisted guidance</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#3f4b45;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#0f5b43;margin-top:8px;"></span>Refining the interface from real user feedback, not literature alone</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8 · NEXT -->
+    <section id="next" style="padding:clamp(40px,6vw,64px) 0 clamp(40px,6vw,64px);">
+      <div data-reveal style="display:flex;justify-content:center;">
+        <a href="https://www.figma.com/proto/LQB6sRamhBaXbBTFkoOEke/Elder-Fitness-App--Copy-?node-id=315-820&amp;viewport=2423%2C631%2C0.34&amp;t=zg7C9EHJSYeXby8k-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=315%3A820&amp;page-id=0%3A1" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;background:#0f5b43;color:#eaf3ee;font:600 15px/1 'Inter',sans-serif;text-decoration:none;transition:transform .3s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-figma">▶ View the working Figma prototype</a>
+      </div>
+      <div data-reveal aria-hidden="true" style="height:1px;background:rgba(24,36,31,0.1);margin:clamp(30px,4.5vw,46px) 0;"></div>
+      <a data-reveal href="ai-study-buddy-case-study.html" style="display:block;text-decoration:none;background:#18241f;border-radius:22px;padding:clamp(26px,4vw,40px);box-shadow:0 20px 44px -30px rgba(24,36,31,0.7);transition:transform .35s cubic-bezier(0.34,1.56,0.64,1);" class="hov-lift">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#9ad9c0;margin-bottom:12px;">Next project</div>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+          <div>
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">AI Study Buddy</div>
+            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:44ch;">The tradeoffs behind a mixed-initiative productivity AI.</div>
+          </div>
+          <span style="flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:#1a7d5c;color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;">→</span>
+        </div>
+      </a>
+    </section>
+
+  </div>
+
+  <!-- FOOTER (matches homepage) -->
+  <footer style="position:relative;overflow:hidden;background:#1c1a17;color:#faf3e6;margin-top:clamp(24px,4vw,48px);">
+    <div aria-hidden="true" style="position:absolute;top:-1px;left:0;right:0;height:clamp(34px,5vw,56px);z-index:4;pointer-events:none;line-height:0;">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" style="display:block;width:100%;height:100%;"><path d="M0 0 L0 26 Q80 10 160 26 T320 26 T480 26 T640 26 T800 26 T960 26 T1120 26 T1280 26 T1440 26 L1440 0 Z" fill="#f0ece2"></path></svg>
+    </div>
+    <div id="playground" aria-hidden="true" style="position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;">
+      <div data-shape data-color="#e8552d" style="position:absolute;left:4%;top:60%;width:92px;height:92px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#13c296" style="position:absolute;left:14%;top:85%;width:56px;height:56px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#13c296;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:85%;top:18%;width:78px;height:78px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#ffd23f" style="position:absolute;left:92%;top:55%;width:104px;height:104px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#ffd23f;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#d6356a" style="position:absolute;left:74%;top:84%;width:54px;height:54px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#d6356a;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:62%;top:21%;width:46px;height:46px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#e8552d" style="position:absolute;left:47%;top:88%;width:64px;height:64px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#13c296" style="position:absolute;left:96%;top:34%;width:58px;height:58px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#13c296;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+    </div>
+
+    <div style="position:relative;z-index:2;pointer-events:none;max-width:1180px;margin:0 auto;padding:clamp(70px,11vw,128px) clamp(20px,5vw,40px) 44px;">
+      <h2 id="footer-heading" data-warp="470,90,50,800,100,82" aria-label="Let’s build something." style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.6rem,7.6vw,5.8rem);line-height:0.95;letter-spacing:-0.022em;font-variation-settings:'opsz' 50,'wght' 470,'wdth' 90;color:#faf3e6;max-width:12ch;">
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">L</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">’</span><span data-l style="display:inline-block">s</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">b</span><span data-l style="display:inline-block">u</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">l</span><span data-l style="display:inline-block">d</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">s</span><span data-l style="display:inline-block">o</span><span data-l style="display:inline-block">m</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">h</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">n</span><span data-l style="display:inline-block">g</span><span data-l style="display:inline-block;color:#e8552d">.</span></span>
+      </h2>
+      <a href="mailto:karanqmr@gmail.com" style="display:inline-block;margin-top:clamp(26px,4vw,38px);font:500 clamp(20px,3.4vw,32px)/1.1 'Inter',sans-serif;color:#faf3e6;text-decoration:none;letter-spacing:-0.01em;transition:color .25s ease;pointer-events:auto;" class="hov-accent">karanqmr@gmail.com →</a>
+
+      <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;margin-top:clamp(48px,8vw,88px);padding-top:24px;border-top:1px solid rgba(250,243,230,0.14);">
+        <div style="display:flex;gap:22px;flex-wrap:wrap;">
+          <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener" style="color:rgba(250,243,230,0.82);font:500 15px/1 'Inter',sans-serif;text-decoration:none;transition:color .25s ease;pointer-events:auto;" class="hov-accent">LinkedIn</a>
+        </div>
+        <span style="font:400 13.5px/1 'Inter',sans-serif;color:rgba(250,243,230,0.5);">© 2026 Karan. Designed and built with Claude</span>
+      </div>
+    </div>
+  </footer>
+
+  <button data-totop type="button" aria-label="Back to top" style="position:fixed;right:clamp(16px,3vw,30px);bottom:clamp(16px,3vw,30px);z-index:70;width:56px;height:56px;padding:0;border:none;border-radius:50%;background:#0f5b43;color:#eaf3ee;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -12px rgba(15,91,67,0.75);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s ease,visibility .3s ease,transform .5s cubic-bezier(0.34,1.56,0.64,1),border-radius .55s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-totop">
+    <svg width="23" height="23" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19 V6 M6 11 L12 5 L18 11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+
+  <div data-lightbox aria-hidden="true" style="position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:4vw;background:rgba(16,22,20,0);opacity:0;pointer-events:none;cursor:zoom-out;transition:opacity .18s ease,background .18s ease;">
+    <img data-lightbox-img alt="" style="max-width:94vw;max-height:92vh;border-radius:12px;box-shadow:0 40px 90px -20px rgba(0,0,0,0.65);transform:scale(0.92);transition:transform .2s cubic-bezier(0.34,1.4,0.64,1);">
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/case-study.js"></script>
+</body>
+</html>

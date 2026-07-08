@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Study Buddy — case study — Karan</title>
+<meta name="description" content="The tradeoffs behind a mixed-initiative productivity AI. UX case study by Karan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  ::selection{ background:#4a90d9; color:#fff; }
+  section[id]{ scroll-margin-top:24px; }
+  [data-sidenav]{ display:flex; }
+  @media (max-width:1439px){ [data-sidenav]{ display:none !important; } }
+
+  .hov-navlink:hover, .hov-navlink:focus-visible{ opacity:1 !important; text-decoration:underline !important; text-underline-offset:4px; }
+  .hov-accent:hover, .hov-accent:focus-visible{ color:#e8552d !important; }
+  .hov-figma:hover, .hov-figma:focus-visible{ transform:scale(1.04); background:#6ba5e2 !important; }
+  .hov-totop:hover, .hov-totop:focus-visible{ transform:scale(1.08); border-radius:44% 56% 56% 44% / 56% 44% 58% 42%; background:#3a7fc7 !important; }
+  .hov-lift:hover, .hov-lift:focus-visible{ transform:translateY(-4px); }
+</style>
+</head>
+<body>
+
+<div style="min-height:100vh;background:#f2ecdd;color:#1c1a17;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;">
+
+  <nav style="max-width:1180px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;">
+    <a href="index.html" aria-label="karan, home" style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-variation-settings:'opsz' 16,'wght' 650,'wdth' 92;color:#1c1a17;text-decoration:none;letter-spacing:-0.01em;">karan<span style="color:#4a90d9">.</span></a>
+    <div style="display:flex;align-items:center;gap:clamp(16px,3vw,28px);">
+      <a href="index.html#work" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Work</a>
+      <a href="about.html" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">About</a>
+    </div>
+  </nav>
+
+  <nav data-sidenav data-active-color="#4a90d9" data-idle-color="#9a9080" data-dot-idle="#d6cdb9" aria-label="Sections" style="position:fixed;left:26px;top:50%;transform:translateY(-50%);z-index:60;flex-direction:column;gap:1px;transition:opacity .3s ease,visibility .3s ease;">
+    <a href="#overview" data-sidelink="overview" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Overview</a>
+    <a href="#problem" data-sidelink="problem" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Problem</a>
+    <a href="#research" data-sidelink="research" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Research</a>
+    <a href="#ia" data-sidelink="ia" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Definition &amp; IA</a>
+    <a href="#design" data-sidelink="design" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Design</a>
+    <a href="#validation" data-sidelink="validation" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Validation</a>
+    <a href="#reflection" data-sidelink="reflection" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Reflection</a>
+    <a href="#next" data-sidelink="next" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Next</a>
+  </nav>
+
+  <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);">
+
+    <!-- HERO -->
+    <section id="top" data-screen-label="Hero" style="padding:clamp(20px,4vw,48px) 0 clamp(36px,5vw,60px);display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center;">
+      <div style="flex:1 1 420px;min-width:280px;">
+        <div data-reveal="" style="display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:22px;">
+          <span style="font:600 11.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#1d4d7d;background:#dce9f8;border:1px solid rgba(232,85,45,0.32);padding:7px 12px;border-radius:999px;">Human-AI interaction</span>
+        </div>
+        <h1 data-reveal="" style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(3rem,7.4vw,5.6rem);line-height:0.92;letter-spacing:-0.028em;font-variation-settings:'opsz' 60,'wght' 560,'wdth' 88;">AI Study Buddy</h1>
+        <p data-reveal="" style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.25rem,2.5vw,1.7rem);line-height:1.22;letter-spacing:-0.012em;font-variation-settings:'opsz' 24,'wght' 480,'wdth' 92;color:#2b2721;max-width:24ch;">A study companion that decides what to read next, and always shows its reasoning.</p>
+        <p data-reveal="" style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.6 'Inter',sans-serif;color:#524c43;max-width:48ch;">Mixed-initiative coursework prioritization for working graduate students, built around explainability, user control, and honest time estimates.</p>
+        <div data-reveal="" style="margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;">
+          <a href="https://www.figma.com/proto/13BVq0YwdKz0tKTdRq4GXA/AI-Study-Buddy--Copy-?node-id=17-90&amp;viewport=195%2C-596%2C0.19&amp;t=V90JSk9aIy0FPOGJ-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;starting-point-node-id=46%3A1316&amp;page-id=1%3A489" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;background:#4a90d9;color:#eff5fc;font:600 15px/1 'Inter',sans-serif;text-decoration:none;box-shadow:0 12px 26px -14px rgba(232,85,45,0.7);transition:transform .3s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-figma">▶ View the working Figma prototype</a>
+        </div>
+      </div>
+      <div data-reveal="" data-accent-lock="" style="flex:1 1 360px;min-width:280px;">
+        <img src="assets/HeroMVP.png" alt="Hero cover · 1:1" loading="lazy" style="width:100%;display:block;box-shadow:0 30px 60px -34px rgba(28,26,23,0.5);border-radius:24px;aspect-ratio:1/1;object-fit:cover;">
+      </div>
+    </section>
+
+    <!-- FACTS -->
+    <section style="padding:0 0 clamp(20px,3vw,32px);">
+      <div data-reveal="" style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:20px;padding:clamp(20px,3vw,28px);box-shadow:0 1px 0 rgba(28,26,23,0.03),0 16px 36px -30px rgba(28,26,23,0.4);display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:24px 36px;align-items:start;">
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Role</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#1c1a17;">UX designer · Algorithm &amp; user flow</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Team</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">3 designers</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Timeline</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#1c1a17;">5 weeks</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Tools</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">Figma · Figma Make</div></div>
+      </div>
+    </section>
+
+    <!-- 1 · OVERVIEW -->
+    <section id="overview" data-screen-label="Overview" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">01</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Overview</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">What to do next, and why</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">AI Study Buddy is a mixed-initiative mobile assistant that ranks a working grad student's coursework by urgency, weight, and available time, then explains every recommendation and lets the student override it. Where a calendar or LMS shows you <em style="font-style:normal;color:#2f6cad;font-weight:500;">what</em> is due, this shows you <em style="font-style:normal;color:#2f6cad;font-weight:500;">what to do next</em> and <em style="font-style:normal;color:#2f6cad;font-weight:500;">why</em>.</p>
+
+        <div data-reveal="" style="margin-top:22px;background:#dce9f8;border:1px solid rgba(232,85,45,0.32);border-radius:16px;padding:20px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#1d4d7d;margin-bottom:9px;">My contribution</div>
+          <p style="margin:0;font:400 14.5px/1.6 'Inter',sans-serif;color:#3a332b;">I owned the prioritization algorithm, the decision-tree logic that ranks each task, and the user flow through the app, and I co-led the research and information architecture. The prototype and heuristic evaluation were shared team work.</p>
+        </div>
+
+        <ul data-reveal="" style="margin:22px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#4a90d9;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>High-fidelity prototype with two entry points into the same intelligence: chat and dashboard</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#4a90d9;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Rule-based algorithm proof of concept, fully legible by design</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#4a90d9;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Heuristic evaluation that turned into a prioritized fix list, including flaws in our own claims</li>
+        </ul>
+
+        <div data-reveal="" style="margin-top:22px;border-left:4px solid #d9a800;background:#fdf3d4;border-radius:0 14px 14px 0;padding:16px 20px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a6a00;margin-bottom:8px;">Scope, stated plainly</div>
+          <p style="margin:0;font:400 14px/1.6 'Inter',sans-serif;color:#6d5300;">This is a concept project. It was designed and evaluated, not shipped, and every claim below is kept to that scope.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · PROBLEM -->
+    <section id="problem" data-screen-label="Problem" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">02</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Problem</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">A deciding problem, not a deadline problem</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">Graduate students who work full-time do not have a deadline problem. They have a <em style="font-style:italic;">deciding</em> problem. Their academic lives sit in Canvas or Blackboard. Their jobs sit in a separate calendar. Their reading lists are longer than any working week can hold. Every existing tool they own treats a two-hour dense theory reading and a five-minute participation quiz as the same kind of row on the same kind of list.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Working grad students are time-strapped.</strong> Balancing a full-time job with coursework leaves little slack, and family or caregiving obligations eat further into it.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">They cannot read everything.</strong> The required volume is often unrealistic for a part-time schedule, so something always gets cut. The question is only <em style="font-style:italic;">what</em>.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">They need help deciding what matters most.</strong> Reminders are not enough. Under pressure, students default to reading whatever is due soonest, not what is most worth their limited attention.</p>
+      </div>
+
+      <div data-reveal="" style="margin-top:clamp(32px,4vw,44px);background:#1c1a17;border-radius:20px;padding:clamp(22px,3vw,30px);color:#faf3e6;max-width:820px;">
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#a9c9ef;margin-bottom:11px;">How might we</div>
+        <p style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.15rem,2.2vw,1.45rem);line-height:1.35;letter-spacing:-0.01em;font-variation-settings:'opsz' 22,'wght' 460,'wdth' 92;">…help working students prioritize their coursework by learning their schedules, understanding assignment urgency, and recommending which readings to focus on, so they maximize learning outcomes while respecting real time constraints?</p>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: collaborative problem framing.</p>
+    </section>
+
+    <!-- 3 · RESEARCH -->
+    <section id="research" data-screen-label="Research" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">03</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Research</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Method, stated honestly</h2>
+
+      <div data-reveal="" style="margin-top:24px;border-left:4px solid #d9a800;background:#fdf3d4;border-radius:0 14px 14px 0;padding:16px 20px;max-width:760px;">
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a6a00;margin-bottom:8px;">On scope, up front</div>
+        <p style="margin:0;font:400 14px/1.6 'Inter',sans-serif;color:#6d5300;">Our research was secondary literature plus informal conversations with working grad students. That scope shapes how much the findings can carry: they are directional signals, not validated demand.</p>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The literature gave us the spine of the design:</p>
+      </div>
+
+      <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:20px;max-width:920px;">
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:7px;">Amershi et al. (2019)</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">Guidelines for Human-AI Interaction became our design checklist, mapped guideline by guideline to concrete commitments.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:7px;">Kizilcec (2016)</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">Transparency and trust in algorithmic interfaces: explanation was not a nice-to-have, it was load-bearing for trust.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:7px;">Sweller, cognitive load</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">Framed the actual enemy: planning <em style="font-style:italic;">when</em> to study can cost as much mental effort as the studying itself.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:7px;">Horvitz (1999)</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">Mixed-initiative interfaces gave us the interaction stance: the system proposes, the human disposes.</p>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The informal conversations pointed the same direction every time. Students said they choose what to read by urgency rather than by learning value, that the volume stresses them out, and that they would welcome guidance only if it explained itself and let them overrule it.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The insight that set the direction:</strong> students already have calendars. They already have LMS reminders. Adding another tool that lists tasks would solve nothing.</p>
+      </div>
+
+      <blockquote data-reveal="" style="margin:clamp(34px,5vw,52px) 0 0;">
+        <div aria-hidden="true" style="font-family:'Bricolage Grotesque',sans-serif;font-size:72px;line-height:0.5;color:#4a90d9;">“</div>
+        <p style="margin:8px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,4.4vw,3rem);line-height:1.12;letter-spacing:-0.02em;font-variation-settings:'opsz' 40,'wght' 520,'wdth' 90;color:#1c1a17;max-width:26ch;">The gap was never tracking. It was deciding under pressure.</p>
+      </blockquote>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">That reframe moved the whole project from "another task manager" to a <strong style="font-weight:600;color:#1c1a17;">mixed-initiative decision partner</strong>: a system whose job is to recommend, justify, and adapt, while leaving the student in charge.</p>
+      </div>
+
+      <!-- VISUAL 1 · SYSTEM ARCHITECTURE -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:clamp(28px,4vw,40px);">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · Conceptual model</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">the moment research turned into a system</span></div>
+        <div style="overflow-x:auto;">
+          <div style="width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px);">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 20,'wght' 500,'wdth' 96;font-size:20px;color:#1c1a17;">How the system fits together</div>
+            <div style="margin-top:8px;font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">The conceptual model that turned research into a buildable system</div>
+
+            <div style="position:relative;margin:26px 0 78px;"><div style="display:grid;grid-template-columns:1fr 48px 1fr 48px 1fr;align-items:stretch;"><div style="background:#ffffff;border:1px solid #e3dccb;border-radius:12px;padding:16px 18px;">
+              <div style="font:500 14px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:14px;">Data inputs</div>
+              <div style="display:flex;flex-direction:column;gap:11px;">
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#3d9be9;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Calendars, busy/free only</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#3d9be9;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Canvas / Blackboard</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#3d9be9;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Syllabi</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#3d9be9;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Goals and focus areas</span></div>
+              </div>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:center;"><svg width="42" height="12" viewBox="0 0 42 12" fill="none" aria-hidden="true"><path d="M0 6 H36 M31 1 L37 6 L31 11" stroke="#1c1a17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            <div style="background:#fff6de;border:1.5px solid #e8552d;border-radius:12px;padding:16px 18px;">
+              <div style="font:500 14px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:14px;">Scheduling algorithm</div>
+              <div style="display:flex;flex-direction:column;gap:11px;">
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#e8552d;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Rule-based decision tree</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#e8552d;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">20–30 min safety margin</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#e8552d;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Urgency-based slotting</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#e8552d;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Nightly batch updates</span></div>
+              </div>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:center;"><svg width="42" height="12" viewBox="0 0 42 12" fill="none" aria-hidden="true"><path d="M0 6 H36 M31 1 L37 6 L31 11" stroke="#1c1a17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:12px;padding:16px 18px;">
+              <div style="font:500 14px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:14px;">Interface</div>
+              <div style="display:flex;flex-direction:column;gap:11px;">
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#13c296;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Dashboard</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#13c296;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Chat</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#13c296;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">"Why this?"</span></div>
+                <div style="display:flex;align-items:center;gap:10px;"><span style="flex:0 0 auto;width:6px;height:6px;border-radius:50%;background:#13c296;"></span><span style="font:400 13px/1.2 'Inter',sans-serif;color:#6f6a61;">Evening check-in</span></div>
+              </div>
+            </div>
+
+            </div>
+            <div style="position:absolute;left:50%;right:calc(16.667% - 16px);top:100%;height:46px;border-left:1.5px dashed #6f6a61;border-bottom:1.5px dashed #6f6a61;border-right:1.5px dashed #6f6a61;border-radius:0 0 10px 10px;">
+              <svg width="13" height="8" viewBox="0 0 13 8" fill="none" aria-hidden="true" style="position:absolute;left:-7px;top:-4px;"><path d="M1 7 L6.5 1 L12 7" stroke="#6f6a61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <div style="position:absolute;left:50%;bottom:-15px;transform:translateX(-50%);background:#faf3e6;padding:2px 10px;text-align:center;white-space:nowrap;">
+                <div style="font:500 12.5px/1.3 'Inter',sans-serif;color:#1c1a17;">Feedback loops</div>
+                <div style="font:400 11.5px/1.3 'Inter',sans-serif;color:#6f6a61;">done / not yet · more, less, exact</div>
+              </div>
+            </div>
+            </div>
+
+            <div style="font:500 13px/1 'Inter',sans-serif;color:#1c1a17;">Ethical principles carried through every component</div>
+            <div style="margin-top:14px;display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;">
+              <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 13px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:8px;">Fairness</div>
+                <div style="font:400 12px/1.45 'Inter',sans-serif;color:#6f6a61;">no "average user"; every schedule is unique</div>
+              </div>
+              <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 13px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:8px;">Privacy</div>
+                <div style="font:400 12px/1.45 'Inter',sans-serif;color:#6f6a61;">busy/free only; user controls all data</div>
+              </div>
+              <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 13px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:8px;">Transparency</div>
+                <div style="font:400 12px/1.45 'Inter',sans-serif;color:#6f6a61;">every estimate and ranking is explained</div>
+              </div>
+              <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 13px/1 'Inter',sans-serif;color:#1c1a17;margin-bottom:8px;">Supportive</div>
+                <div style="font:400 12px/1.45 'Inter',sans-serif;color:#6f6a61;">reminders help, never judge</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: I co-led the research.</p>
+    </section>
+
+    <!-- 4 · DEFINITION & IA -->
+    <section id="ia" data-screen-label="Definition and IA" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">04</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Definition &amp; IA</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">From needs to requirements</h2>
+      <p data-reveal="" style="margin:22px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;max-width:760px;">The research turned into a short, testable set of requirements.</p>
+
+      <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:24px;max-width:920px;">
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:12px;">Functional</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#45403a;">
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Parse course materials for due dates and weights</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Estimate reading time against available calendar time</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Generate justified recommendations, not bare rankings</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Fail gracefully when the AI is wrong: a hallucinated deadline is a quick correction, not a broken schedule</li>
+          </ul>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:12px;">Non-functional</div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#45403a;">
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Transparency over black-box behavior</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Seamless integration with tools students already use, so adoption cost stays near zero</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>A hard privacy line: check only whether a calendar slot is busy or free, never read event details</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 data-reveal="" style="margin:clamp(34px,4vw,46px) 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Designing against a standard, not a vibe</h3>
+      <p data-reveal="" style="margin:12px 0 0;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;max-width:760px;">Rather than inventing principles, we held the design to Amershi's published Human-AI Interaction guidelines and mapped each one to a concrete commitment we would have to honor. That mapping became the yardstick we later evaluated ourselves against.</p>
+
+      <!-- VISUAL 2 · PRINCIPLES MAPPING -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:24px;">
+        <div style="overflow-x:auto;">
+          <div style="position:relative;width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px) clamp(24px,3vw,40px) clamp(22px,2.6vw,32px);">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 20,'wght' 500,'wdth' 96;font-size:20px;color:#1c1a17;">Designed against a published standard</div>
+            <div style="margin-top:8px;font:400 12px/1.4 'Inter',sans-serif;color:#6f6a61;">Amershi et al. (2019), Guidelines for Human-AI Interaction, mapped to concrete commitments</div>
+            <div style="margin-top:22px;display:flex;flex-direction:column;gap:12px;">
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:12px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <div><div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;">"Make clear what the system can do."</div><div style="font:400 12.5px/1.35 'Inter',sans-serif;color:#6f6a61;margin-top:2px;"><span style="font-weight:500;color:#1c1a17;">Our fix</span> · onboarding states what data it accesses, and why</div></div>
+              </div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:12px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <div><div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;">"Make clear why the system did what it did."</div><div style="font:400 12.5px/1.35 'Inter',sans-serif;color:#6f6a61;margin-top:2px;"><span style="font-weight:500;color:#1c1a17;">Our fix</span> · a "Why this?" control on every task card</div></div>
+              </div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:12px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <div><div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;">"Support efficient correction."</div><div style="font:400 12.5px/1.35 'Inter',sans-serif;color:#6f6a61;margin-top:2px;"><span style="font-weight:500;color:#1c1a17;">Our fix</span> · Reschedule overrides a suggestion instantly</div></div>
+              </div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:12px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <div><div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;">"Learn from user behavior."</div><div style="font:400 12.5px/1.35 'Inter',sans-serif;color:#6f6a61;margin-top:2px;"><span style="font-weight:500;color:#1c1a17;">Our fix</span> · completed and rescheduled tasks feed the model overnight</div></div>
+              </div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:12px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <div><div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;">"Encourage granular feedback."</div><div style="font:400 12.5px/1.35 'Inter',sans-serif;color:#6f6a61;margin-top:2px;"><span style="font-weight:500;color:#1c1a17;">Our fix</span> · the evening check-in confirms each task individually, not the whole day</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 data-reveal="" style="margin:clamp(34px,4vw,46px) 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The core flow: a single loop</h3>
+      <p data-reveal="" style="margin:12px 0 0;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;max-width:760px;">Two entry points into the same intelligence, <strong style="font-weight:600;color:#1c1a17;">chat for a conversation and dashboard for a glance</strong>, was the pivot of the user flow I designed: it lets the system meet the student wherever their attention already is.</p>
+
+      <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:22px;">
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">1</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Connect</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">Calendar (Google or Outlook) and LMS (Canvas or Blackboard); optionally add personal context.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">2</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Analyze</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">The AI reads schedule and readings and estimates effort.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">3</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Prompt</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">A weekly nudge asks if the student is ready to plan the week.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">4</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Choose an entry point</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">Chat ("What should I focus on this week?") or the dashboard, a prioritized reading and assignment list.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">5</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Complete</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">Tasks get done, with lightweight feedback on each.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:18px;">
+          <div style="width:28px;height:28px;border-radius:9px;background:#4a90d9;color:#eff5fc;display:flex;align-items:center;justify-content:center;font:700 13px/1 'Inter',sans-serif;margin-bottom:11px;">6</div>
+          <div style="font:500 14px/1.35 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Learn ↺</div>
+          <p style="margin:0;font:400 13px/1.5 'Inter',sans-serif;color:#524c43;">The AI refines its next set of estimates, and the loop repeats.</p>
+        </div>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: I owned the user flow and co-led the IA structure; requirements were shared.</p>
+    </section>
+
+    <!-- 5 · DESIGN & KEY DECISIONS -->
+    <section id="design" data-screen-label="Design and key decisions" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">05</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Design &amp; key decisions</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">Every screen, paired with the decision behind it</h2>
+
+      <!-- 5.1 ONBOARDING -->
+      <div data-reveal="" style="margin-top:clamp(30px,4vw,42px);display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#7a7263;letter-spacing:0.05em;">5.1</span>
+        <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Onboarding: solving the cold start without breaking trust</h3>
+      </div>
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">A recommendation engine with no data recommends nothing useful. Onboarding exists to fill that gap, and it has to do so without spending the trust it will need later. Two decisions carry this screen. First, <strong style="font-weight:600;color:#1c1a17;">every step has a Skip button.</strong> A student can opt out of the machine-learning data collection entirely and run the app on generic time estimates. Control is offered before anything is asked. Second, the calendar step says plainly that the app checks only busy/free and <strong style="font-weight:600;color:#1c1a17;">never reads event details.</strong> We ask for goals and focus areas so the AI can weight readings toward what the student cares about, and we let them set check-in frequency so the tool never feels intrusive.</p>
+      </div>
+
+      <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · Onboarding flow</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in the four Figma exports, left to right</span></div>
+        <div style="background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;padding:clamp(18px,2.6vw,28px);box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);display:flex;flex-wrap:wrap;gap:clamp(26px,3.5vw,44px);width:fit-content;max-width:100%;overflow-x:auto;">
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+              <img src="assets/slots/sb-onb-1.webp" alt="Connect calendar + LMS" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Connect calendar and LMS</span>
+            </div>
+            <div style="align-self:center;margin-bottom:21px;display:flex;color:#a89f8d;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+              <img src="assets/slots/sb-onb-2.webp" alt="Blackboard connected" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Blackboard connected</span>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+              <img src="assets/slots/sb-onb-3.webp" alt="Goals screen" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"What are you working toward?"</span>
+            </div>
+            <div style="align-self:center;margin-bottom:21px;display:flex;color:#a89f8d;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+              <img src="assets/slots/sb-onb-4.webp" alt="Focus area selected" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Focus area selected</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5.2 ALGORITHM -->
+      <div data-reveal="" style="margin-top:clamp(40px,5vw,56px);display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#7a7263;letter-spacing:0.05em;">5.2</span>
+        <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The prioritization algorithm</h3>
+        <span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.08em;color:#1d4d7d;background:#dce9f8;border:1px solid rgba(232,85,45,0.32);padding:6px 10px;border-radius:999px;">My owned contribution</span>
+      </div>
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">This is the part I designed end to end, so I will go deep.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: a rule-based decision tree, not a machine-learning model.</strong> We could have gestured at a neural net. We chose not to. A rule-based tree is fully legible, it can be demonstrated and defended in a design review, and it does exactly what the research demanded of it: it explains itself. A black box would have undercut the entire premise of the product.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: bias toward the student's real risk, not toward tidy sorting.</strong> The rules escalate deadline risk first, then weight, and treat time and expertise as modifiers rather than tie-breakers. A reading outside the student's focus area gets a <em style="font-style:italic;">larger</em> time estimate and an <em style="font-style:italic;">earlier</em> flag, because unfamiliar material is exactly what students underestimate.</p>
+      </div>
+
+      <!-- VISUAL 3 · DECISION TREE -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:24px;">
+        <div style="overflow-x:auto;">
+          <div style="position:relative;width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px) clamp(24px,3vw,40px) clamp(22px,2.6vw,32px);">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 20,'wght' 500,'wdth' 96;font-size:20px;color:#1c1a17;">How the algorithm decides</div>
+            <div style="margin-top:8px;font:400 12px/1.4 'Inter',sans-serif;color:#6f6a61;">A rule-based decision tree, legible by design</div>
+
+            <div style="margin-top:22px;font:500 12px/1 'Inter',sans-serif;color:#1c1a17;">Four inputs</div>
+            <div style="margin-top:10px;display:flex;gap:12px;">
+              <span style="width:115px;height:34px;border-radius:17px;background:#ffffff;border:1px solid #e3dccb;display:flex;align-items:center;justify-content:center;font:400 12px/1 'Inter',sans-serif;color:#1c1a17;">Days until due</span>
+              <span style="width:135px;height:34px;border-radius:17px;background:#ffffff;border:1px solid #e3dccb;display:flex;align-items:center;justify-content:center;font:400 12px/1 'Inter',sans-serif;color:#1c1a17;">Assignment weight</span>
+              <span style="width:135px;height:34px;border-radius:17px;background:#ffffff;border:1px solid #e3dccb;display:flex;align-items:center;justify-content:center;font:400 12px/1 'Inter',sans-serif;color:#1c1a17;">Time vs free time</span>
+              <span style="width:109px;height:34px;border-radius:17px;background:#ffffff;border:1px solid #e3dccb;display:flex;align-items:center;justify-content:center;font:400 12px/1 'Inter',sans-serif;color:#1c1a17;">Expertise fit</span>
+            </div>
+
+            <div style="display:flex;justify-content:center;margin:10px 0;"><svg width="12" height="30" viewBox="0 0 12 30" fill="none" aria-hidden="true"><path d="M6 0 V24 M1 19 L6 25 L11 19" stroke="#1c1a17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+
+            <div style="font:500 12px/1 'Inter',sans-serif;color:#1c1a17;">Six rules, in priority order</div>
+            <div style="margin-top:10px;display:flex;flex-direction:column;gap:8px;">
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#e8552d;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Due in under 2 days <span style="color:#6f6a61;">· any weight</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#e8552d;color:#ffffff;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">High</span>
+              </div>
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#e8552d;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Due in 3–5 days <span style="color:#6f6a61;">· high weight</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#e8552d;color:#ffffff;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">High</span>
+              </div>
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#ffd23f;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Due in 3–5 days <span style="color:#6f6a61;">· low weight</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#ffd23f;color:#1c1a17;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">Medium</span>
+              </div>
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#13c296;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Due in 6+ days <span style="color:#6f6a61;">· defer to next open window</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#13c296;color:#ffffff;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">Low</span>
+              </div>
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#3d9be9;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Estimate exceeds today's free blocks <span style="color:#6f6a61;">· suggest reschedule</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#3d9be9;color:#ffffff;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">Flag</span>
+              </div>
+              <div style="height:40px;background:#ffffff;border:1px solid #e3dccb;border-radius:8px;display:flex;align-items:center;padding:0 16px 0 17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#3d9be9;"></span>
+                <span style="font:400 13.5px/1 'Inter',sans-serif;color:#1c1a17;">Topic outside focus areas <span style="color:#6f6a61;">· pad estimate, move earlier</span></span>
+                <span style="margin-left:auto;width:84px;height:24px;border-radius:12px;background:#3d9be9;color:#ffffff;display:flex;align-items:center;justify-content:center;font:500 12px/1 'Inter',sans-serif;">Flag</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:20px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: a 20–30 minute safety margin on every estimate.</strong> Until the system learns a student's actual pace, it pads its prediction. This is a trust decision, not a math one. An honest range that runs slightly long protects the student from the small daily failure of a too-tight estimate.</p>
+      </div>
+
+      <!-- 5.3 DASHBOARD -->
+      <div data-reveal="" style="margin-top:clamp(40px,5vw,56px);display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#7a7263;letter-spacing:0.05em;">5.3</span>
+        <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The dashboard: explainability as a first-class control</h3>
+      </div>
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The home dashboard shows today's focus and the week's ranked tasks. Three decisions define it. <strong style="font-weight:600;color:#1c1a17;">"Why this?" sits on every task</strong>: one tap reveals the reasoning behind a recommendation, the Kizilcec finding made literal. <strong style="font-weight:600;color:#1c1a17;">Time is shown as a range, never a false-precise number</strong>: "Est. 45–60 min" tells the truth about uncertainty where a single "52 min" would fabricate confidence the system has not earned. And <strong style="font-weight:600;color:#1c1a17;">priority reads at a glance</strong> through colored dots, so a student can triage the week in two seconds without opening anything.</p>
+      </div>
+
+      <!-- VISUAL 4 · ANNOTATED DASHBOARD -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · The dashboard, annotated</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in the real "Good morning, Ali" export</span></div>
+        <div style="overflow-x:auto;">
+          <div data-anno-fig="" style="position:relative;width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px);display:flex;gap:clamp(32px,4.5vw,60px);align-items:center;">
+            <div style="position:relative;flex:0 0 auto;width:280px;">
+              <img src="assets/slots/sb-dash-annotated.webp" alt="Home dashboard export (390 × 844)" loading="lazy" style="width:280px;display:block;border-radius:22px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:280/606;object-fit:cover;">
+              <span data-anno-dot="a" style="position:absolute;left:47.9%;top:36.4%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#e8552d;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
+              <span data-anno-dot="b" style="position:absolute;left:22.6%;top:40%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#e8552d;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
+              <span data-anno-dot="c" style="position:absolute;left:68.5%;top:46%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#e8552d;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
+              <span data-anno-dot="d" style="position:absolute;left:14.4%;top:75.7%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#e8552d;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
+            </div>
+            <div style="flex:1 1 0;display:flex;flex-direction:column;gap:22px;align-self:stretch;justify-content:space-between;padding:10px 0;">
+              <div data-anno-card="a" style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Honest ranges</div>
+                <div style="font:400 12.5px/1.5 'Inter',sans-serif;color:#6f6a61;">The 20–30 min safety margin is baked into every estimate. No false precision.</div>
+              </div>
+              <div data-anno-card="b" style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Explainability as a control</div>
+                <div style="font:400 12.5px/1.5 'Inter',sans-serif;color:#6f6a61;">One tap on "Why this?" reveals the AI's reasoning behind the recommendation.</div>
+              </div>
+              <div data-anno-card="c" style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">Instant override</div>
+                <div style="font:400 12.5px/1.5 'Inter',sans-serif;color:#6f6a61;">The AI proposes, the student decides. Rescheduling is one tap, never a fight.</div>
+              </div>
+              <div data-anno-card="d" style="background:#ffffff;border:1px solid #e3dccb;border-radius:10px;padding:14px 16px;">
+                <div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;margin-bottom:4px;">At-a-glance triage</div>
+                <div style="font:400 12.5px/1.5 'Inter',sans-serif;color:#6f6a61;">Color ranks the week in two seconds, before anything is opened.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5.4 MIXED-INITIATIVE -->
+      <div data-reveal="" style="margin-top:clamp(40px,5vw,56px);display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#7a7263;letter-spacing:0.05em;">5.4</span>
+        <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Mixed-initiative: the AI proposes, the student decides</h3>
+      </div>
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Chat</strong> lets a student ask "What should I focus on this week?" and get a reasoned answer with a next action attached ("Want me to block time for it tonight?"). <strong style="font-weight:600;color:#1c1a17;">Reschedule</strong> is the override made frictionless: when the student cannot do a task now, the AI offers calendar-aware alternatives and the student confirms. The AI never moves the schedule on its own.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: updates run as a nightly batch, not in real time.</strong> The algorithm recalculates its time-prediction weights overnight and applies the improved estimates the next morning. Live re-ranking would make the schedule twitch under the student all day, which is precisely the anxiety the product exists to reduce. Stability beat reactivity, on purpose.</p>
+      </div>
+
+      <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · Chat and reschedule</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in the two Figma exports</span></div>
+        <div style="background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;padding:clamp(18px,2.6vw,28px);box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);display:flex;flex-wrap:wrap;gap:22px;width:fit-content;max-width:100%;">
+          <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+            <img src="assets/slots/sb-chat.webp" alt="Chat screen" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
+            <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"What should I focus on this week?"</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
+            <img src="assets/slots/sb-resched.webp" alt="Reschedule modal" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
+            <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"No problem. Let's find a new time."</span>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: I owned the algorithm and decision-tree logic (5.2). Onboarding, dashboard, and the mixed-initiative screens were shared design work.</p>
+    </section>
+
+    <!-- 6 · VALIDATION -->
+    <section id="validation" data-screen-label="Validation" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">06</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Validation</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">Evaluating our own design, honestly</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">We put the prototype through a heuristic evaluation against Nielsen's 10 usability heuristics. This was a team-run review, and its most useful outcome was uncomfortable: it exposed holes in our own design.</p>
+      </div>
+
+      <blockquote data-reveal="" style="margin:clamp(30px,4vw,44px) 0 0;">
+        <div aria-hidden="true" style="font-family:'Bricolage Grotesque',sans-serif;font-size:72px;line-height:0.5;color:#d6356a;">“</div>
+        <p style="margin:8px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.12;letter-spacing:-0.02em;font-variation-settings:'opsz' 40,'wght' 520,'wdth' 90;color:#1c1a17;max-width:26ch;">The best finding was the one that caught us contradicting ourselves.</p>
+      </blockquote>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The privacy contradiction.</strong> Onboarding promises the app never reads event details, yet the reschedule screen displays exact calendar time blocks. A student who notices that stops believing the privacy claim. The fix corrects the disclosure to describe how calendar data is actually used, and adds a data-retention default that purges syllabus and calendar data 30 days after the quarter ends.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">No error states.</strong> There were no flows for a failed connection or a sync conflict. If the LMS API goes down, the student is stranded. The fix adds clear error states with retry, plus cached-data warnings during sync failures.</p>
+      </div>
+
+      <!-- VISUAL 7 · FLAW → FIX -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:clamp(26px,4vw,36px);">
+        <div style="overflow-x:auto;">
+          <div style="position:relative;width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px) clamp(24px,3vw,40px) clamp(22px,2.6vw,32px);">
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 20,'wght' 500,'wdth' 96;font-size:20px;color:#1c1a17;">What we caught in our own design</div>
+            <div style="margin-top:8px;font:400 12px/1.4 'Inter',sans-serif;color:#6f6a61;">Heuristic evaluation against Nielsen's 10, run on our own prototype</div>
+            <div style="margin-top:20px;display:grid;grid-template-columns:1fr 60px 1fr;align-items:center;">
+              <div style="font:500 12px/1 'Inter',sans-serif;color:#d6356a;padding-bottom:10px;">Flaw</div>
+              <div></div>
+              <div style="font:500 12px/1 'Inter',sans-serif;color:#0f8a6b;padding-bottom:10px;">Fix</div>
+
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:11px;margin-bottom:14px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#d6356a;"></span>
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Privacy contradiction</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">claims busy/free only, shows exact blocks</div></div>
+              </div>
+              <div style="display:flex;justify-content:center;margin-bottom:14px;"><svg width="44" height="10" viewBox="0 0 44 10" fill="none" aria-hidden="true"><path d="M0 5 H38 M33 1 L39 5 L33 9" stroke="#1c1a17" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:20px;margin-bottom:14px;">
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Accurate disclosure</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">plus a 30-day data purge default</div></div>
+              </div>
+
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:11px;margin-bottom:14px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#d6356a;"></span>
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">No error states</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">an LMS outage strands the user</div></div>
+              </div>
+              <div style="display:flex;justify-content:center;margin-bottom:14px;"><svg width="44" height="10" viewBox="0 0 44 10" fill="none" aria-hidden="true"><path d="M0 5 H38 M33 1 L39 5 L33 9" stroke="#1c1a17" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:20px;margin-bottom:14px;">
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Retry and fallbacks</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">error states, cached-data warnings</div></div>
+              </div>
+
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:11px;margin-bottom:14px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#d6356a;"></span>
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">No chat history</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">past AI conversations unreachable</div></div>
+              </div>
+              <div style="display:flex;justify-content:center;margin-bottom:14px;"><svg width="44" height="10" viewBox="0 0 44 10" fill="none" aria-hidden="true"><path d="M0 5 H38 M33 1 L39 5 L33 9" stroke="#1c1a17" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:20px;margin-bottom:14px;">
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Add chat history</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">every past exchange retrievable</div></div>
+              </div>
+
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:11px;margin-bottom:14px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#d6356a;"></span>
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Unexplained priority dots</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">color signals urgency with no legend</div></div>
+              </div>
+              <div style="display:flex;justify-content:center;margin-bottom:14px;"><svg width="44" height="10" viewBox="0 0 44 10" fill="none" aria-hidden="true"><path d="M0 5 H38 M33 1 L39 5 L33 9" stroke="#1c1a17" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:20px;margin-bottom:14px;">
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Legend, wider explainability</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">"Why this?" on every task</div></div>
+              </div>
+
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:17px;gap:11px;">
+                <span style="flex:0 0 auto;width:9px;height:9px;border-radius:50%;background:#d6356a;"></span>
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">No manual task entry</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">LMS sync misses cannot be added</div></div>
+              </div>
+              <div style="display:flex;justify-content:center;"><svg width="44" height="10" viewBox="0 0 44 10" fill="none" aria-hidden="true"><path d="M0 5 H38 M33 1 L39 5 L33 9" stroke="#1c1a17" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+              <div style="height:56px;background:#ffffff;border:1px solid #e3dccb;border-radius:10px;display:flex;align-items:center;padding-left:20px;">
+                <div><div style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Manual add</div><div style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;margin-top:3px;">tasks beyond the LMS sync</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The honest caveat: this was a heuristic self-evaluation. Its value was catching contradictions before they reached a build.</p>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: team-run heuristic evaluation.</p>
+    </section>
+
+    <!-- 7 · REFLECTION -->
+    <section id="reflection" data-screen-label="Reflection" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#4a90d9;letter-spacing:0.05em;">07</span>
+        <span style="height:1px;width:26px;background:rgba(232,85,45,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Reflection</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">What the algorithm taught me</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">What came of it:</strong> a high-fidelity prototype, a working proof of concept for the prioritization algorithm, and an evaluation that turned into a prioritized fix list. As a concept, the project holds together: the interaction stance, the algorithm, and the ethics all point the same way.</p>
+
+        <div data-reveal="" style="margin-top:20px;border-left:4px solid #d9a800;background:#fdf3d4;border-radius:0 14px 14px 0;padding:18px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a6a00;margin-bottom:9px;">What we scoped out, named plainly</div>
+          <p style="margin:0;font:400 14.5px/1.62 'Inter',sans-serif;color:#6d5300;">The original ambition included a full study-plan generator: NLP that parses any syllabus and a machine-learning model that personalizes over time. We deliberately narrowed that to a rule-based decision tree. That was the right call for a five-week concept, because a legible tree is demonstrable and defensible where a half-trained model would have been neither. It is a scoped limitation, not a failure, and it is the obvious next build.</p>
+        </div>
+
+        <p data-reveal="" style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">Designing the algorithm taught me more than a black box would have. Because the logic was legible, I could see its assumptions and argue with them, which is exactly what I would want a student to be able to do with the system itself.</p>
+      </div>
+
+      <div data-reveal="" style="margin-top:22px;background:#dce9f8;border:1px solid rgba(232,85,45,0.32);border-radius:22px;padding:clamp(24px,3.4vw,38px);color:#1c1a17;">
+        <svg width="132" height="12" viewBox="0 0 132 12" fill="none" aria-hidden="true" style="display:block;margin-bottom:16px;"><path d="M2 6 Q10 0 18 6 T34 6 T50 6 T66 6 T82 6 T98 6 T114 6 T130 6" stroke="#4a90d9" stroke-width="3" fill="none" stroke-linecap="round"></path></svg>
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#1d4d7d;margin-bottom:12px;">The lesson that stuck</div>
+        <p style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 22,'wght' 520,'wdth' 92;font-size:clamp(1.15rem,2.2vw,1.5rem);line-height:1.3;letter-spacing:-0.01em;max-width:34ch;color:#1c1a17;">Transparency is load-bearing, <em style="font-style:italic;font-variation-settings:'opsz' 22,'wght' 620,'wdth' 92;color:#4a90d9;">not decorative.</em></p>
+        <p style="margin:14px 0 0;font:400 14.5px/1.6 'Inter',sans-serif;color:#3a332b;max-width:62ch;">Every trust decision in this design, the ranges, the "Why this?" control, the busy/free privacy line, traces back to that. And the evaluation that finds your own contradiction is the valuable one: it would have been easy to run a review that confirmed our choices. The one that caught the privacy inconsistency is the one that made the design better.</p>
+      </div>
+
+      <div data-reveal="" style="margin-top:24px;max-width:760px;">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:12px;">What's next</div>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:11px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#4a90d9;margin-top:8px;"></span>Error states and offline fallbacks</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#4a90d9;margin-top:8px;"></span>A privacy-accurate disclosure</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#4a90d9;margin-top:8px;"></span>Chat history and manual task entry</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.55 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:7px;height:7px;border-radius:50%;background:#4a90d9;margin-top:8px;"></span>Eventually, the study-plan generator we scoped out</li>
+        </ul>
+      </div>
+
+      <p data-reveal="" style="margin:22px 0 0;font:italic 400 13.5px/1.6 'Inter',sans-serif;color:#8a8274;max-width:760px;">Contribution: personal reflection on designing the algorithm; project outcomes shared across the team.</p>
+    </section>
+
+    <!-- 8 · NEXT -->
+    <section id="next" data-screen-label="Next project" style="padding:clamp(40px,6vw,64px) 0 clamp(40px,6vw,64px);">
+      <div data-reveal="" aria-hidden="true" style="height:1px;background:rgba(28,26,23,0.1);margin:0 0 clamp(30px,4.5vw,46px);"></div>
+      <a data-reveal="" href="aeries-case-study.html" style="display:block;text-decoration:none;background:#1c1a17;border-radius:22px;padding:clamp(26px,4vw,40px);box-shadow:0 20px 44px -30px rgba(28,26,23,0.7);transition:transform .35s cubic-bezier(0.34,1.56,0.64,1);" class="hov-lift">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#a9c9ef;margin-bottom:12px;">Next project</div>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+          <div>
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">Aeries HR Dashboard</div>
+            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">A solo design engagement embedded with developers and PMs at a real company.</div>
+          </div>
+          <span style="flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:#4a90d9;color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;">→</span>
+        </div>
+      </a>
+    </section>
+
+  </div>
+
+  <!-- FOOTER (matches homepage) -->
+  <footer style="position:relative;overflow:hidden;background:#1c1a17;color:#faf3e6;margin-top:clamp(24px,4vw,48px);">
+    <div aria-hidden="true" style="position:absolute;top:-1px;left:0;right:0;height:clamp(34px,5vw,56px);z-index:4;pointer-events:none;line-height:0;">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" style="display:block;width:100%;height:100%;"><path d="M0 0 L0 26 Q80 10 160 26 T320 26 T480 26 T640 26 T800 26 T960 26 T1120 26 T1280 26 T1440 26 L1440 0 Z" fill="#f2ecdd"></path></svg>
+    </div>
+    <div id="playground" aria-hidden="true" style="position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;">
+      <div data-shape data-color="#e8552d" style="position:absolute;left:4%;top:60%;width:92px;height:92px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#13c296" style="position:absolute;left:14%;top:85%;width:56px;height:56px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#13c296;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:85%;top:18%;width:78px;height:78px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#ffd23f" style="position:absolute;left:92%;top:55%;width:104px;height:104px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#ffd23f;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#d6356a" style="position:absolute;left:74%;top:84%;width:54px;height:54px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#d6356a;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:62%;top:21%;width:46px;height:46px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#e8552d" style="position:absolute;left:47%;top:88%;width:64px;height:64px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#13c296" style="position:absolute;left:96%;top:34%;width:58px;height:58px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#13c296;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+    </div>
+
+    <div style="position:relative;z-index:2;pointer-events:none;max-width:1180px;margin:0 auto;padding:clamp(70px,11vw,128px) clamp(20px,5vw,40px) 44px;">
+      <h2 id="footer-heading" data-warp="470,90,50,800,100,82" aria-label="Let’s build something." style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.6rem,7.6vw,5.8rem);line-height:0.95;letter-spacing:-0.022em;font-variation-settings:'opsz' 50,'wght' 470,'wdth' 90;color:#faf3e6;max-width:12ch;">
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">L</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">’</span><span data-l style="display:inline-block">s</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">b</span><span data-l style="display:inline-block">u</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">l</span><span data-l style="display:inline-block">d</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">s</span><span data-l style="display:inline-block">o</span><span data-l style="display:inline-block">m</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">h</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">n</span><span data-l style="display:inline-block">g</span><span data-l style="display:inline-block;color:#e8552d">.</span></span>
+      </h2>
+      <a href="mailto:karanqmr@gmail.com" style="display:inline-block;margin-top:clamp(26px,4vw,38px);font:500 clamp(20px,3.4vw,32px)/1.1 'Inter',sans-serif;color:#faf3e6;text-decoration:none;letter-spacing:-0.01em;transition:color .25s ease;pointer-events:auto;" class="hov-accent">karanqmr@gmail.com →</a>
+
+      <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;margin-top:clamp(48px,8vw,88px);padding-top:24px;border-top:1px solid rgba(250,243,230,0.14);">
+        <div style="display:flex;gap:22px;flex-wrap:wrap;">
+          <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener" style="color:rgba(250,243,230,0.82);font:500 15px/1 'Inter',sans-serif;text-decoration:none;transition:color .25s ease;pointer-events:auto;" class="hov-accent">LinkedIn</a>
+        </div>
+        <span style="font:400 13.5px/1 'Inter',sans-serif;color:rgba(250,243,230,0.5);">© 2026 Karan. Designed and built with Claude</span>
+      </div>
+    </div>
+  </footer>
+
+  <button data-totop="" type="button" aria-label="Back to top" style="position:fixed;right:clamp(16px,3vw,30px);bottom:clamp(16px,3vw,30px);z-index:70;width:56px;height:56px;padding:0;border:none;border-radius:50%;background:#4a90d9;color:#eff5fc;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -12px rgba(232,85,45,0.75);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s ease,visibility .3s ease,transform .5s cubic-bezier(0.34,1.56,0.64,1),border-radius .55s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-totop">
+    <svg width="23" height="23" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19 V6 M6 11 L12 5 L18 11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+
+  <div data-lightbox="" aria-hidden="true" style="position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:4vw;background:rgba(28,26,23,0);opacity:0;pointer-events:none;cursor:zoom-out;transition:opacity .18s ease,background .18s ease;">
+    <img data-lightbox-img="" alt="" style="max-width:94vw;max-height:92vh;border-radius:12px;box-shadow:0 40px 90px -20px rgba(0,0,0,0.65);transform:scale(0.92);transition:transform .2s cubic-bezier(0.34,1.4,0.64,1);">
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/case-study.js"></script>
+</body>
+</html>

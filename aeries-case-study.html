@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aeries HR Dashboard — case study — Karan</title>
+<meta name="description" content="Making headcount, hiring, and attrition legible at a glance for busy HR teams. UX case study by Karan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  ::selection{ background:#6686F7; color:#1c1a17; }
+  section[id]{ scroll-margin-top:24px; }
+  [data-sidenav]{ display:flex; }
+  @media (max-width:1439px){ [data-sidenav]{ display:none !important; } }
+
+  .hov-navlink:hover, .hov-navlink:focus-visible{ opacity:1 !important; text-decoration:underline !important; text-underline-offset:4px; }
+  .hov-accent:hover, .hov-accent:focus-visible{ color:#e8552d !important; }
+  .hov-figma:hover, .hov-figma:focus-visible{ transform:scale(1.04); background:#3452cf !important; }
+  .hov-totop:hover, .hov-totop:focus-visible{ transform:scale(1.08); border-radius:44% 56% 56% 44% / 56% 44% 58% 42%; background:#d64a23 !important; }
+  .hov-lift:hover, .hov-lift:focus-visible{ transform:translateY(-4px); }
+</style>
+</head>
+<body>
+
+<div style="min-height:100vh;background:#f2ecdd;color:#1c1a17;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;">
+
+  <nav style="max-width:1180px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;">
+    <a href="index.html" aria-label="karan, home" style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-variation-settings:'opsz' 16,'wght' 650,'wdth' 92;color:#1c1a17;text-decoration:none;letter-spacing:-0.01em;">karan<span style="color:#6686F7">.</span></a>
+    <div style="display:flex;align-items:center;gap:clamp(16px,3vw,28px);">
+      <a href="index.html#work" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Work</a>
+      <a href="about.html" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">About</a>
+    </div>
+  </nav>
+
+  <nav data-sidenav data-active-color="#3a5fd9" data-idle-color="#9a9080" data-dot-idle="#d6cdb9" aria-label="Sections" style="position:fixed;left:26px;top:50%;transform:translateY(-50%);z-index:60;flex-direction:column;gap:1px;transition:opacity .3s ease,visibility .3s ease;">
+    <a href="#overview" data-sidelink="overview" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Overview</a>
+    <a href="#context" data-sidelink="context" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Context</a>
+    <a href="#design" data-sidelink="design" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Design</a>
+    <a href="#outcome" data-sidelink="outcome" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Outcome</a>
+    <a href="#next" data-sidelink="next" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Next</a>
+  </nav>
+
+  <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);">
+
+    <!-- HERO -->
+    <section id="top" data-screen-label="Hero" style="padding:clamp(20px,4vw,48px) 0 clamp(36px,5vw,60px);display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center;">
+      <div style="flex:1 1 420px;min-width:280px;">
+        <div data-reveal="" style="display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:22px;">
+          <span style="font:600 11.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;color:#2c46b8;background:#e7ecfd;border:1px solid rgba(102,134,247,0.4);padding:7px 12px;border-radius:999px;">Industry work</span>
+        </div>
+        <h1 data-reveal="" style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.8rem,7vw,5.2rem);line-height:0.94;letter-spacing:-0.028em;font-variation-settings:'opsz' 60,'wght' 560,'wdth' 88;">Untangling a serpentine timeline</h1>
+        <p data-reveal="" style="margin:22px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.2rem,2.4vw,1.6rem);line-height:1.24;letter-spacing:-0.012em;font-variation-settings:'opsz' 24,'wght' 480,'wdth' 92;color:#2b2721;max-width:28ch;">Redesigning an infrastructure milestone dashboard for Aeries Technologies as the only designer in the room.</p>
+        <p data-reveal="" style="margin:20px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.6 'Inter',sans-serif;color:#524c43;max-width:48ch;">Inside real engineering and stakeholder constraints: buildable by the existing dev team, and everything visible on one screen.</p>
+        <div data-reveal="" style="margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;">
+          <a href="https://www.figma.com/proto/ti9e8nYBV9K3ah84zO17pD/GCC-Dashboard?node-id=296-883&amp;viewport=872%2C471%2C0.26&amp;t=wejv0F46HYY2iMfA-1&amp;scaling=scale-down&amp;content-scaling=responsive&amp;starting-point-node-id=296%3A883&amp;show-proto-sidebar=1&amp;page-id=296%3A882" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;background:#2c46b8;color:#eef2fd;font:600 15px/1 'Inter',sans-serif;text-decoration:none;box-shadow:0 12px 26px -14px rgba(44,70,184,0.7);transition:transform .3s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-figma">▶ View the working Figma prototype</a>
+        </div>
+      </div>
+      <div data-reveal="" style="flex:1 1 400px;min-width:300px;">
+        <div style="background:#ffffff;border:1px solid #e3dccb;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -34px rgba(28,26,23,0.5);">
+          <div style="display:flex;align-items:center;gap:8px;padding:11px 14px;border-bottom:1px solid #efe9da;background:#fbf8f0;">
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="flex:1 1 auto;max-width:340px;margin-left:8px;background:#f2ecdd;border-radius:999px;padding:5px 12px;font:500 11px/1 ui-monospace,Menlo,monospace;color:#6f6a61;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">aeries · infrastructure milestone dashboard</span>
+          </div>
+          <img src="assets/slots/ae-cover.webp" alt="Final, redesigned dashboard" loading="lazy" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
+        </div>
+      </div>
+    </section>
+
+    <!-- FACTS -->
+    <section style="padding:0 0 clamp(20px,3vw,32px);">
+      <div data-reveal="" style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:20px;padding:clamp(20px,3vw,28px);box-shadow:0 1px 0 rgba(28,26,23,0.03),0 16px 36px -30px rgba(28,26,23,0.4);display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:24px 36px;align-items:start;">
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Role</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#1c1a17;">Product designer · Sole designer</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Team</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">Solo, embedded with developers and PMs</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Timeline</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#1c1a17;">5 weeks</div></div>
+        <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Tools</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">Figma · Quickbase</div></div>
+      </div>
+    </section>
+
+    <!-- 1 · OVERVIEW -->
+    <section id="overview" data-screen-label="Overview" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#3a5fd9;letter-spacing:0.05em;">01</span>
+        <span style="height:1px;width:26px;background:rgba(58,95,217,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Overview</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">The short version</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">Aeries Technologies used a Quickbase-based internal dashboard to track IT and office infrastructure milestones for client site launches. The original layout forced a serpentine reading path: down one column, across, then back up another. I redesigned it as a left-to-right milestone grid inspired by an unexpected source, a fantasy football draft board, then refined it through direct developer and stakeholder feedback. The redesign stayed within the constraints that mattered: buildable by the existing dev team, and everything visible on one screen.</p>
+
+        <div data-reveal="" style="margin-top:22px;background:#e7ecfd;border:1px solid rgba(102,134,247,0.4);border-radius:16px;padding:20px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#2c46b8;margin-bottom:9px;">My contribution</div>
+          <p style="margin:0;font:400 14.5px/1.6 'Inter',sans-serif;color:#22302a;">Everything design: audit, wireframes, market research, high-fidelity redesign, mobile layout, and two rounds of stakeholder and developer review.</p>
+        </div>
+
+        <ul data-reveal="" style="margin:22px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#6686F7;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Redesigned desktop dashboard</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#6686F7;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Responsive mobile layout</li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 14.5px/1.5 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#6686F7;display:flex;align-items:center;justify-content:center;margin-top:1px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5 L10 17.5 L19 6.5" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>High-fidelity Figma files for developer handoff</li>
+        </ul>
+      </div>
+
+      <blockquote data-reveal="" style="margin:clamp(34px,5vw,52px) 0 0;">
+        <div aria-hidden="true" style="font-family:'Bricolage Grotesque',sans-serif;font-size:72px;line-height:0.5;color:#6686F7;">“</div>
+        <p style="margin:8px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.14;letter-spacing:-0.02em;font-variation-settings:'opsz' 40,'wght' 520,'wdth' 90;color:#1c1a17;max-width:28ch;">Sole designer. Real developers. Real constraints. The design that survived them is the one worth showing.</p>
+      </blockquote>
+    </section>
+
+    <!-- 2 · CONTEXT & CONSTRAINTS -->
+    <section id="context" data-screen-label="Context and constraints" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#3a5fd9;letter-spacing:0.05em;">02</span>
+        <span style="height:1px;width:26px;background:rgba(58,95,217,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Context &amp; constraints</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">Where are we, and what is at risk?</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">What the dashboard did.</strong> When Aeries stood up a new client site, two workstreams ran in parallel: IT infrastructure (fifteen milestones, from discovery call to UAT) and office infrastructure (six milestones, from discovery to office stand-up). Internal teams and stakeholders used the dashboard to answer one question quickly: where are we, and what is at risk?</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">What was wrong.</strong> The original screen answered that question badly.</p>
+      </div>
+
+      <!-- VISUAL · ANNOTATED BEFORE -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:clamp(26px,4vw,36px);">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · The original dashboard, annotated</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in InitialRAW.png (1440 × 1747)</span></div>
+        <div style="overflow-x:auto;">
+          <div style="width:100%;min-width:640px;max-width:860px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(18px,2.6vw,28px);">
+            <div style="position:relative;width:100%;">
+              <img src="assets/slots/ae-before.webp" alt="Initial, original dashboard" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
+              <svg viewBox="0 0 1440 1747" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;">
+                <circle cx="384" cy="1300" r="8" fill="#6686F7"></circle>
+                <line x1="392" y1="1300" x2="745" y2="1300" stroke="#6686F7" stroke-width="1.5" stroke-dasharray="6 6"></line>
+                <text x="755" y="1300" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#1c1a17">1 · Eye reads down the left rail, 15 stops</text>
+                <circle cx="1055" cy="954" r="8" fill="#6686F7"></circle>
+                <line x1="1055" y1="965" x2="1030" y2="1115" stroke="#6686F7" stroke-width="1.5" stroke-dasharray="6 6"></line>
+                <text x="900" y="1140" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#1c1a17">2 · Jump across, read down again</text>
+                <circle cx="721" cy="344" r="8" fill="#6686F7"></circle>
+                <line x1="721" y1="336" x2="715" y2="300" stroke="#6686F7" stroke-width="1.5" stroke-dasharray="6 6"></line>
+                <text x="460" y="285" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#1c1a17">3 · Summary cards float mid-canvas</text>
+                <circle cx="265" cy="1554" r="8" fill="#6686F7"></circle>
+                <line x1="320" y1="1554" x2="745" y2="1554" stroke="#6686F7" stroke-width="1.5" stroke-dasharray="6 6"></line>
+                <text x="755" y="1554" dominant-baseline="middle" font-family="Inter, sans-serif" font-size="26" font-weight="500" fill="#1c1a17">4 · Status hides in scattered pills</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <ul data-reveal="" style="margin:24px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">A serpentine reading path.</strong> The IT timeline ran down the left rail, the office timeline ran down the right, and two summary cards floated in the middle with ambiguous connector lines. The eye traveled down, across, and back up with no natural start or end.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Status you had to hunt for.</strong> Progress lived in small pills scattered along both rails. There was no way to see at a glance how far along either workstream was.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Desktop only.</strong> The layout had no responsive behavior, so checking progress meant being at a desk.</span></li>
+        </ul>
+
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The constraints that shaped everything.</strong> This was not a blank canvas. Three limits defined the work, and they came from people, not a rubric:</p>
+
+        <ol data-reveal="" style="margin:18px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:13px;counter-reset:none;">
+          <li style="display:flex;gap:13px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:24px;height:24px;border-radius:8px;background:#6686F7;color:#1c1a17;display:flex;align-items:center;justify-content:center;font:700 12.5px/1 'Inter',sans-serif;margin-top:1px;">1</span><span><strong style="font-weight:600;color:#1c1a17;">The existing Quickbase system.</strong> The redesign had to live inside the platform the tool was already built on.</span></li>
+          <li style="display:flex;gap:13px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:24px;height:24px;border-radius:8px;background:#6686F7;color:#1c1a17;display:flex;align-items:center;justify-content:center;font:700 12.5px/1 'Inter',sans-serif;margin-top:1px;">2</span><span><strong style="font-weight:600;color:#1c1a17;">Developer feasibility.</strong> The dev team reviewed my early concepts directly and told me plainly what they could and could not build without disproportionate effort.</span></li>
+          <li style="display:flex;gap:13px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:24px;height:24px;border-radius:8px;background:#6686F7;color:#1c1a17;display:flex;align-items:center;justify-content:center;font:700 12.5px/1 'Inter',sans-serif;margin-top:1px;">3</span><span><strong style="font-weight:600;color:#1c1a17;">One screen, no navigation.</strong> Stakeholders wanted the full picture without clicking through to secondary pages. Progressive disclosure by navigation was off the table.</span></li>
+        </ol>
+      </div>
+
+      <!-- VISUAL · CONSTRAINT-TO-RESPONSE DIAGRAM -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:clamp(24px,3.5vw,34px);">
+        <div style="overflow-x:auto;">
+          <div style="width:100%;min-width:640px;max-width:820px;background:#ffffff;border:1px solid #e3dccb;border-radius:12px;padding:clamp(20px,2.8vw,28px) clamp(20px,3vw,30px);">
+            <div style="font:500 14px/1 'Inter',sans-serif;color:#1c1a17;">Three constraints, three responses</div>
+            <div style="margin-top:20px;display:flex;flex-direction:column;gap:18px;">
+              <div style="display:flex;align-items:center;gap:14px;">
+                <span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span>
+                <span style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Existing Quickbase system <span style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;">&nbsp;·&nbsp; platform already in place</span></span>
+                <span style="margin-left:auto;flex:0 0 auto;height:26px;border-radius:13px;background:#6686F7;color:#1c1a17;display:inline-flex;align-items:center;padding:0 12px;font:500 12px/1 'Inter',sans-serif;white-space:nowrap;">Worked within it</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:14px;">
+                <span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span>
+                <span style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">Developer feasibility <span style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;">&nbsp;·&nbsp; devs reviewed concepts directly</span></span>
+                <span style="margin-left:auto;flex:0 0 auto;height:26px;border-radius:13px;background:#6686F7;color:#1c1a17;display:inline-flex;align-items:center;padding:0 12px;font:500 12px/1 'Inter',sans-serif;white-space:nowrap;">One repeating component</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:14px;">
+                <span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span>
+                <span style="font:500 14px/1.3 'Inter',sans-serif;color:#1c1a17;">One screen, no navigation <span style="font:400 12px/1.3 'Inter',sans-serif;color:#6f6a61;">&nbsp;·&nbsp; stakeholder mandate</span></span>
+                <span style="margin-left:auto;flex:0 0 auto;height:26px;border-radius:13px;background:#6686F7;color:#1c1a17;display:inline-flex;align-items:center;padding:0 12px;font:500 12px/1 'Inter',sans-serif;white-space:nowrap;">Collapsible one-page grid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">I was the only designer.</strong> No design team to workshop with, no design system to lean on. Every review was with developers, PMs, and stakeholders, which meant every design argument had to be made in their terms: buildability, visibility, and speed to answer.</p>
+      </div>
+    </section>
+
+    <!-- 3 · DESIGN & KEY DECISIONS -->
+    <section id="design" data-screen-label="Design and key decisions" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#3a5fd9;letter-spacing:0.05em;">03</span>
+        <span style="height:1px;width:26px;background:rgba(58,95,217,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Design &amp; key decisions</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:24ch;">From serpentine to draft board</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Start cheap on purpose.</strong> My first move was a deliberately low-fidelity grayscale wireframe. The goal was to get a structural reaction from stakeholders before investing in polish. The wireframe made the two big bets early: rotate the timelines from vertical to horizontal, and add per-section progress bars for at-a-glance status.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The feedback that redirected me.</strong> The lo-fi worked exactly as intended: it surfaced the real constraints cheaply. Developers flagged that parts of the concept would be hard to build. Stakeholders added the requirement that everything stay on one screen with no navigation. That feedback killed some directions and sharpened the brief into something precise: a long sequential process, fully visible on one page, built from components the team could actually ship.</p>
+      </div>
+
+      <blockquote data-reveal="" style="margin:clamp(30px,4vw,44px) 0 0;">
+        <div aria-hidden="true" style="font-family:'Bricolage Grotesque',sans-serif;font-size:72px;line-height:0.5;color:#6686F7;">“</div>
+        <p style="margin:8px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.14;letter-spacing:-0.02em;font-variation-settings:'opsz' 40,'wght' 520,'wdth' 90;color:#1c1a17;max-width:26ch;">The lo-fi wireframe cost me a few hours and saved me weeks. Its job was to be argued with.</p>
+      </blockquote>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">An unexpected reference.</strong> I went looking for interfaces that already solved this exact problem and found one far from enterprise software: the Sleeper fantasy football draft board. A snake draft displays 150 sequential picks on one screen, color-coded, scannable in seconds, built from one repeating card component. It was the closest thing I found to a proven pattern for the brief, so I adapted it.</p>
+      </div>
+
+      <!-- VISUAL · PROCESS STRIP -->
+      <div data-reveal="" data-accent-lock="" style="margin-top:clamp(26px,4vw,36px);">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · The iteration story, three beats</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in LowFiRAW, DraftInspirationRAW, FirstRedesignRAW</span></div>
+        <div style="max-width:860px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(20px,3vw,28px);display:flex;flex-direction:column;gap:22px;">
+          <div>
+            <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">01 Lo-fi probe</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">A cheap grayscale wireframe built to extract real feedback</span></div>
+            <img src="assets/LowFiRAW.png" alt="LowFi" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1024;object-fit:cover;">
+          </div>
+          <div style="display:flex;justify-content:center;"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M5 0 V11 M1 8 L5 12 L9 8" stroke="#6f6a61" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+          <div>
+            <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">02 Sleeper draft board</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">A proven one-screen pattern, found outside the industry</span></div>
+            <img src="assets/DraftInspirationRAW.png" alt="DraftInspiration" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1800/1032;object-fit:cover;">
+          </div>
+          <div style="display:flex;justify-content:center;"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M5 0 V11 M1 8 L5 12 L9 8" stroke="#6f6a61" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+          <div>
+            <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">03 First high-fi pass</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">The grid worked, but inherited the snake reading order</span></div>
+            <img src="assets/FirstRedesignRAW.png" alt="FirstRedesign" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">First high-fidelity pass.</strong> The first redesign translated the draft board directly: milestone cards in a grid, color-carrying borders for status, one repeating component. But it also inherited the draft board's snake reading order, where alternating rows run right to left.</p>
+        <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Let the users pick the reading order.</strong> Rather than assume, I built both options as full frames and brought them back to stakeholders and developers side by side: the snake order, or a strict left-to-right wrap in every row. They preferred strict left-to-right, and that is what went into the final design. It reads like text: every row starts at the left margin.</p>
+      </div>
+
+      <h3 data-reveal="" style="margin:clamp(34px,4vw,46px) 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The final pass added glanceability and control</h3>
+
+      <!-- VISUAL · FINAL DESIGN -->
+      <div data-reveal="" style="margin-top:22px;">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · The final design</span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#8a8274;">drop in FinalRAW.png</span></div>
+        <div style="max-width:860px;background:#ffffff;border:1px solid #e3dccb;border-radius:18px;overflow:hidden;box-shadow:0 22px 48px -32px rgba(28,26,23,0.5);">
+          <div style="display:flex;align-items:center;gap:8px;padding:11px 14px;border-bottom:1px solid #efe9da;background:#fbf8f0;">
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
+            <span style="flex:1 1 auto;max-width:340px;margin-left:8px;background:#f2ecdd;border-radius:999px;padding:5px 12px;font:500 11px/1 ui-monospace,Menlo,monospace;color:#6f6a61;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">aeries · infrastructure milestone dashboard</span>
+          </div>
+          <img src="assets/slots/ae-final.webp" alt="Final, redesigned dashboard, full width" loading="lazy" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
+        </div>
+      </div>
+
+      <div style="max-width:760px;">
+        <ul data-reveal="" style="margin:24px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;">
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Strict left-to-right rows.</strong> Milestones 1 to 4, then 5 to 8, then 9 to 12, then 13 to 15. No reversals.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Per-section progress bars.</strong> Each workstream got a summary bar showing the percentage of milestones in each state, so the "where are we?" question is answered before reading a single card.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Collapsible sections.</strong> Users decide whether they want the summary or the details. Collapsing a section keeps the one-screen promise even as milestone counts grow.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Status carried by the card, not hidden beside it.</strong> Colored borders and pills make state legible at grid-scan distance.</span></li>
+          <li style="display:flex;gap:12px;align-items:flex-start;font:400 15px/1.6 'Inter',sans-serif;color:#45403a;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;margin-top:8px;"></span><span><strong style="font-weight:600;color:#1c1a17;">Final steps grouped and labeled.</strong> The two culminating milestones, office inspection and go-live, moved from floating mid-canvas into their own titled group at the end of the sequence.</span></li>
+        </ul>
+      </div>
+
+      <!-- MOBILE -->
+      <div data-reveal="" style="margin-top:clamp(34px,4.5vw,48px);display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,52px);align-items:center;">
+        <div style="flex:1 1 380px;min-width:280px;max-width:640px;">
+          <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">And a mobile layout</h3>
+          <p style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The one-screen mandate applied to desktop, but the status-checking use case does not wait for a desk. I designed a responsive mobile layout that preserves the progress bars and card grammar in a single column, so milestone progress is glanceable from a phone.</p>
+        </div>
+        <div style="flex:0 0 auto;">
+          <img src="assets/slots/ae-mobile.webp" alt="Mobile" loading="lazy" style="width:240px;display:block;border:1px solid #e3dccb;border-radius:26px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:390/844;object-fit:cover;">
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · OUTCOME & REFLECTION -->
+    <section id="outcome" data-screen-label="Outcome and reflection" style="padding:clamp(40px,6vw,72px) 0;border-top:1px solid rgba(28,26,23,0.1);">
+      <div data-reveal="" style="display:flex;align-items:center;gap:12px;">
+        <span style="font:700 12px/1 ui-monospace,Menlo,monospace;color:#3a5fd9;letter-spacing:0.05em;">04</span>
+        <span style="height:1px;width:26px;background:rgba(58,95,217,0.5);"></span>
+        <span style="font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:0.14em;text-transform:uppercase;color:#7a7263;">Outcome &amp; reflection</span>
+      </div>
+      <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Where it landed, honestly</h2>
+
+      <div style="max-width:760px;">
+        <p data-reveal="" style="margin:26px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Where it landed.</strong> The redesign was approved by stakeholders and validated as buildable by the development team. It stayed at the design stage: I left Aeries before implementation began. That is a normal industry sentence and I am comfortable writing it.</p>
+
+        <div data-reveal="" style="margin-top:20px;background:#e7ecfd;border:1px solid rgba(102,134,247,0.4);border-radius:16px;padding:20px 22px;">
+          <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#2c46b8;margin-bottom:9px;">What I can claim, honestly</div>
+          <p style="margin:0;font:400 14.5px/1.6 'Inter',sans-serif;color:#22302a;">No metrics exist for a design that was not built, so I will not invent any. What the before and after demonstrate on their own: a clear reading order where there was none, workstream progress visible in one glance instead of a hunt, and a responsive layout where the original had no mobile presence at all.</p>
+        </div>
+      </div>
+
+      <h3 data-reveal="" style="margin:clamp(34px,4vw,46px) 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">What this project taught me</h3>
+
+      <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:22px;max-width:920px;">
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#2c46b8;margin-bottom:7px;">Constraints are the brief, not the obstacle</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">The two hardest requirements, developer feasibility and one-screen visibility, are what pushed me toward a stronger, simpler pattern than I would have designed unconstrained.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#2c46b8;margin-bottom:7px;">Cheap artifacts buy expensive feedback</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">The grayscale wireframe was the highest-leverage deliverable in the project. It extracted the constraints that mattered before fidelity made changing course costly.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#2c46b8;margin-bottom:7px;">Good patterns live outside your industry</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">The best precedent for a one-screen sequential status board was a fantasy sports product, not an enterprise tool. I have gone looking sideways ever since.</p>
+        </div>
+        <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 640,'wdth' 92;font-size:15px;color:#2c46b8;margin-bottom:7px;">When in doubt, render both and ask</div>
+          <p style="margin:0;font:400 13.5px/1.55 'Inter',sans-serif;color:#45403a;">The snake-versus-wrap decision was settled by showing stakeholders and developers both options, not by arguing from theory. That habit, options rendered rather than described, has followed me into every project since.</p>
+        </div>
+      </div>
+
+      <div data-reveal="" style="margin-top:24px;background:#1c1a17;border-radius:22px;padding:clamp(24px,3.4vw,38px);color:#faf3e6;max-width:920px;">
+        <svg width="132" height="12" viewBox="0 0 132 12" fill="none" aria-hidden="true" style="display:block;margin-bottom:16px;"><path d="M2 6 Q10 0 18 6 T34 6 T50 6 T66 6 T82 6 T98 6 T114 6 T130 6" stroke="#6686F7" stroke-width="3" fill="none" stroke-linecap="round"></path></svg>
+        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#b3c4fb;margin-bottom:12px;">The lesson that stuck</div>
+        <p style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 22,'wght' 520,'wdth' 92;font-size:clamp(1.15rem,2.2vw,1.5rem);line-height:1.32;letter-spacing:-0.01em;max-width:44ch;color:#faf3e6;">Designing alone with real developers taught me the discipline that academic teamwork could not: <em style="font-style:italic;color:#6686F7;">every decision has a cost, and someone in the room knows exactly what it is.</em></p>
+      </div>
+    </section>
+
+    <!-- 5 · NEXT -->
+    <section id="next" data-screen-label="Next project" style="padding:clamp(40px,6vw,64px) 0 clamp(40px,6vw,64px);">
+      <div data-reveal="" aria-hidden="true" style="height:1px;background:rgba(28,26,23,0.1);margin:0 0 clamp(30px,4.5vw,46px);"></div>
+      <a data-reveal="" href="eldermotion-case-study.html" style="display:block;text-decoration:none;background:#1c1a17;border-radius:22px;padding:clamp(26px,4vw,40px);box-shadow:0 20px 44px -30px rgba(28,26,23,0.7);transition:transform .35s cubic-bezier(0.34,1.56,0.64,1);" class="hov-lift">
+        <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#b3c4fb;margin-bottom:12px;">Next project</div>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+          <div>
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">ElderMotion</div>
+            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">Fall-aware motion sensing that helps older adults stay independent at home.</div>
+          </div>
+          <span style="flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:#6686F7;color:#1c1a17;display:flex;align-items:center;justify-content:center;font-size:22px;">→</span>
+        </div>
+      </a>
+    </section>
+
+  </div>
+
+  <!-- FOOTER (matches homepage) -->
+  <footer style="position:relative;overflow:hidden;background:#1c1a17;color:#faf3e6;margin-top:clamp(24px,4vw,48px);">
+    <div aria-hidden="true" style="position:absolute;top:-1px;left:0;right:0;height:clamp(34px,5vw,56px);z-index:4;pointer-events:none;line-height:0;">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" style="display:block;width:100%;height:100%;"><path d="M0 0 L0 26 Q80 10 160 26 T320 26 T480 26 T640 26 T800 26 T960 26 T1120 26 T1280 26 T1440 26 L1440 0 Z" fill="#f2ecdd"></path></svg>
+    </div>
+    <div id="playground" aria-hidden="true" style="position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;">
+      <div data-shape data-color="#e8552d" style="position:absolute;left:4%;top:60%;width:92px;height:92px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#6686F7" style="position:absolute;left:14%;top:85%;width:56px;height:56px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#6686F7;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:85%;top:18%;width:78px;height:78px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#ffd23f" style="position:absolute;left:92%;top:55%;width:104px;height:104px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#ffd23f;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#d6356a" style="position:absolute;left:74%;top:84%;width:54px;height:54px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#d6356a;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#3d9be9" style="position:absolute;left:62%;top:21%;width:46px;height:46px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#3d9be9;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#e8552d" style="position:absolute;left:47%;top:88%;width:64px;height:64px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#e8552d;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+      <div data-shape data-color="#6686F7" style="position:absolute;left:96%;top:34%;width:58px;height:58px;pointer-events:auto;cursor:grab;touch-action:none;will-change:transform;"><svg viewBox="0 0 100 100" aria-hidden="true" style="width:100%;height:100%;display:block;overflow:visible;"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" style="fill:#6686F7;transition:d .5s cubic-bezier(0.34,1.3,0.5,1),fill .5s ease;"></path></svg></div>
+    </div>
+
+    <div style="position:relative;z-index:2;pointer-events:none;max-width:1180px;margin:0 auto;padding:clamp(70px,11vw,128px) clamp(20px,5vw,40px) 44px;">
+      <h2 id="footer-heading" data-warp="470,90,50,800,100,82" aria-label="Let’s build something." style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.6rem,7.6vw,5.8rem);line-height:0.95;letter-spacing:-0.022em;font-variation-settings:'opsz' 50,'wght' 470,'wdth' 90;color:#faf3e6;max-width:12ch;">
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">L</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">’</span><span data-l style="display:inline-block">s</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">b</span><span data-l style="display:inline-block">u</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">l</span><span data-l style="display:inline-block">d</span></span>
+        <span aria-hidden="true" style="display:inline-block;white-space:nowrap"><span data-l style="display:inline-block">s</span><span data-l style="display:inline-block">o</span><span data-l style="display:inline-block">m</span><span data-l style="display:inline-block">e</span><span data-l style="display:inline-block">t</span><span data-l style="display:inline-block">h</span><span data-l style="display:inline-block">i</span><span data-l style="display:inline-block">n</span><span data-l style="display:inline-block">g</span><span data-l style="display:inline-block;color:#e8552d">.</span></span>
+      </h2>
+      <a href="mailto:karanqmr@gmail.com" style="display:inline-block;margin-top:clamp(26px,4vw,38px);font:500 clamp(20px,3.4vw,32px)/1.1 'Inter',sans-serif;color:#faf3e6;text-decoration:none;letter-spacing:-0.01em;transition:color .25s ease;pointer-events:auto;" class="hov-accent">karanqmr@gmail.com →</a>
+
+      <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;margin-top:clamp(48px,8vw,88px);padding-top:24px;border-top:1px solid rgba(250,243,230,0.14);">
+        <div style="display:flex;gap:22px;flex-wrap:wrap;">
+          <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener" style="color:rgba(250,243,230,0.82);font:500 15px/1 'Inter',sans-serif;text-decoration:none;transition:color .25s ease;pointer-events:auto;" class="hov-accent">LinkedIn</a>
+        </div>
+        <span style="font:400 13.5px/1 'Inter',sans-serif;color:rgba(250,243,230,0.5);">© 2026 Karan. Designed and built with Claude</span>
+      </div>
+    </div>
+  </footer>
+
+  <button data-totop="" type="button" aria-label="Back to top" style="position:fixed;right:clamp(16px,3vw,30px);bottom:clamp(16px,3vw,30px);z-index:70;width:56px;height:56px;padding:0;border:none;border-radius:50%;background:#e8552d;color:#fdf2ec;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -12px rgba(232,85,45,0.75);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s ease,visibility .3s ease,transform .5s cubic-bezier(0.34,1.56,0.64,1),border-radius .55s cubic-bezier(0.34,1.56,0.64,1),background .25s ease;" class="hov-totop">
+    <svg width="23" height="23" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19 V6 M6 11 L12 5 L18 11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+
+  <div data-lightbox="" aria-hidden="true" style="position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:4vw;background:rgba(28,26,23,0);opacity:0;pointer-events:none;cursor:zoom-out;transition:opacity .18s ease,background .18s ease;">
+    <img data-lightbox-img="" alt="" style="max-width:94vw;max-height:92vh;border-radius:12px;box-shadow:0 40px 90px -20px rgba(0,0,0,0.65);transform:scale(0.92);transition:transform .2s cubic-bezier(0.34,1.4,0.64,1);">
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/case-study.js"></script>
+</body>
+</html>

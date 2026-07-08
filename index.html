@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karan — UX designer</title>
+<meta name="description" content="Karan is a UX designer who researches like a scientist and builds like a maker. Case studies in health, learning, and enterprise tools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <nav class="nav" data-load data-load-delay="0">
+    <a href="#" class="wordmark" aria-label="karan, home">karan<span class="accent">.</span></a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 id="hero-heading" class="warp-heading" data-warp="480,90,50,820,100,82" data-load data-load-delay="0" aria-label="No magic. Just method.">
+          <span class="warp-line" aria-hidden="true"><span class="warp-word"><span data-l>N</span><span data-l>o</span></span> <span class="warp-word"><span data-l>m</span><span data-l>a</span><span data-l>g</span><span data-l>i</span><span data-l>c</span><span data-l>.</span></span></span>
+          <span class="warp-line" aria-hidden="true"><span class="warp-word"><span data-l>J</span><span data-l>u</span><span data-l>s</span><span data-l>t</span></span> <span class="warp-word accent"><span data-l>m</span><span data-l>e</span><span data-l>t</span><span data-l>h</span><span data-l>o</span><span data-l>d</span><span data-l>.</span></span></span>
+        </h1>
+        <p class="hero-sub" data-load data-load-delay="140">I'm Karan, a UX designer who researches like a scientist and builds like a maker. I care about real people and the details they never notice.</p>
+        <div class="hero-cta" data-load data-load-delay="280">
+          <a href="#work" class="btn btn-primary">View my work</a>
+        </div>
+      </div>
+
+      <div class="toy" id="toy" tabindex="0" role="button" data-load data-load-delay="200" aria-label="Type toy, cycles through the words study, sketch, build, test, ship. Hover to warp the letters; click or press Enter to advance.">
+        <svg aria-hidden="true" width="0" height="0" class="toy-clip-defs"><defs><clipPath id="home-toy-clip" clipPathUnits="objectBoundingBox"><path id="toy-clip-path" d="M0.5 0.045 C0.72 0.045 0.93 0.17 0.95 0.4 C0.97 0.62 0.91 0.83 0.72 0.93 C0.52 0.98 0.26 0.96 0.12 0.83 C0.0 0.7 0.02 0.44 0.1 0.26 C0.18 0.1 0.3 0.045 0.5 0.045 Z"></path></clipPath></defs></svg>
+        <div class="toy-face">
+          <span class="toy-label" aria-hidden="true">type toy</span>
+          <div class="toy-word" id="toy-word" aria-hidden="true">study</div>
+          <span class="toy-hint" aria-hidden="true">hover to warp · click to cycle</span>
+          <span class="visually-hidden">An interactive type toy that cycles through the words study, sketch, build, test, and ship.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <div class="eyebrow" data-reveal>
+      <span class="eyebrow-dot"></span>
+      <span>Featured work</span>
+    </div>
+    <h2 class="work-heading" data-reveal>A few things I've made.</h2>
+    <p class="work-sub" data-reveal>Across health, learning, and enterprise tools — a mix of research, systems, and hands-on craft.</p>
+
+    <div class="card-grid">
+
+      <a class="card" data-reveal data-reveal-group="cards" href="eldermotion-case-study.html" aria-label="ElderMotion case study">
+        <div class="card-media card-media-square">
+          <img src="assets/ElderMotionCover.png" alt="ElderMotion app — Community and Activity Overview screens" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h3>ElderMotion</h3>
+          <p>Community-driven, accessibility-first fitness for older adults.</p>
+          <div class="card-tags">
+            <span>Lead</span>
+            <span>Health</span>
+            <span>Research</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="card" data-reveal data-reveal-group="cards" href="ai-study-buddy-case-study.html" aria-label="AI Study Buddy case study">
+        <div class="card-media card-media-square">
+          <img src="assets/HeroMVP.png" alt="AI Study Buddy app — home dashboard screen" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h3>AI Study Buddy</h3>
+          <p>Prioritizes the busywork so working grad students can focus on the thinking.</p>
+          <div class="card-tags">
+            <span>AI UX</span>
+            <span>Explainability</span>
+            <span>Prototype</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="card" data-reveal data-reveal-group="cards" href="aeries-case-study.html" aria-label="Aeries HR Dashboard case study">
+        <div class="card-media card-media-4-3">
+          <img src="assets/AeriesMVP.png" alt="Aeries infrastructure milestone dashboard on a laptop" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h3>Aeries HR Dashboard</h3>
+          <p>Makes headcount, hiring, and attrition legible at a glance for busy HR teams.</p>
+          <div class="card-tags">
+            <span>Enterprise</span>
+            <span>Data viz</span>
+            <span>Solo</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0 0 L0 26 Q80 10 160 26 T320 26 T480 26 T640 26 T800 26 T960 26 T1120 26 T1280 26 T1440 26 L1440 0 Z" fill="#faf3e6"></path></svg>
+    </div>
+
+    <div class="playground" id="playground" aria-hidden="true">
+      <div class="shape" data-color="#e8552d" style="left:4%;top:60%;width:92px;height:92px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#e8552d"></path></svg></div>
+      <div class="shape" data-color="#13c296" style="left:14%;top:85%;width:56px;height:56px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#13c296"></path></svg></div>
+      <div class="shape" data-color="#3d9be9" style="left:85%;top:18%;width:78px;height:78px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#3d9be9"></path></svg></div>
+      <div class="shape" data-color="#ffd23f" style="left:92%;top:55%;width:104px;height:104px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#ffd23f"></path></svg></div>
+      <div class="shape" data-color="#d6356a" style="left:74%;top:84%;width:54px;height:54px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#d6356a"></path></svg></div>
+      <div class="shape" data-color="#3d9be9" style="left:62%;top:21%;width:46px;height:46px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#3d9be9"></path></svg></div>
+      <div class="shape" data-color="#e8552d" style="left:47%;top:88%;width:64px;height:64px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#e8552d"></path></svg></div>
+      <div class="shape" data-color="#13c296" style="left:96%;top:34%;width:58px;height:58px;"><svg viewBox="0 0 100 100"><path d="M8 50 A42 42 0 1 0 92 50 A42 42 0 1 0 8 50 Z" fill="#13c296"></path></svg></div>
+    </div>
+
+    <div class="footer-inner">
+      <h2 id="footer-heading" class="warp-heading warp-heading-footer" data-warp="470,90,50,800,100,82" aria-label="Let's build something.">
+        <span class="warp-word" aria-hidden="true"><span data-l>L</span><span data-l>e</span><span data-l>t</span><span data-l>’</span><span data-l>s</span></span>
+        <span class="warp-word" aria-hidden="true"><span data-l>b</span><span data-l>u</span><span data-l>i</span><span data-l>l</span><span data-l>d</span></span>
+        <span class="warp-word" aria-hidden="true"><span data-l>s</span><span data-l>o</span><span data-l>m</span><span data-l>e</span><span data-l>t</span><span data-l>h</span><span data-l>i</span><span data-l>n</span><span data-l>g</span><span data-l class="accent">.</span></span>
+      </h2>
+      <a href="mailto:karanqmr@gmail.com" class="footer-email">karanqmr@gmail.com →</a>
+
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <span class="footer-copyright">© 2026 Karan. Designed and built with Claude</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
