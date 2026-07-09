@@ -94,21 +94,13 @@
       var d = (delayOf.get(el) || 0) * 1000;
       setTimeout(function () { el.style.transitionDelay = ''; }, d + 720);
     }
-    function groupsOf(el) {
-      var g = el.getAttribute('data-reveal-group');
-      return g ? reveals.filter(function (r) { return r.getAttribute('data-reveal-group') === g; }) : [el];
-    }
-    function reveal(el, io) {
-      groupsOf(el).forEach(function (m) { revealOne(m); if (io) io.unobserve(m); });
-    }
 
-    if (!('IntersectionObserver' in window)) { reveals.forEach(function (el) { revealOne(el); }); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) reveal(entry.target, io);
-      });
-    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
-    reveals.forEach(function (el) { io.observe(el); });
+    // Reveal once on load instead of on scroll. Content in the initial viewport
+    // fades in (with its stagger); anything below the fold finishes revealing
+    // off-screen, so scrolling no longer keeps re-triggering the fade-in.
+    requestAnimationFrame(function () {
+      reveals.forEach(function (el) { revealOne(el); });
+    });
   }
 
   // ---------- footer: Material-3-style expressive shapes ----------
