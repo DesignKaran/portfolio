@@ -40,6 +40,17 @@
     var active = sidenav.getAttribute('data-active-color') || '#0f5b43';
     var idle = sidenav.getAttribute('data-idle-color') || '#8a938c';
     var dotIdle = sidenav.getAttribute('data-dot-idle') || '#c3ccc5';
+    // Dark-mode variants for the JS-painted spy colors: the deep accent actives lack
+    // contrast on the dark background, and the light idle dots would glow. Anything
+    // not in the map is legible on both themes and passes through unchanged.
+    var DARK_SPY = {
+      '#3a5fd9': '#a9b8f8', '#4a90d9': '#85bbeb', '#0f5b43': '#5ecfa4',
+      '#d6cdb9': '#4a4436', '#c3ccc5': '#414b46'
+    };
+    function themed(c) {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      return dark && DARK_SPY[c] ? DARK_SPY[c] : c;
+    }
     var links = Array.prototype.slice.call(sidenav.querySelectorAll('[data-sidelink]'));
     var ids = links.map(function (a) { return a.getAttribute('data-sidelink'); });
     var footerEl = document.querySelector('footer');
@@ -84,11 +95,12 @@
         var el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top <= mid) cur = id;
       });
+      var A = themed(active), I = themed(idle), D = themed(dotIdle);
       links.forEach(function (a) {
         var on = a.getAttribute('data-sidelink') === cur;
-        a.style.color = on ? active : idle;
+        a.style.color = on ? A : I;
         var dot = a.querySelector('[data-sidedot]');
-        if (dot) { dot.style.background = on ? active : dotIdle; dot.style.width = on ? '28px' : '18px'; }
+        if (dot) { dot.style.background = on ? A : D; dot.style.width = on ? '28px' : '18px'; }
       });
       // Mobile bar: reveal past the hero (so it never covers the wordmark at the top),
       // highlight the active chip, and keep it centered in the horizontal scroller.
@@ -96,7 +108,7 @@
       tabsEl.classList.toggle('is-visible', sy > 280);
       tabEls.forEach(function (tab) {
         var on = tab.getAttribute('data-tab') === cur;
-        tab.style.color = on ? active : idle;
+        tab.style.color = on ? A : I;
         tab.classList.toggle('is-active', on);
       });
       if (cur !== lastCur && tabsEl.classList.contains('is-visible')) {
@@ -250,6 +262,7 @@
     }
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
+    window.addEventListener('themechange', function () { if (updateSidenav) updateSidenav(); });
   }
 
   if (document.readyState === 'loading') {
