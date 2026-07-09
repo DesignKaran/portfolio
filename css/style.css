@@ -460,3 +460,12 @@ html[data-theme="light"] [style*="color:#0f7a58"], html[data-theme="light"] [sty
 html[data-theme="light"] [style*="color:#6b756e"], html[data-theme="light"] [style^="color: rgb(107, 117, 110)"], html[data-theme="light"] [style*="; color: rgb(107, 117, 110)"]{ color:#5d675f !important; }
 /* about eyebrow: brand orange at 13px on tinted paper was 3.09:1 */
 html[data-theme="light"] .about-eyebrow{ color:#b8380e; }
+
+/* ---------- theme ripple (View Transitions) ----------
+   During a theme switch the new-state snapshot is revealed by a clip-path circle
+   animated from the toggle (see initThemeToggle); the default snapshot cross-fade
+   is disabled so the ripple's leading edge stays crisp. */
+html.theme-ripple::view-transition-old(root),
+html.theme-ripple::view-transition-new(root){ animation:none; mix-blend-mode:normal; }
+html.theme-ripple::view-transition-old(root){ z-index:1; }
+html.theme-ripple::view-transition-new(root){ z-index:2; }

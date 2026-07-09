@@ -465,16 +465,39 @@
 
     btn.addEventListener('click', function () {
       var root = document.documentElement;
-      root.classList.add('theme-anim');
+      var next = isDark() ? 'light' : 'dark';
+      function apply() {
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (_) {}
+        sync();
+        window.dispatchEvent(new CustomEvent('themechange'));
+      }
       btn.classList.add('is-switching');
-      root.setAttribute('data-theme', isDark() ? 'light' : 'dark');
-      try { localStorage.setItem('theme', root.getAttribute('data-theme')); } catch (_) {}
-      sync();
-      window.dispatchEvent(new CustomEvent('themechange'));
-      setTimeout(function () {
-        root.classList.remove('theme-anim');
-        btn.classList.remove('is-switching');
-      }, 520);
+      setTimeout(function () { btn.classList.remove('is-switching'); }, 520);
+
+      // M3-expressive ripple: the new theme reveals in a circle expanding from the
+      // toggle thumb (View Transitions API). The new-state snapshot is live, so the
+      // thumb's own slide/squash plays inside the growing circle. Falls back to the
+      // brief property cross-fade where view transitions are unsupported.
+      if (!reduced && typeof document.startViewTransition === 'function') {
+        var r = btn.getBoundingClientRect();
+        var x = r.left + r.width / 2, y = r.top + r.height / 2;
+        var endR = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+        root.classList.add('theme-ripple');
+        var vt = document.startViewTransition(apply);
+        vt.ready.then(function () {
+          root.animate(
+            { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + endR + 'px at ' + x + 'px ' + y + 'px)'] },
+            { duration: 620, easing: 'cubic-bezier(0.05, 0.7, 0.1, 1)', pseudoElement: '::view-transition-new(root)' }
+          );
+        }).catch(function () {});
+        var done = function () { root.classList.remove('theme-ripple'); };
+        vt.finished.then(done, done);
+      } else {
+        root.classList.add('theme-anim');
+        apply();
+        setTimeout(function () { root.classList.remove('theme-anim'); }, 520);
+      }
     });
 
     sync();
