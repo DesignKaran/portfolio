@@ -168,7 +168,7 @@ body{ margin:0; overscroll-behavior-y:none; }
 }
 .toy-hint{
   position:absolute; left:0; right:0; bottom:13%; text-align:center;
-  font:400 11px/1 'Inter',sans-serif; letter-spacing:0.05em; color:#48443d;
+  font:400 11px/1 'Inter',sans-serif; letter-spacing:0.05em; color:#9a9184;
 }
 
 /* ---------- work ---------- */
@@ -345,77 +345,95 @@ html[data-theme="dark"] .tt-moon{ opacity:1; transform:rotate(0deg) scale(1); }
 
 /* ---------- dark-mode polish for class-based components ---------- */
 html[data-theme="dark"] .toy-face{ background:#26221b; }
-html[data-theme="dark"] .toy-hint{ color:#8f877a; }
+html[data-theme="dark"] .toy-hint{ color:#9a9184; }
 html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -22px rgba(0,0,0,0.6); }
 html[data-theme="dark"] .footer{ border-top:1px solid rgba(240,233,220,0.06); }
 
 /* ---------- dark-mode override map for inline-styled content ----------
-   The case studies are inline-styled with a finite color vocabulary (no
-   background-color: usages exist, so these substring selectors are exact).
-   Accent colors are intentionally NOT mapped - they read well on dark. */
-html[data-theme="dark"] [style*="background:#ffffff"]{ background:var(--surface-2) !important; }
-html[data-theme="dark"] [style*="background:#faf3e6"]{ background:var(--panel) !important; }
-html[data-theme="dark"] [style*="background:#f2ecdd"]{ background:var(--bg-soft) !important; }
-html[data-theme="dark"] [style*="background:#f0ece2"]{ background:var(--bg-soft) !important; }
-html[data-theme="dark"] [style*="background:#fbfaf6"]{ background:#211d18 !important; }
-html[data-theme="dark"] [style*="background:#fbf8f0"]{ background:#201c17 !important; }
-html[data-theme="dark"] [style*="background:#f4f1e8"]{ background:#1e1a15 !important; }
-html[data-theme="dark"] [style*="background:#f4ede0"]{ background:#1e1a15 !important; }
-html[data-theme="dark"] [style*="background:#e3dccb"]{ background:#332e25 !important; }
-html[data-theme="dark"] [style*="background:#d6cdb9"]{ background:#3f3a30 !important; }
-html[data-theme="dark"] [style*="background:#c3ccc5"]{ background:#3a423d !important; }
-html[data-theme="dark"] [style*="background:#f6ecd5"]{ background:#251f12 !important; }
-html[data-theme="dark"] [style*="background:#fdf3d4"]{ background:#2a230f !important; }
-html[data-theme="dark"] [style*="background:#fff6de"]{ background:#2a2410 !important; }
-html[data-theme="dark"] [style*="background:#fbecc1"]{ background:#2a2310 !important; }
-html[data-theme="dark"] [style*="background:#d0e0e7"]{ background:#1a252b !important; }
-html[data-theme="dark"] [style*="background:#c7e8d4"]{ background:#17261d !important; }
-html[data-theme="dark"] [style*="background:#dcece3"]{ background:#1b2620 !important; }
-html[data-theme="dark"] [style*="background:#e7f1ea"]{ background:#18221c !important; }
-html[data-theme="dark"] [style*="background:#e3f1ec"]{ background:#18221c !important; }
-html[data-theme="dark"] [style*="background:#eef4f0"]{ background:#161f1a !important; }
-html[data-theme="dark"] [style*="background:#e4edf5"]{ background:#1a2430 !important; }
-html[data-theme="dark"] [style*="background:#dce9f8"]{ background:#1a2836 !important; }
-html[data-theme="dark"] [style*="background:#e7ecfd"]{ background:#1e2540 !important; }
-html[data-theme="dark"] [style*="background:#1c1a17"]{ background:#26221c !important; }
-html[data-theme="dark"] [style*="background:#18241f"]{ background:#212b25 !important; }
-html[data-theme="dark"] [style*="color:#1c1a17"]{ color:var(--ink) !important; }
-html[data-theme="dark"] [style*="color:#45403a"]{ color:var(--ink-2) !important; }
-html[data-theme="dark"] [style*="color:#6f6a61"]{ color:var(--ink-3) !important; }
-html[data-theme="dark"] [style*="color:#7a7263"]{ color:var(--ink-3) !important; }
-html[data-theme="dark"] [style*="color:#524c43"]{ color:#bdb3a2 !important; }
-html[data-theme="dark"] [style*="color:#8a8274"]{ color:var(--ink-3) !important; }
-html[data-theme="dark"] [style*="color:#3a332b"]{ color:var(--ink-2) !important; }
-html[data-theme="dark"] [style*="color:#2b2721"]{ color:#ddd4c4 !important; }
-html[data-theme="dark"] [style*="color:#586b62"]{ color:#a7b8ae !important; }
-html[data-theme="dark"] [style*="color:#3f4b45"]{ color:#b6c3bb !important; }
-html[data-theme="dark"] [style*="color:#18241f"]{ color:#e4ebe6 !important; }
-html[data-theme="dark"] [style*="color:#22302a"]{ color:#d5dfd9 !important; }
-html[data-theme="dark"] [style*="color:#16241d"]{ color:#e4ebe6 !important; }
-html[data-theme="dark"] [style*="color:#243029"]{ color:#cdd8d1 !important; }
-html[data-theme="dark"] [style*="color:#324039"]{ color:#c0ccc5 !important; }
-html[data-theme="dark"] [style*="color:#4b564f"]{ color:#aab5ad !important; }
-html[data-theme="dark"] [style*="color:#6b756e"]{ color:#98a39b !important; }
-html[data-theme="dark"] [style*="color:#0f5b43"]{ color:#5ecfa4 !important; }
-html[data-theme="dark"] [style*="color:#0b4835"]{ color:#79d6b1 !important; }
-html[data-theme="dark"] [style*="color:#0f7a58"]{ color:#4cc596 !important; }
-html[data-theme="dark"] [style*="color:#0f8a6b"]{ color:#3ec98f !important; }
-html[data-theme="dark"] [style*="color:#1a7d5c"]{ color:#49bd90 !important; }
-html[data-theme="dark"] [style*="color:#1d4d7d"]{ color:#83b9ea !important; }
-html[data-theme="dark"] [style*="color:#2c46b8"]{ color:#a4b5f6 !important; }
-html[data-theme="dark"] [style*="color:#3a5fd9"]{ color:#a9b8f8 !important; }
-html[data-theme="dark"] [style*="color:#3167a0"]{ color:#7fb2e0 !important; }
-html[data-theme="dark"] [style*="color:#2f6cad"]{ color:#7fb2e6 !important; }
-html[data-theme="dark"] [style*="color:#8a5e10"]{ color:#ddb055 !important; }
-html[data-theme="dark"] [style*="color:#5c400d"]{ color:#e8c274 !important; }
-html[data-theme="dark"] [style*="color:#6d5300"]{ color:#d9b04e !important; }
-html[data-theme="dark"] [style*="color:#8a6a00"]{ color:#d3ab47 !important; }
-html[data-theme="dark"] [style*="solid rgba(28,26,23,0.1)"]{ border-color:rgba(240,233,220,0.14) !important; }
-html[data-theme="dark"] [style*="solid rgba(24,36,31,0.1)"]{ border-color:rgba(228,235,230,0.13) !important; }
-html[data-theme="dark"] [style*="solid rgba(24,36,31,0.12)"]{ border-color:rgba(228,235,230,0.15) !important; }
-html[data-theme="dark"] [style*="solid rgba(24,36,31,0.14)"]{ border-color:rgba(228,235,230,0.17) !important; }
-html[data-theme="dark"] [style*="solid #e3dccb"]{ border-color:rgba(240,233,220,0.16) !important; }
-html[data-theme="dark"] [style*="solid #efe9da"]{ border-color:rgba(240,233,220,0.13) !important; }
+   The case studies are inline-styled with a finite color vocabulary. Each literal
+   gets several selector forms because the reveal/stagger JS re-serializes style
+   attributes (hex -> rgb(r, g, b), and Safari may expand background to
+   background-color), which would otherwise break substring matching. No source
+   style uses background-color:, so the background forms are collision-free;
+   text-color forms are anchored (^= or '; ' prefix) to avoid matching
+   background-color serializations. Accents are intentionally not mapped. */
+html[data-theme="dark"] [style*="background:#ffffff"], html[data-theme="dark"] [style*="background: rgb(255, 255, 255)"], html[data-theme="dark"] [style*="background-color: rgb(255, 255, 255)"]{ background:var(--surface-2) !important; }
+html[data-theme="dark"] [style*="background:#faf3e6"], html[data-theme="dark"] [style*="background: rgb(250, 243, 230)"], html[data-theme="dark"] [style*="background-color: rgb(250, 243, 230)"]{ background:var(--panel) !important; }
+html[data-theme="dark"] [style*="background:#f2ecdd"], html[data-theme="dark"] [style*="background: rgb(242, 236, 221)"], html[data-theme="dark"] [style*="background-color: rgb(242, 236, 221)"]{ background:var(--bg-soft) !important; }
+html[data-theme="dark"] [style*="background:#f0ece2"], html[data-theme="dark"] [style*="background: rgb(240, 236, 226)"], html[data-theme="dark"] [style*="background-color: rgb(240, 236, 226)"]{ background:var(--bg-soft) !important; }
+html[data-theme="dark"] [style*="background:#fbfaf6"], html[data-theme="dark"] [style*="background: rgb(251, 250, 246)"], html[data-theme="dark"] [style*="background-color: rgb(251, 250, 246)"]{ background:#211d18 !important; }
+html[data-theme="dark"] [style*="background:#fbf8f0"], html[data-theme="dark"] [style*="background: rgb(251, 248, 240)"], html[data-theme="dark"] [style*="background-color: rgb(251, 248, 240)"]{ background:#201c17 !important; }
+html[data-theme="dark"] [style*="background:#f4f1e8"], html[data-theme="dark"] [style*="background: rgb(244, 241, 232)"], html[data-theme="dark"] [style*="background-color: rgb(244, 241, 232)"]{ background:#1e1a15 !important; }
+html[data-theme="dark"] [style*="background:#f4ede0"], html[data-theme="dark"] [style*="background: rgb(244, 237, 224)"], html[data-theme="dark"] [style*="background-color: rgb(244, 237, 224)"]{ background:#1e1a15 !important; }
+html[data-theme="dark"] [style*="background:#e3dccb"], html[data-theme="dark"] [style*="background: rgb(227, 220, 203)"], html[data-theme="dark"] [style*="background-color: rgb(227, 220, 203)"]{ background:#332e25 !important; }
+html[data-theme="dark"] [style*="background:#d6cdb9"], html[data-theme="dark"] [style*="background: rgb(214, 205, 185)"], html[data-theme="dark"] [style*="background-color: rgb(214, 205, 185)"]{ background:#3f3a30 !important; }
+html[data-theme="dark"] [style*="background:#c3ccc5"], html[data-theme="dark"] [style*="background: rgb(195, 204, 197)"], html[data-theme="dark"] [style*="background-color: rgb(195, 204, 197)"]{ background:#3a423d !important; }
+html[data-theme="dark"] [style*="background:#f6ecd5"], html[data-theme="dark"] [style*="background: rgb(246, 236, 213)"], html[data-theme="dark"] [style*="background-color: rgb(246, 236, 213)"]{ background:#251f12 !important; }
+html[data-theme="dark"] [style*="background:#fdf3d4"], html[data-theme="dark"] [style*="background: rgb(253, 243, 212)"], html[data-theme="dark"] [style*="background-color: rgb(253, 243, 212)"]{ background:#2a230f !important; }
+html[data-theme="dark"] [style*="background:#fff6de"], html[data-theme="dark"] [style*="background: rgb(255, 246, 222)"], html[data-theme="dark"] [style*="background-color: rgb(255, 246, 222)"]{ background:#2a2410 !important; }
+html[data-theme="dark"] [style*="background:#fbecc1"], html[data-theme="dark"] [style*="background: rgb(251, 236, 193)"], html[data-theme="dark"] [style*="background-color: rgb(251, 236, 193)"]{ background:#2a2310 !important; }
+html[data-theme="dark"] [style*="background:#d0e0e7"], html[data-theme="dark"] [style*="background: rgb(208, 224, 231)"], html[data-theme="dark"] [style*="background-color: rgb(208, 224, 231)"]{ background:#1a252b !important; }
+html[data-theme="dark"] [style*="background:#c7e8d4"], html[data-theme="dark"] [style*="background: rgb(199, 232, 212)"], html[data-theme="dark"] [style*="background-color: rgb(199, 232, 212)"]{ background:#17261d !important; }
+html[data-theme="dark"] [style*="background:#dcece3"], html[data-theme="dark"] [style*="background: rgb(220, 236, 227)"], html[data-theme="dark"] [style*="background-color: rgb(220, 236, 227)"]{ background:#1b2620 !important; }
+html[data-theme="dark"] [style*="background:#e7f1ea"], html[data-theme="dark"] [style*="background: rgb(231, 241, 234)"], html[data-theme="dark"] [style*="background-color: rgb(231, 241, 234)"]{ background:#18221c !important; }
+html[data-theme="dark"] [style*="background:#e3f1ec"], html[data-theme="dark"] [style*="background: rgb(227, 241, 236)"], html[data-theme="dark"] [style*="background-color: rgb(227, 241, 236)"]{ background:#18221c !important; }
+html[data-theme="dark"] [style*="background:#eef4f0"], html[data-theme="dark"] [style*="background: rgb(238, 244, 240)"], html[data-theme="dark"] [style*="background-color: rgb(238, 244, 240)"]{ background:#161f1a !important; }
+html[data-theme="dark"] [style*="background:#e4edf5"], html[data-theme="dark"] [style*="background: rgb(228, 237, 245)"], html[data-theme="dark"] [style*="background-color: rgb(228, 237, 245)"]{ background:#1a2430 !important; }
+html[data-theme="dark"] [style*="background:#dce9f8"], html[data-theme="dark"] [style*="background: rgb(220, 233, 248)"], html[data-theme="dark"] [style*="background-color: rgb(220, 233, 248)"]{ background:#1a2836 !important; }
+html[data-theme="dark"] [style*="background:#e7ecfd"], html[data-theme="dark"] [style*="background: rgb(231, 236, 253)"], html[data-theme="dark"] [style*="background-color: rgb(231, 236, 253)"]{ background:#1e2540 !important; }
+html[data-theme="dark"] [style*="background:#1c1a17"], html[data-theme="dark"] [style*="background: rgb(28, 26, 23)"], html[data-theme="dark"] [style*="background-color: rgb(28, 26, 23)"]{ background:#26221c !important; }
+html[data-theme="dark"] [style*="background:#18241f"], html[data-theme="dark"] [style*="background: rgb(24, 36, 31)"], html[data-theme="dark"] [style*="background-color: rgb(24, 36, 31)"]{ background:#212b25 !important; }
+html[data-theme="dark"] [style*="color:#1c1a17"], html[data-theme="dark"] [style^="color: rgb(28, 26, 23)"], html[data-theme="dark"] [style*="; color: rgb(28, 26, 23)"]{ color:var(--ink) !important; }
+html[data-theme="dark"] [style*="color:#45403a"], html[data-theme="dark"] [style^="color: rgb(69, 64, 58)"], html[data-theme="dark"] [style*="; color: rgb(69, 64, 58)"]{ color:var(--ink-2) !important; }
+html[data-theme="dark"] [style*="color:#6f6a61"], html[data-theme="dark"] [style^="color: rgb(111, 106, 97)"], html[data-theme="dark"] [style*="; color: rgb(111, 106, 97)"]{ color:var(--ink-3) !important; }
+html[data-theme="dark"] [style*="color:#7a7263"], html[data-theme="dark"] [style^="color: rgb(122, 114, 99)"], html[data-theme="dark"] [style*="; color: rgb(122, 114, 99)"]{ color:var(--ink-3) !important; }
+html[data-theme="dark"] [style*="color:#524c43"], html[data-theme="dark"] [style^="color: rgb(82, 76, 67)"], html[data-theme="dark"] [style*="; color: rgb(82, 76, 67)"]{ color:#bdb3a2 !important; }
+html[data-theme="dark"] [style*="color:#8a8274"], html[data-theme="dark"] [style^="color: rgb(138, 130, 116)"], html[data-theme="dark"] [style*="; color: rgb(138, 130, 116)"]{ color:var(--ink-3) !important; }
+html[data-theme="dark"] [style*="color:#3a332b"], html[data-theme="dark"] [style^="color: rgb(58, 51, 43)"], html[data-theme="dark"] [style*="; color: rgb(58, 51, 43)"]{ color:var(--ink-2) !important; }
+html[data-theme="dark"] [style*="color:#2b2721"], html[data-theme="dark"] [style^="color: rgb(43, 39, 33)"], html[data-theme="dark"] [style*="; color: rgb(43, 39, 33)"]{ color:#ddd4c4 !important; }
+html[data-theme="dark"] [style*="color:#a89f8d"], html[data-theme="dark"] [style^="color: rgb(168, 159, 141)"], html[data-theme="dark"] [style*="; color: rgb(168, 159, 141)"]{ color:#b3a999 !important; }
+html[data-theme="dark"] [style*="color:#586b62"], html[data-theme="dark"] [style^="color: rgb(88, 107, 98)"], html[data-theme="dark"] [style*="; color: rgb(88, 107, 98)"]{ color:#a7b8ae !important; }
+html[data-theme="dark"] [style*="color:#3f4b45"], html[data-theme="dark"] [style^="color: rgb(63, 75, 69)"], html[data-theme="dark"] [style*="; color: rgb(63, 75, 69)"]{ color:#b6c3bb !important; }
+html[data-theme="dark"] [style*="color:#18241f"], html[data-theme="dark"] [style^="color: rgb(24, 36, 31)"], html[data-theme="dark"] [style*="; color: rgb(24, 36, 31)"]{ color:#e4ebe6 !important; }
+html[data-theme="dark"] [style*="color:#22302a"], html[data-theme="dark"] [style^="color: rgb(34, 48, 42)"], html[data-theme="dark"] [style*="; color: rgb(34, 48, 42)"]{ color:#d5dfd9 !important; }
+html[data-theme="dark"] [style*="color:#16241d"], html[data-theme="dark"] [style^="color: rgb(22, 36, 29)"], html[data-theme="dark"] [style*="; color: rgb(22, 36, 29)"]{ color:#e4ebe6 !important; }
+html[data-theme="dark"] [style*="color:#243029"], html[data-theme="dark"] [style^="color: rgb(36, 48, 41)"], html[data-theme="dark"] [style*="; color: rgb(36, 48, 41)"]{ color:#cdd8d1 !important; }
+html[data-theme="dark"] [style*="color:#324039"], html[data-theme="dark"] [style^="color: rgb(50, 64, 57)"], html[data-theme="dark"] [style*="; color: rgb(50, 64, 57)"]{ color:#c0ccc5 !important; }
+html[data-theme="dark"] [style*="color:#4b564f"], html[data-theme="dark"] [style^="color: rgb(75, 86, 79)"], html[data-theme="dark"] [style*="; color: rgb(75, 86, 79)"]{ color:#aab5ad !important; }
+html[data-theme="dark"] [style*="color:#6b756e"], html[data-theme="dark"] [style^="color: rgb(107, 117, 110)"], html[data-theme="dark"] [style*="; color: rgb(107, 117, 110)"]{ color:#98a39b !important; }
+html[data-theme="dark"] [style*="color:#0f5b43"], html[data-theme="dark"] [style^="color: rgb(15, 91, 67)"], html[data-theme="dark"] [style*="; color: rgb(15, 91, 67)"]{ color:#5ecfa4 !important; }
+html[data-theme="dark"] [style*="color:#0b4835"], html[data-theme="dark"] [style^="color: rgb(11, 72, 53)"], html[data-theme="dark"] [style*="; color: rgb(11, 72, 53)"]{ color:#79d6b1 !important; }
+html[data-theme="dark"] [style*="color:#0f7a58"], html[data-theme="dark"] [style^="color: rgb(15, 122, 88)"], html[data-theme="dark"] [style*="; color: rgb(15, 122, 88)"]{ color:#4cc596 !important; }
+html[data-theme="dark"] [style*="color:#0f8a6b"], html[data-theme="dark"] [style^="color: rgb(15, 138, 107)"], html[data-theme="dark"] [style*="; color: rgb(15, 138, 107)"]{ color:#3ec98f !important; }
+html[data-theme="dark"] [style*="color:#1a7d5c"], html[data-theme="dark"] [style^="color: rgb(26, 125, 92)"], html[data-theme="dark"] [style*="; color: rgb(26, 125, 92)"]{ color:#49bd90 !important; }
+html[data-theme="dark"] [style*="color:#1d4d7d"], html[data-theme="dark"] [style^="color: rgb(29, 77, 125)"], html[data-theme="dark"] [style*="; color: rgb(29, 77, 125)"]{ color:#83b9ea !important; }
+html[data-theme="dark"] [style*="color:#2c46b8"], html[data-theme="dark"] [style^="color: rgb(44, 70, 184)"], html[data-theme="dark"] [style*="; color: rgb(44, 70, 184)"]{ color:#a4b5f6 !important; }
+html[data-theme="dark"] [style*="color:#3a5fd9"], html[data-theme="dark"] [style^="color: rgb(58, 95, 217)"], html[data-theme="dark"] [style*="; color: rgb(58, 95, 217)"]{ color:#a9b8f8 !important; }
+html[data-theme="dark"] [style*="color:#3167a0"], html[data-theme="dark"] [style^="color: rgb(49, 103, 160)"], html[data-theme="dark"] [style*="; color: rgb(49, 103, 160)"]{ color:#7fb2e0 !important; }
+html[data-theme="dark"] [style*="color:#2f6cad"], html[data-theme="dark"] [style^="color: rgb(47, 108, 173)"], html[data-theme="dark"] [style*="; color: rgb(47, 108, 173)"]{ color:#7fb2e6 !important; }
+html[data-theme="dark"] [style*="color:#8a5e10"], html[data-theme="dark"] [style^="color: rgb(138, 94, 16)"], html[data-theme="dark"] [style*="; color: rgb(138, 94, 16)"]{ color:#ddb055 !important; }
+html[data-theme="dark"] [style*="color:#5c400d"], html[data-theme="dark"] [style^="color: rgb(92, 64, 13)"], html[data-theme="dark"] [style*="; color: rgb(92, 64, 13)"]{ color:#e8c274 !important; }
+html[data-theme="dark"] [style*="color:#6d5300"], html[data-theme="dark"] [style^="color: rgb(109, 83, 0)"], html[data-theme="dark"] [style*="; color: rgb(109, 83, 0)"]{ color:#d9b04e !important; }
+html[data-theme="dark"] [style*="color:#8a6a00"], html[data-theme="dark"] [style^="color: rgb(138, 106, 0)"], html[data-theme="dark"] [style*="; color: rgb(138, 106, 0)"]{ color:#d3ab47 !important; }
+html[data-theme="dark"] [style*="color:#d6356a"], html[data-theme="dark"] [style^="color: rgb(214, 53, 106)"], html[data-theme="dark"] [style*="; color: rgb(214, 53, 106)"]{ color:#ef6d97 !important; }
+html[data-theme="dark"] [style*="solid rgba(28,26,23,0.1)"], html[data-theme="dark"] [style*="solid rgba(28, 26, 23, 0.1)"]{ border-color:rgba(240,233,220,0.14) !important; }
+html[data-theme="dark"] [style*="solid rgba(24,36,31,0.1)"], html[data-theme="dark"] [style*="solid rgba(24, 36, 31, 0.1)"]{ border-color:rgba(228,235,230,0.13) !important; }
+html[data-theme="dark"] [style*="solid rgba(24,36,31,0.12)"], html[data-theme="dark"] [style*="solid rgba(24, 36, 31, 0.12)"]{ border-color:rgba(228,235,230,0.15) !important; }
+html[data-theme="dark"] [style*="solid rgba(24,36,31,0.14)"], html[data-theme="dark"] [style*="solid rgba(24, 36, 31, 0.14)"]{ border-color:rgba(228,235,230,0.17) !important; }
+html[data-theme="dark"] [style*="solid #e3dccb"], html[data-theme="dark"] [style*="solid rgb(227, 220, 203)"]{ border-color:rgba(240,233,220,0.16) !important; }
+html[data-theme="dark"] [style*="solid #efe9da"], html[data-theme="dark"] [style*="solid rgb(239, 233, 218)"]{ border-color:rgba(240,233,220,0.13) !important; }
+
+/* Chips with dark ink on kept accent fills must keep their dark ink in dark mode
+   (the generic ink mapping would put cream on yellow/periwinkle). Compound
+   attribute selectors outrank the single-attribute rules above. */
+html[data-theme="dark"] [style*="background:#ffd23f"][style*="color:#1c1a17"], html[data-theme="dark"] [style*="background: rgb(255, 210, 63)"][style*="color: rgb(28, 26, 23)"]{ color:#1c1a17 !important; }
+html[data-theme="dark"] [style*="background:#6686F7"][style*="color:#1c1a17"], html[data-theme="dark"] [style*="background: rgb(102, 134, 247)"][style*="color: rgb(28, 26, 23)"]{ color:#1c1a17 !important; }
+
+/* Both themes: white text on the light teal/blue chips fails contrast (2.3-3.0);
+   dark ink on those fills reads at 4.5+. */
+[style*="background:#13c296"][style*="color:#ffffff"], [style*="background: rgb(19, 194, 150)"][style*="color: rgb(255, 255, 255)"]{ color:#043022 !important; }
+[style*="background:#3d9be9"][style*="color:#ffffff"], [style*="background: rgb(61, 155, 233)"][style*="color: rgb(255, 255, 255)"]{ color:#0c2b45 !important; }
+
 /* SVG attribute colors: footer waves track the page background in both themes */
 [fill="#faf3e6"]{ fill:var(--bg); }
 [fill="#f2ecdd"]{ fill:var(--bg-soft); }
@@ -425,7 +443,20 @@ html[data-theme="dark"] [stroke="#1c1a17"]{ stroke:var(--ink); }
 /* hobby icons sit on accent-colored circles; keep their dark strokes */
 html[data-theme="dark"] .hobby-icon [stroke="#1c1a17"]{ stroke:#1c1a17; }
 html[data-theme="dark"] [stroke="#6f6a61"]{ stroke:var(--ink-3); }
-/* Case-study footers are inline-styled with the same #1c1a17 as the content panels
-   above, but footers must keep it in dark mode so they blend with the html overscroll
-   background (higher specificity than the generic mapping). */
-html[data-theme="dark"] footer[style*="background:#1c1a17"]{ background:#1c1a17 !important; }
+
+/* Case-study footers are inline-styled with the same #1c1a17 as content panels,
+   but must keep it in dark mode to blend with the html overscroll background. */
+html[data-theme="dark"] footer[style*="background:#1c1a17"], html[data-theme="dark"] footer[style*="background: rgb(28, 26, 23)"], html[data-theme="dark"] footer[style*="background-color: rgb(28, 26, 23)"]{ background:#1c1a17 !important; }
+
+/* ---------- light-mode contrast fixes for inline-styled text ----------
+   Pre-existing shortfalls (3.2-4.35:1) in small text; same serialization-proof
+   selector forms as the dark map above. */
+html[data-theme="light"] [style*="color:#7a7263"], html[data-theme="light"] [style^="color: rgb(122, 114, 99)"], html[data-theme="light"] [style*="; color: rgb(122, 114, 99)"]{ color:#6d675c !important; }
+html[data-theme="light"] [style*="color:#8a8274"], html[data-theme="light"] [style^="color: rgb(138, 130, 116)"], html[data-theme="light"] [style*="; color: rgb(138, 130, 116)"]{ color:#6d675c !important; }
+html[data-theme="light"] [style*="color:#4a90d9"], html[data-theme="light"] [style^="color: rgb(74, 144, 217)"], html[data-theme="light"] [style*="; color: rgb(74, 144, 217)"]{ color:#29639f !important; }
+html[data-theme="light"] [style*="color:#d6356a"], html[data-theme="light"] [style^="color: rgb(214, 53, 106)"], html[data-theme="light"] [style*="; color: rgb(214, 53, 106)"]{ color:#c02455 !important; }
+html[data-theme="light"] [style*="color:#0f8a6b"], html[data-theme="light"] [style^="color: rgb(15, 138, 107)"], html[data-theme="light"] [style*="; color: rgb(15, 138, 107)"]{ color:#0d6e55 !important; }
+html[data-theme="light"] [style*="color:#0f7a58"], html[data-theme="light"] [style^="color: rgb(15, 122, 88)"], html[data-theme="light"] [style*="; color: rgb(15, 122, 88)"]{ color:#0d6549 !important; }
+html[data-theme="light"] [style*="color:#6b756e"], html[data-theme="light"] [style^="color: rgb(107, 117, 110)"], html[data-theme="light"] [style*="; color: rgb(107, 117, 110)"]{ color:#5d675f !important; }
+/* about eyebrow: brand orange at 13px on tinted paper was 3.09:1 */
+html[data-theme="light"] .about-eyebrow{ color:#b8380e; }
