@@ -476,21 +476,22 @@
       setTimeout(function () { btn.classList.remove('is-switching'); }, 520);
 
       // M3-expressive ripple: the new theme reveals in a circle expanding from the
-      // toggle thumb (View Transitions API). The new-state snapshot is live, so the
-      // thumb's own slide/squash plays inside the growing circle. Falls back to the
-      // brief property cross-fade where view transitions are unsupported.
+      // toggle thumb (View Transitions API). The circle is animated with CSS
+      // keyframes parameterized by custom properties on <html> - WebKit doesn't
+      // support targeting view-transition pseudos via WAAPI's pseudoElement option,
+      // but every engine with view transitions runs CSS animations on them, and the
+      // pseudo tree inherits custom properties from the root. The new-state snapshot
+      // is live, so the thumb's own slide/squash plays inside the growing circle.
+      // Falls back to the brief property cross-fade where VT is unsupported.
       if (!reduced && typeof document.startViewTransition === 'function') {
         var r = btn.getBoundingClientRect();
         var x = r.left + r.width / 2, y = r.top + r.height / 2;
         var endR = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+        root.style.setProperty('--ripple-x', x + 'px');
+        root.style.setProperty('--ripple-y', y + 'px');
+        root.style.setProperty('--ripple-r', endR + 'px');
         root.classList.add('theme-ripple');
         var vt = document.startViewTransition(apply);
-        vt.ready.then(function () {
-          root.animate(
-            { clipPath: ['circle(0px at ' + x + 'px ' + y + 'px)', 'circle(' + endR + 'px at ' + x + 'px ' + y + 'px)'] },
-            { duration: 620, easing: 'cubic-bezier(0.05, 0.7, 0.1, 1)', pseudoElement: '::view-transition-new(root)' }
-          );
-        }).catch(function () {});
         var done = function () { root.classList.remove('theme-ripple'); };
         vt.finished.then(done, done);
       } else {
