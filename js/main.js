@@ -70,17 +70,20 @@
     var loads = Array.prototype.slice.call(document.querySelectorAll('[data-load]'));
     var reveals = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
 
+    // Never write to el.style here: assigning any inline style re-serializes the
+    // whole style attribute (hex colors become rgb(...)), which breaks the theme
+    // override map's [style*="..."] matching on these elements. The stagger is
+    // done purely with timeouts + the .in class instead.
     var counts = new Map(), delayOf = new Map();
     reveals.forEach(function (el) {
       var p = el.parentElement;
       var i = counts.get(p) || 0; counts.set(p, i + 1);
-      var d = i * 0.09; delayOf.set(el, d);
-      el.style.transitionDelay = d + 's';
+      delayOf.set(el, i * 90);
     });
 
     if (reduced) {
-      loads.forEach(function (el) { el.style.transitionDelay = '0s'; el.classList.add('in'); });
-      reveals.forEach(function (el) { el.style.transitionDelay = '0s'; el.classList.add('in'); });
+      loads.forEach(function (el) { el.classList.add('in'); });
+      reveals.forEach(function (el) { el.classList.add('in'); });
       return;
     }
 
@@ -89,17 +92,15 @@
       setTimeout(function () { el.classList.add('in'); }, d);
     });
 
-    function revealOne(el) {
-      el.classList.add('in');
-      var d = (delayOf.get(el) || 0) * 1000;
-      setTimeout(function () { el.style.transitionDelay = ''; }, d + 720);
-    }
-
     // Reveal once on load instead of on scroll. Content in the initial viewport
     // fades in (with its stagger); anything below the fold finishes revealing
     // off-screen, so scrolling no longer keeps re-triggering the fade-in.
     requestAnimationFrame(function () {
-      reveals.forEach(function (el) { revealOne(el); });
+      reveals.forEach(function (el) {
+        var d = delayOf.get(el) || 0;
+        if (d) setTimeout(function () { el.classList.add('in'); }, d);
+        else el.classList.add('in');
+      });
     });
   }
 
