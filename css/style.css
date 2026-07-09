@@ -1,7 +1,10 @@
 /* ---------- reset & base ---------- */
 *{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; }
-body{ margin:0; }
+/* Root background matches the footer so mobile overscroll past the footer blends
+   into the dark footer instead of flashing a white page; overscroll-behavior stops
+   the rubber-band bounce entirely on browsers that support it. */
+html{ scroll-behavior:smooth; background:#1c1a17; overscroll-behavior-y:none; }
+body{ margin:0; overscroll-behavior-y:none; }
 ::selection{ background:#ffd23f; color:#1c1a17; }
 
 .page{

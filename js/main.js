@@ -188,11 +188,21 @@
   var shapesDrift = true;
   var shapes = null, shapeLib = null, palette = null, playgroundEl = null, activeDrag = null;
 
+  // Apply a shape path. Set the `d` ATTRIBUTE (works in every browser, incl. iOS
+  // WebKit) and also the CSS `d` property (Blink-only) so desktop keeps its smooth
+  // tween via `transition: d`. On WebKit the CSS line is ignored and the attribute
+  // morphs the shape instantly.
+  function applyShape(path, d) {
+    if (!path) return;
+    path.setAttribute('d', d);
+    try { path.style.d = 'path("' + d + '")'; } catch (_) {}
+  }
+
   function morphShape(s) {
     s.shapeIdx = (s.shapeIdx + 1) % shapeLib.length;
     s.colorIdx = (s.colorIdx + 1) % palette.length;
     if (s.path) {
-      s.path.style.d = 'path("' + shapeLib[s.shapeIdx].d + '")';
+      applyShape(s.path, shapeLib[s.shapeIdx].d);
       s.path.style.fill = palette[s.colorIdx];
     }
     s.pop = 1.12; s.vpop = 0;
@@ -217,7 +227,7 @@
         shapeIdx: findIdx(order[i % order.length]),
         colorIdx: startC >= 0 ? startC : (i % palette.length)
       };
-      if (path) path.style.d = 'path("' + shapeLib[s.shapeIdx].d + '")';
+      applyShape(path, shapeLib[s.shapeIdx].d);
       el.addEventListener('pointerdown', function (e) {
         e.preventDefault();
         activeDrag = s; s.mode = 'drag'; s.dragId = e.pointerId;
