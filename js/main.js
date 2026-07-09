@@ -431,6 +431,55 @@
     } catch (e) {}
   }
 
+  // ---------- theme toggle (M3-expressive switch) ----------
+  // The pre-paint script in each page's <head> has already set data-theme on <html>;
+  // this builds the switch, mounts it next to the nav links, and drives the flip.
+  function initThemeToggle() {
+    var mount = document.querySelector('.nav-links');
+    if (!mount) {
+      var navlink = document.querySelector('.hov-navlink');
+      if (navlink) mount = navlink.parentElement;
+    }
+    if (!mount || mount.querySelector('.theme-toggle')) return;
+
+    var btn = document.createElement('button');
+    btn.className = 'theme-toggle';
+    btn.type = 'button';
+    btn.setAttribute('role', 'switch');
+    btn.setAttribute('aria-label', 'Dark mode');
+    btn.innerHTML =
+      '<span class="theme-toggle-thumb" aria-hidden="true">' +
+        '<svg class="tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4.6" fill="currentColor" stroke="none"></circle><path d="M12 2.5 V5 M12 19 V21.5 M2.5 12 H5 M19 12 H21.5 M5.3 5.3 L7 7 M17 17 L18.7 18.7 M18.7 5.3 L17 7 M7 17 L5.3 18.7"></path></svg>' +
+        '<svg class="tt-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 14.2 A8.8 8.8 0 1 1 9.8 3.6 A7.2 7.2 0 0 0 20.4 14.2 Z"></path></svg>' +
+      '</span>';
+
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta && !meta.getAttribute('data-light')) meta.setAttribute('data-light', meta.getAttribute('content') || '#faf3e6');
+
+    function isDark() { return document.documentElement.getAttribute('data-theme') === 'dark'; }
+    function sync() {
+      btn.setAttribute('aria-checked', isDark() ? 'true' : 'false');
+      if (meta) meta.setAttribute('content', isDark() ? '#161310' : meta.getAttribute('data-light'));
+    }
+
+    btn.addEventListener('click', function () {
+      var root = document.documentElement;
+      root.classList.add('theme-anim');
+      btn.classList.add('is-switching');
+      root.setAttribute('data-theme', isDark() ? 'light' : 'dark');
+      try { localStorage.setItem('theme', root.getAttribute('data-theme')); } catch (_) {}
+      sync();
+      window.dispatchEvent(new CustomEvent('themechange'));
+      setTimeout(function () {
+        root.classList.remove('theme-anim');
+        btn.classList.remove('is-switching');
+      }, 520);
+    });
+
+    sync();
+    mount.appendChild(btn);
+  }
+
   // ---------- boot ----------
   function init() {
     // Any element with data-warp="baseWght,baseWdth,baseOpsz,nearWght,nearWdth,nearOpsz"
@@ -445,6 +494,7 @@
       if (items) warpSets.push(items);
     });
 
+    initThemeToggle();
     initShapes(document.getElementById('playground'));
     initSpecimen();
     initReveals();

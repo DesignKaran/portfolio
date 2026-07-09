@@ -3,17 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){try{var t=localStorage.getItem("theme");if(t!=="dark"&&t!=="light"){t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
+<meta name="theme-color" content="#f2ecdd">
 <title>About — Karan</title>
 <meta name="description" content="Karan is an HCI grad student who brings a scientist's rigor to human-centered design.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/style.css?v=3">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-orange.svg">
 <link rel="alternate icon" href="assets/favicon-orange.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
-  .page--about{ background:#f2ecdd; display:flex; flex-direction:column; }
+  .page--about{ background:var(--bg-soft); display:flex; flex-direction:column; }
   .page--about ::selection{ background:#e8552d; color:#fff; }
   .page--about .nav{ width:100%; }
 
@@ -41,11 +43,11 @@
   }
   .about-lede{
     margin:18px 0 0; font:400 clamp(16px,2vw,19px)/1.5 'Inter',sans-serif;
-    color:#4a463f; max-width:38ch;
+    color:var(--ink-2); max-width:38ch;
   }
   .about-body{
     margin:16px 0 0; font:400 clamp(15px,1.8vw,17px)/1.72 'Inter',sans-serif;
-    color:#3d3934; max-width:56ch;
+    color:var(--ink-2); max-width:56ch;
   }
 
   .about-actions{
@@ -63,18 +65,18 @@
   .btn-hello{
     display:inline-flex; align-items:center; gap:10px;
     padding:11px 24px; border-radius:22px;
-    background:transparent; border:2px solid #1c1a17; color:#1c1a17;
+    background:transparent; border:2px solid var(--ink); color:var(--ink);
     font:500 15px/1 'Inter',sans-serif; text-decoration:none;
     transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1), background .3s ease;
   }
-  .btn-hello:hover, .btn-hello:focus-visible{ transform:scale(1.05); border-radius:12px; background:rgba(28,26,23,0.05); }
+  .btn-hello:hover, .btn-hello:focus-visible{ transform:scale(1.05); border-radius:12px; background:var(--chip-bg); }
 
   .about-photo{ flex:0.9 1 360px; min-width:260px; max-width:420px; margin:0 auto; }
   .about-photo-stage{ position:relative; padding:0 0 26px 26px; }
   .about-photo-splash{ position:absolute; left:0; bottom:0; width:78%; height:auto; }
   .about-photo-frame{ position:relative; width:100%; aspect-ratio:4/5; }
   .about-photo-clipped{
-    position:absolute; inset:0; background:#faf3e6;
+    position:absolute; inset:0; background:var(--bg);
     clip-path:url(#about-blob-clip); overflow:hidden;
   }
   .about-photo-clipped img{
@@ -123,7 +125,7 @@
     font-size:18px; line-height:1.15;
     font-variation-settings:'opsz' 18,'wght' 600,'wdth' 94;
   }
-  .hobby p{ margin:0; font:400 13.5px/1.45 'Inter',sans-serif; color:#3d3934; }
+  .hobby p{ margin:0; font:400 13.5px/1.45 'Inter',sans-serif; color:var(--ink-2); }
 
   @media (max-width:620px){
     .about-hero{ flex-direction:column-reverse; }
@@ -250,6 +252,6 @@
 
 </div>
 
-<script src="js/main.js?v=1"></script>
+<script src="js/main.js?v=2"></script>
 </body>
 </html>
