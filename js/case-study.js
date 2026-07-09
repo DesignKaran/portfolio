@@ -44,6 +44,39 @@
     var ids = links.map(function (a) { return a.getAttribute('data-sidelink'); });
     var footerEl = document.querySelector('footer');
 
+    // Mobile section bar: the left rail is hidden below 1440px, so mirror its anchors
+    // into a slim top bar of tappable chips. Built from the same links (no per-page
+    // markup) and driven by the same scroll-spy update() below.
+    var tabsEl = document.createElement('nav');
+    tabsEl.className = 'section-tabs';
+    tabsEl.setAttribute('aria-label', 'Sections');
+    var track = document.createElement('div');
+    track.className = 'section-tabs-track';
+    tabsEl.appendChild(track);
+    var tabEls = links.map(function (a) {
+      var id = a.getAttribute('data-sidelink');
+      var tab = document.createElement('a');
+      tab.className = 'section-tab';
+      tab.href = '#' + id;
+      tab.setAttribute('data-tab', id);
+      tab.textContent = a.textContent.trim();
+      tab.style.color = idle;
+      tab.addEventListener('click', function (e) {
+        e.preventDefault();
+        var el = document.getElementById(id);
+        if (!el) return;
+        var barH = tabsEl.offsetHeight || 48;
+        var y0 = window.pageYOffset || document.documentElement.scrollTop || 0;
+        var y = el.getBoundingClientRect().top + y0 - barH - 8;
+        window.scrollTo({ top: Math.max(0, y), behavior: reduced ? 'auto' : 'smooth' });
+        if (window.history && history.replaceState) history.replaceState(null, '', '#' + id);
+      });
+      track.appendChild(tab);
+      return tab;
+    });
+    document.body.appendChild(tabsEl);
+    var lastCur = null;
+
     function update() {
       var mid = (window.innerHeight || 800) * 0.4;
       var cur = ids[0];
@@ -57,6 +90,24 @@
         var dot = a.querySelector('[data-sidedot]');
         if (dot) { dot.style.background = on ? active : dotIdle; dot.style.width = on ? '28px' : '18px'; }
       });
+      // Mobile bar: reveal past the hero (so it never covers the wordmark at the top),
+      // highlight the active chip, and keep it centered in the horizontal scroller.
+      var sy = window.pageYOffset || document.documentElement.scrollTop || 0;
+      tabsEl.classList.toggle('is-visible', sy > 280);
+      tabEls.forEach(function (tab) {
+        var on = tab.getAttribute('data-tab') === cur;
+        tab.style.color = on ? active : idle;
+        tab.classList.toggle('is-active', on);
+      });
+      if (cur !== lastCur && tabsEl.classList.contains('is-visible')) {
+        var act = tabEls[ids.indexOf(cur)];
+        if (act) {
+          var tr = track.getBoundingClientRect(), ar = act.getBoundingClientRect();
+          var delta = (ar.left - tr.left) - (track.clientWidth - act.offsetWidth) / 2;
+          track.scrollBy({ left: delta, behavior: reduced ? 'auto' : 'smooth' });
+        }
+      }
+      lastCur = cur;
       if (footerEl) {
         var fTop = footerEl.getBoundingClientRect().top;
         var navH = sidenav.offsetHeight || 240;

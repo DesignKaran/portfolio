@@ -240,3 +240,29 @@ body{ margin:0; overscroll-behavior-y:none; }
 }
 .footer-links a:hover, .footer-links a:focus-visible{ color:#e8552d; }
 .footer-copyright{ font:400 13.5px/1 'Inter',sans-serif; color:rgba(250,243,230,0.5); }
+
+/* ---------- mobile section bar (case studies; shown where the left rail is hidden) ---------- */
+.section-tabs{
+  position:fixed; top:0; left:0; right:0; z-index:55;
+  display:flex; padding:9px clamp(12px,4vw,20px);
+  background:rgba(250,243,230,0.9);
+  -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(28,26,23,0.10);
+  transform:translateY(-102%); opacity:0; pointer-events:none;
+  transition:transform .32s cubic-bezier(.22,1,.36,1), opacity .32s ease;
+}
+.section-tabs.is-visible{ transform:none; opacity:1; pointer-events:auto; }
+.section-tabs-track{
+  display:flex; gap:8px; align-items:center; width:100%;
+  overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none; -webkit-overflow-scrolling:touch;
+}
+.section-tabs-track::-webkit-scrollbar{ display:none; }
+.section-tab{
+  flex:0 0 auto; white-space:nowrap; text-decoration:none;
+  font:600 13px/1 'Inter',sans-serif;
+  padding:9px 14px; border-radius:999px;
+  color:#6b655c; background:transparent;
+  transition:color .2s ease, background .2s ease;
+}
+.section-tab.is-active{ background:rgba(28,26,23,0.06); }
+@media (min-width:1440px){ .section-tabs{ display:none !important; } }
