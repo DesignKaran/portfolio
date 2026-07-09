@@ -97,7 +97,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   font:500 18px/1 'Inter',sans-serif; text-decoration:none;
 }
 .btn-primary{
-  background:#e8552d; color:#1c1a17; border:1.5px solid #e8552d;
+  background:#e8552d; color:#ffffff; border:1.5px solid #e8552d;
   border-radius:26px;
   box-shadow:0 1px 0 rgba(0,0,0,0.05);
   transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
