@@ -474,3 +474,18 @@ html.theme-ripple::view-transition-new(root){
   from{ clip-path:circle(0px at var(--ripple-x,100%) var(--ripple-y,0%)); }
   to{ clip-path:circle(var(--ripple-r,150vmax) at var(--ripple-x,100%) var(--ripple-y,0%)); }
 }
+
+/* ---------- footer credit emojis (M3-expressive hover) ---------- */
+/* .footer-inner is pointer-events:none (shapes drag through the text block);
+   the emojis opt back in, same as .footer-links a, so :hover can reach them. */
+.footer-emoji{ display:inline-block; cursor:default; pointer-events:auto; }
+.emoji-heart:hover, .emoji-heart:active{ animation:emoji-heartbeat .9s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes emoji-heartbeat{
+  0%{ scale:1; } 20%{ scale:1.35; } 40%{ scale:0.92; }
+  60%{ scale:1.28; } 80%{ scale:0.98; } 100%{ scale:1; }
+}
+.emoji-coffee:hover, .emoji-coffee:active{ animation:emoji-cheers .7s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes emoji-cheers{
+  0%{ rotate:0deg; translate:0 0; } 30%{ rotate:-14deg; translate:0 -3px; }
+  55%{ rotate:10deg; translate:0 -2px; } 75%{ rotate:-5deg; translate:0 -1px; } 100%{ rotate:0deg; translate:0 0; }
+}
