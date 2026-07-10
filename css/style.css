@@ -489,11 +489,11 @@ html.theme-ripple::view-transition-new(root){
   60%{ scale:1.28; } 80%{ scale:0.98; } 100%{ scale:1; }
 }
 
-.ce-cup{ position:relative; display:inline-block; width:21px; height:16px; vertical-align:-0.34em; }
-.ce-saucer{ position:absolute; left:0; bottom:0; width:20px; height:5px; }
+.ce-cup{ position:relative; display:inline-block; width:16px; height:16px; vertical-align:-0.3em; }
+.ce-saucer{ position:absolute; left:0; bottom:0; width:16px; height:5px; }
 /* Flat SVG mug: fallback only (no 3D support or reduced motion). JS replaces it with
    the 3D cup below when supported. */
-.ce-mug{ position:absolute; left:2.5px; bottom:2.5px; width:15px; height:11.5px; transform-origin:50% 100%; }
+.ce-mug{ position:absolute; left:2.5px; bottom:2.2px; width:11px; height:8.5px; transform-origin:50% 100%; }
 .emoji-coffee:hover .ce-mug, .emoji-coffee:active .ce-mug{ animation:mug-liftspin .95s cubic-bezier(0.34,1.56,0.64,1); }
 @keyframes mug-liftspin{
   0%{ transform:perspective(140px) translateY(0) rotateY(0deg); }
@@ -503,8 +503,8 @@ html.theme-ripple::view-transition-new(root){
 
 /* Real 3D cup (built by initFooterCup): a preserve-3d cylinder that lifts off the
    static saucer and spins with depth on hover. Geometry is scaled by --u. */
-.cup3d-scene{ --u:8px; position:absolute; left:10px; bottom:2.5px;
-  width:calc(var(--u)*2); height:calc(var(--u)*1.35); margin-left:calc(var(--u)*-1);
+.cup3d-scene{ --u:5px; position:absolute; left:8px; bottom:4px;
+  width:calc(var(--u)*2); height:calc(var(--u)*1.2); margin-left:calc(var(--u)*-1);
   perspective:calc(var(--u)*8); }
 .cup3d{ position:absolute; inset:0; transform-style:preserve-3d; transform-origin:50% 100%; }
 .cup3d-body{ position:absolute; inset:0; transform-style:preserve-3d; transform:rotateX(-18deg); }
@@ -518,8 +518,8 @@ html.theme-ripple::view-transition-new(root){
 .emoji-coffee:hover .cup3d, .emoji-coffee:active .cup3d{ animation:cup3d-liftspin 1.05s cubic-bezier(0.34,1.56,0.64,1); }
 @keyframes cup3d-liftspin{
   0%  { transform:translateY(0)                 rotateY(0deg); }
-  22% { transform:translateY(calc(var(--u)*-0.7)) rotateY(0deg); }
-  72% { transform:translateY(calc(var(--u)*-0.7)) rotateY(360deg); }
+  22% { transform:translateY(calc(var(--u)*-1)) rotateY(0deg); }
+  72% { transform:translateY(calc(var(--u)*-1)) rotateY(360deg); }
   88% { transform:translateY(0)                 rotateY(360deg); }
   100%{ transform:translateY(0)                 rotateY(360deg); }
 }

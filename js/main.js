@@ -515,12 +515,15 @@
     Array.prototype.forEach.call(document.querySelectorAll('.emoji-coffee .ce-mug'), function (flat) {
       var scene = document.createElement('span');
       scene.className = 'cup3d-scene';
-      var u = parseFloat(getComputedStyle(scene).getPropertyValue('--u')) || 9;
+      // Must be in the document before reading --u: computed style on a detached
+      // element is empty, which would silently fall back to the wrong scale.
+      flat.replaceWith(scene);
+      var u = parseFloat(getComputedStyle(scene).getPropertyValue('--u')) || 5;
       var cup = document.createElement('span'); cup.className = 'cup3d';
       var body = document.createElement('span'); body.className = 'cup3d-body';
       cup.appendChild(body); scene.appendChild(cup);
-      // Squat teacup proportions (like the emoji): diameter well above height.
-      var N = 20, r = 0.92 * u, faceW = (2 * Math.PI * r / N) + 1.1;
+      // Emoji-cup proportions: small squat bowl whose saucer clearly sticks out.
+      var N = 18, r = 0.8 * u, faceW = (2 * Math.PI * r / N) + 1.1;
       var base = [233, 220, 192];
       for (var i = 0; i < N; i++) {
         var a = i * 360 / N;
@@ -528,7 +531,7 @@
         f.style.width = faceW.toFixed(2) + 'px';
         f.style.marginLeft = (-faceW / 2).toFixed(2) + 'px';
         f.style.transform = 'rotateY(' + a + 'deg) translateZ(' + r.toFixed(2) + 'px)';
-        var lit = 0.58 + 0.42 * Math.cos(a * Math.PI / 180);
+        var lit = 0.74 + 0.26 * Math.cos(a * Math.PI / 180);
         f.style.background = 'rgb(' + base.map(function (c) { return Math.round(c * lit); }).join(',') + ')';
         body.appendChild(f);
       }
@@ -538,15 +541,14 @@
         el.style.transform = 'translate(-50%,-50%) rotateX(90deg) translateZ(' + lift.toFixed(2) + 'px)';
         body.appendChild(el); return el;
       }
-      disc('cup3d-lip', 1.88 * u, 0.6 * u);       // cream rim at the top of the squat wall
-      disc('cup3d-coffee', 1.58 * u, 0.62 * u);   // coffee surface, just inside the rim
+      disc('cup3d-lip', 1.84 * u, 0.62 * u);      // rim overhangs the wall like the emoji cup
+      disc('cup3d-coffee', 1.5 * u, 0.64 * u);    // coffee surface, just inside the rim
       // Handle ring centered ON the wall radius so its arc ends tuck into the cylinder.
       var handle = document.createElement('span'); handle.className = 'cup3d-handle';
-      handle.style.width = (0.8 * u).toFixed(2) + 'px'; handle.style.height = (0.95 * u).toFixed(2) + 'px';
-      handle.style.borderWidth = (0.2 * u).toFixed(2) + 'px';
-      handle.style.transform = 'translate(-50%,-50%) translateX(' + (1.02 * u).toFixed(2) + 'px) rotate(-48deg)';
+      handle.style.width = (0.66 * u).toFixed(2) + 'px'; handle.style.height = (0.82 * u).toFixed(2) + 'px';
+      handle.style.borderWidth = (0.18 * u).toFixed(2) + 'px';
+      handle.style.transform = 'translate(-50%,-50%) translateX(' + (0.88 * u).toFixed(2) + 'px) rotate(-48deg)';
       body.appendChild(handle);
-      flat.replaceWith(scene);
     });
   }
 
