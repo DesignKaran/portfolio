@@ -505,6 +505,49 @@
     mount.appendChild(btn);
   }
 
+  // ---------- footer credit: real 3D coffee cup ----------
+  // Upgrades the flat SVG mug into a CSS 3D cylinder (faceted wall + coffee disc +
+  // orbiting handle) inside a preserve-3d scene, so on hover it lifts off the saucer
+  // and spins with genuine depth. Transforms live on plain HTML elements (iOS-reliable).
+  // Left as the flat SVG when 3D isn't supported or reduced-motion is on.
+  function initFooterCup() {
+    if (reduced || !(window.CSS && CSS.supports && CSS.supports('transform-style', 'preserve-3d'))) return;
+    Array.prototype.forEach.call(document.querySelectorAll('.emoji-coffee .ce-mug'), function (flat) {
+      var scene = document.createElement('span');
+      scene.className = 'cup3d-scene';
+      var u = parseFloat(getComputedStyle(scene).getPropertyValue('--u')) || 9;
+      var cup = document.createElement('span'); cup.className = 'cup3d';
+      var body = document.createElement('span'); body.className = 'cup3d-body';
+      cup.appendChild(body); scene.appendChild(cup);
+      var N = 22, r = 1.02 * u, faceW = (2 * Math.PI * r / N) + 1.1;
+      var base = [233, 220, 192];
+      for (var i = 0; i < N; i++) {
+        var a = i * 360 / N;
+        var f = document.createElement('span'); f.className = 'cup3d-face';
+        f.style.width = faceW.toFixed(2) + 'px';
+        f.style.marginLeft = (-faceW / 2).toFixed(2) + 'px';
+        f.style.transform = 'rotateY(' + a + 'deg) translateZ(' + r.toFixed(2) + 'px)';
+        var lit = 0.58 + 0.42 * Math.cos(a * Math.PI / 180);
+        f.style.background = 'rgb(' + base.map(function (c) { return Math.round(c * lit); }).join(',') + ')';
+        body.appendChild(f);
+      }
+      function disc(cls, d, extra) {
+        var el = document.createElement('span'); el.className = cls;
+        el.style.width = d.toFixed(2) + 'px'; el.style.height = d.toFixed(2) + 'px';
+        el.style.transform = 'translate(-50%,-50%) rotateX(90deg) translateZ(' + extra.toFixed(2) + 'px)';
+        body.appendChild(el); return el;
+      }
+      disc('cup3d-lip', 2.06 * u, 1.16 * u);      // cream rim
+      disc('cup3d-coffee', 1.74 * u, 1.18 * u);   // coffee surface, just inside the rim
+      var handle = document.createElement('span'); handle.className = 'cup3d-handle';
+      handle.style.width = (1.02 * u).toFixed(2) + 'px'; handle.style.height = (1.32 * u).toFixed(2) + 'px';
+      handle.style.borderWidth = (0.22 * u).toFixed(2) + 'px';
+      handle.style.transform = 'translate(-50%,-50%) translateX(' + (1.2 * u).toFixed(2) + 'px) rotate(-46deg)';
+      body.appendChild(handle);
+      flat.replaceWith(scene);
+    });
+  }
+
   // ---------- boot ----------
   function init() {
     // Any element with data-warp="baseWght,baseWdth,baseOpsz,nearWght,nearWdth,nearOpsz"
@@ -520,6 +563,7 @@
     });
 
     initThemeToggle();
+    initFooterCup();
     initShapes(document.getElementById('playground'));
     initSpecimen();
     initReveals();
