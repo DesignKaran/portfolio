@@ -519,7 +519,8 @@
       var cup = document.createElement('span'); cup.className = 'cup3d';
       var body = document.createElement('span'); body.className = 'cup3d-body';
       cup.appendChild(body); scene.appendChild(cup);
-      var N = 22, r = 1.02 * u, faceW = (2 * Math.PI * r / N) + 1.1;
+      // Squat teacup proportions (like the emoji): diameter well above height.
+      var N = 20, r = 0.92 * u, faceW = (2 * Math.PI * r / N) + 1.1;
       var base = [233, 220, 192];
       for (var i = 0; i < N; i++) {
         var a = i * 360 / N;
@@ -531,18 +532,19 @@
         f.style.background = 'rgb(' + base.map(function (c) { return Math.round(c * lit); }).join(',') + ')';
         body.appendChild(f);
       }
-      function disc(cls, d, extra) {
+      function disc(cls, d, lift) {
         var el = document.createElement('span'); el.className = cls;
         el.style.width = d.toFixed(2) + 'px'; el.style.height = d.toFixed(2) + 'px';
-        el.style.transform = 'translate(-50%,-50%) rotateX(90deg) translateZ(' + extra.toFixed(2) + 'px)';
+        el.style.transform = 'translate(-50%,-50%) rotateX(90deg) translateZ(' + lift.toFixed(2) + 'px)';
         body.appendChild(el); return el;
       }
-      disc('cup3d-lip', 2.06 * u, 1.16 * u);      // cream rim
-      disc('cup3d-coffee', 1.74 * u, 1.18 * u);   // coffee surface, just inside the rim
+      disc('cup3d-lip', 1.88 * u, 0.6 * u);       // cream rim at the top of the squat wall
+      disc('cup3d-coffee', 1.58 * u, 0.62 * u);   // coffee surface, just inside the rim
+      // Handle ring centered ON the wall radius so its arc ends tuck into the cylinder.
       var handle = document.createElement('span'); handle.className = 'cup3d-handle';
-      handle.style.width = (1.02 * u).toFixed(2) + 'px'; handle.style.height = (1.32 * u).toFixed(2) + 'px';
-      handle.style.borderWidth = (0.22 * u).toFixed(2) + 'px';
-      handle.style.transform = 'translate(-50%,-50%) translateX(' + (1.2 * u).toFixed(2) + 'px) rotate(-46deg)';
+      handle.style.width = (0.8 * u).toFixed(2) + 'px'; handle.style.height = (0.95 * u).toFixed(2) + 'px';
+      handle.style.borderWidth = (0.2 * u).toFixed(2) + 'px';
+      handle.style.transform = 'translate(-50%,-50%) translateX(' + (1.02 * u).toFixed(2) + 'px) rotate(-48deg)';
       body.appendChild(handle);
       flat.replaceWith(scene);
     });
