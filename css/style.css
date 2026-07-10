@@ -475,28 +475,32 @@ html.theme-ripple::view-transition-new(root){
   to{ clip-path:circle(var(--ripple-r,150vmax) at var(--ripple-x,100%) var(--ripple-y,0%)); }
 }
 
-/* ---------- footer credit emojis (M3-expressive hover) ---------- */
-/* .footer-inner is pointer-events:none (shapes drag through the text block);
-   the emojis opt back in, same as .footer-links a, so :hover can reach them.
-   The copyright text color is 50%-alpha, which would dim the emoji glyphs too,
-   so they get their own opaque color; tap-highlight off for the iOS tap flash. */
-.footer-emoji{
-  display:inline-block; cursor:default; pointer-events:auto;
-  color:#faf3e6;
-  -webkit-tap-highlight-color:transparent;
-}
-.emoji-heart:hover, .emoji-heart:active{ animation:emoji-heartbeat .9s cubic-bezier(0.34,1.56,0.64,1); }
+/* ---------- footer credit icons (custom drawn, M3-expressive hover) ----------
+   .footer-inner is pointer-events:none (the drag shapes pass through the text block),
+   so the icons opt back in for :hover. Drawn as inline SVG rather than emoji so the
+   coffee's mug can lift off its saucer - a single emoji glyph can't be split. 3D
+   transforms are applied to the outer <svg> boxes (iOS-reliable), never <g> internals. */
+.footer-emoji{ display:inline-block; pointer-events:auto; cursor:default; -webkit-tap-highlight-color:transparent; }
+
+.ce-heart{ width:16px; height:16px; vertical-align:-0.28em; transform-origin:50% 55%; }
+.emoji-heart:hover .ce-heart, .emoji-heart:active .ce-heart{ animation:emoji-heartbeat .9s cubic-bezier(0.34,1.56,0.64,1); }
 @keyframes emoji-heartbeat{
   0%{ scale:1; } 20%{ scale:1.35; } 40%{ scale:0.92; }
   60%{ scale:1.28; } 80%{ scale:0.98; } 100%{ scale:1; }
 }
-/* Turntable spin: the mug rotates a full turn on its saucer; the perspective makes
-   the flat glyph read as spinning in place, and the overshoot curve lets it swing
-   slightly past the full turn before settling. */
-.emoji-coffee:hover, .emoji-coffee:active{ animation:emoji-spin .8s cubic-bezier(0.34,1.56,0.64,1); }
-@keyframes emoji-spin{
-  from{ transform:perspective(120px) rotateY(0deg); }
-  to{ transform:perspective(120px) rotateY(-360deg); }
+
+.ce-cup{ position:relative; display:inline-block; width:20px; height:19px; vertical-align:-0.42em; }
+.ce-saucer{ position:absolute; left:0; bottom:0; width:20px; height:5px; }
+.ce-mug{ position:absolute; left:1px; bottom:2.5px; width:18px; height:14px; transform-origin:50% 100%; }
+/* The mug lifts off the saucer, spins a full turn aloft, and settles back down;
+   the saucer (separate SVG) stays put. */
+.emoji-coffee:hover .ce-mug, .emoji-coffee:active .ce-mug{ animation:mug-liftspin .95s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes mug-liftspin{
+  0%  { transform:perspective(140px) translateY(0)    rotateY(0deg)   scaleY(1); }
+  22% { transform:perspective(140px) translateY(-6px) rotateY(0deg)   scaleY(1.03); }
+  72% { transform:perspective(140px) translateY(-6px) rotateY(360deg) scaleY(1); }
+  88% { transform:perspective(140px) translateY(0)    rotateY(360deg) scaleY(0.9); }
+  100%{ transform:perspective(140px) translateY(0)    rotateY(360deg) scaleY(1); }
 }
 
 /* On small screens the footer is much shorter, so the mid/low shape anchors land on
