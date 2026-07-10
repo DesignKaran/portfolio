@@ -477,15 +477,35 @@ html.theme-ripple::view-transition-new(root){
 
 /* ---------- footer credit emojis (M3-expressive hover) ---------- */
 /* .footer-inner is pointer-events:none (shapes drag through the text block);
-   the emojis opt back in, same as .footer-links a, so :hover can reach them. */
-.footer-emoji{ display:inline-block; cursor:default; pointer-events:auto; }
+   the emojis opt back in, same as .footer-links a, so :hover can reach them.
+   The copyright text color is 50%-alpha, which would dim the emoji glyphs too,
+   so they get their own opaque color; tap-highlight off for the iOS tap flash. */
+.footer-emoji{
+  display:inline-block; cursor:default; pointer-events:auto;
+  color:#faf3e6;
+  -webkit-tap-highlight-color:transparent;
+}
 .emoji-heart:hover, .emoji-heart:active{ animation:emoji-heartbeat .9s cubic-bezier(0.34,1.56,0.64,1); }
 @keyframes emoji-heartbeat{
   0%{ scale:1; } 20%{ scale:1.35; } 40%{ scale:0.92; }
   60%{ scale:1.28; } 80%{ scale:0.98; } 100%{ scale:1; }
 }
-.emoji-coffee:hover, .emoji-coffee:active{ animation:emoji-cheers .7s cubic-bezier(0.34,1.56,0.64,1); }
-@keyframes emoji-cheers{
-  0%{ rotate:0deg; translate:0 0; } 30%{ rotate:-14deg; translate:0 -3px; }
-  55%{ rotate:10deg; translate:0 -2px; } 75%{ rotate:-5deg; translate:0 -1px; } 100%{ rotate:0deg; translate:0 0; }
+/* Turntable spin: the mug rotates a full turn on its saucer; the perspective makes
+   the flat glyph read as spinning in place, and the overshoot curve lets it swing
+   slightly past the full turn before settling. */
+.emoji-coffee:hover, .emoji-coffee:active{ animation:emoji-spin .8s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes emoji-spin{
+  from{ transform:perspective(120px) rotateY(0deg); }
+  to{ transform:perspective(120px) rotateY(-360deg); }
+}
+
+/* On small screens the footer is much shorter, so the mid/low shape anchors land on
+   the email/credit rows; lift them into the open band around and above the headline.
+   (!important because the anchors are inline styles.) */
+@media (max-width:700px){
+  #playground > div:nth-child(1){ top:28% !important; }
+  #playground > div:nth-child(2){ top:10% !important; }
+  #playground > div:nth-child(4){ top:42% !important; }
+  #playground > div:nth-child(5){ top:24% !important; }
+  #playground > div:nth-child(7){ top:8% !important; }
 }
