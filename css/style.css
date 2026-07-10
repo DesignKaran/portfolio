@@ -489,7 +489,7 @@ html.theme-ripple::view-transition-new(root){
   60%{ scale:1.28; } 80%{ scale:0.98; } 100%{ scale:1; }
 }
 
-.ce-cup{ position:relative; display:inline-block; width:16px; height:16px; vertical-align:-0.3em; }
+.ce-cup{ position:relative; display:inline-block; width:16px; height:16px; vertical-align:-0.03em; }
 .ce-saucer{ position:absolute; left:0; bottom:0; width:16px; height:5px; }
 /* Flat SVG mug: fallback only (no 3D support or reduced motion). JS replaces it with
    the 3D cup below when supported. */
