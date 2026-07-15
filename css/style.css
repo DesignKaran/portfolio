@@ -109,6 +109,11 @@ body{ margin:0; overscroll-behavior-y:none; }
 .nav-links a:hover::after, .nav-links a:focus-visible::after{
   transform:scaleX(1); transform-origin:left center;
 }
+/* current page: bold, statically underlined — no swoop re-animation on hover */
+.nav-links a[aria-current="page"]{ opacity:1; font-weight:600; }
+.nav-links a[aria-current="page"]::after{
+  transform:scaleX(1); transform-origin:left center; transition:none;
+}
 
 /* ---------- hero ---------- */
 .hero{
