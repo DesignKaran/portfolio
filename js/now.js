@@ -50,7 +50,7 @@
 
     var row = el('div', 'now-track');
     if (t.art) {
-      var img = el('img', 'now-art'); img.src = t.art; img.alt = ''; img.width = 64; img.height = 64;
+      var img = el('img', 'now-art'); img.src = t.art; img.alt = ''; img.width = 72; img.height = 72;
       img.referrerPolicy = 'no-referrer';
       img.onerror = function () { img.remove(); };
       row.appendChild(img);
@@ -72,11 +72,43 @@
     row.appendChild(txt);
     b.appendChild(row);
 
+    // Cover grid of the next distinct tracks, mirroring the poster row opposite.
+    var more = (sp.recent || []).filter(function (x) { return !t.url || x.url !== t.url; }).slice(0, 4);
+    if (more.length) {
+      var sec = el('div', 'now-section');
+      sec.appendChild(el('span', 'now-chip-label', 'Recently'));
+      var grid = el('div', 'now-grid');
+      more.forEach(function (x) {
+        var tile = x.url ? link(x.url, 'now-tile') : el('div', 'now-tile');
+        tile.setAttribute('aria-label', x.name + ' by ' + x.artists);
+        var ph = el('span', 'now-cover now-cover--empty');
+        if (x.art) {
+          var cv = el('img', 'now-cover'); cv.src = x.art; cv.alt = ''; cv.loading = 'lazy';
+          cv.referrerPolicy = 'no-referrer';
+          cv.onerror = function () { cv.replaceWith(ph); };
+          tile.appendChild(cv);
+        } else tile.appendChild(ph);
+        tile.appendChild(el('span', 'now-tile-title', x.name));
+        tile.appendChild(el('span', 'now-tile-sub', x.artists));
+        grid.appendChild(tile);
+      });
+      sec.appendChild(grid);
+      b.appendChild(sec);
+    }
+
     if (sp.top && sp.top.length) {
       var chips = el('div', 'now-chips');
       chips.appendChild(el('span', 'now-chip-label', 'On repeat'));
       sp.top.slice(0, 3).forEach(function (x) {
-        chips.appendChild(x.url ? link(x.url, 'now-chip', x.name) : el('span', 'now-chip', x.name));
+        var chip = x.url ? link(x.url, 'now-chip') : el('span', 'now-chip');
+        if (x.art) {
+          var ca = el('img', 'now-chip-art'); ca.src = x.art; ca.alt = ''; ca.loading = 'lazy';
+          ca.referrerPolicy = 'no-referrer';
+          ca.onerror = function () { ca.remove(); };
+          chip.appendChild(ca);
+        }
+        chip.appendChild(el('span', null, x.name));
+        chips.appendChild(chip);
       });
       b.appendChild(chips);
     }
