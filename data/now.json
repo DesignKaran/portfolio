@@ -1,5 +1,63 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-09-02T05:59:07.624Z",
   "spotify": null,
-  "letterboxd": { "user": "BinkyBoinky", "films": [] }
+  "letterboxd": {
+    "user": "BinkyBoinky",
+    "films": [
+      {
+        "title": "The Drama",
+        "year": "2026",
+        "rating": 3.5,
+        "watchedDate": "2026-04-10",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/the-drama/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5"
+      },
+      {
+        "title": "Game Night",
+        "year": "2018",
+        "rating": 3,
+        "watchedDate": "2026-03-29",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/game-night/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/8/0/4/8/378048-game-night-0-600-0-900-crop.jpg?v=7216b8d79c"
+      },
+      {
+        "title": "Project Hail Mary",
+        "year": "2026",
+        "rating": 4,
+        "watchedDate": "2026-03-28",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/project-hail-mary/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03"
+      },
+      {
+        "title": "If I Had Legs I&#039;d Kick You",
+        "year": "2025",
+        "rating": 4.5,
+        "watchedDate": "2026-03-22",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/if-i-had-legs-id-kick-you/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/4/6/5/2/2/1046522-if-i-had-legs-id-kick-you-0-600-0-900-crop.jpg?v=831a0c76c9"
+      },
+      {
+        "title": "The Secret Life of Walter Mitty",
+        "year": "2013",
+        "rating": 4,
+        "watchedDate": "2026-01-07",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/the-secret-life-of-walter-mitty-2013/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/9/2/6/1/9/92619-the-secret-life-of-walter-mitty-0-600-0-900-crop.jpg?v=990770ac1c"
+      },
+      {
+        "title": "Marty Supreme",
+        "year": "2025",
+        "rating": 4.5,
+        "watchedDate": "2025-12-28",
+        "rewatch": false,
+        "url": "https://letterboxd.com/binkyboinky/film/marty-supreme/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-600-0-900-crop.jpg?v=b14a26bb43"
+      }
+    ]
+  }
 }
