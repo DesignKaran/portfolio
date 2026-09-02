@@ -7,11 +7,16 @@ const LB_USER = process.env.LETTERBOXD_USER || 'BinkyBoinky';
 const OUT = 'data/now.json';
 
 // ---------- Letterboxd (public RSS, no auth) ----------
+// Letterboxd double-encodes titles (&amp;#039;), so decode &amp; first, then
+// numeric (&#039; / &#x27;) and named entities.
 function decode(s) {
   return s
     .replace(/^<!\[CDATA\[([\s\S]*?)\]\]>$/, '$1')
-    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
+    .replace(/&amp;/g, '&')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'")
+    .replace(/&amp;/g, '&');
 }
 function tag(xml, name) {
   const m = xml.match(new RegExp('<' + name + '[^>]*>([\\s\\S]*?)</' + name + '>'));
