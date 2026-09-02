@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-02T06:51:59.879Z",
+  "updatedAt": "2026-09-02T06:55:21.259Z",
   "spotify": {
     "nowPlaying": {
-      "name": "Let Alone The One You Love",
+      "name": "Baby Steps",
       "artists": "Olivia Dean",
       "album": "The Art of Loving",
       "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-      "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
     },
     "recent": [
       {
@@ -15,7 +15,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-02T06:50:54.465Z"
+        "playedAt": "2026-09-02T06:54:01.175Z"
       },
       {
         "name": "Man I Need",
@@ -132,7 +132,14 @@
         "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
       }
     ],
-    "genres": []
+    "genres": [
+      "Pop",
+      "Cinematic Classical",
+      "Classical",
+      "Bedroom Pop",
+      "Folk Pop",
+      "Indie Pop"
+    ]
   },
   "letterboxd": {
     "user": "BinkyBoinky",
