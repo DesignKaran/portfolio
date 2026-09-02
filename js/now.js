@@ -143,6 +143,26 @@
     b.appendChild(row);
     var last = films[0].watchedDate;
     if (last) b.appendChild(el('p', 'now-updated', 'Last watched ' + ago(last + 'T12:00:00')));
+
+    var favs = (lb.favorites || []).slice(0, 4);
+    if (favs.length) {
+      var frow = el('div', 'fav-row');
+      frow.appendChild(el('span', 'now-chip-label fav-label', 'Favorites'));
+      favs.forEach(function (f) {
+        var a = f.url ? link(f.url, 'fav') : el('span', 'fav');
+        var label = f.title + (f.year ? ' (' + f.year + ')' : '');
+        a.setAttribute('aria-label', label); a.title = label;
+        var ph = el('span', 'fav-poster fav-poster--empty');
+        if (f.poster) {
+          var img = el('img', 'fav-poster'); img.src = f.poster; img.alt = ''; img.loading = 'lazy';
+          img.referrerPolicy = 'no-referrer';
+          img.onerror = function () { img.replaceWith(ph); };
+          a.appendChild(img);
+        } else a.appendChild(ph);
+        frow.appendChild(a);
+      });
+      b.appendChild(frow);
+    }
   }
 
   fetch('data/now.json?t=' + Math.floor(Date.now() / 9e5), { cache: 'no-cache' })

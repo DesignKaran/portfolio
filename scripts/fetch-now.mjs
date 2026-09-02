@@ -44,12 +44,49 @@ export function parseLetterboxd(xml, limit = 6) {
   }
   return { user: LB_USER, films };
 }
+const UA = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 karanqmr.com-now-card' };
+
+// The four "Favorite films" on the profile page (not in the RSS). Posters are
+// lazy-loaded on the site, so each one is resolved via Letterboxd's poster
+// fragment endpoint. Any failure just yields [] and the row stays hidden.
+export function parseFavoriteSlugs(html) {
+  const i = html.indexOf('id="favourites"');
+  if (i < 0) return [];
+  const sec = html.slice(i, html.indexOf('</section>', i) >>> 0);
+  const out = [];
+  const re = /data-film-slug="([^"]+)"[\s\S]*?alt="([^"]*)"/g;
+  let m;
+  while ((m = re.exec(sec)) && out.length < 4) out.push({ slug: m[1], title: decode(m[2]) });
+  return out;
+}
+export function parsePosterFragment(html) {
+  const src = html.match(/src="(https:\/\/a\.ltrbxd\.com[^"]+)"/);
+  const year = html.match(/data-film-release-year="(\d{4})"/);
+  const title = html.match(/data-film-name="([^"]*)"/);
+  return { poster: src ? decode(src[1]) : null, year: year ? year[1] : null, title: title ? decode(title[1]) : null };
+}
+async function favorites() {
+  const r = await fetch(`https://letterboxd.com/${LB_USER}/`, { headers: UA });
+  if (!r.ok) throw new Error('profile ' + r.status);
+  const slugs = parseFavoriteSlugs(await r.text());
+  const favs = [];
+  for (const f of slugs) {
+    let frag = { poster: null, year: null, title: null };
+    try {
+      const pr = await fetch(`https://letterboxd.com/ajax/poster/film/${f.slug}/std/150x225/`, { headers: UA });
+      if (pr.ok) frag = parsePosterFragment(await pr.text());
+    } catch (_) {}
+    favs.push({ title: frag.title || f.title, year: frag.year, url: `https://letterboxd.com/film/${f.slug}/`, poster: frag.poster });
+  }
+  return favs;
+}
 async function letterboxd() {
-  const r = await fetch(`https://letterboxd.com/${LB_USER}/rss/`, {
-    headers: { 'User-Agent': 'karanqmr.com now-card (github actions)' },
-  });
+  const r = await fetch(`https://letterboxd.com/${LB_USER}/rss/`, { headers: UA });
   if (!r.ok) throw new Error('rss ' + r.status);
-  return parseLetterboxd(await r.text());
+  const out = parseLetterboxd(await r.text());
+  try { out.favorites = await favorites(); console.log('letterboxd favorites:', out.favorites.length); }
+  catch (e) { console.error('favorites failed:', e.message); out.favorites = []; }
+  return out;
 }
 
 // ---------- Spotify (refresh-token flow; secrets live in GitHub Actions) ----------
@@ -113,7 +150,11 @@ async function main() {
   const next = { spotify: prev ? prev.spotify : null, letterboxd: prev ? prev.letterboxd : { user: LB_USER, films: [] } };
   let ok = 0;
 
-  try { next.letterboxd = await letterboxd(); ok++; console.log('letterboxd:', next.letterboxd.films.length, 'films'); }
+  try {
+    next.letterboxd = await letterboxd(); ok++;
+    if (!next.letterboxd.favorites.length && prev && prev.letterboxd && prev.letterboxd.favorites && prev.letterboxd.favorites.length) next.letterboxd.favorites = prev.letterboxd.favorites;
+    console.log('letterboxd:', next.letterboxd.films.length, 'films');
+  }
   catch (e) { console.error('letterboxd failed (keeping previous):', e.message); }
 
   try {
