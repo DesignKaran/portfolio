@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-09-02T06:33:27.299Z",
+  "updatedAt": "2026-09-02T06:39:24.906Z",
   "spotify": {
     "nowPlaying": {
-      "name": "Wish You Were Here",
-      "artists": "Pink Floyd",
-      "album": "Wish You Were Here",
-      "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
-      "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1"
+      "name": "Like a Rolling Stone",
+      "artists": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "art": "https://i.scdn.co/image/ab67616d00001e020cb0884829c5503b2e242541",
+      "url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc"
     },
     "recent": [
+      {
+        "name": "Wish You Were Here",
+        "artists": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
+        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
+        "playedAt": "2026-09-02T06:34:24.647Z"
+      },
       {
         "name": "Aerials",
         "artists": "System Of A Down",
@@ -64,14 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
         "url": "https://open.spotify.com/track/4z2xy1UYMu70xCkWudeL96",
         "playedAt": "2026-08-31T14:22:03.050Z"
-      },
-      {
-        "name": "Monsters (feat. blackbear)",
-        "artists": "All Time Low, blackbear",
-        "album": "Wake Up, Sunshine",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fb7ae2e64f698edee69afc11",
-        "url": "https://open.spotify.com/track/0tyR7Bu9P086aWBFZ4QJoo",
-        "playedAt": "2026-08-31T14:18:07.938Z"
       }
     ],
     "top": [
