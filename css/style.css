@@ -361,6 +361,93 @@ html[data-theme="dark"] .toy-face{ background:#26221b; }
 html[data-theme="dark"] .toy-hint{ color:#9a9184; }
 html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -22px rgba(0,0,0,0.6); }
 
+/* ---------- about: "When I'm not designing" cards ---------- */
+.hobbies{ margin-top:clamp(32px,5vw,48px); }
+.hobbies h2{
+  margin:0; font-family:'Bricolage Grotesque',sans-serif;
+  font-size:clamp(21px,2.8vw,27px); line-height:1.1; letter-spacing:-0.014em;
+  font-variation-settings:'opsz' 24,'wght' 700,'wdth' 92;
+}
+.hobby-grid{ display:grid; grid-template-columns:1fr; gap:14px; margin-top:18px; }
+@media (min-width:700px){ .hobby-grid{ grid-template-columns:1fr 1fr; } }
+.hobby{
+  position:relative; border-radius:22px; min-height:150px; padding:22px;
+  background:var(--surface); border:1px solid var(--line-2); color:var(--ink);
+  transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
+}
+.hobby:hover{ transform:translateY(-4px); box-shadow:0 20px 34px -24px rgba(28,26,23,0.45); }
+.hobby-icon{ width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+.hobby--wander .hobby-icon{ background:#ffd23f; }
+.hobby--puzzle .hobby-icon{ background:#e8552d; }
+.hobby-title{
+  margin:12px 0 6px; font-family:'Bricolage Grotesque',sans-serif;
+  font-size:18px; line-height:1.15;
+  font-variation-settings:'opsz' 18,'wght' 600,'wdth' 94;
+}
+.hobby p{ margin:0; font:400 13.5px/1.45 'Inter',sans-serif; color:var(--ink-2); }
+.hobby .now-body .hobby-title{ margin-top:0; }
+
+.hobby-head{ display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:16px; }
+.hobby-kicker{
+  display:inline-flex; align-items:center; gap:8px;
+  font:600 12px/1 'Inter',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-3);
+}
+.now-dot{ width:8px; height:8px; border-radius:50%; background:#e8552d; flex:0 0 auto; }
+.hobby-src{ font:500 12.5px/1 'Inter',sans-serif; color:var(--ink-3); text-decoration:none; transition:color .2s ease; }
+.hobby-src:hover, .hobby-src:focus-visible{ color:#e8552d; }
+
+/* Listening: the site's ink-dark surface (toy / footer) in both themes */
+.hobby--listening{ background:#1c1a17; border-color:transparent; color:#faf3e6; display:flex; flex-direction:column; }
+.hobby--listening .now-body{ flex:1; display:flex; flex-direction:column; justify-content:center; min-width:0; }
+html[data-theme="dark"] .hobby--listening{ background:#0f0d0b; border-color:rgba(240,233,220,0.08); }
+.hobby--listening .hobby-kicker, .hobby--listening .hobby-src:hover, .hobby--listening .hobby-src:focus-visible{ color:#ffd23f; }
+.hobby--listening .now-dot{ background:#ffd23f; }
+.hobby--listening .hobby-src{ color:rgba(250,243,230,0.72); }
+.hobby--listening .hobby-title{ color:#faf3e6; }
+.hobby--listening p{ color:rgba(250,243,230,0.74); }
+.now-track{ display:flex; gap:14px; align-items:center; min-width:0; }
+.now-art{ width:64px; height:64px; border-radius:16px; object-fit:cover; flex:0 0 auto; background:rgba(250,243,230,0.08); }
+.now-text{ min-width:0; }
+.now-status{ display:flex; align-items:center; gap:8px; font:500 12px/1 'Inter',sans-serif; color:rgba(250,243,230,0.7); margin-bottom:6px; }
+.now-eq{ display:inline-flex; gap:2px; align-items:flex-end; height:12px; }
+.now-eq i{ display:block; width:3px; height:4px; border-radius:2px; background:#ffd23f; animation:now-eq 1s ease-in-out infinite; }
+.now-eq i:nth-child(2){ animation-delay:.18s; } .now-eq i:nth-child(3){ animation-delay:.36s; }
+@keyframes now-eq{ 0%,100%{ height:4px; } 50%{ height:12px; } }
+.now-name{
+  display:block; margin:0; font-family:'Bricolage Grotesque',sans-serif; font-size:18px; line-height:1.15;
+  font-variation-settings:'opsz' 18,'wght' 600,'wdth' 94; color:#faf3e6; text-decoration:none;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+a.now-name:hover, a.now-name:focus-visible{ color:#ffd23f; }
+.hobby--listening .now-sub{ margin:4px 0 0; font:400 13.5px/1.4 'Inter',sans-serif; color:rgba(250,243,230,0.74); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.now-chips{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:16px; }
+.now-chip-label{ font:600 11px/1 'Inter',sans-serif; letter-spacing:0.1em; text-transform:uppercase; color:rgba(250,243,230,0.55); margin-right:4px; }
+.now-chip{
+  font:500 12px/1 'Inter',sans-serif; padding:7px 11px; border-radius:999px;
+  background:rgba(250,243,230,0.1); color:rgba(250,243,230,0.9); text-decoration:none;
+  max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  transition:background .2s ease, color .2s ease;
+}
+a.now-chip:hover, a.now-chip:focus-visible{ background:#ffd23f; color:#1c1a17; }
+
+/* Watching: paper card, poster row */
+.film-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.film{ display:block; min-width:0; color:inherit; text-decoration:none; }
+.film-poster{
+  display:block; width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:12px;
+  background:var(--chip-bg); border:1px solid var(--line);
+  transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
+}
+.film:hover .film-poster, .film:focus-visible .film-poster{ transform:translateY(-4px) rotate(-1.5deg); box-shadow:0 14px 22px -14px rgba(28,26,23,0.6); }
+.film-title{
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  margin-top:8px; font:600 12.5px/1.25 'Inter',sans-serif; color:var(--ink);
+}
+.film-meta{ display:block; margin-top:4px; font:400 11.5px/1.35 'Inter',sans-serif; color:var(--ink-3); }
+@media (max-width:560px){ .film-stars{ display:block; } .film-meta > span + span{ margin-left:0; } }
+.film-stars{ color:#e8552d; letter-spacing:0.02em; }
+.now-updated{ margin:12px 0 0 !important; font:400 11.5px/1 'Inter',sans-serif !important; color:var(--ink-3) !important; }
+
 /* ---------- dark-mode override map for inline-styled content ----------
    The case studies are inline-styled with a finite color vocabulary. Each literal
    gets several selector forms because the reveal/stagger JS re-serializes style
@@ -383,9 +470,6 @@ html[data-theme="dark"] [style*="background:#c3ccc5"], html[data-theme="dark"] [
 html[data-theme="dark"] [style*="background:#f6ecd5"], html[data-theme="dark"] [style*="background: rgb(246, 236, 213)"], html[data-theme="dark"] [style*="background-color: rgb(246, 236, 213)"]{ background:#251f12 !important; }
 html[data-theme="dark"] [style*="background:#fdf3d4"], html[data-theme="dark"] [style*="background: rgb(253, 243, 212)"], html[data-theme="dark"] [style*="background-color: rgb(253, 243, 212)"]{ background:#2a230f !important; }
 html[data-theme="dark"] [style*="background:#fff6de"], html[data-theme="dark"] [style*="background: rgb(255, 246, 222)"], html[data-theme="dark"] [style*="background-color: rgb(255, 246, 222)"]{ background:#2a2410 !important; }
-html[data-theme="dark"] [style*="background:#fbecc1"], html[data-theme="dark"] [style*="background: rgb(251, 236, 193)"], html[data-theme="dark"] [style*="background-color: rgb(251, 236, 193)"]{ background:#2a2310 !important; }
-html[data-theme="dark"] [style*="background:#d0e0e7"], html[data-theme="dark"] [style*="background: rgb(208, 224, 231)"], html[data-theme="dark"] [style*="background-color: rgb(208, 224, 231)"]{ background:#1a252b !important; }
-html[data-theme="dark"] [style*="background:#c7e8d4"], html[data-theme="dark"] [style*="background: rgb(199, 232, 212)"], html[data-theme="dark"] [style*="background-color: rgb(199, 232, 212)"]{ background:#17261d !important; }
 html[data-theme="dark"] [style*="background:#dcece3"], html[data-theme="dark"] [style*="background: rgb(220, 236, 227)"], html[data-theme="dark"] [style*="background-color: rgb(220, 236, 227)"]{ background:#1b2620 !important; }
 html[data-theme="dark"] [style*="background:#e7f1ea"], html[data-theme="dark"] [style*="background: rgb(231, 241, 234)"], html[data-theme="dark"] [style*="background-color: rgb(231, 241, 234)"]{ background:#18221c !important; }
 html[data-theme="dark"] [style*="background:#e3f1ec"], html[data-theme="dark"] [style*="background: rgb(227, 241, 236)"], html[data-theme="dark"] [style*="background-color: rgb(227, 241, 236)"]{ background:#18221c !important; }

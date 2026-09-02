@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=17">
+<link rel="stylesheet" href="css/style.css?v=18">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-orange.svg">
 <link rel="alternate icon" href="assets/favicon-orange.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -108,27 +108,6 @@
     max-width:34ch; position:relative;
   }
 
-  .hobbies{ margin-top:clamp(32px,5vw,48px); }
-  .hobbies h2{
-    margin:0; font-family:'Bricolage Grotesque',sans-serif;
-    font-size:clamp(21px,2.8vw,27px); line-height:1.1; letter-spacing:-0.014em;
-    font-variation-settings:'opsz' 24,'wght' 700,'wdth' 92;
-  }
-  .hobby-grid{
-    display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-    gap:14px; margin-top:18px;
-  }
-  .hobby{ border-radius:22px; min-height:150px; padding:22px; }
-  .hobby-icon{
-    width:48px; height:48px; border-radius:50%;
-    display:flex; align-items:center; justify-content:center;
-  }
-  .hobby-title{
-    margin:12px 0 6px; font-family:'Bricolage Grotesque',sans-serif;
-    font-size:18px; line-height:1.15;
-    font-variation-settings:'opsz' 18,'wght' 600,'wdth' 94;
-  }
-  .hobby p{ margin:0; font:400 13.5px/1.45 'Inter',sans-serif; color:var(--ink-2); }
 
   @media (max-width:620px){
     .about-hero{ flex-direction:column-reverse; }
@@ -194,26 +173,39 @@
     <section class="hobbies">
       <h2 data-reveal>When I'm not designing</h2>
       <div class="hobby-grid">
-        <div class="hobby" data-reveal style="background:#fbecc1;">
-          <div class="hobby-icon" style="background:#ffd23f;">
+        <div class="hobby hobby--listening" data-reveal data-now="spotify">
+          <div class="hobby-head">
+            <span class="hobby-kicker"><span class="now-dot" aria-hidden="true"></span>Listening</span>
+            <a class="hobby-src" href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify ↗</a>
+          </div>
+          <div class="now-body">
+            <div class="hobby-title">Probably has headphones on.</div>
+            <p>What's on rotation shows up here, straight from Spotify.</p>
+          </div>
+        </div>
+        <div class="hobby hobby--watching" data-reveal data-now="letterboxd">
+          <div class="hobby-head">
+            <span class="hobby-kicker"><span class="now-dot" aria-hidden="true"></span>Watching</span>
+            <a class="hobby-src" href="https://letterboxd.com/BinkyBoinky/" target="_blank" rel="noopener">Letterboxd ↗</a>
+          </div>
+          <div class="now-body">
+            <div class="hobby-title">Probably at the movies.</div>
+            <p>The last few films I logged, with my ratings, via Letterboxd.</p>
+          </div>
+        </div>
+        <div class="hobby hobby--wander" data-reveal>
+          <div class="hobby-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#1c1a17" stroke-width="1.8"></circle><path d="M15.5 8.5 L13.4 13.4 L8.5 15.5 L10.6 10.6 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path></svg>
           </div>
           <div class="hobby-title">Wandering for ideas</div>
           <p>New cities, parks, and museums, where I quietly collect inspiration the world hands me.</p>
         </div>
-        <div class="hobby" data-reveal style="background:#d0e0e7;">
-          <div class="hobby-icon" style="background:#3d9be9;">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 4.2 A1.9 1.9 0 0 1 13.8 4.2 V5.2 H17 A1.3 1.3 0 0 1 18.3 6.5 V9.7 H17.3 A1.9 1.9 0 0 0 17.3 13.5 H18.3 V16.7 A1.3 1.3 0 0 1 17 18 H13.8 V17 A1.9 1.9 0 0 0 10 17 V18 H6.8 A1.3 1.3 0 0 1 5.5 16.7 V13.5 H6.5 A1.9 1.9 0 0 0 6.5 9.7 H5.5 V6.5 A1.3 1.3 0 0 1 6.8 5.2 H10 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+        <div class="hobby hobby--puzzle" data-reveal>
+          <div class="hobby-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 4.2 A1.9 1.9 0 0 1 13.8 4.2 V5.2 H17 A1.3 1.3 0 0 1 18.3 6.5 V9.7 H17.3 A1.9 1.9 0 0 0 17.3 13.5 H18.3 V16.7 A1.3 1.3 0 0 1 17 18 H13.8 V17 A1.9 1.9 0 0 0 10 17 V18 H6.8 A1.3 1.3 0 0 1 5.5 16.7 V13.5 H6.5 A1.9 1.9 0 0 0 6.5 9.7 H5.5 V6.5 A1.3 1.3 0 0 1 6.8 5.2 H10 Z" stroke="#fdf2ec" stroke-width="1.8" stroke-linejoin="round"></path></svg>
           </div>
           <div class="hobby-title">Strategy and puzzles</div>
           <p>A good strategy game or a knotty puzzle and I happily lose track of time.</p>
-        </div>
-        <div class="hobby" data-reveal style="background:#c7e8d4;">
-          <div class="hobby-icon" style="background:#13c296;">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6.5 C10.5 4.9 8.2 4.4 5.5 4.4 V17.6 C8.2 17.6 10.5 18.1 12 19.7 C13.5 18.1 15.8 17.6 18.5 17.6 V4.4 C15.8 4.4 13.5 4.9 12 6.5 Z" stroke="#1c1a17" stroke-width="1.8" stroke-linejoin="round"></path><path d="M12 6.5 V19.7" stroke="#1c1a17" stroke-width="1.8"></path></svg>
-          </div>
-          <div class="hobby-title">Stories, on and off screen</div>
-          <p>Winding down with a book, a film, or an album I can sink into.</p>
         </div>
       </div>
     </section>
@@ -256,5 +248,6 @@
 </div>
 
 <script src="js/main.js?v=8"></script>
+<script src="js/now.js?v=1" defer></script>
 </body>
 </html>
