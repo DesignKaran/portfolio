@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T06:21:43.289Z",
+  "updatedAt": "2026-09-02T06:27:42.626Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -28,14 +28,6 @@
         "playedAt": "2026-09-01T20:19:43.697Z"
       },
       {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
-        "playedAt": "2026-09-01T20:19:06.236Z"
-      },
-      {
         "name": "These Days",
         "artists": "Foo Fighters",
         "album": "Wasting Light",
@@ -50,6 +42,30 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027870762a58313ad6f981d664",
         "url": "https://open.spotify.com/track/6Hmj7SrLRbreLVfVS7mV1S",
         "playedAt": "2026-08-31T14:32:44.008Z"
+      },
+      {
+        "name": "Uprising",
+        "artists": "Muse",
+        "album": "The Resistance",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b6d4566db0d12894a1a3b7a2",
+        "url": "https://open.spotify.com/track/4VqPOruhp5EdPBeR92t6lQ",
+        "playedAt": "2026-08-31T14:27:08.247Z"
+      },
+      {
+        "name": "Gimme Sympathy",
+        "artists": "Metric",
+        "album": "Fantasies",
+        "art": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
+        "url": "https://open.spotify.com/track/4z2xy1UYMu70xCkWudeL96",
+        "playedAt": "2026-08-31T14:22:03.050Z"
+      },
+      {
+        "name": "Monsters (feat. blackbear)",
+        "artists": "All Time Low, blackbear",
+        "album": "Wake Up, Sunshine",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fb7ae2e64f698edee69afc11",
+        "url": "https://open.spotify.com/track/0tyR7Bu9P086aWBFZ4QJoo",
+        "playedAt": "2026-08-31T14:18:07.938Z"
       }
     ],
     "top": [
