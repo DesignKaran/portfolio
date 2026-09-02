@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-02T15:12:42.855Z",
+  "updatedAt": "2026-09-02T18:51:12.254Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-09-02T09:29:04.042Z"
+      },
       {
         "name": "Aerials",
         "artists": "System Of A Down",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
         "playedAt": "2026-09-02T06:44:43.404Z"
-      },
-      {
-        "name": "Dirty Work",
-        "artists": "Steely Dan",
-        "album": "Can't Buy A Thrill",
-        "art": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
-        "url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH",
-        "playedAt": "2026-09-02T06:43:47.481Z"
       }
     ],
     "top": [
@@ -119,20 +119,20 @@
         "url": "https://open.spotify.com/track/3VwCHFahYwyUSR0Rse4Boo"
       },
       {
-        "name": "Look at My Life",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/4Yf6QS1hjFWT1qMqvpzNcK"
+        "name": "petal",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
       }
     ],
     "genres": [
       "Pop",
       "Alternative Rock",
       "Rock",
-      "Cinematic Classical",
-      "Dance-Pop",
-      "Pop Rock"
+      "Indie Pop",
+      "Pop Rock",
+      "Cinematic Classical"
     ]
   },
   "letterboxd": {
