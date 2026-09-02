@@ -1,6 +1,81 @@
 {
-  "updatedAt": "2026-09-02T06:01:04.430Z",
-  "spotify": null,
+  "updatedAt": "2026-09-02T06:21:43.289Z",
+  "spotify": {
+    "nowPlaying": null,
+    "recent": [
+      {
+        "name": "Aerials",
+        "artists": "System Of A Down",
+        "album": "Toxicity",
+        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
+        "url": "https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco",
+        "playedAt": "2026-09-02T02:16:17.444Z"
+      },
+      {
+        "name": "Joker And The Thief",
+        "artists": "Wolfmother",
+        "album": "Wolfmother",
+        "art": "https://i.scdn.co/image/ab67616d00001e0204422c5d997bfa6c750a12f1",
+        "url": "https://open.spotify.com/track/7ISL3LO8AWP3fKIXunvqTa",
+        "playedAt": "2026-09-01T20:24:24.544Z"
+      },
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
+        "playedAt": "2026-09-01T20:19:43.697Z"
+      },
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
+        "playedAt": "2026-09-01T20:19:06.236Z"
+      },
+      {
+        "name": "These Days",
+        "artists": "Foo Fighters",
+        "album": "Wasting Light",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fc14d5117520d5bce369a543",
+        "url": "https://open.spotify.com/track/2kN05N1AQQplsgFweFAqYb",
+        "playedAt": "2026-09-01T04:17:33.127Z"
+      },
+      {
+        "name": "Wake Up",
+        "artists": "Arcade Fire",
+        "album": "Funeral",
+        "art": "https://i.scdn.co/image/ab67616d00001e027870762a58313ad6f981d664",
+        "url": "https://open.spotify.com/track/6Hmj7SrLRbreLVfVS7mV1S",
+        "playedAt": "2026-08-31T14:32:44.008Z"
+      }
+    ],
+    "top": [
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "like i do",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
+      }
+    ]
+  },
   "letterboxd": {
     "user": "BinkyBoinky",
     "films": [
