@@ -19,4 +19,10 @@ browser against either service, and no keys are shipped to the site.
   4. Actions → "Refresh now-card data" → Run workflow. The Listening card fills
      on the next deploy.
 
+- **Favorites** (the four posters under "Last watched"): Letterboxd's profile page
+  is behind a bot challenge, so list them in `data/favorites.json`:
+  `[{ "title": "Whiplash", "year": 2014, "slug": "whiplash-2014" }, ...]`
+  (`slug` is the part after `letterboxd.com/film/`; it only powers the link).
+  Posters resolve automatically on the next run.
+
 Nothing to install; Node 20+ only.
