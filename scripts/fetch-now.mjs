@@ -44,58 +44,44 @@ export function parseLetterboxd(xml, limit = 6) {
   }
   return { user: LB_USER, films };
 }
-// Letterboxd's HTML pages sit behind bot protection; the RSS feed does not.
-// Send a plain browser header set for the HTML fetches and log what comes back.
-const UA = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-  'Accept-Language': 'en-US,en;q=0.9',
-  'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1',
-  'Upgrade-Insecure-Requests': '1',
-};
+const UA = { 'User-Agent': 'karanqmr.com now-card (github actions)' };
 
-// The four "Favorite films" on the profile page (not in the RSS). Posters are
-// lazy-loaded on the site, so each one is resolved via Letterboxd's poster
-// fragment endpoint. Any failure just yields [] and the row stays hidden.
-export function parseFavoriteSlugs(html) {
-  const i = html.indexOf('id="favourites"');
-  if (i < 0) return [];
-  const sec = html.slice(i, html.indexOf('</section>', i) >>> 0);
+// Favorites: Letterboxd's profile page sits behind a Cloudflare JS challenge, so
+// the four favorites are listed by hand in data/favorites.json
+// ([{ "title", "year", "slug" }]). Posters come from the diary feed when the
+// film is in it, otherwise from Apple's public movie catalog (no key needed).
+export function pickItunes(json, year) {
+  const r = (json && json.results) || [];
+  const y = parseInt(year, 10);
+  const byYear = (tol) => r.find((x) => Math.abs(parseInt((x.releaseDate || '').slice(0, 4), 10) - y) <= tol);
+  const m = (y ? (byYear(0) || byYear(1)) : null) || r[0];
+  return m && m.artworkUrl100 ? m.artworkUrl100.replace(/\/\d+x\d+bb\./, '/600x900bb.') : null;
+}
+async function itunesPoster(title, year) {
+  const q = new URLSearchParams({ term: title, media: 'movie', entity: 'movie', limit: '10', country: 'US' });
+  const r = await fetch('https://itunes.apple.com/search?' + q, { headers: UA });
+  if (!r.ok) throw new Error('itunes ' + r.status);
+  return pickItunes(await r.json(), year);
+}
+async function favorites(diaryFilms) {
+  let cfg = [];
+  try { cfg = JSON.parse(await readFile('data/favorites.json', 'utf8')); } catch (_) { return []; }
   const out = [];
-  const re = /data-film-slug="([^"]+)"[\s\S]*?alt="([^"]*)"/g;
-  let m;
-  while ((m = re.exec(sec)) && out.length < 4) out.push({ slug: m[1], title: decode(m[2]) });
+  for (const f of (Array.isArray(cfg) ? cfg : []).slice(0, 4)) {
+    if (!f || !f.title) continue;
+    const hit = diaryFilms.find((x) => x.title.toLowerCase() === f.title.toLowerCase());
+    let poster = hit && hit.poster ? hit.poster : null;
+    if (!poster) poster = await itunesPoster(f.title, f.year).catch((e) => { console.error('poster lookup failed for', f.title, e.message); return null; });
+    out.push({ title: f.title, year: f.year || null, url: f.slug ? `https://letterboxd.com/film/${f.slug}/` : null, poster });
+  }
   return out;
-}
-export function parsePosterFragment(html) {
-  const src = html.match(/src="(https:\/\/a\.ltrbxd\.com[^"]+)"/);
-  const year = html.match(/data-film-release-year="(\d{4})"/);
-  const title = html.match(/data-film-name="([^"]*)"/);
-  return { poster: src ? decode(src[1]) : null, year: year ? year[1] : null, title: title ? decode(title[1]) : null };
-}
-async function favorites() {
-  const r = await fetch(`https://letterboxd.com/${LB_USER}/`, { headers: UA });
-  if (!r.ok) {
-    const body = (await r.text().catch(() => '')).slice(0, 200).replace(/\s+/g, ' ');
-    throw new Error('profile ' + r.status + ' server=' + r.headers.get('server') + ' cf=' + r.headers.get('cf-mitigated') + ' body=' + JSON.stringify(body));
-  }
-  const slugs = parseFavoriteSlugs(await r.text());
-  const favs = [];
-  for (const f of slugs) {
-    let frag = { poster: null, year: null, title: null };
-    try {
-      const pr = await fetch(`https://letterboxd.com/ajax/poster/film/${f.slug}/std/150x225/`, { headers: UA });
-      if (pr.ok) frag = parsePosterFragment(await pr.text());
-    } catch (_) {}
-    favs.push({ title: frag.title || f.title, year: frag.year, url: `https://letterboxd.com/film/${f.slug}/`, poster: frag.poster });
-  }
-  return favs;
 }
 async function letterboxd() {
   const r = await fetch(`https://letterboxd.com/${LB_USER}/rss/`, { headers: UA });
   if (!r.ok) throw new Error('rss ' + r.status);
-  const out = parseLetterboxd(await r.text());
-  try { out.favorites = await favorites(); console.log('letterboxd favorites:', out.favorites.length); }
+  const all = parseLetterboxd(await r.text(), 50);
+  const out = { user: all.user, films: all.films.slice(0, 6) };
+  try { out.favorites = await favorites(all.films); console.log('letterboxd favorites:', out.favorites.length, 'posters:', out.favorites.filter((f) => f.poster).length); }
   catch (e) { console.error('favorites failed:', e.message); out.favorites = []; }
   return out;
 }
