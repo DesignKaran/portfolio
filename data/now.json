@@ -1,14 +1,40 @@
 {
-  "updatedAt": "2026-09-02T06:55:21.259Z",
+  "updatedAt": "2026-09-02T11:08:27.627Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Baby Steps",
-      "artists": "Olivia Dean",
-      "album": "The Art of Loving",
-      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-      "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "Aerials",
+        "artists": "System Of A Down",
+        "album": "Toxicity",
+        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
+        "url": "https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco",
+        "playedAt": "2026-09-02T07:29:22.161Z"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-09-02T07:03:12.747Z"
+      },
+      {
+        "name": "So Easy (To Fall In Love)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
+        "playedAt": "2026-09-02T07:00:08.228Z"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
+        "playedAt": "2026-09-02T06:57:18.705Z"
+      },
       {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
@@ -40,54 +66,22 @@
         "art": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
         "url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH",
         "playedAt": "2026-09-02T06:43:47.481Z"
-      },
-      {
-        "name": "Like a Rolling Stone",
-        "artists": "Bob Dylan",
-        "album": "Highway 61 Revisited",
-        "art": "https://i.scdn.co/image/ab67616d00001e020cb0884829c5503b2e242541",
-        "url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
-        "playedAt": "2026-09-02T06:40:36.882Z"
-      },
-      {
-        "name": "Wish You Were Here",
-        "artists": "Pink Floyd",
-        "album": "Wish You Were Here",
-        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
-        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
-        "playedAt": "2026-09-02T06:34:24.647Z"
-      },
-      {
-        "name": "Aerials",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco",
-        "playedAt": "2026-09-02T02:16:17.444Z"
-      },
-      {
-        "name": "Joker And The Thief",
-        "artists": "Wolfmother",
-        "album": "Wolfmother",
-        "art": "https://i.scdn.co/image/ab67616d00001e0204422c5d997bfa6c750a12f1",
-        "url": "https://open.spotify.com/track/7ISL3LO8AWP3fKIXunvqTa",
-        "playedAt": "2026-09-01T20:24:24.544Z"
       }
     ],
     "top": [
-      {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
-      },
       {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
         "name": "like i do",
@@ -111,6 +105,13 @@
         "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ"
       },
       {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
         "name": "Bad Reputation",
         "artists": "Joan Jett & the Blackhearts",
         "album": "Bad Reputation (Expanded Edition)",
@@ -123,22 +124,15 @@
         "album": "Daughter from Hell",
         "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
         "url": "https://open.spotify.com/track/4Yf6QS1hjFWT1qMqvpzNcK"
-      },
-      {
-        "name": "petal",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
       }
     ],
     "genres": [
       "Pop",
+      "Alternative Rock",
+      "Rock",
       "Cinematic Classical",
-      "Classical",
-      "Bedroom Pop",
-      "Folk Pop",
-      "Indie Pop"
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {

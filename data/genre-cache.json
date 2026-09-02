@@ -2285,6 +2285,66 @@
    "conscious hip hop",
    "jazz rap",
    "west coast hip hop"
+  ],
+  "Radiohead": [
+   "alternative rock",
+   "art rock",
+   "rock",
+   "experimental rock"
+  ],
+  "The Strokes": [
+   "indie rock",
+   "garage rock revival",
+   "post-punk revival",
+   "rock"
+  ],
+  "SZA": [
+   "contemporary r&b",
+   "electronic",
+   "r&b",
+   "pop"
+  ],
+  "Muse": [
+   "alternative rock",
+   "rock",
+   "progressive rock",
+   "symphonic rock"
+  ],
+  "Fleetwood Mac": [
+   "rock",
+   "soft rock",
+   "blues rock",
+   "pop rock"
+  ],
+  "Justin Bieber": [
+   "pop",
+   "teen pop",
+   "dance-pop",
+   "pop rap"
+  ],
+  "The Killers": [
+   "alternative rock",
+   "indie rock",
+   "pop rock",
+   "new wave"
+  ],
+  "Wallows": [
+   "alternative rock",
+   "pop rock",
+   "indie rock",
+   "indie pop"
+  ],
+  "Nirvana": [
+   "grunge",
+   "alternative rock",
+   "rock",
+   "noise rock"
+  ],
+  "Ramones": [
+   "punk rock",
+   "pop punk",
+   "punk",
+   "power pop"
   ]
  }
 }
