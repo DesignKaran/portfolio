@@ -69,7 +69,13 @@ function track(t) {
 }
 export function shapeSpotify(np, rec, top) {
   const nowPlaying = np && np.is_playing && np.item && np.currently_playing_type === 'track' ? track(np.item) : null;
-  const recent = ((rec && rec.items) || []).map((i) => Object.assign(track(i.track), { playedAt: i.played_at }));
+  // Newest first; drop repeats of the same track (played twice in a row) so the
+  // card's cover grid shows distinct songs. Cap at 8.
+  const seen = new Set();
+  const recent = ((rec && rec.items) || [])
+    .map((i) => Object.assign(track(i.track), { playedAt: i.played_at }))
+    .filter((t) => { const k = t.url || t.name + '|' + t.artists; if (seen.has(k)) return false; seen.add(k); return true; })
+    .slice(0, 8);
   return { nowPlaying, recent, top: ((top && top.items) || []).map(track) };
 }
 async function spotify() {
@@ -93,7 +99,7 @@ async function spotify() {
   };
   const [np, rec, top] = await Promise.all([
     get('/me/player/currently-playing').catch(() => null),
-    get('/me/player/recently-played?limit=6'),
+    get('/me/player/recently-played?limit=15'),
     get('/me/top/tracks?time_range=short_term&limit=3').catch(() => null),
   ]);
   return shapeSpotify(np, rec, top);
