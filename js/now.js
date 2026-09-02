@@ -41,6 +41,21 @@
     return b;
   }
 
+  function coverTile(x, sub) {
+    var tile = x.url ? link(x.url, 'now-tile') : el('div', 'now-tile');
+    tile.setAttribute('aria-label', x.name + (sub ? ' by ' + sub : ''));
+    var ph = el('span', 'now-cover now-cover--empty');
+    if (x.art) {
+      var cv = el('img', 'now-cover'); cv.src = x.art; cv.alt = ''; cv.loading = 'lazy';
+      cv.referrerPolicy = 'no-referrer';
+      cv.onerror = function () { cv.replaceWith(ph); };
+      tile.appendChild(cv);
+    } else tile.appendChild(ph);
+    tile.appendChild(el('span', 'now-tile-title', x.name));
+    if (sub) tile.appendChild(el('span', 'now-tile-sub', sub));
+    return tile;
+  }
+
   function renderSpotify(card, sp, updatedAt) {
     var fresh = updatedAt && (Date.now() - new Date(updatedAt).getTime()) < 10 * 60 * 1000;
     var live = fresh && sp.nowPlaying;
@@ -48,12 +63,13 @@
     if (!t) return;
     var b = body(card);
 
-    var row = el('div', 'now-track');
+    // Hero: the current / last track, big.
+    var hero = el('div', 'now-hero');
     if (t.art) {
-      var img = el('img', 'now-art'); img.src = t.art; img.alt = ''; img.width = 72; img.height = 72;
+      var img = el('img', 'now-art'); img.src = t.art; img.alt = ''; img.width = 160; img.height = 160;
       img.referrerPolicy = 'no-referrer';
       img.onerror = function () { img.remove(); };
-      row.appendChild(img);
+      hero.appendChild(img);
     }
     var txt = el('div', 'now-text');
     var status = el('div', 'now-status');
@@ -66,102 +82,77 @@
       status.appendChild(el('span', null, 'Last played' + (t.playedAt ? ' · ' + ago(t.playedAt) : '')));
     }
     txt.appendChild(status);
-    var name = t.url ? link(t.url, 'now-name', t.name) : el('div', 'now-name', t.name);
-    txt.appendChild(name);
-    txt.appendChild(el('p', 'now-sub', t.artists + (t.album ? ' — ' + t.album : '')));
-    row.appendChild(txt);
-    b.appendChild(row);
+    txt.appendChild(t.url ? link(t.url, 'now-name', t.name) : el('div', 'now-name', t.name));
+    txt.appendChild(el('p', 'now-sub', t.artists));
+    if (t.album) txt.appendChild(el('p', 'now-sub now-sub--album', t.album));
+    hero.appendChild(txt);
+    b.appendChild(hero);
 
-    // Cover grid of the next distinct tracks, mirroring the poster row opposite.
-    var more = (sp.recent || []).filter(function (x) { return !t.url || x.url !== t.url; }).slice(0, 4);
-    if (more.length) {
+    // On repeat: top tracks as a cover grid.
+    var top = (sp.top || []).slice(0, 4);
+    if (top.length) {
       var sec = el('div', 'now-section');
-      sec.appendChild(el('span', 'now-chip-label', 'Recently'));
+      sec.appendChild(el('span', 'now-chip-label', 'On repeat'));
       var grid = el('div', 'now-grid');
-      more.forEach(function (x) {
-        var tile = x.url ? link(x.url, 'now-tile') : el('div', 'now-tile');
-        tile.setAttribute('aria-label', x.name + ' by ' + x.artists);
-        var ph = el('span', 'now-cover now-cover--empty');
-        if (x.art) {
-          var cv = el('img', 'now-cover'); cv.src = x.art; cv.alt = ''; cv.loading = 'lazy';
-          cv.referrerPolicy = 'no-referrer';
-          cv.onerror = function () { cv.replaceWith(ph); };
-          tile.appendChild(cv);
-        } else tile.appendChild(ph);
-        tile.appendChild(el('span', 'now-tile-title', x.name));
-        tile.appendChild(el('span', 'now-tile-sub', x.artists));
-        grid.appendChild(tile);
-      });
+      top.forEach(function (x) { grid.appendChild(coverTile(x, x.artists)); });
       sec.appendChild(grid);
       b.appendChild(sec);
     }
 
-    if (sp.top && sp.top.length) {
+    // Top genres as pills.
+    var genres = (sp.genres || []).slice(0, 6);
+    if (genres.length) {
       var chips = el('div', 'now-chips');
-      chips.appendChild(el('span', 'now-chip-label', 'On repeat'));
-      sp.top.slice(0, 3).forEach(function (x) {
-        var chip = x.url ? link(x.url, 'now-chip') : el('span', 'now-chip');
-        if (x.art) {
-          var ca = el('img', 'now-chip-art'); ca.src = x.art; ca.alt = ''; ca.loading = 'lazy';
-          ca.referrerPolicy = 'no-referrer';
-          ca.onerror = function () { ca.remove(); };
-          chip.appendChild(ca);
-        }
-        chip.appendChild(el('span', null, x.name));
-        chips.appendChild(chip);
-      });
+      chips.appendChild(el('span', 'now-chip-label', 'Top genres'));
+      genres.forEach(function (g) { chips.appendChild(el('span', 'now-chip', g)); });
       b.appendChild(chips);
     }
     var src = card.querySelector('.hobby-src');
     if (src && t.url) src.href = t.url;
   }
 
+  function filmTile(f, showStars) {
+    var a = f.url ? link(f.url, 'film') : el('div', 'film');
+    var ph = el('span', 'film-poster film-poster--empty');
+    if (f.poster) {
+      var img = el('img', 'film-poster'); img.src = f.poster; img.alt = ''; img.loading = 'lazy';
+      img.referrerPolicy = 'no-referrer';
+      img.onerror = function () { img.replaceWith(ph); };
+      a.appendChild(img);
+    } else a.appendChild(ph);
+    var title = f.title + (f.year ? ' (' + f.year + ')' : '');
+    a.setAttribute('aria-label', title + (showStars && f.rating != null ? ', rated ' + f.rating + ' of 5' : ''));
+    a.appendChild(el('span', 'film-title', f.title));
+    var meta = el('span', 'film-meta');
+    if (showStars && f.rating != null) meta.appendChild(el('span', 'film-stars', stars(f.rating)));
+    if (f.year) meta.appendChild(el('span', null, (showStars && f.rating != null ? ' ' : '') + f.year));
+    a.appendChild(meta);
+    return a;
+  }
+
   function renderLetterboxd(card, lb) {
     var films = (lb.films || []).slice(0, 4);
-    if (!films.length) return;
-    var b = body(card);
-    var row = el('div', 'film-row');
-    films.forEach(function (f) {
-      var a = f.url ? link(f.url, 'film') : el('div', 'film');
-      if (f.poster) {
-        var img = el('img', 'film-poster'); img.src = f.poster; img.alt = ''; img.loading = 'lazy';
-        img.referrerPolicy = 'no-referrer';
-        img.onerror = function () { img.replaceWith(el('span', 'film-poster film-poster--empty')); };
-        a.appendChild(img);
-      } else {
-        a.appendChild(el('span', 'film-poster film-poster--empty'));
-      }
-      var title = f.title + (f.year ? ' (' + f.year + ')' : '');
-      a.setAttribute('aria-label', title + (f.rating != null ? ', rated ' + f.rating + ' of 5' : ''));
-      a.appendChild(el('span', 'film-title', f.title));
-      var meta = el('span', 'film-meta');
-      if (f.rating != null) meta.appendChild(el('span', 'film-stars', stars(f.rating)));
-      if (f.year) meta.appendChild(el('span', null, (f.rating != null ? ' ' : '') + f.year));
-      a.appendChild(meta);
-      row.appendChild(a);
-    });
-    b.appendChild(row);
-    var last = films[0].watchedDate;
-    if (last) b.appendChild(el('p', 'now-updated', 'Last watched ' + ago(last + 'T12:00:00')));
-
     var favs = (lb.favorites || []).slice(0, 4);
+    if (!films.length && !favs.length) return;
+    var b = body(card);
+
     if (favs.length) {
-      var frow = el('div', 'fav-row');
-      frow.appendChild(el('span', 'now-chip-label fav-label', 'Favorites'));
-      favs.forEach(function (f) {
-        var a = f.url ? link(f.url, 'fav') : el('span', 'fav');
-        var label = f.title + (f.year ? ' (' + f.year + ')' : '');
-        a.setAttribute('aria-label', label); a.title = label;
-        var ph = el('span', 'fav-poster fav-poster--empty');
-        if (f.poster) {
-          var img = el('img', 'fav-poster'); img.src = f.poster; img.alt = ''; img.loading = 'lazy';
-          img.referrerPolicy = 'no-referrer';
-          img.onerror = function () { img.replaceWith(ph); };
-          a.appendChild(img);
-        } else a.appendChild(ph);
-        frow.appendChild(a);
-      });
-      b.appendChild(frow);
+      var fsec = el('div', 'now-section now-section--first');
+      fsec.appendChild(el('span', 'now-chip-label fav-label', 'All-time favorites'));
+      var frow = el('div', 'film-row');
+      favs.forEach(function (f) { frow.appendChild(filmTile(f, false)); });
+      fsec.appendChild(frow);
+      b.appendChild(fsec);
+    }
+    if (films.length) {
+      var rsec = el('div', 'now-section' + (favs.length ? '' : ' now-section--first'));
+      rsec.appendChild(el('span', 'now-chip-label', 'Recently watched'));
+      var row = el('div', 'film-row');
+      films.forEach(function (f) { row.appendChild(filmTile(f, true)); });
+      rsec.appendChild(row);
+      b.appendChild(rsec);
+      var last = films[0].watchedDate;
+      if (last) b.appendChild(el('p', 'now-updated', 'Last watched ' + ago(last + 'T12:00:00')));
     }
   }
 
