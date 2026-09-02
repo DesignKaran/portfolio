@@ -464,6 +464,16 @@ a.now-chip:hover, a.now-chip:focus-visible{ background:#ffd23f; color:#1c1a17; }
 .film-meta{ display:block; margin-top:4px; font:400 11.5px/1.35 'Inter',sans-serif; color:var(--ink-3); }
 @media (max-width:560px){ .film-stars{ display:block; } .film-meta > span + span{ margin-left:0; } }
 .film-stars{ color:#e8552d; letter-spacing:0.02em; }
+/* Watching: all-time favorites — compact poster strip that fits the spare height */
+.fav-row{ display:flex; align-items:center; gap:8px; margin-top:14px; }
+.fav-label{ color:var(--ink-3); margin-right:6px; }
+.fav{ display:block; flex:0 0 auto; line-height:0; }
+.fav-poster{
+  display:block; width:46px; height:69px; object-fit:cover; border-radius:8px;
+  background:var(--chip-bg); border:1px solid var(--line);
+  transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
+}
+.fav:hover .fav-poster, .fav:focus-visible .fav-poster{ transform:translateY(-3px) rotate(-2deg); box-shadow:0 12px 18px -12px rgba(28,26,23,0.6); }
 .now-updated{ margin:12px 0 0 !important; font:400 11.5px/1 'Inter',sans-serif !important; color:var(--ink-3) !important; }
 
 /* ---------- dark-mode override map for inline-styled content ----------
