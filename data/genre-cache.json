@@ -2345,6 +2345,61 @@
    "pop punk",
    "punk",
    "power pop"
+  ],
+  "Michael Jackson": [
+   "pop",
+   "dance-pop",
+   "disco",
+   "contemporary r&b"
+  ],
+  "Conan Gray": [
+   "pop",
+   "ballad",
+   "indie pop",
+   "pop rock"
+  ],
+  "Linkin Park": [
+   "nu metal",
+   "rock",
+   "rap rock",
+   "metal"
+  ],
+  "Queen": [
+   "rock",
+   "glam rock",
+   "hard rock",
+   "art rock"
+  ],
+  "Foo Fighters": [
+   "rock",
+   "alternative rock",
+   "post-grunge",
+   "hard rock"
+  ],
+  "Dabin": [
+   "dubstep",
+   "electronic",
+   "melodic dubstep",
+   "house"
+  ],
+  "The Weeknd": [
+   "r&b",
+   "dance-pop",
+   "contemporary r&b",
+   "alternative r&b"
+  ],
+  "NIKI": [
+   "alternative r&b",
+   "r&b"
+  ],
+  "Shankar-Ehsaan-Loy": [
+   "pop",
+   "musical",
+   "filmi"
+  ],
+  "The Head And The Heart": [],
+  "HYBS": [
+   "t-pop"
   ]
  }
 }
