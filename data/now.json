@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-09-02T06:27:42.626Z",
+  "updatedAt": "2026-09-02T06:33:27.299Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Wish You Were Here",
+      "artists": "Pink Floyd",
+      "album": "Wish You Were Here",
+      "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
+      "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1"
+    },
     "recent": [
       {
         "name": "Aerials",
@@ -149,6 +155,7 @@
         "url": "https://letterboxd.com/binkyboinky/film/marty-supreme/",
         "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-600-0-900-crop.jpg?v=b14a26bb43"
       }
-    ]
+    ],
+    "favorites": []
   }
 }
