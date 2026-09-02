@@ -44,7 +44,15 @@ export function parseLetterboxd(xml, limit = 6) {
   }
   return { user: LB_USER, films };
 }
-const UA = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 karanqmr.com-now-card' };
+// Letterboxd's HTML pages sit behind bot protection; the RSS feed does not.
+// Send a plain browser header set for the HTML fetches and log what comes back.
+const UA = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'Accept-Language': 'en-US,en;q=0.9',
+  'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1',
+  'Upgrade-Insecure-Requests': '1',
+};
 
 // The four "Favorite films" on the profile page (not in the RSS). Posters are
 // lazy-loaded on the site, so each one is resolved via Letterboxd's poster
@@ -67,7 +75,10 @@ export function parsePosterFragment(html) {
 }
 async function favorites() {
   const r = await fetch(`https://letterboxd.com/${LB_USER}/`, { headers: UA });
-  if (!r.ok) throw new Error('profile ' + r.status);
+  if (!r.ok) {
+    const body = (await r.text().catch(() => '')).slice(0, 200).replace(/\s+/g, ' ');
+    throw new Error('profile ' + r.status + ' server=' + r.headers.get('server') + ' cf=' + r.headers.get('cf-mitigated') + ' body=' + JSON.stringify(body));
+  }
   const slugs = parseFavoriteSlugs(await r.text());
   const favs = [];
   for (const f of slugs) {
