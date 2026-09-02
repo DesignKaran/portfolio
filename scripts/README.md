@@ -25,4 +25,8 @@ browser against either service, and no keys are shipped to the site.
   (`slug` is the part after `letterboxd.com/film/`; it only powers the link).
   Posters resolve automatically on the next run.
 
+- **Top genres**: Spotify no longer returns artist genres to newer apps, so
+  each top artist's tags come from MusicBrainz and are cached in
+  `data/genre-cache.json` (safe to delete; it rebuilds over a few runs).
+
 Nothing to install; Node 20+ only.

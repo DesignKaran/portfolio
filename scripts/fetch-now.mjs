@@ -133,16 +133,61 @@ function track(t) {
     url: (t.external_urls && t.external_urls.spotify) || '',
   };
 }
-// Top genres: Spotify tags artists, not plays, so weight each top artist's genres
-// by rank (medium_term ≈ the last 6 months, the closest bucket to "recent").
-export function topGenres(artistsJson, limit = 6) {
+// Top genres. Spotify still ranks top artists but (since 2025) returns empty
+// genre tags for newer apps, so tags come from MusicBrainz, filtered against its
+// canonical genre list and cached in data/genre-cache.json (only new artists are
+// looked up; MusicBrainz asks for 1 request/second).
+const GENRE_CACHE = 'data/genre-cache.json';
+const MB = { 'User-Agent': 'karanqmr.com-now-card/1.0 (https://www.karanqmr.com)', Accept: 'application/json' };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+export function pickMbTags(json, name, genreSet) {
+  const list = (json && json.artists) || [];
+  const hit = list.find((a) => (a.name || '').toLowerCase() === name.toLowerCase()) || list[0];
+  return ((hit && hit.tags) || [])
+    .filter((t) => t.count > 0 && (!genreSet || genreSet.has(t.name.toLowerCase())))
+    .sort((a, b) => b.count - a.count).slice(0, 4).map((t) => t.name.toLowerCase());
+}
+async function mbGenres(names, maxLookups = 20) {
+  let cache = { genres: null, artists: {} };
+  try { cache = JSON.parse(await readFile(GENRE_CACHE, 'utf8')); } catch (_) {}
+  if (!cache.genres) {
+    try {
+      const r = await fetch('https://musicbrainz.org/ws/2/genre/all?fmt=txt', { headers: MB });
+      if (r.ok) cache.genres = (await r.text()).split('\n').map((x) => x.trim().toLowerCase()).filter(Boolean);
+    } catch (e) { console.error('mb genre list failed:', e.message); }
+    await sleep(1100);
+  }
+  const genreSet = cache.genres && cache.genres.length ? new Set(cache.genres) : null;
+  let looked = 0;
+  for (const name of names) {
+    if (cache.artists[name] !== undefined) continue;
+    if (looked >= maxLookups) break;
+    looked++;
+    try {
+      const q = new URLSearchParams({ query: 'artist:"' + name.replace(/"/g, '') + '"', fmt: 'json', limit: '5' });
+      const r = await fetch('https://musicbrainz.org/ws/2/artist/?' + q, { headers: MB });
+      if (!r.ok) throw new Error('mb ' + r.status);
+      cache.artists[name] = pickMbTags(await r.json(), name, genreSet);
+    } catch (e) { console.error('musicbrainz failed for', name, e.message); }
+    await sleep(1100);
+  }
+  if (looked) console.log('musicbrainz: looked up', looked, 'artists');
+  await mkdir('data', { recursive: true });
+  await writeFile(GENRE_CACHE, JSON.stringify(cache, null, 1) + '\n');
+  return cache.artists;
+}
+export function topGenres(artistsJson, mbMap, limit = 6) {
   const items = (artistsJson && artistsJson.items) || [];
   const score = new Map();
-  items.forEach((a, i) => (a.genres || []).forEach((g) => score.set(g, (score.get(g) || 0) + (items.length - i))));
+  items.forEach((a, i) => {
+    const w = items.length - i;
+    const tags = (a.genres && a.genres.length) ? a.genres : ((mbMap && mbMap[a.name]) || []);
+    tags.forEach((g, k) => score.set(g, (score.get(g) || 0) + w * Math.pow(0.7, k)));
+  });
   return [...score.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit)
     .map(([g]) => g.replace(/\b\w/g, (c) => c.toUpperCase()));
 }
-export function shapeSpotify(np, rec, top, artists) {
+export function shapeSpotify(np, rec, top, artists, mbMap) {
   const nowPlaying = np && np.is_playing && np.item && np.currently_playing_type === 'track' ? track(np.item) : null;
   // Newest first; drop repeats of the same track (played twice in a row) so the
   // card's cover grid shows distinct songs. Cap at 8.
@@ -151,7 +196,7 @@ export function shapeSpotify(np, rec, top, artists) {
     .map((i) => Object.assign(track(i.track), { playedAt: i.played_at }))
     .filter((t) => { const k = t.url || t.name + '|' + t.artists; if (seen.has(k)) return false; seen.add(k); return true; })
     .slice(0, 8);
-  return { nowPlaying, recent, top: ((top && top.items) || []).map(track), genres: topGenres(artists) };
+  return { nowPlaying, recent, top: ((top && top.items) || []).map(track), genres: topGenres(artists, mbMap) };
 }
 async function spotify() {
   const { SPOTIFY_CLIENT_ID: id, SPOTIFY_CLIENT_SECRET: secret, SPOTIFY_REFRESH_TOKEN: rt } = process.env;
@@ -178,7 +223,11 @@ async function spotify() {
     get('/me/top/tracks?time_range=short_term&limit=8').catch(() => null),
     get('/me/top/artists?time_range=medium_term&limit=50').catch((e) => { console.error('top artists failed:', e.message); return null; }),
   ]);
-  const shaped = shapeSpotify(np, rec, top, artists);
+  const arts = (artists && artists.items) || [];
+  console.log('spotify top artists:', arts.length, '| with spotify genres:', arts.filter((a) => a.genres && a.genres.length).length);
+  const needMb = arts.filter((a) => !(a.genres && a.genres.length)).map((a) => a.name);
+  const mbMap = needMb.length ? await mbGenres(needMb).catch((e) => { console.error('musicbrainz failed:', e.message); return {}; }) : {};
+  const shaped = shapeSpotify(np, rec, top, artists, mbMap);
   console.log('spotify genres:', shaped.genres.join(', ') || '(none)');
   return shaped;
 }
