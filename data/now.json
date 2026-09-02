@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-09-02T06:39:24.906Z",
+  "updatedAt": "2026-09-02T06:42:31.173Z",
   "spotify": {
     "nowPlaying": {
-      "name": "Like a Rolling Stone",
-      "artists": "Bob Dylan",
-      "album": "Highway 61 Revisited",
-      "art": "https://i.scdn.co/image/ab67616d00001e020cb0884829c5503b2e242541",
-      "url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc"
+      "name": "Dirty Work",
+      "artists": "Steely Dan",
+      "album": "Can't Buy A Thrill",
+      "art": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
+      "url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH"
     },
     "recent": [
+      {
+        "name": "Like a Rolling Stone",
+        "artists": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "art": "https://i.scdn.co/image/ab67616d00001e020cb0884829c5503b2e242541",
+        "url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
+        "playedAt": "2026-09-02T06:40:36.882Z"
+      },
       {
         "name": "Wish You Were Here",
         "artists": "Pink Floyd",
@@ -64,14 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b6d4566db0d12894a1a3b7a2",
         "url": "https://open.spotify.com/track/4VqPOruhp5EdPBeR92t6lQ",
         "playedAt": "2026-08-31T14:27:08.247Z"
-      },
-      {
-        "name": "Gimme Sympathy",
-        "artists": "Metric",
-        "album": "Fantasies",
-        "art": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
-        "url": "https://open.spotify.com/track/4z2xy1UYMu70xCkWudeL96",
-        "playedAt": "2026-08-31T14:22:03.050Z"
       }
     ],
     "top": [
@@ -156,6 +156,31 @@
         "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-600-0-900-crop.jpg?v=b14a26bb43"
       }
     ],
-    "favorites": []
+    "favorites": [
+      {
+        "title": "Good Will Hunting",
+        "year": 1997,
+        "url": "https://letterboxd.com/film/good-will-hunting/",
+        "poster": null
+      },
+      {
+        "title": "Interstellar",
+        "year": 2014,
+        "url": "https://letterboxd.com/film/interstellar/",
+        "poster": null
+      },
+      {
+        "title": "Before Sunrise",
+        "year": 1995,
+        "url": "https://letterboxd.com/film/before-sunrise/",
+        "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/7/4/51974-before-sunrise-0-600-0-900-crop.jpg?v=006e8fedea"
+      },
+      {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "year": 2004,
+        "url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
+        "poster": null
+      }
+    ]
   }
 }
