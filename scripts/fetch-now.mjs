@@ -133,7 +133,16 @@ function track(t) {
     url: (t.external_urls && t.external_urls.spotify) || '',
   };
 }
-export function shapeSpotify(np, rec, top) {
+// Top genres: Spotify tags artists, not plays, so weight each top artist's genres
+// by rank (medium_term ≈ the last 6 months, the closest bucket to "recent").
+export function topGenres(artistsJson, limit = 6) {
+  const items = (artistsJson && artistsJson.items) || [];
+  const score = new Map();
+  items.forEach((a, i) => (a.genres || []).forEach((g) => score.set(g, (score.get(g) || 0) + (items.length - i))));
+  return [...score.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit)
+    .map(([g]) => g.replace(/\b\w/g, (c) => c.toUpperCase()));
+}
+export function shapeSpotify(np, rec, top, artists) {
   const nowPlaying = np && np.is_playing && np.item && np.currently_playing_type === 'track' ? track(np.item) : null;
   // Newest first; drop repeats of the same track (played twice in a row) so the
   // card's cover grid shows distinct songs. Cap at 8.
@@ -142,7 +151,7 @@ export function shapeSpotify(np, rec, top) {
     .map((i) => Object.assign(track(i.track), { playedAt: i.played_at }))
     .filter((t) => { const k = t.url || t.name + '|' + t.artists; if (seen.has(k)) return false; seen.add(k); return true; })
     .slice(0, 8);
-  return { nowPlaying, recent, top: ((top && top.items) || []).map(track) };
+  return { nowPlaying, recent, top: ((top && top.items) || []).map(track), genres: topGenres(artists) };
 }
 async function spotify() {
   const { SPOTIFY_CLIENT_ID: id, SPOTIFY_CLIENT_SECRET: secret, SPOTIFY_REFRESH_TOKEN: rt } = process.env;
@@ -163,12 +172,15 @@ async function spotify() {
     if (!r.ok) throw new Error(p + ' -> ' + r.status);
     return r.json();
   };
-  const [np, rec, top] = await Promise.all([
+  const [np, rec, top, artists] = await Promise.all([
     get('/me/player/currently-playing').catch(() => null),
     get('/me/player/recently-played?limit=15'),
-    get('/me/top/tracks?time_range=short_term&limit=3').catch(() => null),
+    get('/me/top/tracks?time_range=short_term&limit=8').catch(() => null),
+    get('/me/top/artists?time_range=medium_term&limit=50').catch((e) => { console.error('top artists failed:', e.message); return null; }),
   ]);
-  return shapeSpotify(np, rec, top);
+  const shaped = shapeSpotify(np, rec, top, artists);
+  console.log('spotify genres:', shaped.genres.join(', ') || '(none)');
+  return shaped;
 }
 
 // ---------- main ----------
