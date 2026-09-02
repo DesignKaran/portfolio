@@ -2446,6 +2446,18 @@
    "pop",
    "pop rock",
    "psychedelic pop"
+  ],
+  "Max Richter": [
+   "classical",
+   "modern classical",
+   "ambient",
+   "minimalism"
+  ],
+  "The Hives": [
+   "garage punk",
+   "garage rock",
+   "indie rock",
+   "rock"
   ]
  }
 }
