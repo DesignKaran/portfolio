@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-09-02T06:42:31.173Z",
+  "updatedAt": "2026-09-02T06:44:27.982Z",
   "spotify": {
     "nowPlaying": {
-      "name": "Dirty Work",
-      "artists": "Steely Dan",
-      "album": "Can't Buy A Thrill",
-      "art": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
-      "url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH"
+      "name": "The Art of Loving (Intro)",
+      "artists": "Olivia Dean",
+      "album": "The Art of Loving",
+      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+      "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
     },
     "recent": [
+      {
+        "name": "Dirty Work",
+        "artists": "Steely Dan",
+        "album": "Can't Buy A Thrill",
+        "art": "https://i.scdn.co/image/ab67616d00001e020ddd7e736f870994f4707947",
+        "url": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH",
+        "playedAt": "2026-09-02T06:43:47.481Z"
+      },
       {
         "name": "Like a Rolling Stone",
         "artists": "Bob Dylan",
@@ -64,14 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027870762a58313ad6f981d664",
         "url": "https://open.spotify.com/track/6Hmj7SrLRbreLVfVS7mV1S",
         "playedAt": "2026-08-31T14:32:44.008Z"
-      },
-      {
-        "name": "Uprising",
-        "artists": "Muse",
-        "album": "The Resistance",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b6d4566db0d12894a1a3b7a2",
-        "url": "https://open.spotify.com/track/4VqPOruhp5EdPBeR92t6lQ",
-        "playedAt": "2026-08-31T14:27:08.247Z"
       }
     ],
     "top": [
@@ -161,13 +161,13 @@
         "title": "Good Will Hunting",
         "year": 1997,
         "url": "https://letterboxd.com/film/good-will-hunting/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "title": "Interstellar",
         "year": 2014,
         "url": "https://letterboxd.com/film/interstellar/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "title": "Before Sunrise",
@@ -179,7 +179,7 @@
         "title": "Eternal Sunshine of the Spotless Mind",
         "year": 2004,
         "url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       }
     ]
   }
