@@ -61,7 +61,38 @@ async function itunesPoster(title, year) {
   const q = new URLSearchParams({ term: title, media: 'movie', entity: 'movie', limit: '10', country: 'US' });
   const r = await fetch('https://itunes.apple.com/search?' + q, { headers: UA });
   if (!r.ok) throw new Error('itunes ' + r.status);
-  return pickItunes(await r.json(), year);
+  const j = JSON.parse(await r.text());
+  console.log('itunes', JSON.stringify(title), 'results:', j.resultCount);
+  return pickItunes(j, year);
+}
+// Wikipedia fallback: search for the film article, then take the page's lead image
+// (the poster on film articles). Keyless; wants a descriptive User-Agent.
+const WIKI_UA = { 'User-Agent': 'karanqmr.com-now-card/1.0 (portfolio favorites poster lookup)' };
+export function pickWikiTitle(json, title, year) {
+  const hits = (json && json.query && json.query.search) || [];
+  const t = title.toLowerCase();
+  const scored = hits.map((h) => {
+    const n = h.title.toLowerCase(); let sc = 0;
+    if (n === t || n === t + ' (film)' || n === `${t} (${year} film)`) sc += 3;
+    else if (n.startsWith(t)) sc += 1;
+    if (/\(.*film\)/.test(n)) sc += 1;
+    if (year && n.includes(String(year))) sc += 1;
+    return { title: h.title, sc };
+  }).sort((a, b) => b.sc - a.sc);
+  return scored.length ? scored[0].title : null;
+}
+async function wikiPoster(title, year) {
+  const q = new URLSearchParams({ action: 'query', list: 'search', srsearch: `${title} ${year || ''} film`, srlimit: '5', format: 'json' });
+  const r = await fetch('https://en.wikipedia.org/w/api.php?' + q, { headers: WIKI_UA });
+  if (!r.ok) throw new Error('wiki search ' + r.status);
+  const page = pickWikiTitle(await r.json(), title, year);
+  if (!page) return null;
+  const s = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(page.replace(/ /g, '_')), { headers: WIKI_UA });
+  if (!s.ok) throw new Error('wiki summary ' + s.status);
+  const j = await s.json();
+  const img = (j.originalimage && j.originalimage.source) || (j.thumbnail && j.thumbnail.source) || null;
+  console.log('wiki', JSON.stringify(title), '->', page, img ? 'poster' : 'no image');
+  return img;
 }
 async function favorites(diaryFilms) {
   let cfg = [];
@@ -71,7 +102,8 @@ async function favorites(diaryFilms) {
     if (!f || !f.title) continue;
     const hit = diaryFilms.find((x) => x.title.toLowerCase() === f.title.toLowerCase());
     let poster = hit && hit.poster ? hit.poster : null;
-    if (!poster) poster = await itunesPoster(f.title, f.year).catch((e) => { console.error('poster lookup failed for', f.title, e.message); return null; });
+    if (!poster) poster = await itunesPoster(f.title, f.year).catch((e) => { console.error('itunes failed for', f.title, e.message); return null; });
+    if (!poster) poster = await wikiPoster(f.title, f.year).catch((e) => { console.error('wiki failed for', f.title, e.message); return null; });
     out.push({ title: f.title, year: f.year || null, url: f.slug ? `https://letterboxd.com/film/${f.slug}/` : null, poster });
   }
   return out;
