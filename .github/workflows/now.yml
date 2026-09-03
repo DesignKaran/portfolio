@@ -26,9 +26,11 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+      - name: Fetch Wandering photos (iCloud shared album)
+        run: node scripts/fetch-wander.mjs
       - name: Commit if changed
         run: |
-          git add -A data
+          git add -A data assets/wander
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
