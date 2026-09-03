@@ -1,31 +1,15 @@
 {
-  "updatedAt": "2026-09-03T19:37:06.622Z",
+  "updatedAt": "2026-09-03T22:13:28.235Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
-      {
-        "name": "Nice To Each Other",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
-        "playedAt": "2026-09-03T15:22:45.814Z"
-      },
-      {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-09-03T01:10:55.274Z"
-      },
       {
         "name": "Baby Steps",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-03T01:08:22.921Z"
+        "playedAt": "2026-09-03T21:05:23.764Z"
       },
       {
         "name": "So Easy (To Fall In Love)",
@@ -33,7 +17,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
-        "playedAt": "2026-09-03T01:05:05.385Z"
+        "playedAt": "2026-09-03T20:14:29.279Z"
       },
       {
         "name": "Let Alone The One You Love",
@@ -41,7 +25,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-03T01:02:15.935Z"
+        "playedAt": "2026-09-03T20:11:39.750Z"
       },
       {
         "name": "Close Up",
@@ -49,7 +33,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-09-03T00:59:09.512Z"
+        "playedAt": "2026-09-03T20:08:33.131Z"
       },
       {
         "name": "Loud",
@@ -57,7 +41,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-09-03T00:55:54.045Z"
+        "playedAt": "2026-09-03T20:04:38.705Z"
       },
       {
         "name": "Lady Lady",
@@ -65,7 +49,23 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
-        "playedAt": "2026-09-03T00:52:49.642Z"
+        "playedAt": "2026-09-03T20:01:34.239Z"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
+        "playedAt": "2026-09-03T19:58:04.792Z"
+      },
+      {
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
+        "playedAt": "2026-09-03T19:55:00.260Z"
       }
     ],
     "top": [
@@ -84,18 +84,18 @@
         "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
-        "name": "like i do",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
-      },
-      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
         "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
+        "name": "like i do",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
       },
       {
         "name": "Baby, I Love You",
@@ -105,25 +105,25 @@
         "url": "https://open.spotify.com/track/29imR7dda5XqwPRFmby7HS"
       },
       {
-        "name": "Bad Reputation",
-        "artists": "Joan Jett & the Blackhearts",
-        "album": "Bad Reputation (Expanded Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023a8c1d521aae4bd646d1949b",
-        "url": "https://open.spotify.com/track/3VwCHFahYwyUSR0Rse4Boo"
-      },
-      {
-        "name": "petal",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
+      },
+      {
+        "name": "So Easy (To Fall In Love)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397"
       }
     ],
     "genres": [
