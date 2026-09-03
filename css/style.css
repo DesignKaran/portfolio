@@ -15,7 +15,7 @@
   --line-2:rgba(28,26,23,0.10);
   --chip-bg:rgba(28,26,23,0.05);
   --chip-line:rgba(28,26,23,0.08);
-  --accent:#e8552d;
+  --accent:#ce6346;
   --tabs-bg:rgba(250,243,230,0.9);
   color-scheme:light;
 }
@@ -55,7 +55,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   overflow-x:hidden;
 }
 
-.accent{ color:#e8552d; }
+.accent{ color:#ce6346; }
 
 .visually-hidden{
   position:absolute; width:1px; height:1px; overflow:hidden;
@@ -79,7 +79,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   [data-load], [data-reveal]{ opacity:1 !important; transform:none !important; }
 }
 
-:focus-visible{ outline:2px solid #e8552d; outline-offset:3px; }
+:focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
 
 /* ---------- nav ---------- */
 .nav{
@@ -149,13 +149,13 @@ body{ margin:0; overscroll-behavior-y:none; }
   font:500 18px/1 'Inter',sans-serif; text-decoration:none;
 }
 .btn-primary{
-  background:#e8552d; color:#ffffff; border:1.5px solid #e8552d;
+  background:#ce6346; color:#ffffff; border:1.5px solid #ce6346;
   border-radius:26px;
   box-shadow:0 1px 0 rgba(0,0,0,0.05);
   transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
 }
 .btn-primary:hover, .btn-primary:focus-visible{
-  transform:scale(1.045); border-radius:16px; box-shadow:0 16px 30px -16px rgba(232,85,45,0.7);
+  transform:scale(1.045); border-radius:16px; box-shadow:0 16px 30px -16px rgba(206,99,70,0.7);
   outline:none;
 }
 
@@ -166,7 +166,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   user-select:none; -webkit-user-select:none; outline:none;
   transition:opacity .55s cubic-bezier(.22,1,.36,1), transform .55s cubic-bezier(.22,1,.36,1);
 }
-.toy:focus-visible{ outline:2px solid #e8552d; outline-offset:6px; border-radius:50%; }
+.toy:focus-visible{ outline:2px solid #ce6346; outline-offset:6px; border-radius:50%; }
 .toy-clip-defs{ position:absolute; }
 .toy-face{
   position:absolute; inset:0; background:#1c1a17;
@@ -194,7 +194,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   display:flex; align-items:center; gap:10px; margin-bottom:14px;
   font:500 14px/1 'Inter',sans-serif; color:var(--ink-3);
 }
-.eyebrow-dot{ width:9px; height:9px; border-radius:50%; background:#e8552d; display:inline-block; flex-shrink:0; }
+.eyebrow-dot{ width:9px; height:9px; border-radius:50%; background:#ce6346; display:inline-block; flex-shrink:0; }
 
 .work-heading{
   margin:0; font-family:'Bricolage Grotesque',sans-serif;
@@ -223,7 +223,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   transform:translateY(-8px); border-radius:14px;
   box-shadow:0 24px 46px -24px rgba(28,26,23,0.42);
 }
-.card:focus-visible{ outline:2px solid #e8552d; outline-offset:3px; }
+.card:focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
 
 .card-media{ overflow:hidden; }
 .card-media-square{ aspect-ratio:1/1; }
@@ -278,7 +278,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   color:#faf3e6; text-decoration:none; letter-spacing:-0.01em;
   transition:color .25s ease; pointer-events:auto;
 }
-.footer-email:hover, .footer-email:focus-visible{ color:#e8552d; }
+.footer-email:hover, .footer-email:focus-visible{ color:#ce6346; }
 
 .footer-bottom{
   display:flex; flex-wrap:wrap; gap:30px; align-items:center; justify-content:space-between;
@@ -290,7 +290,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   color:rgba(250,243,230,0.82); font:500 18.75px/1 'Inter',sans-serif; text-decoration:none;
   transition:color .25s ease; pointer-events:auto;
 }
-.footer-links a:hover, .footer-links a:focus-visible{ color:#e8552d; }
+.footer-links a:hover, .footer-links a:focus-visible{ color:#ce6346; }
 .footer-copyright{ font:400 16.875px/1 'Inter',sans-serif; color:rgba(250,243,230,0.5); }
 
 /* ---------- mobile section bar (case studies; shown where the left rail is hidden) ---------- */
@@ -378,11 +378,20 @@ html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -
 .hobby:hover{ transform:translateY(-4px); box-shadow:0 20px 34px -24px rgba(28,26,23,0.45); }
 .hobby-icon{ width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
 .hobby--wander .hobby-icon{ background:#ffd23f; }
-.hobby--puzzle .hobby-icon{ background:#e8552d; }
+.hobby--puzzle .hobby-icon{ background:#ce6346; }
 /* Strategy card shares a row with the (taller) photo mosaic: keep its copy centered */
 .hobby--puzzle{ display:flex; flex-direction:column; justify-content:center; }
 
 /* Wandering: photos as small tilted prints, in the poster/cover row rhythm */
+.wander-refresh{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:6px; margin:-6px 0; border:0; background:none; cursor:pointer;
+  border-radius:50%; color:var(--ink-3); transition:color .2s ease;
+}
+.wander-refresh:hover, .wander-refresh:focus-visible{ color:#ce6346; }
+.wander-refresh svg{ display:block; }
+.wander-refresh.spin svg{ animation:wander-spin .55s cubic-bezier(0.34,1.56,0.64,1); }
+@keyframes wander-spin{ from{ transform:rotate(0deg); } to{ transform:rotate(360deg); } }
 .print-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; padding:6px 4px 2px; }
 .print-row--3{ grid-template-columns:repeat(3,1fr); }
 .print-row--2{ grid-template-columns:repeat(2,1fr); }
@@ -409,7 +418,7 @@ html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -
 .print:hover, .print:focus-visible{ transform:translateY(-4px) rotate(0deg); }
 .print:hover .print-frame, .print:focus-visible .print-frame{ box-shadow:0 14px 22px -14px rgba(28,26,23,0.6); }
 .print:hover .print-photo, .print:focus-visible .print-photo{ transform:scale(1.04); }
-.print:focus-visible .print-frame{ border-color:#e8552d; }
+.print:focus-visible .print-frame{ border-color:#ce6346; }
 html[data-theme="dark"] .print-frame{ background:#2a251f; }
 @media (max-width:560px){
   .print-row, .print-row--3{ grid-template-columns:repeat(2,1fr); }
@@ -427,9 +436,9 @@ html[data-theme="dark"] .print-frame{ background:#2a251f; }
   display:inline-flex; align-items:center; gap:8px;
   font:600 12px/1 'Inter',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-3);
 }
-.now-dot{ width:8px; height:8px; border-radius:50%; background:#e8552d; flex:0 0 auto; }
+.now-dot{ width:8px; height:8px; border-radius:50%; background:#ce6346; flex:0 0 auto; }
 .hobby-src{ font:500 12.5px/1 'Inter',sans-serif; color:var(--ink-3); text-decoration:none; transition:color .2s ease; }
-.hobby-src:hover, .hobby-src:focus-visible{ color:#e8552d; }
+.hobby-src:hover, .hobby-src:focus-visible{ color:#ce6346; }
 
 /* Listening: the site's ink-dark surface (toy / footer) in both themes */
 .hobby--listening{ background:#1c1a17; border-color:transparent; color:#faf3e6; display:flex; flex-direction:column; }
@@ -501,10 +510,10 @@ a.now-chip:hover, a.now-chip:focus-visible{ background:#ffd23f; color:#1c1a17; }
 }
 .film-meta{ display:block; margin-top:4px; font:400 11.5px/1.35 'Inter',sans-serif; color:var(--ink-3); }
 @media (max-width:560px){ .film-stars{ display:block; } .film-meta > span + span{ margin-left:0; } }
-.film-stars{ color:#e8552d; letter-spacing:0.02em; }
+.film-stars{ color:#ce6346; letter-spacing:0.02em; }
 /* Watching: the favorites label carries the accent */
 .hobby--watching .now-chip-label{ display:block; margin:0 0 8px; color:var(--ink-3); }
-.hobby--watching .fav-label{ color:#e8552d; }
+.hobby--watching .fav-label{ color:#ce6346; }
 .now-updated{ margin:12px 0 0 !important; font:400 11.5px/1 'Inter',sans-serif !important; color:var(--ink-3) !important; }
 
 /* ---------- dark-mode override map for inline-styled content ----------
@@ -614,7 +623,7 @@ html[data-theme="light"] [style*="color:#0f8a6b"], html[data-theme="light"] [sty
 html[data-theme="light"] [style*="color:#0f7a58"], html[data-theme="light"] [style^="color: rgb(15, 122, 88)"], html[data-theme="light"] [style*="; color: rgb(15, 122, 88)"]{ color:#0d6549 !important; }
 html[data-theme="light"] [style*="color:#6b756e"], html[data-theme="light"] [style^="color: rgb(107, 117, 110)"], html[data-theme="light"] [style*="; color: rgb(107, 117, 110)"]{ color:#5d675f !important; }
 /* about eyebrow: brand orange at 13px on tinted paper was 3.09:1 */
-html[data-theme="light"] .about-eyebrow{ color:#b8380e; }
+html[data-theme="light"] .about-eyebrow{ color:#a34729; }
 
 /* ---------- theme ripple (View Transitions) ----------
    During a theme switch the new-state snapshot is revealed by a clip-path circle

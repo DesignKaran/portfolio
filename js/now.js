@@ -156,37 +156,61 @@
     }
   }
 
-  // Wandering: up to four photos (random pick per visit) as small tilted
-  // "prints" in the same row rhythm as the poster/cover rows; the card keeps its
-  // static icon/title/copy when there are no photos.
+  // Wandering: four photos as small tilted "prints" in the poster/cover row
+  // rhythm. The header's refresh button pages through the shuffled set; the
+  // card keeps its static icon/title/copy when there are no photos.
   function renderWander(card, w) {
     var all = (w.photos || []).filter(function (p) { return p.file; });
     if (!all.length) return;
-    for (var i = all.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = all[i]; all[i] = all[j]; all[j] = tmp; }
-    var pick = all.slice(0, 4);
     var copy = card.querySelector('.now-body p');
     var copyText = copy ? copy.textContent : '';
+    var offset = 0;
+
+    function shuffle() {
+      for (var i = all.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = all[i]; all[i] = all[j]; all[j] = tmp; }
+    }
+    function buildRow() {
+      var pick = all.slice(offset, offset + 4);
+      var row = el('div', 'print-row print-row--' + pick.length);
+      pick.forEach(function (p) {
+        var print = el('div', 'print');
+        print.tabIndex = 0;
+        var frame = el('div', 'print-frame');
+        var img = el('img', 'print-photo'); img.src = p.file; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+        var label = p.caption || (p.date ? new Date(p.date).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '');
+        if (label) { print.title = label; print.setAttribute('aria-label', label); print.setAttribute('role', 'img'); }
+        img.onerror = function () {
+          print.remove();
+          row.className = 'print-row print-row--' + row.children.length;
+        };
+        frame.appendChild(img);
+        print.appendChild(frame);
+        row.appendChild(print);
+      });
+      return row;
+    }
+
+    shuffle();
     var b = body(card);
-    var row = el('div', 'print-row print-row--' + pick.length);
-    pick.forEach(function (p) {
-      var print = el('div', 'print');
-      print.tabIndex = 0;
-      var frame = el('div', 'print-frame');
-      var img = el('img', 'print-photo'); img.src = p.file; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
-      var label = p.caption || (p.date ? new Date(p.date).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '');
-      if (label) { print.title = label; print.setAttribute('aria-label', label); print.setAttribute('role', 'img'); }
-      img.onerror = function () {
-        print.remove();
-        row.className = 'print-row print-row--' + row.children.length;
-      };
-      frame.appendChild(img);
-      print.appendChild(frame);
-      row.appendChild(print);
-    });
+    var row = buildRow();
     b.appendChild(row);
-    var n = all.length;
-    b.appendChild(el('p', 'now-updated', (copyText ? copyText + ' · ' : '') + n + ' photo' + (n === 1 ? '' : 's')));
+    if (copyText) b.appendChild(el('p', 'now-updated', copyText));
     card.classList.add('has-photos');
+
+    var btn = card.querySelector('.wander-refresh');
+    if (btn) {
+      btn.hidden = false;
+      btn.addEventListener('click', function () {
+        offset += 4;
+        if (offset + 4 > all.length) { shuffle(); offset = 0; }
+        var next = buildRow();
+        row.replaceWith(next);
+        row = next;
+        btn.classList.remove('spin');
+        void btn.offsetWidth;
+        btn.classList.add('spin');
+      });
+    }
   }
 
   function bucket() { return Math.floor(Date.now() / 9e5); }
