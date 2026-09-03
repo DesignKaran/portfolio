@@ -42,7 +42,7 @@ export function pairRecords(records) {
   }
   return assets.map((a) => ({ asset: a, master: masters.get((((a.fields || {}).masterRef || {}).value || {}).recordName) })).filter((p) => p.master);
 }
-export function pickRendition(masterFields, maxLongEdge = 1200) {
+export function pickRendition(masterFields, maxLongEdge = 2560) {
   const f = masterFields || {};
   const v = (k) => (f[k] && f[k].value != null) ? f[k].value : null;
   const cands = [
@@ -92,27 +92,40 @@ async function resolveShare(token) {
   }
   return { zoneID, authToken, hosts };
 }
-async function listAssets(share, token, limit) {
+// The index only pages reliably ASCENDING from a start rank (as the album page
+// does), so walk it in pages and sort newest-first afterwards.
+async function queryPage(share, token, startRank, pageSize) {
   const q = `remapEnums=true&getCurrentSyncToken=true&sharing_url_key=${token}&publicAccessAuthToken=${encodeURIComponent(share.authToken)}&${CLIENT}&clientId=${randomUUID()}`;
   const body = {
     query: { recordType: 'CPLAssetAndMasterByAddedDate', filterBy: [
-      { fieldName: 'direction', comparator: 'EQUALS', fieldValue: { value: 'DESCENDING', type: 'STRING' } },
-      { fieldName: 'startRank', comparator: 'EQUALS', fieldValue: { value: 0, type: 'INT64' } },
+      { fieldName: 'direction', comparator: 'EQUALS', fieldValue: { value: 'ASCENDING', type: 'STRING' } },
+      { fieldName: 'startRank', comparator: 'EQUALS', fieldValue: { value: startRank, type: 'INT64' } },
     ] },
-    zoneID: share.zoneID, resultsLimit: limit * 2 + 10,
+    zoneID: share.zoneID, resultsLimit: pageSize,
   };
   let last = null;
   for (const host of share.hosts) {
     const url = `https://${host}/database/1/${CONTAINER}/production/shared/records/query?${q}`;
     const res = await post(url, body);
-    if (res.status === 200 && res.json && Array.isArray(res.json.records)) { share.host = host; return res.json.records; }
+    if (res.status === 200 && res.json && Array.isArray(res.json.records)) { share.host = host; share.hosts = [host]; return res.json.records; }
     last = `query ${res.status} on ${host}: ${res.text.slice(0, 300).replace(/\s+/g, ' ')}`;
     console.log('wander:', last);
-    // CloudKit sometimes names the right partition in its error; follow it once.
     const hint = findPartitionHost(res.json) || findPartitionHost(res.text);
     if (hint && !share.hosts.includes(hint)) share.hosts.push(hint);
   }
   throw new Error(last || 'query failed');
+}
+async function listAssets(share, token) {
+  const all = [];
+  let startRank = 0;
+  for (let page = 0; page < 8; page++) {
+    const records = await queryPage(share, token, startRank, 100);
+    all.push(...records);
+    const assets = records.filter((r) => r.recordType === 'CPLAsset').length;
+    if (assets < 40) break; // 100 records ≈ 50 asset/master pairs per full page
+    startRank += assets;
+  }
+  return all;
 }
 
 // ---------- main ----------
@@ -127,7 +140,7 @@ async function main() {
   try {
     const share = await resolveShare(cfg.token);
     console.log('wander: zone', share.zoneID.zoneName, '| hosts to try', share.hosts.join(', '));
-    const records = await listAssets(share, cfg.token, max);
+    const records = await listAssets(share, cfg.token);
     console.log('wander: queried on', share.host);
     pairs = pairRecords(records);
     console.log('wander: records', records.length, '| asset/master pairs', pairs.length);
