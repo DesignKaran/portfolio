@@ -71,6 +71,7 @@ async function main() {
   try { cfg = JSON.parse(await readFile(CONFIG, 'utf8')); } catch (_) { console.log('wander: no config, skipping'); return; }
   if (!cfg.token) { console.log('wander: no token, skipping'); return; }
   const max = cfg.max || 12;
+  await mkdir(DIR, { recursive: true });
 
   let host, stream;
   try { ({ host, stream } = await feed(cfg.token)); }
