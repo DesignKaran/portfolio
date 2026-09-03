@@ -1,0 +1,51 @@
+name: Diagnose shared album feed (one-off)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install headless Chromium
+        run: npx --yes playwright@1.47.2 install --with-deps chromium
+      - name: Open the album page and log its API calls
+        run: |
+          cat > /tmp/diag.mjs <<'EOF'
+          import { chromium } from 'playwright';
+          import { readFile } from 'node:fs/promises';
+          const { token } = JSON.parse(await readFile('data/wander.config.json', 'utf8'));
+          const browser = await chromium.launch();
+          const page = await browser.newPage();
+          const seen = [];
+          page.on('request', (r) => {
+            const u = r.url();
+            if (/icloud|apple|cloudkit|ck/i.test(u) && !/\.(js|css|png|svg|woff2?|ico)(\?|$)/i.test(u)) {
+              seen.push({ m: r.method(), u, h: r.headers(), b: r.postData() });
+            }
+          });
+          page.on('response', async (res) => {
+            const u = res.url();
+            if (/ckdatabasews|sharedstreams|webstream|webasseturls|records\/|shared\/album/i.test(u) && !/\.(js|css|png|svg|woff2?|ico)(\?|$)/i.test(u)) {
+              let body = '';
+              try { body = (await res.text()).slice(0, 1500); } catch (_) {}
+              console.log('\n=== RESPONSE', res.status(), u, '\n', body.replace(/\s+/g, ' '));
+            }
+          });
+          await page.goto('https://photos.icloud.com/shared/album/' + token, { waitUntil: 'networkidle', timeout: 60000 }).catch((e) => console.log('goto:', e.message));
+          await page.waitForTimeout(8000);
+          const imgs = await page.evaluate(() => [...document.images].map((i) => i.currentSrc || i.src).filter(Boolean).slice(0, 20));
+          console.log('\n=== IMAGES ON PAGE:', imgs.length, '\n' + imgs.join('\n'));
+          console.log('\n=== API-LIKE REQUESTS:', seen.length);
+          for (const s of seen) {
+            const h = Object.fromEntries(Object.entries(s.h).filter(([k]) => /^(content-type|x-apple|authorization|origin|referer|accept)/i.test(k)));
+            console.log('\n---', s.m, s.u, '\nheaders:', JSON.stringify(h), '\nbody:', (s.b || '').slice(0, 800));
+          }
+          await browser.close();
+          EOF
+          npm i --no-save playwright@1.47.2 >/dev/null 2>&1
+          node /tmp/diag.mjs
