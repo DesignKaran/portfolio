@@ -1,68 +1,108 @@
-// Pulls scenic photos from a public iCloud Shared Album into the repo for the
+// Pulls scenic photos from a public iCloud shared album into the repo for the
 // about page's "Wandering for ideas" mosaic. Runs in .github/workflows/now.yml.
 // Zero dependencies, Node 20+. Reads data/wander.config.json, writes
-// data/wander.json and assets/wander/<photoGuid>.jpg. Any feed failure leaves the
-// existing files untouched (it just logs why).
+// data/wander.json and assets/wander/<recordName>.jpg. Any feed failure leaves
+// the existing files untouched (it just logs why).
+//
+// Protocol (what photos.icloud.com/shared/album/<token> does in the browser):
+//   1. POST ckdatabasews.icloud.com/.../public/records/resolve  { shortGUIDs:[{value:token}] }
+//      -> zoneID for the SharedCollection zone (+ a public access auth token)
+//   2. POST <partition>-ckdatabasews.icloud.com/.../shared/records/query
+//      recordType CPLAssetAndMasterByAddedDate -> CPLAsset + CPLMaster records
+//   3. GET each master's resJPEGMedRes.downloadURL
 import { readFile, writeFile, mkdir, readdir, unlink, access } from 'node:fs/promises';
+import { randomUUID } from 'node:crypto';
 
 const CONFIG = 'data/wander.config.json';
 const OUT = 'data/wander.json';
 const DIR = 'assets/wander';
-const UA = { 'User-Agent': 'karanqmr.com now-card (github actions)', Origin: 'https://www.icloud.com', 'Content-Type': 'text/plain' };
+const CONTAINER = 'com.apple.photos.cloud';
+const CLIENT = 'clientBuildNumber=2632BuildBeta16&clientMasteringNumber=2632BuildBeta16';
+const HEADERS = { 'Content-Type': 'text/plain', Origin: 'https://photos.icloud.com', Referer: 'https://photos.icloud.com/', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' };
 
 // ---------- pure helpers (unit-tested) ----------
-export function parseRedirectHost(json) {
-  return (json && json['X-Apple-MMe-Host']) || null;
+export function findKey(obj, key, depth = 0) {
+  if (!obj || typeof obj !== 'object' || depth > 8) return null;
+  if (Object.prototype.hasOwnProperty.call(obj, key) && obj[key] != null) return obj[key];
+  for (const v of Object.values(obj)) { const r = findKey(v, key, depth + 1); if (r != null) return r; }
+  return null;
 }
-export function pickDerivative(derivatives, maxLongEdge = 1200) {
-  const list = Object.entries(derivatives || {}).map(([key, d]) => ({
-    key, checksum: d.checksum, w: Number(d.width) || 0, h: Number(d.height) || 0, size: Number(d.fileSize) || 0,
-  })).filter((d) => d.checksum);
-  if (!list.length) return null;
-  const long = (d) => Math.max(d.w, d.h);
-  const fits = list.filter((d) => long(d) > 0 && long(d) <= maxLongEdge).sort((a, b) => long(b) - long(a));
-  if (fits.length) return fits[0];
-  return list.sort((a, b) => (long(a) || Infinity) - (long(b) || Infinity))[0];
+export function findPartitionHost(obj, depth = 0) {
+  if (typeof obj === 'string') { const m = obj.match(/\bp\d+-ckdatabasews\.icloud\.com\b/); return m ? m[0] : null; }
+  if (!obj || typeof obj !== 'object' || depth > 8) return null;
+  for (const v of Object.values(obj)) { const r = findPartitionHost(v, depth + 1); if (r) return r; }
+  return null;
 }
-export function assetUrl(item) {
-  return item && item.url_location && item.url_path ? 'https://' + item.url_location + item.url_path : null;
+export function b64utf8(s) { try { return Buffer.from(s, 'base64').toString('utf8'); } catch (_) { return ''; } }
+export function pairRecords(records) {
+  const masters = new Map(), assets = [];
+  for (const r of records || []) {
+    if (r.recordType === 'CPLMaster') masters.set(r.recordName, r);
+    else if (r.recordType === 'CPLAsset') assets.push(r);
+  }
+  return assets.map((a) => ({ asset: a, master: masters.get((((a.fields || {}).masterRef || {}).value || {}).recordName) })).filter((p) => p.master);
 }
-export function choosePhotos(photos, max = 12) {
-  return (photos || [])
-    .filter((p) => !p.mediaAssetType || String(p.mediaAssetType).toLowerCase() === 'image')
-    .filter((p) => p.derivatives && Object.keys(p.derivatives).length)
-    .sort((a, b) => new Date(b.dateCreated) - new Date(a.dateCreated))
-    .slice(0, max);
+export function pickRendition(masterFields, maxLongEdge = 1200) {
+  const f = masterFields || {};
+  const v = (k) => (f[k] && f[k].value != null) ? f[k].value : null;
+  const cands = [
+    { key: 'med', res: v('resJPEGMedRes'), w: v('resJPEGMedWidth'), h: v('resJPEGMedHeight') },
+    { key: 'thumb', res: v('resJPEGThumbRes'), w: v('resJPEGThumbWidth'), h: v('resJPEGThumbHeight') },
+    { key: 'orig', res: v('resOriginalRes'), w: v('resOriginalWidth'), h: v('resOriginalHeight'), type: v('itemType') },
+  ].filter((c) => c.res && c.res.downloadURL);
+  if (!cands.length) return null;
+  const long = (c) => Math.max(Number(c.w) || 0, Number(c.h) || 0);
+  const isJpeg = (c) => c.key !== 'orig' || /jpe?g/i.test(String(c.type || ''));
+  const fits = cands.filter((c) => isJpeg(c) && long(c) > 0 && long(c) <= maxLongEdge).sort((a, b) => long(b) - long(a));
+  const pick = fits[0] || cands.filter(isJpeg).sort((a, b) => long(a) - long(b))[0] || null;
+  return pick ? { url: pick.res.downloadURL, w: Number(pick.w) || 0, h: Number(pick.h) || 0, rendition: pick.key } : null;
+}
+export function describeAsset(pair) {
+  const af = pair.asset.fields || {};
+  const v = (k) => (af[k] && af[k].value != null) ? af[k].value : null;
+  const trashed = (v('trashReason') || 0) !== 0 || pair.asset.deleted === true;
+  const date = v('assetDate') || v('addedDate');
+  return { id: pair.asset.recordName, caption: b64utf8(v('captionEnc') || '').trim(), date: date ? new Date(Number(date)).toISOString() : null, addedAt: Number(v('addedDate')) || 0, trashed };
 }
 
 // ---------- feed ----------
-async function post(host, token, path, body) {
-  const r = await fetch(`https://${host}/${token}/sharedstreams/${path}`, { method: 'POST', headers: UA, body: JSON.stringify(body) });
+async function post(url, body) {
+  const r = await fetch(url, { method: 'POST', headers: HEADERS, body: JSON.stringify(body) });
   const text = await r.text();
   let json = null; try { json = JSON.parse(text); } catch (_) {}
   return { status: r.status, json, text };
 }
-async function feed(token) {
-  let host = 'p01-sharedstreams.icloud.com';
-  let res = await post(host, token, 'webstream', { streamCtag: null });
-  const redirect = parseRedirectHost(res.json);
-  if (redirect && redirect !== host) { host = redirect; res = await post(host, token, 'webstream', { streamCtag: null }); }
-  if (res.status !== 200 || !res.json || !Array.isArray(res.json.photos)) {
-    throw new Error(`webstream ${res.status} on ${host}: ${res.text.slice(0, 200).replace(/\s+/g, ' ')}`);
-  }
-  return { host, stream: res.json };
+function stripBlobs(obj) {
+  return JSON.parse(JSON.stringify(obj, (k, val) => (typeof val === 'string' && val.length > 200 ? `<${val.length} chars>` : val)));
 }
-async function diagnose(token) {
-  // First-run help: if the legacy feed rejects the token, show what the album
-  // page references so the endpoint can be adapted from the logs.
-  try {
-    const r = await fetch(`https://photos.icloud.com/shared/album/${token}`, { headers: { 'User-Agent': UA['User-Agent'] } });
-    const html = await r.text();
-    const hosts = [...new Set((html.match(/https?:\/\/[a-z0-9.-]*icloud\.com[^"' )]*/gi) || []))].slice(0, 20);
-    console.log('diagnose: album page', r.status, 'len', html.length, '| refs:', hosts.join(' | ') || '(none)');
-    const cfg = html.match(/window\.__[A-Z_]+__\s*=\s*\{[\s\S]{0,400}/);
-    if (cfg) console.log('diagnose: config snippet:', cfg[0].replace(/\s+/g, ' ').slice(0, 400));
-  } catch (e) { console.log('diagnose: album page failed:', e.message); }
+async function resolveShare(token) {
+  const url = `https://ckdatabasews.icloud.com/database/1/${CONTAINER}/production/public/records/resolve?remapEnums=true&getCurrentSyncToken=true&${CLIENT}&sharing_url_key=${token}`;
+  const res = await post(url, { shortGUIDs: [{ value: token }] });
+  if (res.status !== 200 || !res.json) throw new Error(`resolve ${res.status}: ${res.text.slice(0, 200)}`);
+  const result = (res.json.results || [])[0] || res.json;
+  const zoneID = findKey(result, 'zoneID');
+  let authToken = findKey(result, 'publicAccessAuthToken') || findKey(res.json, 'publicAccessAuthToken');
+  if (authToken && typeof authToken === 'object') authToken = authToken.value || null;
+  const host = findPartitionHost(res.json) || 'ckdatabasews.icloud.com';
+  if (!zoneID || !authToken) {
+    console.log('resolve shape (blobs stripped):', JSON.stringify(stripBlobs(res.json)).slice(0, 3000));
+    throw new Error(`resolve: missing ${!zoneID ? 'zoneID' : 'publicAccessAuthToken'}`);
+  }
+  return { zoneID, authToken, host };
+}
+async function listAssets(share, token, limit) {
+  const q = `remapEnums=true&getCurrentSyncToken=true&sharing_url_key=${token}&publicAccessAuthToken=${encodeURIComponent(share.authToken)}&${CLIENT}&clientId=${randomUUID()}`;
+  const url = `https://${share.host}/database/1/${CONTAINER}/production/shared/records/query?${q}`;
+  const body = {
+    query: { recordType: 'CPLAssetAndMasterByAddedDate', filterBy: [
+      { fieldName: 'direction', comparator: 'EQUALS', fieldValue: { value: 'DESCENDING', type: 'STRING' } },
+      { fieldName: 'startRank', comparator: 'EQUALS', fieldValue: { value: 0, type: 'INT64' } },
+    ] },
+    zoneID: share.zoneID, resultsLimit: limit * 2 + 10,
+  };
+  const res = await post(url, body);
+  if (res.status !== 200 || !res.json || !Array.isArray(res.json.records)) throw new Error(`query ${res.status} on ${share.host}: ${res.text.slice(0, 300)}`);
+  return res.json.records;
 }
 
 // ---------- main ----------
@@ -73,44 +113,46 @@ async function main() {
   const max = cfg.max || 12;
   await mkdir(DIR, { recursive: true });
 
-  let host, stream;
-  try { ({ host, stream } = await feed(cfg.token)); }
-  catch (e) { console.error('wander feed failed (keeping previous):', e.message); await diagnose(cfg.token); return; }
+  let pairs;
+  try {
+    const share = await resolveShare(cfg.token);
+    console.log('wander: zone', share.zoneID.zoneName, '| host', share.host);
+    const records = await listAssets(share, cfg.token, max);
+    pairs = pairRecords(records);
+    console.log('wander: records', records.length, '| asset/master pairs', pairs.length);
+    if (!pairs.length && records.length) console.log('record types seen:', [...new Set(records.map((r) => r.recordType))].join(', '), '| sample:', JSON.stringify(stripBlobs(records[0])).slice(0, 1200));
+  } catch (e) { console.error('wander feed failed (keeping previous):', e.message); return; }
 
-  const chosen = choosePhotos(stream.photos, max).map((p) => ({ p, d: pickDerivative(p.derivatives) })).filter((x) => x.d);
-  console.log('wander: album', JSON.stringify(stream.streamName || ''), '| photos in feed', stream.photos.length, '| chosen', chosen.length);
+  const chosen = pairs.map((p) => ({ meta: describeAsset(p), pick: pickRendition(p.master.fields) }))
+    .filter((x) => !x.meta.trashed && x.pick)
+    .sort((a, b) => b.meta.addedAt - a.meta.addedAt)
+    .slice(0, max);
+  if (!chosen.length && pairs.length) console.log('no usable renditions; master field keys:', Object.keys(pairs[0].master.fields || {}).join(', '));
+  console.log('wander: chosen', chosen.length, chosen.slice(0, 3).map((x) => `${x.pick.rendition} ${x.pick.w}x${x.pick.h}`).join(', '));
 
-  await mkdir(DIR, { recursive: true });
   const existing = new Set((await readdir(DIR)).filter((f) => f.endsWith('.jpg')));
-  const need = chosen.filter((x) => !existing.has(x.p.photoGuid + '.jpg'));
-  let urls = {};
-  if (need.length) {
-    const res = await post(host, cfg.token, 'webasseturls', { photoGuids: need.map((x) => x.p.photoGuid) });
-    if (res.status !== 200 || !res.json || !res.json.items) { console.error('wander webasseturls failed:', res.status, res.text.slice(0, 200)); return; }
-    urls = res.json.items;
-  }
   let downloaded = 0;
-  for (const x of need) {
-    const url = assetUrl(urls[x.d.checksum]);
-    if (!url) { console.error('wander: no url for', x.p.photoGuid); continue; }
+  for (const x of chosen) {
+    const file = `${DIR}/${x.meta.id}.jpg`;
+    if (existing.has(x.meta.id + '.jpg')) continue;
     try {
-      const r = await fetch(url);
+      const r = await fetch(x.pick.url);
       if (!r.ok) throw new Error('download ' + r.status);
-      await writeFile(`${DIR}/${x.p.photoGuid}.jpg`, Buffer.from(await r.arrayBuffer()));
+      await writeFile(file, Buffer.from(await r.arrayBuffer()));
       downloaded++;
-    } catch (e) { console.error('wander: download failed for', x.p.photoGuid, e.message); }
+    } catch (e) { console.error('wander: download failed for', x.meta.id, e.message); }
   }
-  const keep = new Set(chosen.map((x) => x.p.photoGuid + '.jpg'));
+  const keep = new Set(chosen.map((x) => x.meta.id + '.jpg'));
   let removed = 0;
   for (const f of existing) if (!keep.has(f)) { await unlink(`${DIR}/${f}`); removed++; }
 
   const photos = [];
   for (const x of chosen) {
-    const file = `${DIR}/${x.p.photoGuid}.jpg`;
+    const file = `${DIR}/${x.meta.id}.jpg`;
     try { await access(file); } catch (_) { continue; }
-    photos.push({ file, caption: (x.p.caption || '').trim(), date: x.p.dateCreated || null, w: x.d.w, h: x.d.h });
+    photos.push({ file, caption: x.meta.caption, date: x.meta.date, w: x.pick.w, h: x.pick.h });
   }
-  await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), album: stream.streamName || '', photos }, null, 2) + '\n');
+  await writeFile(OUT, JSON.stringify({ updatedAt: new Date().toISOString(), album: cfg.name || '', photos }, null, 2) + '\n');
   console.log('wander: downloaded', downloaded, '| removed', removed, '| wrote', OUT, 'with', photos.length, 'photos');
 }
 
