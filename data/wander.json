@@ -1,13 +1,90 @@
 {
-  "updatedAt": "2026-09-03T16:20:08.474Z",
+  "updatedAt": "2026-09-03T16:22:34.523Z",
   "album": "",
   "photos": [
     {
       "file": "assets/wander/07C8F584-649D-49C8-91C6-E484E9410974.jpg",
       "caption": "",
       "date": "2024-07-17T20:14:05.476Z",
-      "w": 480,
-      "h": 360
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/19CF80B7-9945-43DA-B5C4-ECC74C3EE84D.jpg",
+      "caption": "",
+      "date": "2026-03-23T22:16:48.545Z",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/3E8EF7E7-D5BE-4513-B1A6-B5090EE52E63.jpg",
+      "caption": "",
+      "date": "2024-02-15T20:32:15.447Z",
+      "w": 1536,
+      "h": 2048
+    },
+    {
+      "file": "assets/wander/5BEF6758-8620-4AFA-A8C8-331F137B1DF8.jpg",
+      "caption": "",
+      "date": "2024-02-16T01:28:09.254Z",
+      "w": 1448,
+      "h": 2172
+    },
+    {
+      "file": "assets/wander/5F5F8ED3-61A1-46AC-AFE9-41454AE19AAC.jpg",
+      "caption": "",
+      "date": "2022-07-31T02:46:39.170Z",
+      "w": 1536,
+      "h": 2048
+    },
+    {
+      "file": "assets/wander/63CCF8D2-DE6F-4D65-AE63-AAE030C24EE7.jpg",
+      "caption": "",
+      "date": "2024-10-26T06:36:03.866Z",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/67BB4AE3-3182-4B61-8122-BBA6D9442CF6.jpg",
+      "caption": "",
+      "date": "2025-03-13T23:03:55.838Z",
+      "w": 1536,
+      "h": 2048
+    },
+    {
+      "file": "assets/wander/69332E8C-5042-4667-92F6-ACEF0A825EF1.jpg",
+      "caption": "",
+      "date": "2024-07-16T02:45:51.503Z",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/6FE176CF-C622-416F-BE5E-A4984E7CDCC5.jpg",
+      "caption": "",
+      "date": "2022-09-09T20:42:39.966Z",
+      "w": 1536,
+      "h": 2048
+    },
+    {
+      "file": "assets/wander/B1854B5F-5747-408C-8C97-18540BCA7752.jpg",
+      "caption": "",
+      "date": "2025-03-18T00:00:00.861Z",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/B97AC7C3-EFB8-4F06-95BC-F87048A47598.jpg",
+      "caption": "",
+      "date": "2024-07-19T19:32:36.621Z",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "file": "assets/wander/BD20644E-D1D1-42C2-A343-F7F88780DA85.jpg",
+      "caption": "",
+      "date": "2025-09-13T17:12:21.685Z",
+      "w": 2048,
+      "h": 1536
     }
   ]
 }
