@@ -204,7 +204,7 @@
   function initShapes(cont) {
     if (!cont) return;
     playgroundEl = cont;
-    palette = ['#e8552d', '#ffd23f', '#3d9be9', '#13c296', '#d6356a'];
+    palette = ['#ce6346', '#ffd23f', '#3d9be9', '#13c296', '#d6356a'];
     shapeLib = buildShapeLib();
     var order = ['sunny', 'clover4', 'pentagon', 'flower', 'gem', 'cookie12', 'pill', 'hexagon'];
     function findIdx(n) { var k = shapeLib.findIndex(function (s) { return s.name === n; }); return k < 0 ? 0 : k; }
