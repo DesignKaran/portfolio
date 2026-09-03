@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-03T12:33:02.423Z",
+  "updatedAt": "2026-09-03T15:56:07.393Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Nice To Each Other",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
+        "playedAt": "2026-09-03T15:22:45.814Z"
+      },
       {
         "name": "Something Inbetween",
         "artists": "Olivia Dean",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
         "playedAt": "2026-09-03T00:52:49.642Z"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-09-03T00:49:20.230Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
+      "Score",
+      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Indie Pop",
-      "Pop Rock",
-      "Classical"
+      "Soundtrack"
     ]
   },
   "letterboxd": {
@@ -198,13 +198,13 @@
         "title": "Good Will Hunting",
         "year": 1997,
         "url": "https://letterboxd.com/film/good-will-hunting/",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "poster": null
       },
       {
         "title": "Interstellar",
         "year": 2014,
         "url": "https://letterboxd.com/film/interstellar/",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "poster": null
       },
       {
         "title": "Before Sunrise",
@@ -216,7 +216,7 @@
         "title": "Eternal Sunshine of the Spotless Mind",
         "year": 2004,
         "url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "poster": null
       }
     ]
   }
