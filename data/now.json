@@ -1,39 +1,15 @@
 {
-  "updatedAt": "2026-09-02T21:33:39.578Z",
+  "updatedAt": "2026-09-03T02:46:36.018Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Close Up",
+        "name": "Something Inbetween",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-09-02T09:29:04.042Z"
-      },
-      {
-        "name": "Aerials",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco",
-        "playedAt": "2026-09-02T07:29:22.161Z"
-      },
-      {
-        "name": "Loud",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-09-02T07:03:12.747Z"
-      },
-      {
-        "name": "So Easy (To Fall In Love)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
-        "playedAt": "2026-09-02T07:00:08.228Z"
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
+        "playedAt": "2026-09-03T01:10:55.274Z"
       },
       {
         "name": "Baby Steps",
@@ -41,7 +17,15 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-02T06:57:18.705Z"
+        "playedAt": "2026-09-03T01:08:22.921Z"
+      },
+      {
+        "name": "So Easy (To Fall In Love)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
+        "playedAt": "2026-09-03T01:05:05.385Z"
       },
       {
         "name": "Let Alone The One You Love",
@@ -49,7 +33,31 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-02T06:54:01.175Z"
+        "playedAt": "2026-09-03T01:02:15.935Z"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-09-03T00:59:09.512Z"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-09-03T00:55:54.045Z"
+      },
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
+        "playedAt": "2026-09-03T00:52:49.642Z"
       },
       {
         "name": "Man I Need",
@@ -57,15 +65,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-09-02T06:47:47.942Z"
-      },
-      {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
-        "playedAt": "2026-09-02T06:44:43.404Z"
+        "playedAt": "2026-09-03T00:49:20.230Z"
       }
     ],
     "top": [
@@ -91,25 +91,18 @@
         "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
       },
       {
-        "name": "Baby, I Love You",
-        "artists": "Ramones",
-        "album": "End of the Century (Expanded 2005 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e027b15d77c4dc346ce1e444ca2",
-        "url": "https://open.spotify.com/track/29imR7dda5XqwPRFmby7HS"
-      },
-      {
-        "name": "Good Reason",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ"
-      },
-      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
         "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
+        "name": "Baby, I Love You",
+        "artists": "Ramones",
+        "album": "End of the Century (Expanded 2005 Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e027b15d77c4dc346ce1e444ca2",
+        "url": "https://open.spotify.com/track/29imR7dda5XqwPRFmby7HS"
       },
       {
         "name": "Bad Reputation",
@@ -124,6 +117,13 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       }
     ],
     "genres": [
