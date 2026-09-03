@@ -156,11 +156,46 @@
     }
   }
 
-  fetch('data/now.json?t=' + Math.floor(Date.now() / 9e5), { cache: 'no-cache' })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+  // Wandering: a mosaic of up to four photos (random pick per visit) behind the
+  // card's copy. The copy stays in the DOM; CSS moves it over the photos.
+  function renderWander(card, w) {
+    var all = (w.photos || []).filter(function (p) { return p.file; });
+    if (!all.length) return;
+    for (var i = all.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = all[i]; all[i] = all[j]; all[j] = tmp; }
+    var pick = all.slice(0, 4);
+    var grid = el('div', 'wander-grid');
+    grid.className += ' wander-grid--' + pick.length;
+    pick.forEach(function (p) {
+      var tile = el('div', 'wander-tile');
+      var img = el('img', 'wander-photo'); img.src = p.file; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+      var label = p.caption || (p.date ? new Date(p.date).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '');
+      if (label) { img.title = label; tile.setAttribute('aria-label', label); }
+      img.onerror = function () {
+        tile.remove();
+        grid.className = 'wander-grid wander-grid--' + grid.children.length;
+        if (!grid.children.length) { grid.remove(); card.classList.remove('has-photos'); }
+      };
+      tile.appendChild(img);
+      grid.appendChild(tile);
+    });
+    card.insertBefore(grid, card.firstChild);
+    card.classList.add('has-photos');
+  }
+
+  function bucket() { return Math.floor(Date.now() / 9e5); }
+  function getJson(url) {
+    return fetch(url + '?t=' + bucket(), { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  getJson('data/now.json')
     .then(function (d) {
       if (byKey.spotify && d.spotify) renderSpotify(byKey.spotify, d.spotify, d.updatedAt);
       if (byKey.letterboxd && d.letterboxd) renderLetterboxd(byKey.letterboxd, d.letterboxd);
     })
     .catch(function () { /* keep the static copy */ });
+  if (byKey.wander) {
+    getJson('data/wander.json')
+      .then(function (w) { renderWander(byKey.wander, w); })
+      .catch(function () { /* keep the static card */ });
+  }
 })();

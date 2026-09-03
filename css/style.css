@@ -379,6 +379,33 @@ html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -
 .hobby-icon{ width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
 .hobby--wander .hobby-icon{ background:#ffd23f; }
 .hobby--puzzle .hobby-icon{ background:#e8552d; }
+/* Strategy card shares a row with the (taller) photo mosaic: keep its copy centered */
+.hobby--puzzle{ display:flex; flex-direction:column; justify-content:center; }
+
+/* Wandering: photo mosaic behind the copy, once data/wander.json has photos */
+.hobby--wander.has-photos{ padding:0; min-height:300px; overflow:hidden; border-color:transparent; background:#1c1a17; color:#faf3e6; }
+.wander-grid{ position:absolute; inset:0; display:grid; gap:4px; grid-template-columns:1.35fr 1fr; grid-template-rows:1fr 1fr; }
+.wander-grid--1{ grid-template-columns:1fr; grid-template-rows:1fr; }
+.wander-grid--2{ grid-template-columns:1fr 1fr; grid-template-rows:1fr; }
+.wander-grid--3{ grid-template-columns:1.35fr 1fr; grid-template-rows:1fr 1fr; }
+.wander-grid--3 .wander-tile:first-child, .wander-grid--4 .wander-tile:first-child{ grid-row:1 / span 2; }
+.wander-tile{ position:relative; overflow:hidden; background:#2a2620; }
+.wander-tile--gone{ display:none; }
+.wander-photo{ display:block; width:100%; height:100%; object-fit:cover; transition:transform .6s cubic-bezier(0.22,1,0.36,1); }
+.wander-tile:hover .wander-photo{ transform:scale(1.04); }
+.hobby--wander.has-photos .hobby-copy{
+  position:absolute; left:0; right:0; bottom:0; z-index:1; padding:22px; pointer-events:none;
+  background:linear-gradient(to top, rgba(28,26,23,0.9) 0%, rgba(28,26,23,0.72) 55%, rgba(28,26,23,0) 100%);
+}
+.hobby--wander.has-photos .hobby-copy .hobby-icon{ pointer-events:auto; }
+.hobby--wander.has-photos .hobby-title{ color:#faf3e6; text-shadow:0 1px 2px rgba(0,0,0,0.35); }
+.hobby--wander.has-photos p{ color:rgba(250,243,230,0.88); text-shadow:0 1px 2px rgba(0,0,0,0.35); }
+@media (max-width:560px){
+  .hobby--wander.has-photos{ min-height:260px; }
+  .wander-grid, .wander-grid--3, .wander-grid--4{ grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
+  .wander-grid--3 .wander-tile:first-child, .wander-grid--4 .wander-tile:first-child{ grid-row:auto; }
+  .wander-grid--3 .wander-tile:first-child{ grid-column:1 / span 2; }
+}
 .hobby-title{
   margin:12px 0 6px; font-family:'Bricolage Grotesque',sans-serif;
   font-size:18px; line-height:1.15;
