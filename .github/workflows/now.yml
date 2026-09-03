@@ -27,7 +27,9 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
       - name: Fetch Wandering photos (iCloud shared album)
-        run: node scripts/fetch-wander.mjs
+        run: |
+          npm i --no-save --no-audit --no-fund sharp@0.33.5 >/dev/null 2>&1 || echo "sharp unavailable; photos kept at source size"
+          node scripts/fetch-wander.mjs
       - name: Commit if changed
         run: |
           git add -A data

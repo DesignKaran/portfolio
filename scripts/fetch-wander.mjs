@@ -154,18 +154,29 @@ async function main() {
   if (!chosen.length && pairs.length) console.log('no usable renditions; master field keys:', Object.keys(pairs[0].master.fields || {}).join(', '));
   console.log('wander: chosen', chosen.length, chosen.slice(0, 3).map((x) => `${x.pick.rendition} ${x.pick.w}x${x.pick.h}`).join(', '));
 
+  // Photos are stored at ≤1400px / q82 when sharp is installed by the workflow
+  // (≈200 KB each instead of ≈900 KB); otherwise kept at source size.
+  let sharp = null;
+  try { sharp = (await import('sharp')).default; } catch (_) { console.log('wander: sharp not available, storing source size'); }
+  const shrink = async (buf) => sharp ? sharp(buf).rotate().resize({ width: 1400, height: 1400, fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 82, mozjpeg: true }).toBuffer() : buf;
+
   const existing = new Set((await readdir(DIR)).filter((f) => f.endsWith('.jpg')));
-  let downloaded = 0;
+  let downloaded = 0, reencoded = 0;
   for (const x of chosen) {
     const file = `${DIR}/${x.meta.id}.jpg`;
-    if (existing.has(x.meta.id + '.jpg')) continue;
+    if (existing.has(x.meta.id + '.jpg')) {
+      // One-time shrink of files committed before resizing existed.
+      if (sharp) { try { const cur = await readFile(file); if (cur.length > 450 * 1024) { await writeFile(file, await shrink(cur)); reencoded++; } } catch (_) {} }
+      continue;
+    }
     try {
       const r = await fetch(x.pick.url);
       if (!r.ok) throw new Error('download ' + r.status);
-      await writeFile(file, Buffer.from(await r.arrayBuffer()));
+      await writeFile(file, await shrink(Buffer.from(await r.arrayBuffer())));
       downloaded++;
     } catch (e) { console.error('wander: download failed for', x.meta.id, e.message); }
   }
+  if (reencoded) console.log('wander: re-encoded', reencoded, 'existing photos');
   const keep = new Set(chosen.map((x) => x.meta.id + '.jpg'));
   let removed = 0;
   for (const f of existing) if (!keep.has(f)) { await unlink(`${DIR}/${f}`); removed++; }
