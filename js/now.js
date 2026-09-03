@@ -156,29 +156,36 @@
     }
   }
 
-  // Wandering: a mosaic of up to four photos (random pick per visit) behind the
-  // card's copy. The copy stays in the DOM; CSS moves it over the photos.
+  // Wandering: up to four photos (random pick per visit) as small tilted
+  // "prints" in the same row rhythm as the poster/cover rows; the card keeps its
+  // static icon/title/copy when there are no photos.
   function renderWander(card, w) {
     var all = (w.photos || []).filter(function (p) { return p.file; });
     if (!all.length) return;
     for (var i = all.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = all[i]; all[i] = all[j]; all[j] = tmp; }
     var pick = all.slice(0, 4);
-    var grid = el('div', 'wander-grid');
-    grid.className += ' wander-grid--' + pick.length;
+    var copy = card.querySelector('.now-body p');
+    var copyText = copy ? copy.textContent : '';
+    var b = body(card);
+    var row = el('div', 'print-row print-row--' + pick.length);
     pick.forEach(function (p) {
-      var tile = el('div', 'wander-tile');
-      var img = el('img', 'wander-photo'); img.src = p.file; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+      var print = el('div', 'print');
+      print.tabIndex = 0;
+      var frame = el('div', 'print-frame');
+      var img = el('img', 'print-photo'); img.src = p.file; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
       var label = p.caption || (p.date ? new Date(p.date).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '');
-      if (label) { img.title = label; tile.setAttribute('aria-label', label); }
+      if (label) { print.title = label; print.setAttribute('aria-label', label); print.setAttribute('role', 'img'); }
       img.onerror = function () {
-        tile.remove();
-        grid.className = 'wander-grid wander-grid--' + grid.children.length;
-        if (!grid.children.length) { grid.remove(); card.classList.remove('has-photos'); }
+        print.remove();
+        row.className = 'print-row print-row--' + row.children.length;
       };
-      tile.appendChild(img);
-      grid.appendChild(tile);
+      frame.appendChild(img);
+      print.appendChild(frame);
+      row.appendChild(print);
     });
-    card.insertBefore(grid, card.firstChild);
+    b.appendChild(row);
+    var n = all.length;
+    b.appendChild(el('p', 'now-updated', (copyText ? copyText + ' · ' : '') + n + ' photo' + (n === 1 ? '' : 's')));
     card.classList.add('has-photos');
   }
 

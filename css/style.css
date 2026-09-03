@@ -382,31 +382,37 @@ html[data-theme="dark"] .card{ box-shadow:0 1px 0 rgba(0,0,0,0.2), 0 12px 28px -
 /* Strategy card shares a row with the (taller) photo mosaic: keep its copy centered */
 .hobby--puzzle{ display:flex; flex-direction:column; justify-content:center; }
 
-/* Wandering: photo mosaic behind the copy, once data/wander.json has photos */
-.hobby--wander.has-photos{ padding:0; min-height:300px; overflow:hidden; border-color:transparent; background:#1c1a17; color:#faf3e6; }
-.wander-grid{ position:absolute; inset:0; display:grid; gap:4px; grid-template-columns:1.35fr 1fr; grid-template-rows:1fr 1fr; }
-.wander-grid--1{ grid-template-columns:1fr; grid-template-rows:1fr; }
-.wander-grid--2{ grid-template-columns:1fr 1fr; grid-template-rows:1fr; }
-.wander-grid--3{ grid-template-columns:1.35fr 1fr; grid-template-rows:1fr 1fr; }
-.wander-grid--3 .wander-tile:first-child{ grid-row:1 / span 2; }
-.wander-grid--4{ grid-template-columns:1.35fr 1fr; grid-template-rows:repeat(3,1fr); }
-.wander-grid--4 .wander-tile:first-child{ grid-row:1 / span 3; }
-.wander-tile{ position:relative; overflow:hidden; background:#2a2620; }
-.wander-tile--gone{ display:none; }
-.wander-photo{ display:block; width:100%; height:100%; object-fit:cover; transition:transform .6s cubic-bezier(0.22,1,0.36,1); }
-.wander-tile:hover .wander-photo{ transform:scale(1.04); }
-.hobby--wander.has-photos .hobby-copy{
-  position:absolute; left:0; right:0; bottom:0; z-index:1; padding:22px; pointer-events:none;
-  background:linear-gradient(to top, rgba(28,26,23,0.9) 0%, rgba(28,26,23,0.72) 55%, rgba(28,26,23,0) 100%);
+/* Wandering: photos as small tilted prints, in the poster/cover row rhythm */
+.print-row{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; padding:6px 4px 2px; }
+.print-row--3{ grid-template-columns:repeat(3,1fr); }
+.print-row--2{ grid-template-columns:repeat(2,1fr); }
+.print-row--1{ grid-template-columns:1fr; }
+.print{
+  outline:none; cursor:default;
+  transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), filter .3s ease;
 }
-.hobby--wander.has-photos .hobby-copy .hobby-icon{ pointer-events:auto; }
-.hobby--wander.has-photos .hobby-title{ color:#faf3e6; text-shadow:0 1px 2px rgba(0,0,0,0.35); }
-.hobby--wander.has-photos p{ color:rgba(250,243,230,0.88); text-shadow:0 1px 2px rgba(0,0,0,0.35); }
+.print:nth-child(1){ transform:rotate(-2.5deg); }
+.print:nth-child(2){ transform:rotate(1.5deg); }
+.print:nth-child(3){ transform:rotate(-1deg); }
+.print:nth-child(4){ transform:rotate(2deg); }
+.print-frame{
+  padding:6px 6px 14px; border-radius:12px;
+  background:var(--surface-2); border:1px solid var(--line-2);
+  box-shadow:0 1px 0 rgba(28,26,23,0.04), 0 8px 16px -14px rgba(28,26,23,0.5);
+  transition:box-shadow .3s ease;
+}
+.print-photo{
+  display:block; width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:7px;
+  background:var(--chip-bg); transition:transform .6s cubic-bezier(0.22,1,0.36,1);
+}
+.print-frame{ overflow:hidden; }
+.print:hover, .print:focus-visible{ transform:translateY(-4px) rotate(0deg); }
+.print:hover .print-frame, .print:focus-visible .print-frame{ box-shadow:0 14px 22px -14px rgba(28,26,23,0.6); }
+.print:hover .print-photo, .print:focus-visible .print-photo{ transform:scale(1.04); }
+.print:focus-visible .print-frame{ border-color:#e8552d; }
+html[data-theme="dark"] .print-frame{ background:#2a251f; }
 @media (max-width:560px){
-  .hobby--wander.has-photos{ min-height:260px; }
-  .wander-grid, .wander-grid--3, .wander-grid--4{ grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
-  .wander-grid--3 .wander-tile:first-child, .wander-grid--4 .wander-tile:first-child{ grid-row:auto; grid-column:auto; }
-  .wander-grid--3 .wander-tile:first-child{ grid-column:1 / span 2; }
+  .print-row, .print-row--3{ grid-template-columns:repeat(2,1fr); }
 }
 .hobby-title{
   margin:12px 0 6px; font-family:'Bricolage Grotesque',sans-serif;
