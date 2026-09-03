@@ -15,7 +15,7 @@ jobs:
         run: npx --yes playwright@1.47.2 install --with-deps chromium
       - name: Open the album page and log its API calls
         run: |
-          cat > /tmp/diag.mjs <<'EOF'
+          cat > diag.mjs <<'EOF'
           import { chromium } from 'playwright';
           import { readFile } from 'node:fs/promises';
           const { token } = JSON.parse(await readFile('data/wander.config.json', 'utf8'));
@@ -47,5 +47,5 @@ jobs:
           }
           await browser.close();
           EOF
-          npm i --no-save playwright@1.47.2 >/dev/null 2>&1
-          node /tmp/diag.mjs
+          npm i --no-save playwright@1.47.2
+          node diag.mjs
