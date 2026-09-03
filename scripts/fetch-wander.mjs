@@ -81,18 +81,19 @@ async function resolveShare(token) {
   if (res.status !== 200 || !res.json) throw new Error(`resolve ${res.status}: ${res.text.slice(0, 200)}`);
   const result = (res.json.results || [])[0] || res.json;
   const zoneID = findKey(result, 'zoneID');
-  let authToken = findKey(result, 'publicAccessAuthToken') || findKey(res.json, 'publicAccessAuthToken');
+  // The public access token is issued per resolve under anonymousPublicAccess.token.
+  const apa = findKey(result, 'anonymousPublicAccess') || findKey(res.json, 'anonymousPublicAccess');
+  let authToken = (apa && (apa.token || (apa.value && apa.value.token))) || findKey(res.json, 'publicAccessAuthToken');
   if (authToken && typeof authToken === 'object') authToken = authToken.value || null;
-  const host = findPartitionHost(res.json) || 'ckdatabasews.icloud.com';
+  const hosts = [findPartitionHost(res.json), 'ckdatabasews.icloud.com'].filter(Boolean);
   if (!zoneID || !authToken) {
     console.log('resolve shape (blobs stripped):', JSON.stringify(stripBlobs(res.json)).slice(0, 3000));
-    throw new Error(`resolve: missing ${!zoneID ? 'zoneID' : 'publicAccessAuthToken'}`);
+    throw new Error(`resolve: missing ${!zoneID ? 'zoneID' : 'anonymousPublicAccess.token'}`);
   }
-  return { zoneID, authToken, host };
+  return { zoneID, authToken, hosts };
 }
 async function listAssets(share, token, limit) {
   const q = `remapEnums=true&getCurrentSyncToken=true&sharing_url_key=${token}&publicAccessAuthToken=${encodeURIComponent(share.authToken)}&${CLIENT}&clientId=${randomUUID()}`;
-  const url = `https://${share.host}/database/1/${CONTAINER}/production/shared/records/query?${q}`;
   const body = {
     query: { recordType: 'CPLAssetAndMasterByAddedDate', filterBy: [
       { fieldName: 'direction', comparator: 'EQUALS', fieldValue: { value: 'DESCENDING', type: 'STRING' } },
@@ -100,9 +101,18 @@ async function listAssets(share, token, limit) {
     ] },
     zoneID: share.zoneID, resultsLimit: limit * 2 + 10,
   };
-  const res = await post(url, body);
-  if (res.status !== 200 || !res.json || !Array.isArray(res.json.records)) throw new Error(`query ${res.status} on ${share.host}: ${res.text.slice(0, 300)}`);
-  return res.json.records;
+  let last = null;
+  for (const host of share.hosts) {
+    const url = `https://${host}/database/1/${CONTAINER}/production/shared/records/query?${q}`;
+    const res = await post(url, body);
+    if (res.status === 200 && res.json && Array.isArray(res.json.records)) { share.host = host; return res.json.records; }
+    last = `query ${res.status} on ${host}: ${res.text.slice(0, 300).replace(/\s+/g, ' ')}`;
+    console.log('wander:', last);
+    // CloudKit sometimes names the right partition in its error; follow it once.
+    const hint = findPartitionHost(res.json) || findPartitionHost(res.text);
+    if (hint && !share.hosts.includes(hint)) share.hosts.push(hint);
+  }
+  throw new Error(last || 'query failed');
 }
 
 // ---------- main ----------
@@ -116,8 +126,9 @@ async function main() {
   let pairs;
   try {
     const share = await resolveShare(cfg.token);
-    console.log('wander: zone', share.zoneID.zoneName, '| host', share.host);
+    console.log('wander: zone', share.zoneID.zoneName, '| hosts to try', share.hosts.join(', '));
     const records = await listAssets(share, cfg.token, max);
+    console.log('wander: queried on', share.host);
     pairs = pairRecords(records);
     console.log('wander: records', records.length, '| asset/master pairs', pairs.length);
     if (!pairs.length && records.length) console.log('record types seen:', [...new Set(records.map((r) => r.recordType))].join(', '), '| sample:', JSON.stringify(stripBlobs(records[0])).slice(0, 1200));
