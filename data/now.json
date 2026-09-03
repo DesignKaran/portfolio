@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T15:56:07.393Z",
+  "updatedAt": "2026-09-03T16:06:53.900Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
@@ -198,13 +198,13 @@
         "title": "Good Will Hunting",
         "year": 1997,
         "url": "https://letterboxd.com/film/good-will-hunting/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "title": "Interstellar",
         "year": 2014,
         "url": "https://letterboxd.com/film/interstellar/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "title": "Before Sunrise",
@@ -216,7 +216,7 @@
         "title": "Eternal Sunshine of the Spotless Mind",
         "year": 2004,
         "url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       }
     ]
   }
