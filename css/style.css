@@ -225,6 +225,15 @@ body{ margin:0; overscroll-behavior-y:none; }
 }
 .card:focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
 
+/* Third project spans the full row (no orphaned half-width card) and lays out
+   horizontally where there is room, using only existing card pieces. */
+.card--wide{ grid-column:1 / -1; }
+@media (min-width:840px){
+  .card--wide{ flex-direction:row; align-items:stretch; }
+  .card--wide .card-media{ flex:0 0 56%; aspect-ratio:auto; }
+  .card--wide .card-body{ flex:1 1 auto; justify-content:center; padding:28px; }
+}
+
 .card-media{ overflow:hidden; }
 .card-media-square{ aspect-ratio:1/1; }
 .card-media-4-3{ aspect-ratio:4/3; }

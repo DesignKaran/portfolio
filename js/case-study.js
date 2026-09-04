@@ -328,10 +328,12 @@
       if (cs.overflowX !== 'auto' && cs.overflowX !== 'scroll') return;
       if (el.scrollWidth <= el.clientWidth + 8) return;
       el.classList.add('hscroll');
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('role', 'region');
+      el.setAttribute('aria-label', 'Scrollable diagram: scroll sideways to see all of it');
       var hint = document.createElement('span');
       hint.className = 'hscroll-hint';
-      hint.setAttribute('aria-hidden', 'true');
-      hint.textContent = 'swipe \u2192';
+      hint.textContent = 'Scroll sideways to see the full diagram \u2192';
       el.insertAdjacentElement('afterend', hint);
       el.addEventListener('scroll', function done() {
         el.classList.add('hscroll--used');
