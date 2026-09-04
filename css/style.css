@@ -81,6 +81,18 @@ body{ margin:0; overscroll-behavior-y:none; }
 
 :focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
 
+/* ---------- skip link: hidden until keyboard focus ---------- */
+.skip-link{
+  position:fixed; left:16px; top:16px; z-index:300;
+  padding:12px 20px; border-radius:12px;
+  background:#1c1a17; color:#faf3e6; font:600 14px/1 'Inter',sans-serif;
+  text-decoration:none;
+  transform:translateY(-200%); opacity:0; pointer-events:none;
+  transition:transform .2s ease, opacity .2s ease;
+}
+.skip-link:focus{ transform:none; opacity:1; pointer-events:auto; outline:2px solid #ffd23f; outline-offset:3px; }
+html[data-theme="dark"] .skip-link{ background:#f0e9dc; color:#1c1a17; }
+
 /* ---------- nav ---------- */
 .nav{
   max-width:1180px; margin:0 auto;
