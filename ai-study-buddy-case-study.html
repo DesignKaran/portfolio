@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=25">
+<link rel="stylesheet" href="css/style.css?v=26">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-studybuddy.svg">
 <link rel="alternate icon" href="assets/favicon-studybuddy.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -83,6 +83,7 @@
         <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Team</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">3 designers</div></div>
         <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Timeline</div><div style="font:500 14.5px/1.4 'Inter',sans-serif;color:#1c1a17;">5 weeks</div></div>
         <div><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:7px;">Tools</div><div style="font:500 14.5px/1.45 'Inter',sans-serif;color:#1c1a17;">Figma · Figma Make</div></div>
+        <div style="grid-column:1/-1;border-top:1px solid rgba(28,26,23,0.1);padding-top:16px;"><div style="font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;margin-bottom:8px;">At a glance</div><ul aria-label="Project at a glance" style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 22px;font:500 13.5px/1.5 'Inter',sans-serif;color:#1c1a17;"><li>Rule-based prioritization algorithm, owned end to end</li><li>Design held to Amershi et al.'s Human-AI Interaction guidelines</li><li>Heuristic evaluation that caught our own privacy contradiction</li></ul></div>
       </div>
     </section>
 
@@ -149,13 +150,8 @@
       </div>
       <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Method, stated honestly</h2>
 
-      <div data-reveal="" style="margin-top:24px;border-left:4px solid #d9a800;background:#fdf3d4;border-radius:0 14px 14px 0;padding:16px 20px;max-width:760px;">
-        <div style="font:700 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8a6a00;margin-bottom:8px;">On scope, up front</div>
-        <p style="margin:0;font:400 14px/1.6 'Inter',sans-serif;color:#6d5300;">Our research was secondary literature plus informal conversations with working grad students. That scope shapes how much the findings can carry: they are directional signals, not validated demand.</p>
-      </div>
-
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The literature gave us the spine of the design:</p>
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">Our research was secondary literature plus informal conversations with working grad students — directional signals, not validated demand. The literature gave us the spine of the design:</p>
       </div>
 
       <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:20px;max-width:920px;">
@@ -178,7 +174,7 @@
       </div>
 
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The informal conversations pointed the same direction every time. Students said they choose what to read by urgency rather than by learning value, that the volume stresses them out, and that they would welcome guidance only if it explained itself and let them overrule it.</p>
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The informal conversations pointed the same direction every time: students choose what to read by urgency rather than learning value, feel stressed by the volume, and would welcome guidance only if it explained itself and let them overrule it.</p>
         <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The insight that set the direction:</strong> students already have calendars. They already have LMS reminders. Adding another tool that lists tasks would solve nothing.</p>
       </div>
 
@@ -386,7 +382,7 @@
         <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Onboarding: solving the cold start without breaking trust</h3>
       </div>
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">A recommendation engine with no data recommends nothing useful. Onboarding exists to fill that gap, and it has to do so without spending the trust it will need later. Two decisions carry this screen. First, <strong style="font-weight:600;color:#1c1a17;">every step has a Skip button.</strong> A student can opt out of the machine-learning data collection entirely and run the app on generic time estimates. Control is offered before anything is asked. Second, the calendar step says plainly that the app checks only busy/free and <strong style="font-weight:600;color:#1c1a17;">never reads event details.</strong> We ask for goals and focus areas so the AI can weight readings toward what the student cares about, and we let them set check-in frequency so the tool never feels intrusive.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">A recommendation engine with no data recommends nothing useful, so onboarding fills that gap — without spending the trust it will need later. Two decisions carry this screen: <strong style="font-weight:600;color:#1c1a17;">every step has a Skip button</strong>, so a student can opt out of data collection entirely and run on generic estimates, and the calendar step says plainly that the app checks only busy/free and <strong style="font-weight:600;color:#1c1a17;">never reads event details.</strong> Goals, focus areas, and check-in frequency are asked for, never required.</p>
       </div>
 
       <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
@@ -497,7 +493,7 @@
         <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The dashboard: explainability as a first-class control</h3>
       </div>
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The home dashboard shows today's focus and the week's ranked tasks. Three decisions define it. <strong style="font-weight:600;color:#1c1a17;">"Why this?" sits on every task</strong>: one tap reveals the reasoning behind a recommendation, the Kizilcec finding made literal. <strong style="font-weight:600;color:#1c1a17;">Time is shown as a range, never a false-precise number</strong>: "Est. 45–60 min" tells the truth about uncertainty where a single "52 min" would fabricate confidence the system has not earned. And <strong style="font-weight:600;color:#1c1a17;">priority reads at a glance</strong> through colored dots, so a student can triage the week in two seconds without opening anything.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The home dashboard shows today's focus and the week's ranked tasks. Three decisions define it: <strong style="font-weight:600;color:#1c1a17;">"Why this?" sits on every task</strong> — one tap reveals the reasoning, the Kizilcec finding made literal; <strong style="font-weight:600;color:#1c1a17;">time is shown as a range</strong> ("Est. 45–60 min"), never a false-precise number the system has not earned; and <strong style="font-weight:600;color:#1c1a17;">colored dots rank the week</strong> at a glance, before anything is opened.</p>
       </div>
 
       <!-- VISUAL 4 · ANNOTATED DASHBOARD -->
@@ -541,7 +537,7 @@
       </div>
       <div style="max-width:760px;">
         <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Chat</strong> lets a student ask "What should I focus on this week?" and get a reasoned answer with a next action attached ("Want me to block time for it tonight?"). <strong style="font-weight:600;color:#1c1a17;">Reschedule</strong> is the override made frictionless: when the student cannot do a task now, the AI offers calendar-aware alternatives and the student confirms. The AI never moves the schedule on its own.</p>
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: updates run as a nightly batch, not in real time.</strong> The algorithm recalculates its time-prediction weights overnight and applies the improved estimates the next morning. Live re-ranking would make the schedule twitch under the student all day, which is precisely the anxiety the product exists to reduce. Stability beat reactivity, on purpose.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: updates run as a nightly batch, not in real time.</strong> Weights recalculate overnight and improved estimates land in the morning. Live re-ranking would make the schedule twitch under the student all day — precisely the anxiety the product exists to reduce. Stability beat reactivity, on purpose.</p>
       </div>
 
       <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
@@ -734,6 +730,7 @@
 
       <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;margin-top:clamp(48px,8vw,88px);padding-top:24px;border-top:1px solid rgba(250,243,230,0.14);">
         <div style="display:flex;gap:22px;flex-wrap:wrap;">
+          <a href="https://drive.google.com/file/d/17IT0uRKgggiwDkknbSD-YRlce37ex7aA/view?usp=drivesdk" target="_blank" rel="noopener" style="color:rgba(250,243,230,0.82);font:500 15px/1 'Inter',sans-serif;text-decoration:none;transition:color .25s ease;pointer-events:auto;" class="hov-accent">Resume</a>
           <a href="https://www.linkedin.com/in/karan-kmr/" target="_blank" rel="noopener" style="color:rgba(250,243,230,0.82);font:500 15px/1 'Inter',sans-serif;text-decoration:none;transition:color .25s ease;pointer-events:auto;" class="hov-accent">LinkedIn</a>
         </div>
         <span style="font:400 13.5px/1 'Inter',sans-serif;color:rgba(250,243,230,0.5);">© 2026 Karan. Designed with <span class="footer-emoji emoji-heart" role="img" aria-label="love"><svg class="ce-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21C12 21 3.6 15.3 3.6 9C3.6 6 5.9 3.9 8.5 3.9C10.2 3.9 11.5 4.8 12 6C12.5 4.8 13.8 3.9 15.5 3.9C18.1 3.9 20.4 6 20.4 9C20.4 15.3 12 21 12 21Z" fill="#ec4b3c"/><path d="M7.7 7.4C6.6 7.8 6 8.8 6 9.9" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.4" stroke-linecap="round"/></svg></span> and <span class="footer-emoji emoji-coffee" role="img" aria-label="coffee"><span class="ce-cup" aria-hidden="true"><svg class="ce-saucer" viewBox="0 0 24 6"><ellipse cx="12" cy="3.2" rx="10" ry="2.5" fill="#efe6d2"/><ellipse cx="12" cy="2.7" rx="6.6" ry="1.4" fill="#d7cbb0"/></svg><svg class="ce-mug" viewBox="0 0 24 18"><path d="M17.2 6C20.8 6.3 20.8 11 17 11.3" fill="none" stroke="#f3ead6" stroke-width="2.1"/><path d="M5 4.6L6.3 12.6C6.7 14.3 8 15 9.8 15H13.2C15 15 16.3 14.3 16.7 12.6L18 4.6Z" fill="#f3ead6"/><ellipse cx="11.5" cy="4.6" rx="6.5" ry="1.9" fill="#efe6d2"/><ellipse cx="11.5" cy="4.5" rx="4.9" ry="1.3" fill="#5b3a20"/></svg></span></span></span>
@@ -752,6 +749,6 @@
 </div>
 
 <script src="js/main.js?v=8"></script>
-<script src="js/case-study.js?v=2"></script>
+<script src="js/case-study.js?v=3"></script>
 </body>
 </html>
