@@ -244,6 +244,29 @@
     return update;
   }
 
+  // ---------- wide figures: mobile swipe affordance ----------
+  // Some diagram tables overflow horizontally on small screens with no visual
+  // cue. Tag them for a right-edge fade (CSS .hscroll) and add a small hint
+  // caption that disappears after the first scroll.
+  function initHScrollHints() {
+    Array.prototype.forEach.call(document.querySelectorAll('div'), function (el) {
+      if (el.closest('.section-tabs') || el.classList.contains('hscroll')) return;
+      var cs = getComputedStyle(el);
+      if (cs.overflowX !== 'auto' && cs.overflowX !== 'scroll') return;
+      if (el.scrollWidth <= el.clientWidth + 8) return;
+      el.classList.add('hscroll');
+      var hint = document.createElement('span');
+      hint.className = 'hscroll-hint';
+      hint.setAttribute('aria-hidden', 'true');
+      hint.textContent = 'swipe \u2192';
+      el.insertAdjacentElement('afterend', hint);
+      el.addEventListener('scroll', function done() {
+        el.classList.add('hscroll--used');
+        el.removeEventListener('scroll', done);
+      }, { passive: true });
+    });
+  }
+
   function init() {
     initAccordions();
     initLightbox();
@@ -260,6 +283,8 @@
         if (updateCallouts) updateCallouts();
       });
     }
+    initHScrollHints();
+    window.addEventListener('load', initHScrollHints);
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
     window.addEventListener('themechange', function () { if (updateSidenav) updateSidenav(); });

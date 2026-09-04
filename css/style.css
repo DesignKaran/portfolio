@@ -516,6 +516,21 @@ a.now-chip:hover, a.now-chip:focus-visible{ background:#ffd23f; color:#1c1a17; }
 .hobby--watching .fav-label{ color:#ce6346; }
 .now-updated{ margin:12px 0 0 !important; font:400 11.5px/1 'Inter',sans-serif !important; color:var(--ink-3) !important; }
 
+/* ---------- wide-figure swipe affordance (case studies, mobile) ---------- */
+.hscroll-hint{ display:none; }
+@media (max-width:760px){
+  .hscroll{
+    -webkit-mask-image:linear-gradient(to right, #000 calc(100% - 40px), transparent);
+    mask-image:linear-gradient(to right, #000 calc(100% - 40px), transparent);
+  }
+  .hscroll--used{ -webkit-mask-image:none; mask-image:none; }
+  .hscroll-hint{
+    display:block; text-align:right; margin:6px 2px 0;
+    font:500 11px/1 'Inter',sans-serif; letter-spacing:0.05em; color:var(--ink-3);
+  }
+  .hscroll--used + .hscroll-hint{ display:none; }
+}
+
 /* ---------- dark-mode override map for inline-styled content ----------
    The case studies are inline-styled with a finite color vocabulary. Each literal
    gets several selector forms because the reveal/stagger JS re-serializes style
