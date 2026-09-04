@@ -8,12 +8,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG99PZXCXY"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MG99PZXCXY');</script>
 <meta name="theme-color" content="#f2ecdd">
-<title>About — Karan</title>
+<title>About · Karan</title>
 <meta name="description" content="Karan is an HCI grad student who brings a scientist's rigor to human-centered design.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=26">
+<link rel="stylesheet" href="css/style.css?v=27">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-orange.svg">
 <link rel="alternate icon" href="assets/favicon-orange.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -60,7 +60,7 @@
   .btn-resume{
     display:inline-flex; align-items:center; gap:10px;
     padding:13px 24px; border-radius:22px;
-    background:#ce6346; color:#fdf2ec;
+    background:#ce6346; color:#1c1a17;
     font:500 15px/1 'Inter',sans-serif; text-decoration:none;
     transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1);
   }
@@ -119,15 +119,18 @@
 
 <div class="page page--about">
 
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <nav class="nav">
     <a href="index.html" class="wordmark" aria-label="karan, home">karan<span class="accent">.</span></a>
     <div class="nav-links">
       <a href="index.html#work">Work</a>
       <a href="about.html" aria-current="page">About</a>
+      <a href="https://drive.google.com/file/d/17IT0uRKgggiwDkknbSD-YRlce37ex7aA/view?usp=drivesdk" target="_blank" rel="noopener" aria-label="Resume (opens in new tab)">Resume</a>
     </div>
   </nav>
 
-  <div class="about-main">
+  <div class="about-main" id="main-content" tabindex="-1">
 
     <section class="about-hero">
       <div class="about-hero-copy" data-reveal>
@@ -157,7 +160,7 @@
           <div class="about-photo-frame">
             <svg aria-hidden="true" width="0" height="0" style="position:absolute;"><defs><clipPath id="about-blob-clip" clipPathUnits="objectBoundingBox"><path id="about-blob-clip-path" d="M0.5 0.04 C0.72 0.04 0.93 0.17 0.95 0.4 C0.97 0.62 0.91 0.83 0.72 0.93 C0.52 0.98 0.26 0.96 0.12 0.83 C0.0 0.7 0.02 0.44 0.1 0.26 C0.18 0.1 0.3 0.04 0.5 0.04 Z"></path></clipPath></defs></svg>
             <div class="about-photo-clipped">
-              <img src="assets/karan-headshot.jpeg" alt="Karan, smiling under a cafe umbrella at night">
+              <img src="assets/slots/about-headshot.webp" alt="Karan, smiling under a cafe umbrella at night" width="900" height="1200">
             </div>
             <svg viewBox="0 0 100 125" preserveAspectRatio="none" aria-hidden="true" class="about-photo-stroke"><path id="about-blob-stroke" d="M50 5 C72 5 93 21.25 95 50 C97 77.5 91 103.75 72 116.25 C52 122.5 26 120 12 103.75 C0 87.5 2 55 10 32.5 C18 12.5 30 5 50 5 Z" fill="none" stroke="#1c1a17" stroke-width="3" vector-effect="non-scaling-stroke"></path></svg>
           </div>

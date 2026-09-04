@@ -167,35 +167,108 @@
     return update;
   }
 
-  // ---------- lightbox: click any figure to zoom ----------
+  // ---------- lightbox: zoom any figure, as an accessible modal dialog ----------
+  // Follows the APG modal pattern: each zoomable image acts as a button
+  // ("Enlarge: {alt}"), the overlay is role=dialog + aria-modal with a real
+  // close button, focus moves in on open and back to the trigger on close,
+  // Tab is trapped inside, Esc / backdrop / the button all close, the rest of
+  // the page is made inert, and body scroll is locked while it is open.
   function initLightbox() {
     var lb = document.querySelector('[data-lightbox]');
     var lbImg = lb ? lb.querySelector('[data-lightbox-img]') : null;
     if (!lb || !lbImg) return;
+
+    // The overlay ships inside the page wrapper; move it to <body> so the
+    // wrapper can be inert while the dialog is open.
+    document.body.appendChild(lb);
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.setAttribute('aria-label', 'Enlarged image');
+
+    var closeBtn = document.createElement('button');
+    closeBtn.type = 'button';
+    closeBtn.className = 'lb-close';
+    closeBtn.setAttribute('aria-label', 'Close enlarged image');
+    closeBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path></svg>';
+    lb.appendChild(closeBtn);
+
+    var inerted = [];
+    var lastTrigger = null;
+    var isOpen = false;
+
+    function setInert(on) {
+      if (!('inert' in HTMLElement.prototype)) return;
+      if (on) {
+        inerted = [];
+        Array.prototype.forEach.call(document.body.children, function (el) {
+          if (el === lb || el.inert) return;
+          el.inert = true;
+          inerted.push(el);
+        });
+      } else {
+        inerted.forEach(function (el) { el.inert = false; });
+        inerted = [];
+      }
+    }
+
     function close() {
+      if (!isOpen) return;
+      isOpen = false;
       lb.style.opacity = '0';
       lb.style.pointerEvents = 'none';
       lb.style.background = 'rgba(16,22,20,0)';
       lbImg.style.transform = 'scale(0.92)';
+      lb.setAttribute('aria-hidden', 'true');
+      setInert(false);
+      document.documentElement.style.removeProperty('overflow');
+      if (lastTrigger && lastTrigger.focus) lastTrigger.focus();
+      lastTrigger = null;
     }
-    function open(src, alt) {
-      lbImg.src = src; lbImg.alt = alt || '';
+    function open(im) {
+      lastTrigger = im;
+      lbImg.src = im.currentSrc || im.getAttribute('src');
+      lbImg.alt = im.getAttribute('alt') || '';
+      lb.setAttribute('aria-label', im.getAttribute('alt') || 'Enlarged image');
+      lb.removeAttribute('aria-hidden');
       lb.style.pointerEvents = 'auto';
       lb.style.opacity = '1';
       lb.style.background = 'rgba(16,22,20,0.85)';
-      requestAnimationFrame(function () { lbImg.style.transform = 'scale(1)'; });
+      if (reduced) { lbImg.style.transform = 'scale(1)'; }
+      else { requestAnimationFrame(function () { lbImg.style.transform = 'scale(1)'; }); }
+      setInert(true);
+      document.documentElement.style.overflow = 'hidden';
+      isOpen = true;
+      closeBtn.focus();
     }
+
     lb.addEventListener('click', close);
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    closeBtn.addEventListener('click', function (e) { e.stopPropagation(); close(); });
+    document.addEventListener('keydown', function (e) {
+      if (!isOpen) return;
+      if (e.key === 'Escape') { e.preventDefault(); close(); return; }
+      // Single-stop focus trap: the close button is the only focusable control.
+      if (e.key === 'Tab') { e.preventDefault(); closeBtn.focus(); }
+    });
+
     Array.prototype.forEach.call(document.querySelectorAll('img'), function (im) {
       if (lb.contains(im)) return;
       im.style.cursor = 'zoom-in';
+      im.setAttribute('role', 'button');
+      im.setAttribute('tabindex', '0');
+      im.setAttribute('aria-label', 'Enlarge: ' + (im.getAttribute('alt') || 'image'));
       im.addEventListener('click', function (e) {
         e.stopPropagation();
         e.preventDefault();
-        open(im.currentSrc || im.getAttribute('src'), im.getAttribute('alt'));
+        open(im);
+      });
+      im.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+          e.preventDefault();
+          open(im);
+        }
       });
     });
+
   }
 
   // ---------- annotated figure: SVG leader lines from dots to cards ----------
@@ -255,10 +328,12 @@
       if (cs.overflowX !== 'auto' && cs.overflowX !== 'scroll') return;
       if (el.scrollWidth <= el.clientWidth + 8) return;
       el.classList.add('hscroll');
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('role', 'region');
+      el.setAttribute('aria-label', 'Scrollable diagram: scroll sideways to see all of it');
       var hint = document.createElement('span');
       hint.className = 'hscroll-hint';
-      hint.setAttribute('aria-hidden', 'true');
-      hint.textContent = 'swipe \u2192';
+      hint.textContent = 'Scroll sideways to see the full diagram \u2192';
       el.insertAdjacentElement('afterend', hint);
       el.addEventListener('scroll', function done() {
         el.classList.add('hscroll--used');

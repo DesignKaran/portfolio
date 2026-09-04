@@ -81,6 +81,18 @@ body{ margin:0; overscroll-behavior-y:none; }
 
 :focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
 
+/* ---------- skip link: hidden until keyboard focus ---------- */
+.skip-link{
+  position:fixed; left:16px; top:16px; z-index:300;
+  padding:12px 20px; border-radius:12px;
+  background:#1c1a17; color:#faf3e6; font:600 14px/1 'Inter',sans-serif;
+  text-decoration:none;
+  transform:translateY(-200%); opacity:0; pointer-events:none;
+  transition:transform .2s ease, opacity .2s ease;
+}
+.skip-link:focus{ transform:none; opacity:1; pointer-events:auto; outline:2px solid #ffd23f; outline-offset:3px; }
+html[data-theme="dark"] .skip-link{ background:#f0e9dc; color:#1c1a17; }
+
 /* ---------- nav ---------- */
 .nav{
   max-width:1180px; margin:0 auto;
@@ -109,7 +121,7 @@ body{ margin:0; overscroll-behavior-y:none; }
 .nav-links a:hover::after, .nav-links a:focus-visible::after{
   transform:scaleX(1); transform-origin:left center;
 }
-/* current page: bold, statically underlined — no swoop re-animation on hover */
+/* current page: bold, statically underlined; no swoop re-animation on hover */
 .nav-links a[aria-current="page"]{ opacity:1; font-weight:600; }
 .nav-links a[aria-current="page"]::after{
   transform:scaleX(1); transform-origin:left center; transition:none;
@@ -149,7 +161,7 @@ body{ margin:0; overscroll-behavior-y:none; }
   font:500 18px/1 'Inter',sans-serif; text-decoration:none;
 }
 .btn-primary{
-  background:#ce6346; color:#ffffff; border:1.5px solid #ce6346;
+  background:#ce6346; color:#1c1a17; border:1.5px solid #ce6346;
   border-radius:26px;
   box-shadow:0 1px 0 rgba(0,0,0,0.05);
   transition:transform .4s cubic-bezier(0.34,1.56,0.64,1), border-radius .4s cubic-bezier(0.34,1.56,0.64,1), box-shadow .3s ease;
@@ -224,6 +236,17 @@ body{ margin:0; overscroll-behavior-y:none; }
   box-shadow:0 24px 46px -24px rgba(28,26,23,0.42);
 }
 .card:focus-visible{ outline:2px solid #ce6346; outline-offset:3px; }
+
+/* Third project spans the full row (no orphaned half-width card) and lays out
+   horizontally where there is room, using only existing card pieces. */
+.card--wide{ grid-column:1 / -1; }
+@media (min-width:840px){
+  .card--wide{ flex-direction:row; align-items:stretch; }
+  .card--wide .card-media{ flex:0 0 56%; aspect-ratio:auto; }
+  .card--wide .card-body{ flex:1 1 auto; justify-content:center; padding:28px; }
+  .card--wide .card-tags{ margin-top:4px; }
+  .card--wide .card-media{ max-height:460px; }
+}
 
 .card-media{ overflow:hidden; }
 .card-media-square{ aspect-ratio:1/1; }
@@ -516,6 +539,17 @@ a.now-chip:hover, a.now-chip:focus-visible{ background:#ffd23f; color:#1c1a17; }
 .hobby--watching .fav-label{ color:#ce6346; }
 .now-updated{ margin:12px 0 0 !important; font:400 11.5px/1 'Inter',sans-serif !important; color:var(--ink-3) !important; }
 
+/* ---------- lightbox close button (overlay is inline-styled per page) ---------- */
+.lb-close{
+  position:absolute; top:18px; right:18px; z-index:2;
+  width:44px; height:44px; padding:0; border:0; border-radius:50%;
+  background:rgba(250,243,230,0.14); color:#faf3e6; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  transition:background .2s ease, transform .3s cubic-bezier(0.34,1.56,0.64,1);
+}
+.lb-close:hover, .lb-close:focus-visible{ background:rgba(250,243,230,0.28); transform:scale(1.08); }
+.lb-close:focus-visible{ outline:2px solid #ffd23f; outline-offset:3px; }
+
 /* ---------- wide-figure swipe affordance (case studies, mobile) ---------- */
 .hscroll-hint{ display:none; }
 @media (max-width:760px){
@@ -612,6 +646,8 @@ html[data-theme="dark"] [style*="background:#6686F7"][style*="color:#1c1a17"], h
    dark ink on those fills reads at 4.5+. */
 [style*="background:#13c296"][style*="color:#ffffff"], [style*="background: rgb(19, 194, 150)"][style*="color: rgb(255, 255, 255)"]{ color:#043022 !important; }
 [style*="background:#3d9be9"][style*="color:#ffffff"], [style*="background: rgb(61, 155, 233)"][style*="color: rgb(255, 255, 255)"]{ color:#0c2b45 !important; }
+/* White on the terracotta accent fill is 3.05:1; ink reads at 4.5+. */
+[style*="background:#ce6346"][style*="color:#ffffff"], [style*="background: rgb(206, 99, 70)"][style*="color: rgb(255, 255, 255)"]{ color:#1c1a17 !important; }
 
 /* SVG attribute colors: footer waves track the page background in both themes */
 [fill="#faf3e6"]{ fill:var(--bg); }

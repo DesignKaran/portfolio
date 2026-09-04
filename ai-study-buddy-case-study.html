@@ -8,12 +8,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG99PZXCXY"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MG99PZXCXY');</script>
 <meta name="theme-color" content="#f2ecdd">
-<title>AI Study Buddy — case study — Karan</title>
+<title>AI Study Buddy · Case study · Karan</title>
 <meta name="description" content="The tradeoffs behind a mixed-initiative productivity AI. UX case study by Karan.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=26">
+<link rel="stylesheet" href="css/style.css?v=27">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-studybuddy.svg">
 <link rel="alternate icon" href="assets/favicon-studybuddy.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -37,11 +37,14 @@
 
 <div style="min-height:100vh;background:#f2ecdd;color:#1c1a17;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;">
 
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <nav style="max-width:1180px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;">
     <a href="index.html" aria-label="karan, home" style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-variation-settings:'opsz' 16,'wght' 650,'wdth' 92;color:#1c1a17;text-decoration:none;letter-spacing:-0.01em;">karan<span style="color:#4a90d9">.</span></a>
     <div style="display:flex;align-items:center;gap:clamp(16px,3vw,28px);">
       <a href="index.html#work" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Work</a>
       <a href="about.html" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">About</a>
+      <a href="https://drive.google.com/file/d/17IT0uRKgggiwDkknbSD-YRlce37ex7aA/view?usp=drivesdk" target="_blank" rel="noopener" aria-label="Resume (opens in new tab)" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Resume</a>
     </div>
   </nav>
 
@@ -56,7 +59,7 @@
     <a href="#next" data-sidelink="next" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Next</a>
   </nav>
 
-  <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);">
+  <div id="main-content" tabindex="-1" style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);outline:none;">
 
     <!-- HERO -->
     <section id="top" data-screen-label="Hero" style="padding:clamp(20px,4vw,48px) 0 clamp(36px,5vw,60px);display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center;">
@@ -72,7 +75,7 @@
         </div>
       </div>
       <div data-reveal="" data-accent-lock="" style="flex:1 1 360px;min-width:280px;">
-        <img src="assets/HeroMVP.png" alt="Hero cover · 1:1" loading="lazy" style="width:100%;display:block;box-shadow:0 30px 60px -34px rgba(28,26,23,0.5);border-radius:24px;aspect-ratio:1/1;object-fit:cover;">
+        <img src="assets/slots/sb-cover.webp" alt="AI Study Buddy home dashboard: today's focus, a ranked task list with time ranges, and colored priority dots" width="1400" height="1400" style="width:100%;display:block;box-shadow:0 30px 60px -34px rgba(28,26,23,0.5);border-radius:24px;aspect-ratio:1/1;object-fit:cover;">
       </div>
     </section>
 
@@ -151,7 +154,7 @@
       <h2 data-reveal="" style="margin:16px 0 0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.8rem,3.6vw,2.6rem);font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;letter-spacing:-0.018em;line-height:1.04;max-width:22ch;">Method, stated honestly</h2>
 
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">Our research was secondary literature plus informal conversations with working grad students — directional signals, not validated demand. The literature gave us the spine of the design:</p>
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><!-- TODO(karan): D2 default applied. Confirm this framing of the peer conversations reads right to you. -->Our research was secondary literature plus informal conversations with working grad students. Those conversations were directional peer input, not a validated study. The literature gave us the spine of the design:</p>
       </div>
 
       <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:20px;max-width:920px;">
@@ -174,7 +177,7 @@
       </div>
 
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The informal conversations pointed the same direction every time: students choose what to read by urgency rather than learning value, feel stressed by the volume, and would welcome guidance only if it explained itself and let them overrule it.</p>
+        <p data-reveal="" style="margin:24px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;">The peer conversations pointed the same direction: students choose what to read by urgency rather than learning value, feel stressed by the volume, and would welcome guidance only if it explained itself and let them overrule it.</p>
         <p data-reveal="" style="margin:16px 0 0;font:400 clamp(15.5px,1.8vw,17px)/1.68 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">The insight that set the direction:</strong> students already have calendars. They already have LMS reminders. Adding another tool that lists tasks would solve nothing.</p>
       </div>
 
@@ -277,18 +280,18 @@
         <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
           <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:12px;">Functional</div>
           <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#45403a;">
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Parse course materials for due dates and weights</li>
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Estimate reading time against available calendar time</li>
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Generate justified recommendations, not bare rankings</li>
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Fail gracefully when the AI is wrong: a hallucinated deadline is a quick correction, not a broken schedule</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Parse course materials for due dates and weights</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Estimate reading time against available calendar time</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Generate justified recommendations, not bare rankings</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Fail gracefully when the AI is wrong: a hallucinated deadline is a quick correction, not a broken schedule</li>
           </ul>
         </div>
         <div style="background:#ffffff;border:1px solid rgba(28,26,23,0.1);border-radius:16px;padding:20px;">
           <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 15,'wght' 620,'wdth' 92;font-size:15px;color:#1d4d7d;margin-bottom:12px;">Non-functional</div>
           <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font:400 13.5px/1.45 'Inter',sans-serif;color:#45403a;">
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Transparency over black-box behavior</li>
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>Seamless integration with tools students already use, so adoption cost stays near zero</li>
-            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;">—</span>A hard privacy line: check only whether a calendar slot is busy or free, never read event details</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Transparency over black-box behavior</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>Seamless integration with tools students already use, so adoption cost stays near zero</li>
+            <li style="display:flex;gap:9px;"><span style="color:#4a90d9;font-weight:700;" aria-hidden="true">·</span>A hard privacy line: check only whether a calendar slot is busy or free, never read event details</li>
           </ul>
         </div>
       </div>
@@ -382,7 +385,7 @@
         <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">Onboarding: solving the cold start without breaking trust</h3>
       </div>
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">A recommendation engine with no data recommends nothing useful, so onboarding fills that gap — without spending the trust it will need later. Two decisions carry this screen: <strong style="font-weight:600;color:#1c1a17;">every step has a Skip button</strong>, so a student can opt out of data collection entirely and run on generic estimates, and the calendar step says plainly that the app checks only busy/free and <strong style="font-weight:600;color:#1c1a17;">never reads event details.</strong> Goals, focus areas, and check-in frequency are asked for, never required.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">A recommendation engine with no data recommends nothing useful, so onboarding fills that gap without spending the trust the app will need later. Two decisions carry this screen: <strong style="font-weight:600;color:#1c1a17;">every step has a Skip button</strong>, so a student can opt out of data collection entirely and run on generic estimates, and the calendar step says plainly that the app checks only busy/free and <strong style="font-weight:600;color:#1c1a17;">never reads event details.</strong> Goals, focus areas, and check-in frequency are asked for, never required.</p>
       </div>
 
       <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
@@ -390,27 +393,27 @@
         <div style="background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;padding:clamp(18px,2.6vw,28px);box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);display:flex;flex-wrap:wrap;gap:clamp(26px,3.5vw,44px);width:fit-content;max-width:100%;overflow-x:auto;">
           <div style="display:flex;gap:14px;align-items:flex-start;">
             <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-              <img src="assets/slots/sb-onb-1.webp" alt="Connect calendar + LMS" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <img src="assets/slots/sb-onb-1.webp" alt="Onboarding step asking to connect a calendar and LMS, each with its own Skip option" width="450" height="888" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
               <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Connect calendar and LMS</span>
             </div>
             <div style="align-self:center;margin-bottom:21px;display:flex;color:#a89f8d;">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
             </div>
             <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-              <img src="assets/slots/sb-onb-2.webp" alt="Blackboard connected" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <img src="assets/slots/sb-onb-2.webp" alt="Confirmation screen showing Blackboard successfully connected" width="450" height="888" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
               <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Blackboard connected</span>
             </div>
           </div>
           <div style="display:flex;gap:14px;align-items:flex-start;">
             <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-              <img src="assets/slots/sb-onb-3.webp" alt="Goals screen" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <img src="assets/slots/sb-onb-3.webp" alt="Goals screen asking what the student is working toward, with skippable options" width="450" height="888" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
               <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"What are you working toward?"</span>
             </div>
             <div style="align-self:center;margin-bottom:21px;display:flex;color:#a89f8d;">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
             </div>
             <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-              <img src="assets/slots/sb-onb-4.webp" alt="Focus area selected" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
+              <img src="assets/slots/sb-onb-4.webp" alt="Focus-area picker with a subject selected" width="450" height="888" loading="lazy" style="width:150px;display:block;border-radius:18px;box-shadow:0 12px 24px -18px rgba(28,26,23,0.6);aspect-ratio:150/325;object-fit:cover;">
               <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">Focus area selected</span>
             </div>
           </div>
@@ -493,7 +496,7 @@
         <h3 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(1.3rem,2.4vw,1.7rem);font-variation-settings:'opsz' 22,'wght' 600,'wdth' 92;letter-spacing:-0.014em;">The dashboard: explainability as a first-class control</h3>
       </div>
       <div style="max-width:760px;">
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The home dashboard shows today's focus and the week's ranked tasks. Three decisions define it: <strong style="font-weight:600;color:#1c1a17;">"Why this?" sits on every task</strong> — one tap reveals the reasoning, the Kizilcec finding made literal; <strong style="font-weight:600;color:#1c1a17;">time is shown as a range</strong> ("Est. 45–60 min"), never a false-precise number the system has not earned; and <strong style="font-weight:600;color:#1c1a17;">colored dots rank the week</strong> at a glance, before anything is opened.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The home dashboard shows today's focus and the week's ranked tasks. Three decisions define it: <strong style="font-weight:600;color:#1c1a17;">"Why this?" sits on every task</strong>: one tap reveals the reasoning, the Kizilcec finding made literal; <strong style="font-weight:600;color:#1c1a17;">time is shown as a range</strong> ("Est. 45–60 min"), never a false-precise number the system has not earned; and <strong style="font-weight:600;color:#1c1a17;">colored dots rank the week</strong> at a glance, before anything is opened.</p>
       </div>
 
       <!-- VISUAL 4 · ANNOTATED DASHBOARD -->
@@ -502,7 +505,7 @@
         <div style="overflow-x:auto;">
           <div data-anno-fig="" style="position:relative;width:100%;min-width:640px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(24px,3vw,40px);display:flex;gap:clamp(32px,4.5vw,60px);align-items:center;">
             <div style="position:relative;flex:0 0 auto;width:280px;">
-              <img src="assets/slots/sb-dash-annotated.webp" alt="Home dashboard export (390 × 844)" loading="lazy" style="width:280px;display:block;border-radius:22px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:280/606;object-fit:cover;">
+              <img src="assets/slots/sb-dash-annotated.webp" alt="Home dashboard with annotation points on the time range, the Why this control, the reschedule action, and the priority dots" width="840" height="1658" loading="lazy" style="width:280px;display:block;border-radius:22px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:280/606;object-fit:cover;">
               <span data-anno-dot="a" style="position:absolute;left:47.9%;top:36.4%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#ce6346;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
               <span data-anno-dot="b" style="position:absolute;left:22.6%;top:40%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#ce6346;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
               <span data-anno-dot="c" style="position:absolute;left:68.5%;top:46%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#ce6346;border:2px solid #ffffff;box-shadow:0 1px 4px rgba(28,26,23,0.4);"></span>
@@ -537,18 +540,18 @@
       </div>
       <div style="max-width:760px;">
         <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Chat</strong> lets a student ask "What should I focus on this week?" and get a reasoned answer with a next action attached ("Want me to block time for it tonight?"). <strong style="font-weight:600;color:#1c1a17;">Reschedule</strong> is the override made frictionless: when the student cannot do a task now, the AI offers calendar-aware alternatives and the student confirms. The AI never moves the schedule on its own.</p>
-        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: updates run as a nightly batch, not in real time.</strong> Weights recalculate overnight and improved estimates land in the morning. Live re-ranking would make the schedule twitch under the student all day — precisely the anxiety the product exists to reduce. Stability beat reactivity, on purpose.</p>
+        <p data-reveal="" style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;"><strong style="font-weight:600;color:#1c1a17;">Decision: updates run as a nightly batch, not in real time.</strong> Weights recalculate overnight and improved estimates land in the morning. Live re-ranking would make the schedule twitch under the student all day, which is precisely the anxiety the product exists to reduce. Stability beat reactivity, on purpose.</p>
       </div>
 
       <div data-reveal="" data-accent-lock="" style="margin-top:22px;">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:14px;"><span style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7a7263;">Figure · Chat and reschedule</span></div>
         <div style="background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;padding:clamp(18px,2.6vw,28px);box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);display:flex;flex-wrap:wrap;gap:22px;width:fit-content;max-width:100%;">
           <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-            <img src="assets/slots/sb-chat.webp" alt="Chat screen" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
+            <img src="assets/slots/sb-chat.webp" alt="Chat screen answering what to focus on this week, with reasoning and a next action attached" width="660" height="1303" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
             <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"What should I focus on this week?"</span>
           </div>
           <div style="display:flex;flex-direction:column;gap:9px;align-items:center;">
-            <img src="assets/slots/sb-resched.webp" alt="Reschedule modal" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
+            <img src="assets/slots/sb-resched.webp" alt="Reschedule screen offering calendar-aware alternative times for the student to confirm" width="660" height="1303" loading="lazy" style="width:220px;display:block;border-radius:20px;box-shadow:0 16px 32px -22px rgba(28,26,23,0.6);aspect-ratio:220/476;object-fit:cover;">
             <span style="font:500 12px/1 'Inter',sans-serif;color:#6f6a61;">"No problem. Let's find a new time."</span>
           </div>
         </div>
@@ -694,8 +697,8 @@
         <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:0.12em;text-transform:uppercase;color:#a9c9ef;margin-bottom:12px;">Next project</div>
         <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
           <div>
-            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">Aeries HR Dashboard</div>
-            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">A solo design engagement embedded with developers and PMs at a real company.</div>
+            <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">Aeries Milestone Dashboard</div>
+            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">A solo redesign of an internal milestone dashboard, shaped by real developer constraints.</div>
           </div>
           <span style="flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:#4a90d9;color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;">→</span>
         </div>
@@ -749,6 +752,6 @@
 </div>
 
 <script src="js/main.js?v=8"></script>
-<script src="js/case-study.js?v=3"></script>
+<script src="js/case-study.js?v=4"></script>
 </body>
 </html>

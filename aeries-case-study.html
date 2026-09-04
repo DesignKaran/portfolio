@@ -8,12 +8,15 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG99PZXCXY"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MG99PZXCXY');</script>
 <meta name="theme-color" content="#f2ecdd">
-<title>Aeries HR Dashboard — case study — Karan</title>
-<meta name="description" content="Making headcount, hiring, and attrition legible at a glance for busy HR teams. UX case study by Karan.">
+<!-- TODO(karan): D1 default applied. Confirm "Aeries Milestone Dashboard" is the name you want everywhere. -->
+<title>Aeries Milestone Dashboard · Karan, UX designer</title>
+<meta name="description" content="A solo redesign of Aeries Technologies' internal infrastructure milestone dashboard: one clear reading order, glanceable progress, and a mobile layout. UX case study by Karan.">
+<meta property="og:title" content="Aeries Milestone Dashboard · Karan, UX designer">
+<meta property="og:description" content="A solo redesign of an internal milestone dashboard, shaped by real developer constraints.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=26">
+<link rel="stylesheet" href="css/style.css?v=27">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-aeries.svg">
 <link rel="alternate icon" href="assets/favicon-aeries.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -37,11 +40,14 @@
 
 <div style="min-height:100vh;background:#f2ecdd;color:#1c1a17;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;">
 
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <nav style="max-width:1180px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;">
     <a href="index.html" aria-label="karan, home" style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-variation-settings:'opsz' 16,'wght' 650,'wdth' 92;color:#1c1a17;text-decoration:none;letter-spacing:-0.01em;">karan<span style="color:#6686F7">.</span></a>
     <div style="display:flex;align-items:center;gap:clamp(16px,3vw,28px);">
       <a href="index.html#work" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Work</a>
       <a href="about.html" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">About</a>
+      <a href="https://drive.google.com/file/d/17IT0uRKgggiwDkknbSD-YRlce37ex7aA/view?usp=drivesdk" target="_blank" rel="noopener" aria-label="Resume (opens in new tab)" style="color:#1c1a17;font:500 15px/1 'Inter',sans-serif;text-decoration:none;opacity:0.78;transition:opacity .2s ease;" class="hov-navlink">Resume</a>
     </div>
   </nav>
 
@@ -53,7 +59,7 @@
     <a href="#next" data-sidelink="next" style="display:flex;align-items:center;gap:11px;padding:7px 9px;border-radius:8px;font:600 13.5px/1.2 'Inter',sans-serif;color:#9a9080;text-decoration:none;transition:color .2s ease;"><span data-sidedot="" style="width:18px;height:2px;border-radius:2px;background:#d6cdb9;transition:all .25s ease;"></span>Next</a>
   </nav>
 
-  <div style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);">
+  <div id="main-content" tabindex="-1" style="max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,40px);outline:none;">
 
     <!-- HERO -->
     <section id="top" data-screen-label="Hero" style="padding:clamp(20px,4vw,48px) 0 clamp(36px,5vw,60px);display:flex;flex-wrap:wrap;gap:clamp(32px,6vw,64px);align-items:center;">
@@ -76,7 +82,7 @@
             <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
             <span style="flex:1 1 auto;max-width:340px;margin-left:8px;background:#f2ecdd;border-radius:999px;padding:5px 12px;font:500 11px/1 ui-monospace,Menlo,monospace;color:#6f6a61;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">aeries · infrastructure milestone dashboard</span>
           </div>
-          <img src="assets/slots/ae-cover.webp" alt="Final, redesigned dashboard" loading="lazy" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
+          <img src="assets/slots/ae-cover.webp" alt="The redesigned milestone dashboard: workstream sections with progress bars and a left-to-right milestone card grid" width="1442" height="1967" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
         </div>
       </div>
     </section>
@@ -141,7 +147,7 @@
         <div style="overflow-x:auto;">
           <div style="width:100%;min-width:640px;max-width:860px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(18px,2.6vw,28px);">
             <div style="position:relative;width:100%;">
-              <img src="assets/slots/ae-before.webp" alt="Initial, original dashboard" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
+              <img src="assets/slots/ae-before.webp" alt="The original dashboard: two vertical milestone rails with summary cards floating between them and status scattered in small pills" width="1440" height="1747" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
               <svg viewBox="0 0 1440 1747" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;">
                 <circle cx="384" cy="1300" r="8" fill="#6686F7"></circle>
                 <line x1="392" y1="1300" x2="745" y2="1300" stroke="#6686F7" stroke-width="1.5" stroke-dasharray="6 6"></line>
@@ -237,17 +243,17 @@
         <div style="max-width:860px;background:#faf3e6;border:1px solid #e3dccb;border-radius:16px;box-shadow:0 18px 40px -30px rgba(28,26,23,0.4);padding:clamp(20px,3vw,28px);display:flex;flex-direction:column;gap:22px;">
           <div>
             <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">01 Lo-fi probe</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">A cheap grayscale wireframe built to extract real feedback</span></div>
-            <img src="assets/LowFiRAW.png" alt="LowFi" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1024;object-fit:cover;">
+            <img src="assets/LowFiRAW.png" alt="Grayscale low-fidelity wireframe: horizontal milestone rows with per-section progress bars, built to collect structural feedback cheaply" width="1440" height="1024" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1024;object-fit:cover;">
           </div>
           <div style="display:flex;justify-content:center;"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M5 0 V11 M1 8 L5 12 L9 8" stroke="#6f6a61" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
           <div>
             <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">02 Sleeper draft board</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">A proven one-screen pattern, found outside the industry</span></div>
-            <img src="assets/DraftInspirationRAW.png" alt="DraftInspiration" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1800/1032;object-fit:cover;">
+            <img src="assets/slots/ae-draft.webp" alt="Sleeper fantasy football draft board: 150 sequential picks on one screen, color-coded and built from one repeating card" width="1400" height="803" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1800/1032;object-fit:cover;">
           </div>
           <div style="display:flex;justify-content:center;"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" aria-hidden="true"><path d="M5 0 V11 M1 8 L5 12 L9 8" stroke="#6f6a61" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
           <div>
             <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:12px;"><span style="display:inline-flex;align-items:center;gap:8px;"><span style="flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:#6686F7;"></span><span style="font:500 14px/1.2 'Inter',sans-serif;color:#1c1a17;">03 First high-fi pass</span></span><span style="font:400 12.5px/1.4 'Inter',sans-serif;color:#6f6a61;">The grid worked, but inherited the snake reading order</span></div>
-            <img src="assets/FirstRedesignRAW.png" alt="FirstRedesign" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
+            <img src="assets/FirstRedesignRAW.png" alt="First high-fidelity pass: milestone cards in a grid with color-carrying borders, still using the snake reading order" width="1440" height="1747" loading="lazy" style="width:100%;display:block;border:1px solid #e3dccb;border-radius:10px;aspect-ratio:1440/1747;object-fit:cover;">
           </div>
         </div>
       </div>
@@ -269,7 +275,7 @@
             <span style="width:10px;height:10px;border-radius:50%;background:#e3dccb;"></span>
             <span style="flex:1 1 auto;max-width:340px;margin-left:8px;background:#f2ecdd;border-radius:999px;padding:5px 12px;font:500 11px/1 ui-monospace,Menlo,monospace;color:#6f6a61;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">aeries · infrastructure milestone dashboard</span>
           </div>
-          <img src="assets/slots/ae-final.webp" alt="Final, redesigned dashboard, full width" loading="lazy" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
+          <img src="assets/slots/ae-final.webp" alt="The final dashboard: strict left-to-right milestone rows, per-section progress bars, collapsible sections, and grouped final steps" width="1442" height="1967" loading="lazy" style="width:100%;display:block;aspect-ratio:1440/1000;object-fit:cover;">
         </div>
       </div>
 
@@ -290,7 +296,7 @@
           <p style="margin:14px 0 0;font:400 15px/1.62 'Inter',sans-serif;color:#45403a;">The one-screen mandate applied to desktop, but the status-checking use case does not wait for a desk. I designed a responsive mobile layout that preserves the progress bars and card grammar in a single column, so milestone progress is glanceable from a phone.</p>
         </div>
         <div style="flex:0 0 auto;">
-          <img src="assets/slots/ae-mobile.webp" alt="Mobile" loading="lazy" style="width:240px;display:block;border:1px solid #e3dccb;border-radius:26px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:390/844;object-fit:cover;">
+          <img src="assets/slots/ae-mobile.webp" alt="Mobile layout: the milestone grid and progress bars restacked into a single glanceable column" width="360" height="800" loading="lazy" style="width:240px;display:block;border:1px solid #e3dccb;border-radius:26px;box-shadow:0 22px 44px -26px rgba(28,26,23,0.55);aspect-ratio:390/844;object-fit:cover;">
         </div>
       </div>
     </section>
@@ -349,7 +355,7 @@
         <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
           <div>
             <div style="font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'opsz' 30,'wght' 580,'wdth' 90;font-size:clamp(1.6rem,3.2vw,2.3rem);letter-spacing:-0.018em;color:#faf3e6;">ElderMotion</div>
-            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">Fall-aware motion sensing that helps older adults stay independent at home.</div>
+            <div style="margin-top:6px;font:400 14.5px/1.5 'Inter',sans-serif;color:rgba(250,243,230,0.7);max-width:46ch;">Community-driven, accessibility-first fitness for older adults.</div>
           </div>
           <span style="flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:#6686F7;color:#1c1a17;display:flex;align-items:center;justify-content:center;font-size:22px;">→</span>
         </div>
@@ -403,6 +409,6 @@
 </div>
 
 <script src="js/main.js?v=8"></script>
-<script src="js/case-study.js?v=3"></script>
+<script src="js/case-study.js?v=4"></script>
 </body>
 </html>

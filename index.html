@@ -8,12 +8,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG99PZXCXY"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MG99PZXCXY');</script>
 <meta name="theme-color" content="#faf3e6">
-<title>Karan — UX designer</title>
+<title>Karan · UX designer</title>
 <meta name="description" content="Karan is a UX designer who researches like a scientist and builds like a maker. Case studies in health, learning, and enterprise tools.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=26">
+<link rel="stylesheet" href="css/style.css?v=27">
 <link rel="icon" type="image/svg+xml" href="assets/favicon-orange.svg">
 <link rel="alternate icon" href="assets/favicon-orange.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -22,15 +22,18 @@
 
 <div class="page">
 
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <nav class="nav" data-load data-load-delay="0">
     <a href="#" class="wordmark" aria-label="karan, home">karan<span class="accent">.</span></a>
     <div class="nav-links">
       <a href="#work">Work</a>
       <a href="about.html">About</a>
+      <a href="https://drive.google.com/file/d/17IT0uRKgggiwDkknbSD-YRlce37ex7aA/view?usp=drivesdk" target="_blank" rel="noopener" aria-label="Resume (opens in new tab)">Resume</a>
     </div>
   </nav>
 
-  <section class="hero">
+  <section class="hero" id="main-content" tabindex="-1">
     <div class="hero-inner">
       <div class="hero-copy">
         <h1 id="hero-heading" class="warp-heading" data-warp="480,90,50,820,100,82" data-load data-load-delay="0" aria-label="No magic. Just method.">
@@ -60,13 +63,13 @@
       <span>Featured work</span>
     </div>
     <h2 class="work-heading" data-reveal>A few things I've made.</h2>
-    <p class="work-sub" data-reveal>Across health, learning, and enterprise tools — a mix of research, systems, and hands-on craft.</p>
+    <p class="work-sub" data-reveal>Across health, learning, and enterprise tools: a mix of research, systems, and hands-on craft.</p>
 
     <div class="card-grid">
 
       <a class="card" data-reveal data-reveal-group="cards" href="eldermotion-case-study.html" aria-label="ElderMotion case study">
         <div class="card-media card-media-square">
-          <img src="assets/ElderMotionCover.png" alt="ElderMotion app — Community and Activity Overview screens" loading="lazy">
+          <img src="assets/slots/em-cover.webp" alt="ElderMotion app: the Community and Activity Overview screens, with large labeled buttons" width="1400" height="1400" loading="lazy">
         </div>
         <div class="card-body">
           <h3>ElderMotion</h3>
@@ -81,7 +84,7 @@
 
       <a class="card" data-reveal data-reveal-group="cards" href="ai-study-buddy-case-study.html" aria-label="AI Study Buddy case study">
         <div class="card-media card-media-square">
-          <img src="assets/HeroMVP.png" alt="AI Study Buddy app — home dashboard screen" loading="lazy">
+          <img src="assets/slots/sb-cover.webp" alt="AI Study Buddy home dashboard showing today's focus and a ranked task list" width="1400" height="1400" loading="lazy">
         </div>
         <div class="card-body">
           <h3>AI Study Buddy</h3>
@@ -94,17 +97,19 @@
         </div>
       </a>
 
-      <a class="card" data-reveal data-reveal-group="cards" href="aeries-case-study.html" aria-label="Aeries HR Dashboard case study">
+      <!-- TODO(karan): D1 default applied. Confirm the "Aeries Milestone Dashboard" name and one-liner. -->
+      <!-- TODO(karan): D3 default (b) applied. The third card is full-width with a "Solo · Real company" chip. -->
+      <a class="card card--wide" data-reveal data-reveal-group="cards" href="aeries-case-study.html" aria-label="Aeries Milestone Dashboard case study">
         <div class="card-media card-media-4-3">
-          <img src="assets/AeriesMVP.png" alt="Aeries infrastructure milestone dashboard on a laptop" loading="lazy">
+          <img src="assets/slots/ae-card.webp" alt="Aeries infrastructure milestone dashboard on a laptop" width="1400" height="1050" loading="lazy">
         </div>
         <div class="card-body">
-          <h3>Aeries HR Dashboard</h3>
-          <p>Makes headcount, hiring, and attrition legible at a glance for busy HR teams.</p>
+          <h3>Aeries Milestone Dashboard</h3>
+          <p>A solo redesign of an internal milestone dashboard, shaped by real developer constraints.</p>
           <div class="card-tags">
             <span>Enterprise</span>
             <span>Data viz</span>
-            <span>Solo</span>
+            <span>Solo · Real company</span>
           </div>
         </div>
       </a>
