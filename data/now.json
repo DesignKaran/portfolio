@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-05T08:47:01.249Z",
+  "updatedAt": "2026-09-05T15:25:16.174Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Hey There Delilah",
+        "artists": "Plain White T's",
+        "album": "All That We Needed",
+        "art": "https://i.scdn.co/image/ab67616d00001e02beae6e69d6505fd379ef3081",
+        "url": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
+        "playedAt": "2026-09-05T14:00:21.563Z"
+      },
       {
         "name": "Highway to Hell",
         "artists": "AC/DC",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02f811a222ec1f0211a1f584e7",
         "url": "https://open.spotify.com/track/2W779g2UrRZtVdf3FcEOO1",
         "playedAt": "2026-09-05T03:34:09.755Z"
-      },
-      {
-        "name": "Glue Song",
-        "artists": "beabadoobee",
-        "album": "Glue Song",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3862aeefcb2f0860ef017e4",
-        "url": "https://open.spotify.com/track/3iBgrkexCzVuPy4O9vx7Mf",
-        "playedAt": "2026-09-05T03:31:02.376Z"
       }
     ],
     "top": [
