@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T06:23:55.546Z",
+  "updatedAt": "2026-09-07T12:53:40.461Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -130,8 +130,8 @@
       "Pop",
       "Alternative Rock",
       "Rock",
-      "Pop Rock",
       "Indie Pop",
+      "Pop Rock",
       "Classical"
     ]
   },
