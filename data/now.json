@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-05T15:25:16.174Z",
+  "updatedAt": "2026-09-07T06:23:55.546Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Icky Thump",
+        "artists": "The White Stripes",
+        "album": "Icky Thump",
+        "art": "https://i.scdn.co/image/ab67616d00001e0275a9cde08f286d9420709048",
+        "url": "https://open.spotify.com/track/2LMq1O0NiqGhPOlXo3McYQ",
+        "playedAt": "2026-09-07T01:30:03.156Z"
+      },
       {
         "name": "Hey There Delilah",
         "artists": "Plain White T's",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027c9c67ab89d11c93a4ed20a5",
         "url": "https://open.spotify.com/track/3axwpqskPlL9oWXTWQY8RO",
         "playedAt": "2026-09-05T03:47:56.235Z"
-      },
-      {
-        "name": "In My Mind",
-        "artists": "Lyn Lapid",
-        "album": "In My Mind",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f811a222ec1f0211a1f584e7",
-        "url": "https://open.spotify.com/track/2W779g2UrRZtVdf3FcEOO1",
-        "playedAt": "2026-09-05T03:34:09.755Z"
       }
     ],
     "top": [
