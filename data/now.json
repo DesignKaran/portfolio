@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-09-07T21:41:06.964Z",
+  "updatedAt": "2026-09-08T08:15:35.885Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Best of You",
+        "artists": "Foo Fighters",
+        "album": "In Your Honor",
+        "art": "https://i.scdn.co/image/ab67616d00001e0250d3fff0dc3d9b55f164d8d6",
+        "url": "https://open.spotify.com/track/5FZxsHWIvUsmSK1IAvm2pp",
+        "playedAt": "2026-09-08T06:04:20.881Z"
+      },
+      {
+        "name": "Battle Symphony",
+        "artists": "Linkin Park",
+        "album": "One More Light",
+        "art": "https://i.scdn.co/image/ab67616d00001e02145e1cf12538f5666511237d",
+        "url": "https://open.spotify.com/track/3FQCJI2t5LTbsRPfYVBSVB",
+        "playedAt": "2026-09-08T05:58:54.572Z"
+      },
+      {
+        "name": "Chop Suey!",
+        "artists": "System Of A Down",
+        "album": "Toxicity",
+        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
+        "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+        "playedAt": "2026-09-08T05:54:14.991Z"
+      },
+      {
+        "name": "Basket Case",
+        "artists": "Green Day",
+        "album": "Dookie",
+        "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
+        "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
+        "playedAt": "2026-09-08T05:50:44.300Z"
+      },
+      {
+        "name": "First Date",
+        "artists": "blink-182",
+        "album": "Take Off Your Pants And Jacket",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d9d27e5b56e2b983e54dba64",
+        "url": "https://open.spotify.com/track/1fJFuvU2ldmeAm5nFIHcPP",
+        "playedAt": "2026-09-08T05:47:10.517Z"
+      },
+      {
+        "name": "Reptilia",
+        "artists": "The Strokes",
+        "album": "Room On Fire",
+        "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
+        "url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
+        "playedAt": "2026-09-08T05:42:04.580Z"
+      },
       {
         "name": "Icky Thump",
         "artists": "The White Stripes",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02beae6e69d6505fd379ef3081",
         "url": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
         "playedAt": "2026-09-05T14:00:21.563Z"
-      },
-      {
-        "name": "Highway to Hell",
-        "artists": "AC/DC",
-        "album": "Highway to Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0243058ea096fa35ac33c43587",
-        "url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s",
-        "playedAt": "2026-09-05T04:09:22.551Z"
-      },
-      {
-        "name": "B.Y.O.B.",
-        "artists": "System Of A Down",
-        "album": "Mezmerize",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c65f8d04502eeddbdd61fa71",
-        "url": "https://open.spotify.com/track/0EYOdF5FCkgOJJla8DI2Md",
-        "playedAt": "2026-09-05T04:05:53.125Z"
-      },
-      {
-        "name": "Gold Guns Girls",
-        "artists": "Metric",
-        "album": "Fantasies",
-        "art": "https://i.scdn.co/image/ab67616d00001e0280b25efe77045baa9bffd7e1",
-        "url": "https://open.spotify.com/track/6JhUq57XpJeNMxboI4Ne3S",
-        "playedAt": "2026-09-05T04:01:36.532Z"
-      },
-      {
-        "name": "Minority",
-        "artists": "Green Day",
-        "album": "Warning",
-        "art": "https://i.scdn.co/image/ab67616d00001e026869f1cd33bf72e00313520d",
-        "url": "https://open.spotify.com/track/4qjfQnccStTR8zNsb6Mizo",
-        "playedAt": "2026-09-05T03:55:22.745Z"
-      },
-      {
-        "name": "The Stroke - Remastered 2010",
-        "artists": "Billy Squier",
-        "album": "Don't Say No (Remastered 2010)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f4822f8034e697410a14a297",
-        "url": "https://open.spotify.com/track/52KvuGmgcgRdrLMXOtda0E",
-        "playedAt": "2026-09-05T03:52:33.416Z"
-      },
-      {
-        "name": "Love, Always",
-        "artists": "Kidsnot$aints.",
-        "album": "Love, Always",
-        "art": "https://i.scdn.co/image/ab67616d00001e027c9c67ab89d11c93a4ed20a5",
-        "url": "https://open.spotify.com/track/3axwpqskPlL9oWXTWQY8RO",
-        "playedAt": "2026-09-05T03:47:56.235Z"
       }
     ],
     "top": [
@@ -98,13 +98,6 @@
         "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
       },
       {
-        "name": "Baby, I Love You",
-        "artists": "Ramones",
-        "album": "End of the Century (Expanded 2005 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e027b15d77c4dc346ce1e444ca2",
-        "url": "https://open.spotify.com/track/29imR7dda5XqwPRFmby7HS"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -124,6 +117,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397"
+      },
+      {
+        "name": "Nice To Each Other",
+        "artists": "Olivia Dean",
+        "album": "Nice To Each Other",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a9e75099d7065c71cc7ede72",
+        "url": "https://open.spotify.com/track/7gKxCvTDWwV9wBhdeBbr3l"
       }
     ],
     "genres": [
