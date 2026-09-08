@@ -1,31 +1,47 @@
 {
-  "updatedAt": "2026-09-08T17:10:44.368Z",
+  "updatedAt": "2026-09-08T20:02:52.380Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
-      {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-09-08T17:01:05.739Z"
-      },
-      {
-        "name": "Whatsername",
-        "artists": "Green Day",
-        "album": "American Idiot (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e029079e678be6b947cc2b3b5c6",
-        "url": "https://open.spotify.com/track/7HXtpmFjqt4Wv6T8y5lVz3",
-        "playedAt": "2026-09-08T17:01:02.203Z"
-      },
       {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-08T16:06:49.570Z"
+        "playedAt": "2026-09-08T19:47:22.960Z"
+      },
+      {
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
+        "playedAt": "2026-09-08T17:38:10.898Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-08T17:36:03.750Z"
+      },
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
+        "playedAt": "2026-09-08T17:32:57.263Z"
+      },
+      {
+        "name": "Nice To Each Other",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
+        "playedAt": "2026-09-08T17:29:28.318Z"
       },
       {
         "name": "Close Up",
@@ -33,39 +49,23 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-09-08T15:57:16.453Z"
+        "playedAt": "2026-09-08T17:25:58.273Z"
       },
       {
-        "name": "Best of You",
-        "artists": "Foo Fighters",
-        "album": "In Your Honor",
-        "art": "https://i.scdn.co/image/ab67616d00001e0250d3fff0dc3d9b55f164d8d6",
-        "url": "https://open.spotify.com/track/5FZxsHWIvUsmSK1IAvm2pp",
-        "playedAt": "2026-09-08T06:04:20.881Z"
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-09-08T17:22:42.820Z"
       },
       {
-        "name": "Battle Symphony",
-        "artists": "Linkin Park",
-        "album": "One More Light",
-        "art": "https://i.scdn.co/image/ab67616d00001e02145e1cf12538f5666511237d",
-        "url": "https://open.spotify.com/track/3FQCJI2t5LTbsRPfYVBSVB",
-        "playedAt": "2026-09-08T05:58:54.572Z"
-      },
-      {
-        "name": "Chop Suey!",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
-        "playedAt": "2026-09-08T05:54:14.991Z"
-      },
-      {
-        "name": "Basket Case",
-        "artists": "Green Day",
-        "album": "Dookie",
-        "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
-        "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
-        "playedAt": "2026-09-08T05:50:44.300Z"
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
+        "playedAt": "2026-09-08T17:18:59.356Z"
       }
     ],
     "top": [
@@ -84,18 +84,18 @@
         "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
-      },
-      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
         "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
         "name": "like i do",
@@ -105,25 +105,25 @@
         "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
       },
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
-      },
-      {
-        "name": "So Easy (To Fall In Love)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397"
-      },
-      {
         "name": "Nice To Each Other",
         "artists": "Olivia Dean",
         "album": "Nice To Each Other",
         "art": "https://i.scdn.co/image/ab67616d00001e02a9e75099d7065c71cc7ede72",
         "url": "https://open.spotify.com/track/7gKxCvTDWwV9wBhdeBbr3l"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
       }
     ],
     "genres": [
