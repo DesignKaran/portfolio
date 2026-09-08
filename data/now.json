@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-08T08:15:35.885Z",
+  "updatedAt": "2026-09-08T17:10:44.368Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Something Inbetween",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
+        "playedAt": "2026-09-08T17:01:05.739Z"
+      },
+      {
+        "name": "Whatsername",
+        "artists": "Green Day",
+        "album": "American Idiot (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e029079e678be6b947cc2b3b5c6",
+        "url": "https://open.spotify.com/track/7HXtpmFjqt4Wv6T8y5lVz3",
+        "playedAt": "2026-09-08T17:01:02.203Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-09-08T16:06:49.570Z"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-09-08T15:57:16.453Z"
+      },
       {
         "name": "Best of You",
         "artists": "Foo Fighters",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
         "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
         "playedAt": "2026-09-08T05:50:44.300Z"
-      },
-      {
-        "name": "First Date",
-        "artists": "blink-182",
-        "album": "Take Off Your Pants And Jacket",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d9d27e5b56e2b983e54dba64",
-        "url": "https://open.spotify.com/track/1fJFuvU2ldmeAm5nFIHcPP",
-        "playedAt": "2026-09-08T05:47:10.517Z"
-      },
-      {
-        "name": "Reptilia",
-        "artists": "The Strokes",
-        "album": "Room On Fire",
-        "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
-        "url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
-        "playedAt": "2026-09-08T05:42:04.580Z"
-      },
-      {
-        "name": "Icky Thump",
-        "artists": "The White Stripes",
-        "album": "Icky Thump",
-        "art": "https://i.scdn.co/image/ab67616d00001e0275a9cde08f286d9420709048",
-        "url": "https://open.spotify.com/track/2LMq1O0NiqGhPOlXo3McYQ",
-        "playedAt": "2026-09-07T01:30:03.156Z"
-      },
-      {
-        "name": "Hey There Delilah",
-        "artists": "Plain White T's",
-        "album": "All That We Needed",
-        "art": "https://i.scdn.co/image/ab67616d00001e02beae6e69d6505fd379ef3081",
-        "url": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
-        "playedAt": "2026-09-05T14:00:21.563Z"
       }
     ],
     "top": [
@@ -84,6 +84,13 @@
         "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
@@ -96,13 +103,6 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
         "name": "Baby Steps",
