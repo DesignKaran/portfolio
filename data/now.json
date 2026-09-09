@@ -1,29 +1,15 @@
 {
-  "updatedAt": "2026-09-09T01:01:03.196Z",
+  "updatedAt": "2026-09-09T06:19:23.651Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Close Up",
-      "artists": "Olivia Dean",
-      "album": "The Art of Loving",
-      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-      "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
-    },
+    "nowPlaying": null,
     "recent": [
-      {
-        "name": "Loud",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-09-09T00:58:22.402Z"
-      },
       {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-09-09T00:55:17.908Z"
+        "playedAt": "2026-09-09T01:29:46.718Z"
       },
       {
         "name": "The Art of Loving (Intro)",
@@ -31,7 +17,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
-        "playedAt": "2026-09-09T00:49:07.544Z"
+        "playedAt": "2026-09-09T01:26:42.226Z"
       },
       {
         "name": "Something Inbetween",
@@ -39,7 +25,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-09-09T00:48:26.541Z"
+        "playedAt": "2026-09-09T01:26:01.229Z"
       },
       {
         "name": "So Easy (To Fall In Love)",
@@ -47,7 +33,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
-        "playedAt": "2026-09-09T00:45:54.059Z"
+        "playedAt": "2026-09-09T01:23:28.755Z"
       },
       {
         "name": "Baby Steps",
@@ -55,7 +41,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-09T00:43:04.575Z"
+        "playedAt": "2026-09-09T01:20:39.286Z"
       },
       {
         "name": "A Couple Minutes",
@@ -63,7 +49,7 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-09T00:39:47.099Z"
+        "playedAt": "2026-09-09T01:17:21.801Z"
       },
       {
         "name": "I've Seen It",
@@ -71,7 +57,15 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-09-08T17:38:10.898Z"
+        "playedAt": "2026-09-09T01:13:49.315Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-09T01:11:42.844Z"
       }
     ],
     "top": [
@@ -104,11 +98,18 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "like i do",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
+      },
+      {
+        "name": "So Easy (To Fall In Love)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397"
       },
       {
         "name": "Nice To Each Other",
@@ -123,13 +124,6 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
-      },
-      {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
       }
     ],
     "genres": [
