@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-10T12:40:37.539Z",
+  "updatedAt": "2026-09-10T16:52:45.614Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Tom Sawyer",
-        "artists": "Rush",
-        "album": "Moving Pictures (2011 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-        "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-        "playedAt": "2026-09-10T07:58:57.434Z"
+        "name": "Never in My Wildest Dreams",
+        "artists": "Dan Auerbach",
+        "album": "Waiting on a Song",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2d7362dc639856d9d046205",
+        "url": "https://open.spotify.com/track/3MJov5mT64K42o1Rffhblq",
+        "playedAt": "2026-09-10T16:02:47.519Z"
       },
       {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
-        "playedAt": "2026-09-09T22:25:45.277Z"
+        "name": "Good Vibrations",
+        "artists": "Nectar Woode",
+        "album": "Good Vibrations",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fc42ac143e9a2b1da56a99a2",
+        "url": "https://open.spotify.com/track/3b1LOYktJgqGoy3QMyhOCk",
+        "playedAt": "2026-09-10T15:59:51.021Z"
       },
       {
-        "name": "Chop Suey!",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
-        "playedAt": "2026-09-09T22:17:48.861Z"
+        "name": "You Are the Best Thing",
+        "artists": "Ray LaMontagne",
+        "album": "Gossip In The Grain",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b73283373bf715a7e8adb87a",
+        "url": "https://open.spotify.com/track/1jyddn36UN4tVsJGtaJfem",
+        "playedAt": "2026-09-10T15:56:01.118Z"
       },
       {
-        "name": "Toxicity",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/0snQkGI5qnAmohLE7jTsTn",
-        "playedAt": "2026-09-09T22:14:17.714Z"
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-09-10T15:52:08.803Z"
       },
       {
-        "name": "Aerials",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco",
-        "playedAt": "2026-09-09T22:10:37.754Z"
+        "name": "Let Loose",
+        "artists": "Mt. Joy",
+        "album": "Rearrange Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a877e4caf6e989c666799fb9",
+        "url": "https://open.spotify.com/track/6oyBx4nQypePtBaQGM43SF",
+        "playedAt": "2026-09-10T15:48:41.498Z"
       },
       {
-        "name": "Hypnotize",
-        "artists": "System Of A Down",
-        "album": "Hypnotize",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f5e7b2e5adaa87430a3eccff",
-        "url": "https://open.spotify.com/track/6oO7WMjD6kEvCITLbVj0mu",
-        "playedAt": "2026-09-09T22:06:31.437Z"
+        "name": "Bloom - Bonus Track",
+        "artists": "The Paper Kites",
+        "album": "Woodland",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255bd9d9e0f50d28ddc9c1308",
+        "url": "https://open.spotify.com/track/1HMQmOWrkieKYWlFsjUP3D",
+        "playedAt": "2026-09-10T15:44:59.066Z"
       },
       {
-        "name": "Smile Like You Mean It",
-        "artists": "The Killers",
-        "album": "Hot Fuss",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
-        "url": "https://open.spotify.com/track/3KANrKOFYyAxfjQJHkgBdb",
-        "playedAt": "2026-09-09T22:03:20.983Z"
+        "name": "Cross My Mind",
+        "artists": "Olivia Dean",
+        "album": "Growth",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a67c5c1aa5192977c669a736",
+        "url": "https://open.spotify.com/track/6TKMXuPoDlPZYEkpS5CMB7",
+        "playedAt": "2026-09-10T15:41:28.504Z"
       },
       {
-        "name": "American Cars",
-        "artists": "Noah Kahan",
-        "album": "The Great Divide",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d879855b819250d3d00a1a38",
-        "url": "https://open.spotify.com/track/3WRgRy12YW4I9mjodKXWwy",
-        "playedAt": "2026-09-09T21:59:22.154Z"
+        "name": "Hold You in My Arms",
+        "artists": "Ray LaMontagne",
+        "album": "Trouble",
+        "art": "https://i.scdn.co/image/ab67616d00001e0284b5745e5208c0700daf6b9a",
+        "url": "https://open.spotify.com/track/0OiCqRaoKK6nuSIty8zHjl",
+        "playedAt": "2026-09-10T15:38:37.593Z"
       }
     ],
     "top": [
@@ -105,13 +105,6 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
-      },
-      {
         "name": "Close Up",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -124,6 +117,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT"
       }
     ],
     "genres": [
