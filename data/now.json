@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T02:49:31.015Z",
+  "updatedAt": "2026-09-11T07:45:06.322Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
