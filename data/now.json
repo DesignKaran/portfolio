@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-09-12T20:08:17.537Z",
+  "updatedAt": "2026-09-12T22:27:26.701Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Never Getting Laid",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
+        "playedAt": "2026-09-12T21:58:22.372Z"
+      },
+      {
+        "name": "Landslide (feat. Gwyneth Paltrow) - Cover of Fleetwood Mac",
+        "artists": "Glee Cast, Gwyneth Paltrow",
+        "album": "Glee: The Music, Volume 5",
+        "art": "https://i.scdn.co/image/ab67616d00001e028c022bf39e661d68fbc9a9ce",
+        "url": "https://open.spotify.com/track/7LSAtbMWcyKWjIrFOroPhz",
+        "playedAt": "2026-09-12T21:54:32.694Z"
+      },
+      {
+        "name": "Homewrecker",
+        "artists": "sombr",
+        "album": "Homewrecker",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
+        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
+        "playedAt": "2026-09-12T21:49:59.091Z"
+      },
+      {
+        "name": "The Hardest Part",
+        "artists": "Olivia Dean",
+        "album": "Herbstgefühle 2026",
+        "art": "https://i.scdn.co/image/ab67616d00001e025b46573afd1d7337a8dda437",
+        "url": "https://open.spotify.com/track/1ezG13QuTllPjoq8QO82a9",
+        "playedAt": "2026-09-12T21:46:29.570Z"
+      },
+      {
+        "name": "We Almost Broke Up Again Last Night",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/6wkYQMrFfb0huLB5Qn19Iv",
+        "playedAt": "2026-09-12T21:43:33.050Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-12T21:40:09.202Z"
+      },
+      {
+        "name": "EVERYTHING HALLELUJAH",
+        "artists": "Justin Bieber",
+        "album": "SWAG II",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a958d093e94944dd0e7258b2",
+        "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
+        "playedAt": "2026-09-12T21:37:02.708Z"
+      },
       {
         "name": "My Body Isn't Ready",
         "artists": "sombr",
@@ -10,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
         "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
         "playedAt": "2026-09-12T18:56:16.466Z"
-      },
-      {
-        "name": "we can't be friends (wait for your love) – string version",
-        "artists": "Ariana Grande",
-        "album": "we can't be friends (wait for your love)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c5bce200a907e3b21bf20587",
-        "url": "https://open.spotify.com/track/2TJYfqZ24XmBt3lKsfQj4N",
-        "playedAt": "2026-09-12T18:52:38.568Z"
-      },
-      {
-        "name": "Sweet Creature",
-        "artists": "Harry Styles",
-        "album": "Harry Styles",
-        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
-        "url": "https://open.spotify.com/track/5kRPPEWFJIMox5qIkQkiz5",
-        "playedAt": "2026-09-12T18:48:55.595Z"
-      },
-      {
-        "name": "From the Dining Table",
-        "artists": "Harry Styles",
-        "album": "Harry Styles",
-        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
-        "url": "https://open.spotify.com/track/1IF5UcqRO42D12vYwceOY6",
-        "playedAt": "2026-09-12T18:45:10.230Z"
-      },
-      {
-        "name": "Boyfriends",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/6qj02zSeEJGWZ4c0dn5QzJ",
-        "playedAt": "2026-09-12T18:41:37.789Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-09-12T18:38:22.739Z"
       }
     ],
     "top": [
