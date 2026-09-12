@@ -1,55 +1,55 @@
 {
-  "updatedAt": "2026-09-12T17:46:47.287Z",
+  "updatedAt": "2026-09-12T20:08:17.537Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-09-12T17:09:43.625Z"
-      },
-      {
-        "name": "Sign of the Times",
-        "artists": "Harry Styles",
-        "album": "Harry Styles",
-        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
-        "url": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
-        "playedAt": "2026-09-11T21:55:27.472Z"
-      },
-      {
-        "name": "maggots for brains",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/6jfiwkcwt8iYCdkbLukxeI",
-        "playedAt": "2026-09-11T09:40:12.767Z"
-      },
       {
         "name": "My Body Isn't Ready",
         "artists": "sombr",
         "album": "My Body Isn't Ready",
         "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
         "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
-        "playedAt": "2026-09-11T09:36:12.163Z"
+        "playedAt": "2026-09-12T18:56:16.466Z"
       },
       {
-        "name": "Two Ghosts - live in studio",
+        "name": "we can't be friends (wait for your love) – string version",
+        "artists": "Ariana Grande",
+        "album": "we can't be friends (wait for your love)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c5bce200a907e3b21bf20587",
+        "url": "https://open.spotify.com/track/2TJYfqZ24XmBt3lKsfQj4N",
+        "playedAt": "2026-09-12T18:52:38.568Z"
+      },
+      {
+        "name": "Sweet Creature",
         "artists": "Harry Styles",
-        "album": "Two Ghosts (live in studio)",
-        "art": "https://i.scdn.co/image/ab6742d3000052b7c16a3583a78734c65e053531",
-        "url": "https://open.spotify.com/track/3BVXOYfIF0jt9X4VP8GUyo",
-        "playedAt": "2026-09-11T09:19:19.383Z"
+        "album": "Harry Styles",
+        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+        "url": "https://open.spotify.com/track/5kRPPEWFJIMox5qIkQkiz5",
+        "playedAt": "2026-09-12T18:48:55.595Z"
       },
       {
-        "name": "begged",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/2duvkmcQAezPigFEGlERuA",
-        "playedAt": "2026-09-10T19:15:32.512Z"
+        "name": "From the Dining Table",
+        "artists": "Harry Styles",
+        "album": "Harry Styles",
+        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+        "url": "https://open.spotify.com/track/1IF5UcqRO42D12vYwceOY6",
+        "playedAt": "2026-09-12T18:45:10.230Z"
+      },
+      {
+        "name": "Boyfriends",
+        "artists": "Harry Styles",
+        "album": "Harry's House",
+        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
+        "url": "https://open.spotify.com/track/6qj02zSeEJGWZ4c0dn5QzJ",
+        "playedAt": "2026-09-12T18:41:37.789Z"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-09-12T18:38:22.739Z"
       }
     ],
     "top": [
@@ -61,18 +61,18 @@
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
-      },
-      {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
+      },
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
         "name": "Man I Need",
