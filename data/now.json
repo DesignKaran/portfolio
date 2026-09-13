@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-13T10:27:44.761Z",
+  "updatedAt": "2026-09-13T17:54:11.484Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Hit the Wall",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
+        "playedAt": "2026-09-13T17:48:24.173Z"
+      },
+      {
+        "name": "Real Love Baby",
+        "artists": "Father John Misty",
+        "album": "Real Love Baby",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
+        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
+        "playedAt": "2026-09-13T17:44:59.253Z"
+      },
+      {
+        "name": "The Hardest Part",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/3cPoiK69oQ1SdbB2j2ulGm",
+        "playedAt": "2026-09-13T17:41:49.462Z"
+      },
+      {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
+        "playedAt": "2026-09-13T17:38:52.933Z"
+      },
       {
         "name": "Slipping Through My Fingers - From 'Mamma Mia!' Original Motion Picture Soundtrack",
         "artists": "Meryl Streep, Amanda Seyfried",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027c0fc630c9b0e2e31df14029",
         "url": "https://open.spotify.com/track/7xDlhZlcCSilZQwYkSekHU",
         "playedAt": "2026-09-13T01:05:11.373Z"
-      },
-      {
-        "name": "Tightrope",
-        "artists": "Michelle Williams",
-        "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02128057b40732c042c86de1dd",
-        "url": "https://open.spotify.com/track/0GVuLQtPXFaL18ijEOqoAa",
-        "playedAt": "2026-09-13T01:01:11.486Z"
-      },
-      {
-        "name": "Daughters",
-        "artists": "John Mayer",
-        "album": "Heavier Things",
-        "art": "https://i.scdn.co/image/ab67616d00001e025ce3a30ee6d86659603a9536",
-        "url": "https://open.spotify.com/track/5FPnjikbwlDMULCCCa6ZCJ",
-        "playedAt": "2026-09-13T00:50:19.064Z"
-      },
-      {
-        "name": "Don't Stop Believin' - Cover of Journey",
-        "artists": "Glee Cast",
-        "album": "Glee LGBTQIA+ Pride",
-        "art": "https://i.scdn.co/image/ab67616d00001e027c0fc630c9b0e2e31df14029",
-        "url": "https://open.spotify.com/track/18k2vGf6TWpBoy8ASTuPdS",
-        "playedAt": "2026-09-13T00:46:12.176Z"
-      },
-      {
-        "name": "Daydreamer",
-        "artists": "Adele",
-        "album": "19",
-        "art": "https://i.scdn.co/image/ab67616d00001e0262e62cf225b72fca8d765168",
-        "url": "https://open.spotify.com/track/1JZkTZEXkLvkR2oQ9PSKuO",
-        "playedAt": "2026-09-13T00:42:21.524Z"
       }
     ],
     "top": [
