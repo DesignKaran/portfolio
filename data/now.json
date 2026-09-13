@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-13T05:08:29.987Z",
+  "updatedAt": "2026-09-13T10:27:44.761Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Slipping Through My Fingers - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+        "artists": "Meryl Streep, Amanda Seyfried",
+        "album": "Mamma Mia! The Movie Soundtrack",
+        "art": "https://i.scdn.co/image/ab67616d00001e02ddc54feece71dda4290d0579",
+        "url": "https://open.spotify.com/track/1QRKeAlaLqJUeCWMBRP20A",
+        "playedAt": "2026-09-13T09:35:19.345Z"
+      },
       {
         "name": "Helpless",
         "artists": "Phillipa Soo, Original Broadway Cast of Hamilton",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0262e62cf225b72fca8d765168",
         "url": "https://open.spotify.com/track/1JZkTZEXkLvkR2oQ9PSKuO",
         "playedAt": "2026-09-13T00:42:21.524Z"
-      },
-      {
-        "name": "Don’t Worry I’ll Make You Worry",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/21IVPfi81m6ywNgOvqTj1i",
-        "playedAt": "2026-09-13T00:38:12.379Z"
       }
     ],
     "top": [
