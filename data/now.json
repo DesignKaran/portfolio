@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:54:11.484Z",
+  "updatedAt": "2026-09-13T20:15:02.977Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -112,18 +112,18 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK"
+      },
+      {
         "name": "Close Up",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
-      },
-      {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7"
       }
     ],
     "genres": [
