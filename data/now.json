@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-12T22:27:26.701Z",
+  "updatedAt": "2026-09-13T05:08:29.987Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Never Getting Laid",
+        "name": "Helpless",
+        "artists": "Phillipa Soo, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/54Sc7mZQ1RM03STpk4SfaA",
+        "playedAt": "2026-09-13T01:13:11.329Z"
+      },
+      {
+        "name": "Rainbow",
+        "artists": "Kacey Musgraves",
+        "album": "Golden Hour",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e35d25eb7288830d5540484",
+        "url": "https://open.spotify.com/track/79qxwHypONUt3AFq0WPpT9",
+        "playedAt": "2026-09-13T01:08:46.143Z"
+      },
+      {
+        "name": "I Feel Pretty / Unpretty - Cover of 'West Side Story' and TLC",
+        "artists": "Glee Cast",
+        "album": "Glee LGBTQIA+ Pride",
+        "art": "https://i.scdn.co/image/ab67616d00001e027c0fc630c9b0e2e31df14029",
+        "url": "https://open.spotify.com/track/7xDlhZlcCSilZQwYkSekHU",
+        "playedAt": "2026-09-13T01:05:11.373Z"
+      },
+      {
+        "name": "Tightrope",
+        "artists": "Michelle Williams",
+        "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02128057b40732c042c86de1dd",
+        "url": "https://open.spotify.com/track/0GVuLQtPXFaL18ijEOqoAa",
+        "playedAt": "2026-09-13T01:01:11.486Z"
+      },
+      {
+        "name": "Daughters",
+        "artists": "John Mayer",
+        "album": "Heavier Things",
+        "art": "https://i.scdn.co/image/ab67616d00001e025ce3a30ee6d86659603a9536",
+        "url": "https://open.spotify.com/track/5FPnjikbwlDMULCCCa6ZCJ",
+        "playedAt": "2026-09-13T00:50:19.064Z"
+      },
+      {
+        "name": "Don't Stop Believin' - Cover of Journey",
+        "artists": "Glee Cast",
+        "album": "Glee LGBTQIA+ Pride",
+        "art": "https://i.scdn.co/image/ab67616d00001e027c0fc630c9b0e2e31df14029",
+        "url": "https://open.spotify.com/track/18k2vGf6TWpBoy8ASTuPdS",
+        "playedAt": "2026-09-13T00:46:12.176Z"
+      },
+      {
+        "name": "Daydreamer",
+        "artists": "Adele",
+        "album": "19",
+        "art": "https://i.scdn.co/image/ab67616d00001e0262e62cf225b72fca8d765168",
+        "url": "https://open.spotify.com/track/1JZkTZEXkLvkR2oQ9PSKuO",
+        "playedAt": "2026-09-13T00:42:21.524Z"
+      },
+      {
+        "name": "Don’t Worry I’ll Make You Worry",
         "artists": "Sabrina Carpenter",
         "album": "Man’s Best Friend",
         "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
-        "playedAt": "2026-09-12T21:58:22.372Z"
-      },
-      {
-        "name": "Landslide (feat. Gwyneth Paltrow) - Cover of Fleetwood Mac",
-        "artists": "Glee Cast, Gwyneth Paltrow",
-        "album": "Glee: The Music, Volume 5",
-        "art": "https://i.scdn.co/image/ab67616d00001e028c022bf39e661d68fbc9a9ce",
-        "url": "https://open.spotify.com/track/7LSAtbMWcyKWjIrFOroPhz",
-        "playedAt": "2026-09-12T21:54:32.694Z"
-      },
-      {
-        "name": "Homewrecker",
-        "artists": "sombr",
-        "album": "Homewrecker",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
-        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
-        "playedAt": "2026-09-12T21:49:59.091Z"
-      },
-      {
-        "name": "The Hardest Part",
-        "artists": "Olivia Dean",
-        "album": "Herbstgefühle 2026",
-        "art": "https://i.scdn.co/image/ab67616d00001e025b46573afd1d7337a8dda437",
-        "url": "https://open.spotify.com/track/1ezG13QuTllPjoq8QO82a9",
-        "playedAt": "2026-09-12T21:46:29.570Z"
-      },
-      {
-        "name": "We Almost Broke Up Again Last Night",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/6wkYQMrFfb0huLB5Qn19Iv",
-        "playedAt": "2026-09-12T21:43:33.050Z"
-      },
-      {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-12T21:40:09.202Z"
-      },
-      {
-        "name": "EVERYTHING HALLELUJAH",
-        "artists": "Justin Bieber",
-        "album": "SWAG II",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a958d093e94944dd0e7258b2",
-        "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
-        "playedAt": "2026-09-12T21:37:02.708Z"
-      },
-      {
-        "name": "My Body Isn't Ready",
-        "artists": "sombr",
-        "album": "My Body Isn't Ready",
-        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
-        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
-        "playedAt": "2026-09-12T18:56:16.466Z"
+        "url": "https://open.spotify.com/track/21IVPfi81m6ywNgOvqTj1i",
+        "playedAt": "2026-09-13T00:38:12.379Z"
       }
     ],
     "top": [
