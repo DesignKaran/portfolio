@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-14T17:35:29.865Z",
+  "updatedAt": "2026-09-14T21:24:15.174Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Mamma Mia",
-        "artists": "ABBA",
-        "album": "Abba",
-        "art": "https://i.scdn.co/image/ab67616d00001e0292d0747a634fcc351c6ac3c2",
-        "url": "https://open.spotify.com/track/2TxCwUlqaOH3TIyJqGgR91",
-        "playedAt": "2026-09-14T16:54:55.737Z"
-      },
-      {
-        "name": "Dancing Queen",
+        "name": "Angeleyes",
         "artists": "ABBA",
         "album": "The Essential Collection",
         "art": "https://i.scdn.co/image/ab67616d00001e02ec5de82891e542d4877c6d98",
-        "url": "https://open.spotify.com/track/1rMfDvE2C8ne8UZj847rKM",
-        "playedAt": "2026-09-14T04:47:23.899Z"
+        "url": "https://open.spotify.com/track/1zZLRpTzRTqPQ7G7uxYI9Y",
+        "playedAt": "2026-09-14T18:17:41.367Z"
       },
       {
-        "name": "Waterloo",
+        "name": "The Winner Takes It All",
         "artists": "ABBA",
-        "album": "Waterloo",
-        "art": "https://i.scdn.co/image/ab67616d00001e0211c24dc7f5ef909381c0a7d6",
-        "url": "https://open.spotify.com/track/3Dy4REq8O09IlgiwuHQ3sk",
-        "playedAt": "2026-09-14T04:43:29.979Z"
+        "album": "Super Trouper",
+        "art": "https://i.scdn.co/image/ab67616d00001e024d08fc99eff4ed52dfce91fa",
+        "url": "https://open.spotify.com/track/3oEkrIfXfSh9zGnE7eBzSV",
+        "playedAt": "2026-09-14T18:13:18.254Z"
       },
       {
-        "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "name": "Voulez-Vous",
         "artists": "ABBA",
         "album": "Voulez-Vous",
         "art": "https://i.scdn.co/image/ab67616d00001e02aa22899360d8ba6704732dec",
-        "url": "https://open.spotify.com/track/3vkQ5DAB1qQMYO4Mr9zJN6",
-        "playedAt": "2026-09-14T04:40:40.536Z"
+        "url": "https://open.spotify.com/track/17OqI90oTFZ3J8PVu6j07V",
+        "playedAt": "2026-09-14T18:08:23.037Z"
       },
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-14T04:33:10.628Z"
+        "name": "Money, Money, Money",
+        "artists": "ABBA",
+        "album": "ABBA Gold",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f7ecaf9daf2c1d5ca89f7312",
+        "url": "https://open.spotify.com/track/29FNeqjOV2kPWGS55qhtGB",
+        "playedAt": "2026-09-14T18:02:58.657Z"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-14T04:29:53.136Z"
+        "name": "Chiquitita",
+        "artists": "ABBA",
+        "album": "Voulez-Vous",
+        "art": "https://i.scdn.co/image/ab67616d00001e02aa22899360d8ba6704732dec",
+        "url": "https://open.spotify.com/track/762B4bOcXF7I2Y8UlKTyTy",
+        "playedAt": "2026-09-14T17:59:51.387Z"
       },
       {
-        "name": "I've Seen It",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-09-14T04:26:20.652Z"
+        "name": "Take A Chance On Me",
+        "artists": "ABBA",
+        "album": "The Album",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f705bef76c1d861c4d51d8c",
+        "url": "https://open.spotify.com/track/5BckPAYcKEJuYs1eV1BHHe",
+        "playedAt": "2026-09-14T17:54:24.575Z"
       },
       {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
-        "playedAt": "2026-09-14T04:24:14.144Z"
+        "name": "SOS",
+        "artists": "ABBA",
+        "album": "ABBA Gold",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f7ecaf9daf2c1d5ca89f7312",
+        "url": "https://open.spotify.com/track/5pMmWfuL0FTGshYt7HVJ8P",
+        "playedAt": "2026-09-14T17:50:20.139Z"
+      },
+      {
+        "name": "Lay All Your Love On Me",
+        "artists": "ABBA",
+        "album": "ABBA Gold",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f7ecaf9daf2c1d5ca89f7312",
+        "url": "https://open.spotify.com/track/2245x0g1ft0HC7sf79zbYN",
+        "playedAt": "2026-09-14T17:46:58.269Z"
       }
     ],
     "top": [
