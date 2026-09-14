@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-14T05:44:06.202Z",
+  "updatedAt": "2026-09-14T11:40:57.566Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Mamma Mia",
+        "artists": "ABBA",
+        "album": "Abba",
+        "art": "https://i.scdn.co/image/ab67616d00001e0292d0747a634fcc351c6ac3c2",
+        "url": "https://open.spotify.com/track/2TxCwUlqaOH3TIyJqGgR91",
+        "playedAt": "2026-09-14T07:01:37.047Z"
+      },
       {
         "name": "Dancing Queen",
         "artists": "ABBA",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
         "playedAt": "2026-09-14T04:24:14.144Z"
-      },
-      {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3",
-        "playedAt": "2026-09-14T04:18:38.829Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
