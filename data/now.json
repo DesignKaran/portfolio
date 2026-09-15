@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:21:26.998Z",
+  "updatedAt": "2026-09-15T21:35:59.317Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -9,7 +9,7 @@
         "album": "Hamilton (Original Broadway Cast Recording)",
         "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
         "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3",
-        "playedAt": "2026-09-15T17:09:33.203Z"
+        "playedAt": "2026-09-15T21:17:14.602Z"
       },
       {
         "name": "Dog Music Therapy",
@@ -58,14 +58,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
         "url": "https://open.spotify.com/track/3GUAYHAnK2SpIdCvWRzWBv",
         "playedAt": "2026-09-15T04:21:43.191Z"
-      },
-      {
-        "name": "Calming the Dog",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/0YmPfPOoJftvZflyCQ9Xep",
-        "playedAt": "2026-09-15T04:19:38.270Z"
       }
     ],
     "top": [
@@ -105,6 +97,13 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
+        "name": "You'll Be Back",
+        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
+      },
+      {
         "name": "The Art of Loving (Intro)",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -117,22 +116,15 @@
         "album": "Lady Lady",
         "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
         "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r"
-      },
-      {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
       }
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
