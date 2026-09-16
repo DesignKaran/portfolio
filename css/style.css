@@ -1,5 +1,8 @@
 /* ---------- reset & base ---------- */
 *{ box-sizing:border-box; }
+/* Images carry width/height attributes for layout stability; without this the
+   height attribute would beat inline aspect-ratio and render at intrinsic pixels. */
+img{ height:auto; }
 
 /* ---------- theme tokens ---------- */
 :root{
