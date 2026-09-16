@@ -1,15 +1,31 @@
 {
-  "updatedAt": "2026-09-16T14:00:35.014Z",
+  "updatedAt": "2026-09-16T18:17:37.180Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Material Lover - from The Devil Wears Prada 2 Original Motion Picture",
+        "artists": "SIENNA SPIRO",
+        "album": "Visitor (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0231990a335ce5d02dc159e5c4",
+        "url": "https://open.spotify.com/track/2aQcGu5C6qFcicPsaywTEK",
+        "playedAt": "2026-09-16T17:20:38.332Z"
+      },
+      {
+        "name": "honeybee",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
+        "playedAt": "2026-09-16T17:17:39.819Z"
+      },
       {
         "name": "Real Love Baby",
         "artists": "Father John Misty",
         "album": "Real Love Baby",
         "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
         "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
-        "playedAt": "2026-09-16T00:43:34.408Z"
+        "playedAt": "2026-09-16T17:13:56.324Z"
       },
       {
         "name": "New Light",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
         "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
         "playedAt": "2026-09-15T23:30:15.974Z"
-      },
-      {
-        "name": "Dive",
-        "artists": "Olivia Dean",
-        "album": "Messy",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
-        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
-        "playedAt": "2026-09-15T23:27:19.440Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-15T23:23:16.379Z"
       }
     ],
     "top": [
@@ -75,13 +75,6 @@
         "album": "Hamilton (Original Broadway Cast Recording)",
         "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
         "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
-      },
-      {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
         "name": "Coming Up Roses",
@@ -110,6 +103,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
         "name": "The Art of Loving (Intro)",
