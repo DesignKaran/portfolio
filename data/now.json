@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-15T23:56:13.815Z",
+  "updatedAt": "2026-09-16T14:00:35.014Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Real Love Baby",
+        "artists": "Father John Misty",
+        "album": "Real Love Baby",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
+        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
+        "playedAt": "2026-09-16T00:43:34.408Z"
+      },
       {
         "name": "New Light",
         "artists": "John Mayer",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
         "playedAt": "2026-09-15T23:23:16.379Z"
-      },
-      {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-15T23:19:43.887Z"
       }
     ],
     "top": [
