@@ -1,23 +1,63 @@
 {
-  "updatedAt": "2026-09-04T04:53:40.156Z",
+  "updatedAt": "2026-09-15T23:56:13.815Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-03T21:05:23.764Z"
+        "name": "New Light",
+        "artists": "John Mayer",
+        "album": "Sob Rock",
+        "art": "https://i.scdn.co/image/ab67616d00001e02779063301154e835a91a35e0",
+        "url": "https://open.spotify.com/track/4T6FWA703h6H7zk1FoSARw",
+        "playedAt": "2026-09-15T23:46:39.717Z"
       },
       {
-        "name": "So Easy (To Fall In Love)",
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-09-15T23:43:01.724Z"
+      },
+      {
+        "name": "Sugar Talking",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
+        "playedAt": "2026-09-15T23:37:21.340Z"
+      },
+      {
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
+        "playedAt": "2026-09-15T23:34:17.074Z"
+      },
+      {
+        "name": "The Hardest Part (feat. Leon Bridges)",
+        "artists": "Olivia Dean, Leon Bridges",
+        "album": "The Hardest Part (feat. Leon Bridges)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
+        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
+        "playedAt": "2026-09-15T23:30:15.974Z"
+      },
+      {
+        "name": "Dive",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
+        "playedAt": "2026-09-15T23:27:19.440Z"
+      },
+      {
+        "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397",
-        "playedAt": "2026-09-03T20:14:29.279Z"
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-09-15T23:23:16.379Z"
       },
       {
         "name": "Let Alone The One You Love",
@@ -25,50 +65,17 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-03T20:11:39.750Z"
-      },
-      {
-        "name": "Close Up",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-09-03T20:08:33.131Z"
-      },
-      {
-        "name": "Loud",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-09-03T20:04:38.705Z"
-      },
-      {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
-        "playedAt": "2026-09-03T20:01:34.239Z"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-09-03T19:58:04.792Z"
-      },
-      {
-        "name": "I've Seen It",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-09-03T19:55:00.260Z"
+        "playedAt": "2026-09-15T23:19:43.887Z"
       }
     ],
     "top": [
+      {
+        "name": "You'll Be Back",
+        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
+      },
       {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
@@ -77,11 +84,11 @@
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
         "name": "Man I Need",
@@ -91,18 +98,11 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "like i do",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU"
-      },
-      {
-        "name": "Baby, I Love You",
-        "artists": "Ramones",
-        "album": "End of the Century (Expanded 2005 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e027b15d77c4dc346ce1e444ca2",
-        "url": "https://open.spotify.com/track/29imR7dda5XqwPRFmby7HS"
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
         "name": "A Couple Minutes",
@@ -112,27 +112,27 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "Baby Steps",
+        "name": "The Art of Loving (Intro)",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
+        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
-        "name": "So Easy (To Fall In Love)",
+        "name": "Lady Lady",
         "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6sGIMrtIzQjdzNndVxe397"
+        "album": "Lady Lady",
+        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
+        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r"
       }
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
