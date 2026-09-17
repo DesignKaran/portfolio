@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-17T19:10:10.525Z",
+  "updatedAt": "2026-09-17T22:19:43.434Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "cigarette smoke",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
+        "url": "https://open.spotify.com/track/0e4u0sFRGxHL4U2iFBrUvZ",
+        "playedAt": "2026-09-17T22:17:01.596Z"
+      },
       {
         "name": "begged",
         "artists": "Olivia Rodrigo",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02183730e8038fa632b2c227da",
         "url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
         "playedAt": "2026-09-17T17:22:45.301Z"
-      },
-      {
-        "name": "12 to 12",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-        "playedAt": "2026-09-17T17:19:23.027Z"
       }
     ],
     "top": [
