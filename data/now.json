@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-09-17T05:06:03.441Z",
+  "updatedAt": "2026-09-17T10:14:30.123Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Love On Top",
+        "artists": "Beyoncé",
+        "album": "4",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3268ba9b7d84737a71e3ed2",
+        "url": "https://open.spotify.com/track/3fOITwrX4Tv3yOPd62VT24",
+        "playedAt": "2026-09-17T07:35:51.411Z"
+      },
+      {
+        "name": "A Couple Minutes - A COLORS SHOW",
+        "artists": "Olivia Dean, COLORS",
+        "album": "A Couple Minutes - A COLORS SHOW",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e73d9d6037c9c6c7e8b3f438",
+        "url": "https://open.spotify.com/track/1WiHuDPI9vNkicCNg9Tkbu",
+        "playedAt": "2026-09-17T06:14:55.377Z"
+      },
+      {
+        "name": "Feels Like",
+        "artists": "Gracie Abrams",
+        "album": "This Is What It Feels Like",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d63fd3e1afa17b0d5563131",
+        "url": "https://open.spotify.com/track/35IcAVSMsU9qzHfpPbvC8A",
+        "playedAt": "2026-09-17T06:10:46.030Z"
+      },
+      {
+        "name": "It Ain't Over 'Til It's Over",
+        "artists": "Lenny Kravitz",
+        "album": "Mama Said",
+        "art": "https://i.scdn.co/image/ab67616d00001e02bfc19627a4a3a604c0a195e5",
+        "url": "https://open.spotify.com/track/6VnpKLtfNH4Dk09YSGPSyR",
+        "playedAt": "2026-09-17T06:07:57.539Z"
+      },
+      {
+        "name": "Bloom - Bonus Track",
+        "artists": "The Paper Kites",
+        "album": "Woodland",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255bd9d9e0f50d28ddc9c1308",
+        "url": "https://open.spotify.com/track/1HMQmOWrkieKYWlFsjUP3D",
+        "playedAt": "2026-09-17T06:02:39.196Z"
+      },
+      {
+        "name": "Close To You",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e024ba1c73e08db2c003a78e148",
+        "url": "https://open.spotify.com/track/5wbg8kepMFoMzHOEuxiI0q",
+        "playedAt": "2026-09-17T05:57:29.398Z"
+      },
+      {
+        "name": "Man I Need (Live) – Spotify Live Room",
+        "artists": "Olivia Dean",
+        "album": "Olivia Dean - Spotify Live Room",
+        "art": "https://i.scdn.co/image/ab67616d00001e0283a8582a02ba58639b3fce04",
+        "url": "https://open.spotify.com/track/3yYuSzBhxR4kd4CNtfyHN7",
+        "playedAt": "2026-09-17T05:48:42.247Z"
+      },
       {
         "name": "Homewrecker",
         "artists": "sombr",
@@ -10,62 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
         "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
         "playedAt": "2026-09-17T00:12:25.495Z"
-      },
-      {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
-        "playedAt": "2026-09-17T00:07:50.179Z"
-      },
-      {
-        "name": "Hit the Wall",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
-        "playedAt": "2026-09-17T00:04:03.190Z"
-      },
-      {
-        "name": "Ain't Got Nothing On You",
-        "artists": "Leon Bridges",
-        "album": "Leon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
-        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-09-17T00:00:48.308Z"
-      },
-      {
-        "name": "My Man on Willpower",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/3EMfeKtNK4q4k3sVjwg5Yy",
-        "playedAt": "2026-09-16T23:52:11.561Z"
-      },
-      {
-        "name": "Slow Dancing in a Burning Room",
-        "artists": "John Mayer",
-        "album": "Continuum",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
-        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
-        "playedAt": "2026-09-16T23:32:44.858Z"
-      },
-      {
-        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
-        "artists": "Olivia Dean",
-        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
-        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
-        "playedAt": "2026-09-16T23:28:42.414Z"
-      },
-      {
-        "name": "Coming Home",
-        "artists": "Leon Bridges",
-        "album": "Coming Home (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
-        "url": "https://open.spotify.com/track/65GbQI9VDTs7vo6MJL2iJA",
-        "playedAt": "2026-09-16T23:25:05.920Z"
       }
     ],
     "top": [
@@ -105,13 +105,6 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
-      },
-      {
         "name": "The Art of Loving (Intro)",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -119,19 +112,26 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
-        "name": "Lady Lady",
+        "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
-        "album": "Lady Lady",
-        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
-        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r"
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
       }
     ],
     "genres": [
       "Pop",
       "Alternative Rock",
       "Rock",
-      "Indie Pop",
       "Pop Rock",
+      "Indie Pop",
       "Classical"
     ]
   },
