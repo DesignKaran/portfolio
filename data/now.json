@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-09-17T00:02:40.027Z",
+  "updatedAt": "2026-09-17T05:06:03.441Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Hit the Wall",
-      "artists": "Gracie Abrams",
-      "album": "Daughter from Hell",
-      "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-      "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "Homewrecker",
+        "artists": "sombr",
+        "album": "Homewrecker",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
+        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
+        "playedAt": "2026-09-17T00:12:25.495Z"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+        "playedAt": "2026-09-17T00:07:50.179Z"
+      },
+      {
+        "name": "Hit the Wall",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
+        "playedAt": "2026-09-17T00:04:03.190Z"
+      },
       {
         "name": "Ain't Got Nothing On You",
         "artists": "Leon Bridges",
@@ -48,30 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
         "url": "https://open.spotify.com/track/65GbQI9VDTs7vo6MJL2iJA",
         "playedAt": "2026-09-16T23:25:05.920Z"
-      },
-      {
-        "name": "Material Lover - from The Devil Wears Prada 2 Original Motion Picture",
-        "artists": "SIENNA SPIRO",
-        "album": "Visitor (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0231990a335ce5d02dc159e5c4",
-        "url": "https://open.spotify.com/track/2aQcGu5C6qFcicPsaywTEK",
-        "playedAt": "2026-09-16T17:20:38.332Z"
-      },
-      {
-        "name": "honeybee",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
-        "playedAt": "2026-09-16T17:17:39.819Z"
-      },
-      {
-        "name": "Real Love Baby",
-        "artists": "Father John Misty",
-        "album": "Real Love Baby",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
-        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
-        "playedAt": "2026-09-16T17:13:56.324Z"
       }
     ],
     "top": [
@@ -90,18 +84,18 @@
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
-      },
-      {
         "name": "War Pigs / Luke's Wall - 2012 - Remaster",
         "artists": "Black Sabbath",
         "album": "Paranoid (Remaster)",
         "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
         "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
         "name": "A Couple Minutes",
@@ -134,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Soundtrack"
+      "Indie Pop",
+      "Pop Rock",
+      "Classical"
     ]
   },
   "letterboxd": {
