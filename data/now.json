@@ -1,8 +1,54 @@
 {
-  "updatedAt": "2026-09-16T18:17:37.180Z",
+  "updatedAt": "2026-09-17T00:02:40.027Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Hit the Wall",
+      "artists": "Gracie Abrams",
+      "album": "Daughter from Hell",
+      "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+      "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1"
+    },
     "recent": [
+      {
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-09-17T00:00:48.308Z"
+      },
+      {
+        "name": "My Man on Willpower",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/3EMfeKtNK4q4k3sVjwg5Yy",
+        "playedAt": "2026-09-16T23:52:11.561Z"
+      },
+      {
+        "name": "Slow Dancing in a Burning Room",
+        "artists": "John Mayer",
+        "album": "Continuum",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
+        "playedAt": "2026-09-16T23:32:44.858Z"
+      },
+      {
+        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
+        "artists": "Olivia Dean",
+        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
+        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
+        "playedAt": "2026-09-16T23:28:42.414Z"
+      },
+      {
+        "name": "Coming Home",
+        "artists": "Leon Bridges",
+        "album": "Coming Home (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
+        "url": "https://open.spotify.com/track/65GbQI9VDTs7vo6MJL2iJA",
+        "playedAt": "2026-09-16T23:25:05.920Z"
+      },
       {
         "name": "Material Lover - from The Devil Wears Prada 2 Original Motion Picture",
         "artists": "SIENNA SPIRO",
@@ -26,46 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
         "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
         "playedAt": "2026-09-16T17:13:56.324Z"
-      },
-      {
-        "name": "New Light",
-        "artists": "John Mayer",
-        "album": "Sob Rock",
-        "art": "https://i.scdn.co/image/ab67616d00001e02779063301154e835a91a35e0",
-        "url": "https://open.spotify.com/track/4T6FWA703h6H7zk1FoSARw",
-        "playedAt": "2026-09-15T23:46:39.717Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-09-15T23:43:01.724Z"
-      },
-      {
-        "name": "Sugar Talking",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
-        "playedAt": "2026-09-15T23:37:21.340Z"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
-        "playedAt": "2026-09-15T23:34:17.074Z"
-      },
-      {
-        "name": "The Hardest Part (feat. Leon Bridges)",
-        "artists": "Olivia Dean, Leon Bridges",
-        "album": "The Hardest Part (feat. Leon Bridges)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
-        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
-        "playedAt": "2026-09-15T23:30:15.974Z"
       }
     ],
     "top": [
@@ -128,11 +134,11 @@
     ],
     "genres": [
       "Pop",
+      "Score",
+      "Folk Pop",
       "Alternative Rock",
       "Rock",
-      "Indie Pop",
-      "Pop Rock",
-      "Classical"
+      "Soundtrack"
     ]
   },
   "letterboxd": {
