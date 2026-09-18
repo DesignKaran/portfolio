@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-17T22:19:43.434Z",
+  "updatedAt": "2026-09-18T00:35:37.437Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "cigarette smoke",
+        "name": "Dive",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
+        "playedAt": "2026-09-17T23:44:52.887Z"
+      },
+      {
+        "name": "We Almost Broke Up Again Last Night",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/6wkYQMrFfb0huLB5Qn19Iv",
+        "playedAt": "2026-09-17T23:37:12.196Z"
+      },
+      {
+        "name": "Vodka Cranberry",
+        "artists": "Conan Gray",
+        "album": "Wishbone",
+        "art": "https://i.scdn.co/image/ab67616d00001e029939165f617ebca847c4ac10",
+        "url": "https://open.spotify.com/track/6qGVKjUodwfWPg4ZzZiA6S",
+        "playedAt": "2026-09-17T23:33:40.821Z"
+      },
+      {
+        "name": "Sign of the Times",
+        "artists": "Harry Styles",
+        "album": "Harry Styles",
+        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
+        "url": "https://open.spotify.com/track/5Ohxk2dO5COHF1krpoPigN",
+        "playedAt": "2026-09-17T23:23:06.318Z"
+      },
+      {
+        "name": "stupid song",
         "artists": "Olivia Rodrigo",
         "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/0e4u0sFRGxHL4U2iFBrUvZ",
-        "playedAt": "2026-09-17T22:17:01.596Z"
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
+        "playedAt": "2026-09-17T22:51:55.258Z"
       },
       {
-        "name": "begged",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/3BnMfPPWs59CVfcQ8CcdfR",
-        "playedAt": "2026-09-17T17:58:04.051Z"
+        "name": "My Body Isn't Ready",
+        "artists": "sombr",
+        "album": "My Body Isn't Ready",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
+        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
+        "playedAt": "2026-09-17T22:47:20.045Z"
       },
       {
-        "name": "purple",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/4XYCWx98N3h7Y4FtDFmpd5",
-        "playedAt": "2026-09-17T17:54:25.703Z"
+        "name": "The Hardest Part",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/3cPoiK69oQ1SdbB2j2ulGm",
+        "playedAt": "2026-09-17T22:43:42.135Z"
       },
       {
-        "name": "drop dead",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/0yO9QD2Ga7eUzqnNYsSSPo",
-        "playedAt": "2026-09-17T17:50:25.113Z"
-      },
-      {
-        "name": "what’s wrong with me",
-        "artists": "Olivia Rodrigo, Robert Smith",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/1W7023CuJrWPbD4q2Sipoh",
-        "playedAt": "2026-09-17T17:46:39.634Z"
-      },
-      {
-        "name": "expectations",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/25nbeJzxF3dwvtTq57QKZi",
-        "playedAt": "2026-09-17T17:42:54.252Z"
-      },
-      {
-        "name": "You Can't Hurry Love - Live At Jools' Annual Hootenanny",
-        "artists": "Olivia Dean, Jools Holland",
-        "album": "You Can't Hurry Love (Live At Jools' Annual Hootenanny)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0246424c7284761affc7ecae90",
-        "url": "https://open.spotify.com/track/2RS7UOxu6rnT3bRNTa9U1W",
-        "playedAt": "2026-09-17T17:38:25.281Z"
-      },
-      {
-        "name": "Suddenly I See",
-        "artists": "KT Tunstall",
-        "album": "Eye To The Telescope",
-        "art": "https://i.scdn.co/image/ab67616d00001e02183730e8038fa632b2c227da",
-        "url": "https://open.spotify.com/track/5p9XWUdvbUzmPCukOmwoU3",
-        "playedAt": "2026-09-17T17:22:45.301Z"
+        "name": "Look at My Life",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/4Yf6QS1hjFWT1qMqvpzNcK",
+        "playedAt": "2026-09-17T22:40:45.581Z"
       }
     ],
     "top": [
