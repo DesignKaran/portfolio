@@ -1,93 +1,87 @@
 {
-  "updatedAt": "2026-09-18T18:02:30.017Z",
+  "updatedAt": "2026-09-18T21:05:48.256Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Let Alone The One You Love",
-      "artists": "Olivia Dean",
-      "album": "The Art of Loving",
-      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-      "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
-    },
+    "nowPlaying": null,
     "recent": [
       {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-09-18T18:00:08.868Z"
+        "name": "like i do",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+        "playedAt": "2026-09-18T20:33:33.738Z"
       },
       {
-        "name": "Two Ghosts",
-        "artists": "Harry Styles",
-        "album": "Harry Styles",
-        "art": "https://i.scdn.co/image/ab67616d00001e023f8b8a9c71b2bd2f3019940b",
-        "url": "https://open.spotify.com/track/4B1rpPmQXwj78wk6aIGwwU",
-        "playedAt": "2026-09-18T17:56:55.764Z"
+        "name": "warning signs (interlude)",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+        "playedAt": "2026-09-18T20:30:46.413Z"
       },
       {
-        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
-        "artists": "Olivia Dean",
-        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
-        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
-        "playedAt": "2026-09-18T04:16:46.669Z"
+        "name": "freak",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+        "playedAt": "2026-09-18T20:29:29.125Z"
       },
       {
-        "name": "Great Expectation",
-        "artists": "SIENNA SPIRO",
-        "album": "Visitor",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b09eea420767969b6729962b",
-        "url": "https://open.spotify.com/track/7ujApz6iFP3PmKIDGcaGbe",
-        "playedAt": "2026-09-18T04:13:10.141Z"
+        "name": "big feelings",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+        "playedAt": "2026-09-18T20:26:09.311Z"
       },
       {
-        "name": "Blue Sky, Don't Cry",
-        "artists": "The Sways",
-        "album": "Blue Sky, Don't Cry",
-        "art": "https://i.scdn.co/image/ab67616d00001e02df439463a27a6f0bbe503485",
-        "url": "https://open.spotify.com/track/3tW7WprsVhHCAZHk9UGDHF",
-        "playedAt": "2026-09-18T04:08:52.554Z"
+        "name": "oh well",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
+        "playedAt": "2026-09-18T20:23:15.607Z"
       },
       {
-        "name": "Matilda",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/6uvh0In7u1Xn4HgxOfAn8O",
-        "playedAt": "2026-09-18T04:04:25.820Z"
+        "name": "stay",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
+        "playedAt": "2026-09-18T20:19:59.496Z"
       },
       {
-        "name": "Sugar Talking",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
-        "playedAt": "2026-09-18T04:00:19.291Z"
+        "name": "petal",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
+        "playedAt": "2026-09-18T20:17:30.999Z"
       },
       {
-        "name": "oh yeah?",
-        "artists": "Steve Lacy",
-        "album": "Oh yeah?",
-        "art": "https://i.scdn.co/image/ab67616d00001e024ea9ba86cd9506a004bab042",
-        "url": "https://open.spotify.com/track/22NHkFYbgxB2Zirj29Gbp8",
-        "playedAt": "2026-09-18T03:57:15.038Z"
+        "name": "EVERYTHING HALLELUJAH",
+        "artists": "Justin Bieber",
+        "album": "SWAG II",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a958d093e94944dd0e7258b2",
+        "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
+        "playedAt": "2026-09-18T19:07:15.701Z"
       }
     ],
     "top": [
-      {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
-      },
       {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
+      },
+      {
+        "name": "You'll Be Back",
+        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
       },
       {
         "name": "War Pigs / Luke's Wall - 2012 - Remaster",
@@ -111,18 +105,18 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
-      },
-      {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "The Art of Loving (Intro)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
         "name": "Close Up",
