@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-19T11:19:02.788Z",
+  "updatedAt": "2026-09-19T19:59:29.532Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "End Credits - Vivace Appassionato in G Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1xPbaDlmx5i7MYoLTENrFG",
+        "playedAt": "2026-09-19T18:05:50.749Z"
+      },
       {
         "name": "death wish",
         "artists": "Lyn Lapid",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
         "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
         "playedAt": "2026-09-19T05:11:05.069Z"
-      },
-      {
-        "name": "Every Summertime",
-        "artists": "NIKI",
-        "album": "Every Summertime",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e81fd3b9a7230db447f38182",
-        "url": "https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro",
-        "playedAt": "2026-09-19T05:07:38.995Z"
       }
     ],
     "top": [
