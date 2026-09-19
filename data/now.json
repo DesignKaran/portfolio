@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-19T01:26:37.528Z",
+  "updatedAt": "2026-09-19T06:19:09.852Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "2 soon",
+        "artists": "keshi",
+        "album": "2 soon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
+        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
+        "playedAt": "2026-09-19T04:31:23.822Z"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-09-19T04:27:56.258Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-19T04:23:36.345Z"
+      },
+      {
+        "name": "Creep",
+        "artists": "Radiohead",
+        "album": "Pablo Honey",
+        "art": "https://i.scdn.co/image/ab67616d00001e02ec548c00d3ac2f10be73366d",
+        "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
+        "playedAt": "2026-09-19T02:22:45.521Z"
+      },
       {
         "name": "Dear Maria, Count Me In",
         "artists": "All Time Low",
@@ -34,54 +66,22 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
         "url": "https://open.spotify.com/track/0NJWhm3hUwIZSy5s0TGJ8q",
         "playedAt": "2026-09-18T23:47:49.545Z"
-      },
-      {
-        "name": "My Shot",
-        "artists": "Lin-Manuel Miranda, Daveed Diggs, Okieriete Onaodowan, Leslie Odom Jr., Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/4cxvludVmQxryrnx1m9FqL",
-        "playedAt": "2026-09-18T23:46:04.945Z"
-      },
-      {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3",
-        "playedAt": "2026-09-18T23:40:15.735Z"
-      },
-      {
-        "name": "never get over me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
-        "playedAt": "2026-09-18T23:35:06.029Z"
-      },
-      {
-        "name": "like i do",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
-        "playedAt": "2026-09-18T20:33:33.738Z"
       }
     ],
     "top": [
-      {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
-      },
       {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
+      },
+      {
+        "name": "You'll Be Back",
+        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/6OG1S805gIrH5nAQbEOPY3"
       },
       {
         "name": "War Pigs / Luke's Wall - 2012 - Remaster",
