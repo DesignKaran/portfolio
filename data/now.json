@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-19T06:19:09.852Z",
+  "updatedAt": "2026-09-19T11:19:02.788Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "2 soon",
-        "artists": "keshi",
-        "album": "2 soon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
-        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
-        "playedAt": "2026-09-19T04:31:23.822Z"
+        "name": "death wish",
+        "artists": "Lyn Lapid",
+        "album": "BUZZKILL",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
+        "url": "https://open.spotify.com/track/2SUQxOCKTz7EzmQfEdi0xP",
+        "playedAt": "2026-09-19T06:58:05.729Z"
       },
       {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-09-19T04:27:56.258Z"
+        "name": "Gloria",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
+        "playedAt": "2026-09-19T06:55:14.243Z"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-19T04:23:36.345Z"
+        "name": "Love Affair",
+        "artists": "UMI",
+        "album": "Love Language",
+        "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
+        "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ",
+        "playedAt": "2026-09-19T05:24:56.823Z"
       },
       {
-        "name": "Creep",
-        "artists": "Radiohead",
-        "album": "Pablo Honey",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ec548c00d3ac2f10be73366d",
-        "url": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r",
-        "playedAt": "2026-09-19T02:22:45.521Z"
+        "name": "Minuet in B Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw",
+        "playedAt": "2026-09-19T05:21:44.890Z"
       },
       {
-        "name": "Dear Maria, Count Me In",
-        "artists": "All Time Low",
-        "album": "So Wrong, It's Right",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8913cd7b91bb7f6bbbec305",
-        "url": "https://open.spotify.com/track/0JJP0IS4w0fJx01EcrfkDe",
-        "playedAt": "2026-09-19T01:14:00.249Z"
+        "name": "Under Cover of Darkness",
+        "artists": "The Strokes",
+        "album": "Angles",
+        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
+        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
+        "playedAt": "2026-09-19T05:20:05.864Z"
       },
       {
-        "name": "You're Gonna Go Far, Kid",
-        "artists": "The Offspring",
-        "album": "Rise And Fall, Rage And Grace",
-        "art": "https://i.scdn.co/image/ab67616d00001e02890ce61533a89e00ce593fcb",
-        "url": "https://open.spotify.com/track/6TfBA04WJ3X1d1wXhaCFVT",
-        "playedAt": "2026-09-19T01:09:03.191Z"
+        "name": "All These Things That I've Done",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
+        "playedAt": "2026-09-19T05:16:09.286Z"
       },
       {
-        "name": "Short Change Hero",
-        "artists": "The Heavy",
-        "album": "The House That Dirt Built",
-        "art": "https://i.scdn.co/image/ab67616d00001e02463986d828c59a03f2ab0a3f",
-        "url": "https://open.spotify.com/track/7JOizhmt3HlBgQyJEa0AgK",
-        "playedAt": "2026-09-19T01:02:30.811Z"
+        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
+        "playedAt": "2026-09-19T05:11:05.069Z"
       },
       {
-        "name": "The Story of Tonight",
-        "artists": "Lin-Manuel Miranda, Okieriete Onaodowan, Daveed Diggs, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/0NJWhm3hUwIZSy5s0TGJ8q",
-        "playedAt": "2026-09-18T23:47:49.545Z"
+        "name": "Every Summertime",
+        "artists": "NIKI",
+        "album": "Every Summertime",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e81fd3b9a7230db447f38182",
+        "url": "https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro",
+        "playedAt": "2026-09-19T05:07:38.995Z"
       }
     ],
     "top": [
