@@ -1,14 +1,40 @@
 {
-  "updatedAt": "2026-09-20T05:10:03.872Z",
+  "updatedAt": "2026-09-20T09:56:27.380Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Rein Me In (with Olivia Dean)",
-      "artists": "Sam Fender, Olivia Dean",
-      "album": "People Watching (Deluxe Edition)",
-      "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-      "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "Fake Plastic Trees",
+        "artists": "Radiohead",
+        "album": "The Bends",
+        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+        "url": "https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F",
+        "playedAt": "2026-09-20T05:26:36.922Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-20T05:21:45.743Z"
+      },
+      {
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
+        "playedAt": "2026-09-20T05:18:39.259Z"
+      },
+      {
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-09-20T05:14:38.201Z"
+      },
       {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
@@ -40,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
         "playedAt": "2026-09-20T04:56:11.241Z"
-      },
-      {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
-        "playedAt": "2026-09-20T04:52:38.762Z"
-      },
-      {
-        "name": "Vienna",
-        "artists": "Billy Joel",
-        "album": "The Stranger (Legacy Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
-        "playedAt": "2026-09-20T04:48:46.004Z"
-      },
-      {
-        "name": "Only The Good Die Young - Live at Wembley Arena, June 8, 1984",
-        "artists": "Billy Joel",
-        "album": "Only The Good Die Young (Live at Wembley Arena, June 8, 1984)",
-        "art": "https://i.scdn.co/image/ab6742d3000052b7589af0c377ea2272837f19f3",
-        "url": "https://open.spotify.com/track/0hTkOYR3fD1pIVLMhY9JLT",
-        "playedAt": "2026-09-20T04:48:03.524Z"
-      },
-      {
-        "name": "End Credits - Vivace Appassionato in G Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
-        "url": "https://open.spotify.com/track/1xPbaDlmx5i7MYoLTENrFG",
-        "playedAt": "2026-09-20T04:45:11.273Z"
       }
     ],
     "top": [
@@ -104,18 +98,18 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
-      },
-      {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
         "name": "The Art of Loving (Intro)",
