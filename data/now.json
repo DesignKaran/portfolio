@@ -1,71 +1,77 @@
 {
-  "updatedAt": "2026-09-19T19:59:29.532Z",
+  "updatedAt": "2026-09-20T05:10:03.872Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Rein Me In (with Olivia Dean)",
+      "artists": "Sam Fender, Olivia Dean",
+      "album": "People Watching (Deluxe Edition)",
+      "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+      "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV"
+    },
     "recent": [
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-09-20T05:08:57.815Z"
+      },
+      {
+        "name": "Slow It Down",
+        "artists": "The Lumineers",
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
+        "playedAt": "2026-09-20T05:03:46.438Z"
+      },
+      {
+        "name": "Andante Con Moto - String Orchestra Variation",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 2 (Music from the HBO Series)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
+        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
+        "playedAt": "2026-09-20T04:58:38.951Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-09-20T04:56:11.241Z"
+      },
+      {
+        "name": "Long Way From Home",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
+        "playedAt": "2026-09-20T04:52:38.762Z"
+      },
+      {
+        "name": "Vienna",
+        "artists": "Billy Joel",
+        "album": "The Stranger (Legacy Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
+        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
+        "playedAt": "2026-09-20T04:48:46.004Z"
+      },
+      {
+        "name": "Only The Good Die Young - Live at Wembley Arena, June 8, 1984",
+        "artists": "Billy Joel",
+        "album": "Only The Good Die Young (Live at Wembley Arena, June 8, 1984)",
+        "art": "https://i.scdn.co/image/ab6742d3000052b7589af0c377ea2272837f19f3",
+        "url": "https://open.spotify.com/track/0hTkOYR3fD1pIVLMhY9JLT",
+        "playedAt": "2026-09-20T04:48:03.524Z"
+      },
       {
         "name": "End Credits - Vivace Appassionato in G Minor",
         "artists": "Nicholas Britell",
         "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
         "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
         "url": "https://open.spotify.com/track/1xPbaDlmx5i7MYoLTENrFG",
-        "playedAt": "2026-09-19T18:05:50.749Z"
-      },
-      {
-        "name": "death wish",
-        "artists": "Lyn Lapid",
-        "album": "BUZZKILL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
-        "url": "https://open.spotify.com/track/2SUQxOCKTz7EzmQfEdi0xP",
-        "playedAt": "2026-09-19T06:58:05.729Z"
-      },
-      {
-        "name": "Gloria",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
-        "playedAt": "2026-09-19T06:55:14.243Z"
-      },
-      {
-        "name": "Love Affair",
-        "artists": "UMI",
-        "album": "Love Language",
-        "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
-        "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ",
-        "playedAt": "2026-09-19T05:24:56.823Z"
-      },
-      {
-        "name": "Minuet in B Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw",
-        "playedAt": "2026-09-19T05:21:44.890Z"
-      },
-      {
-        "name": "Under Cover of Darkness",
-        "artists": "The Strokes",
-        "album": "Angles",
-        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
-        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
-        "playedAt": "2026-09-19T05:20:05.864Z"
-      },
-      {
-        "name": "All These Things That I've Done",
-        "artists": "The Killers",
-        "album": "Direct Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
-        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
-        "playedAt": "2026-09-19T05:16:09.286Z"
-      },
-      {
-        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
-        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
-        "playedAt": "2026-09-19T05:11:05.069Z"
+        "playedAt": "2026-09-20T04:45:11.273Z"
       }
     ],
     "top": [
