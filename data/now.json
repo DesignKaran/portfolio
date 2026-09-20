@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-20T09:56:27.380Z",
+  "updatedAt": "2026-09-20T19:37:18.651Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-09-20T18:09:41.592Z"
+      },
       {
         "name": "Fake Plastic Trees",
         "artists": "Radiohead",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
         "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
         "playedAt": "2026-09-20T04:58:38.951Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-20T04:56:11.241Z"
       }
     ],
     "top": [
