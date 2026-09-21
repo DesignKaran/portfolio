@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-21T16:48:50.762Z",
+  "updatedAt": "2026-09-21T20:45:54.038Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Andante Agitato - End Credits - “The Raid”",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi",
+        "playedAt": "2026-09-21T17:53:54.617Z"
+      },
+      {
+        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+        "artists": "Metro Boomin, A$AP Rocky, Roisee",
+        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
+        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+        "playedAt": "2026-09-21T17:49:44.796Z"
+      },
+      {
+        "name": "Stubborn Love",
+        "artists": "The Lumineers",
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
+        "playedAt": "2026-09-21T17:45:28.296Z"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-09-21T17:40:48.824Z"
+      },
       {
         "name": "Flowers In Your Hair",
         "artists": "The Lumineers",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
         "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
         "playedAt": "2026-09-21T12:11:05.703Z"
-      },
-      {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-09-20T18:09:41.592Z"
-      },
-      {
-        "name": "Fake Plastic Trees",
-        "artists": "Radiohead",
-        "album": "The Bends",
-        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
-        "url": "https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F",
-        "playedAt": "2026-09-20T05:26:36.922Z"
-      },
-      {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-20T05:21:45.743Z"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
-        "playedAt": "2026-09-20T05:18:39.259Z"
       }
     ],
     "top": [
