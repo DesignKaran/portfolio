@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-21T05:16:33.519Z",
+  "updatedAt": "2026-09-21T16:48:50.762Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Flowers In Your Hair",
+        "artists": "The Lumineers",
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
+        "playedAt": "2026-09-21T13:29:54.298Z"
+      },
+      {
+        "name": "Hypnotize",
+        "artists": "System Of A Down",
+        "album": "Hypnotize",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f5e7b2e5adaa87430a3eccff",
+        "url": "https://open.spotify.com/track/6oO7WMjD6kEvCITLbVj0mu",
+        "playedAt": "2026-09-21T13:28:04.033Z"
+      },
+      {
+        "name": "Drown",
+        "artists": "Dabin, Mokita",
+        "album": "Between Broken",
+        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
+        "url": "https://open.spotify.com/track/36TsyjtOszueVgNJ4TCVUq",
+        "playedAt": "2026-09-21T13:24:33.609Z"
+      },
+      {
+        "name": "So I'm Growing Old on Magic Mountain",
+        "artists": "Father John Misty",
+        "album": "Pure Comedy",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
+        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
+        "playedAt": "2026-09-21T12:11:05.703Z"
+      },
       {
         "name": "Soft Spot",
         "artists": "keshi",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
         "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
         "playedAt": "2026-09-20T05:18:39.259Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-09-20T05:14:38.201Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-09-20T05:08:57.815Z"
-      },
-      {
-        "name": "Slow It Down",
-        "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
-        "playedAt": "2026-09-20T05:03:46.438Z"
-      },
-      {
-        "name": "Andante Con Moto - String Orchestra Variation",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 2 (Music from the HBO Series)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
-        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
-        "playedAt": "2026-09-20T04:58:38.951Z"
       }
     ],
     "top": [
