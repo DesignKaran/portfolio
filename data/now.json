@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-09-22T13:52:15.382Z",
+  "updatedAt": "2026-09-22T23:27:29.435Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "forecast",
+        "artists": "Lyn Lapid",
+        "album": "BUZZKILL",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
+        "url": "https://open.spotify.com/track/2JsBbehfzt6DTUHZbgWDQJ",
+        "playedAt": "2026-09-22T21:52:01.256Z"
+      },
+      {
+        "name": "coraline",
+        "artists": "Lyn Lapid",
+        "album": "coraline",
+        "art": "https://i.scdn.co/image/ab67616d00001e025da651b722039916b52ce480",
+        "url": "https://open.spotify.com/track/35UnweHI2mOrBbIIlYNClF",
+        "playedAt": "2026-09-22T21:49:17.027Z"
+      },
+      {
+        "name": "The Good Part",
+        "artists": "AJR",
+        "album": "The Click",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a81dc97f7119864c7437cb85",
+        "url": "https://open.spotify.com/track/44B9xspO3RycWjEJ3D8cKl",
+        "playedAt": "2026-09-22T21:46:27.018Z"
+      },
+      {
+        "name": "In Time",
+        "artists": "Robbie Robb",
+        "album": "Bill & Ted’s Excellent Adventure",
+        "art": "https://i.scdn.co/image/ab67616d00001e02253e11f4458033448afd2b77",
+        "url": "https://open.spotify.com/track/6fzcYViF8iRCXLOOp0BffJ",
+        "playedAt": "2026-09-22T21:42:38.804Z"
+      },
       {
         "name": "Impromptu No. 2 for Piano and Orchestra",
         "artists": "Nicholas Britell",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
         "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
         "playedAt": "2026-09-22T12:55:47.315Z"
-      },
-      {
-        "name": "Starbright",
-        "artists": "Dabin, Trella",
-        "album": "Between Broken",
-        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
-        "url": "https://open.spotify.com/track/6huKKoWv2Xy4KM2rwUNa7X",
-        "playedAt": "2026-09-22T12:49:51.987Z"
-      },
-      {
-        "name": "Fake Nice",
-        "artists": "Beach Weather",
-        "album": "Melt",
-        "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
-        "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
-        "playedAt": "2026-09-22T12:39:53.184Z"
-      },
-      {
-        "name": "Late Night Talking",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
-        "playedAt": "2026-09-22T12:36:25.631Z"
-      },
-      {
-        "name": "Style",
-        "artists": "Taylor Swift",
-        "album": "1989",
-        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
-        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
-        "playedAt": "2026-09-22T12:33:27.181Z"
       }
     ],
     "top": [
@@ -130,8 +130,8 @@
       "Pop",
       "Alternative Rock",
       "Rock",
-      "Pop Rock",
       "Indie Pop",
+      "Pop Rock",
       "Classical"
     ]
   },
