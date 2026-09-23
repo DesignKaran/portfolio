@@ -1,15 +1,23 @@
 {
-  "updatedAt": "2026-09-23T12:53:12.288Z",
+  "updatedAt": "2026-09-23T23:50:13.848Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "never get over me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
+        "playedAt": "2026-09-23T22:09:39.532Z"
+      },
       {
         "name": "kiss me",
         "artists": "Ariana Grande",
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
-        "playedAt": "2026-09-23T12:03:08.691Z"
+        "playedAt": "2026-09-23T22:02:16.676Z"
       },
       {
         "name": "petal",
@@ -17,7 +25,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
-        "playedAt": "2026-09-23T11:59:28.637Z"
+        "playedAt": "2026-09-23T21:55:53.099Z"
       },
       {
         "name": "stay",
@@ -25,7 +33,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
-        "playedAt": "2026-09-23T11:56:23.920Z"
+        "playedAt": "2026-09-23T21:52:47.836Z"
       },
       {
         "name": "oh well",
@@ -33,7 +41,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
-        "playedAt": "2026-09-23T11:53:55.029Z"
+        "playedAt": "2026-09-23T21:50:18.462Z"
       },
       {
         "name": "big feelings",
@@ -41,31 +49,23 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
-        "playedAt": "2026-09-23T11:50:38.392Z"
+        "playedAt": "2026-09-23T21:47:01.792Z"
       },
       {
-        "name": "Die On This Hill",
-        "artists": "SIENNA SPIRO",
-        "album": "Visitor",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b09eea420767969b6729962b",
-        "url": "https://open.spotify.com/track/7gkZNvBHfI30qG7hA0eopT",
-        "playedAt": "2026-09-23T11:36:36.581Z"
-      },
-      {
-        "name": "hate that i made you love me",
+        "name": "nowhere, nobody",
         "artists": "Ariana Grande",
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
-        "playedAt": "2026-09-23T11:32:59.067Z"
+        "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+        "playedAt": "2026-09-23T21:22:31.383Z"
       },
       {
-        "name": "Never Getting Laid",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
-        "playedAt": "2026-09-23T11:29:40.610Z"
+        "name": "freak",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+        "playedAt": "2026-09-23T21:19:24.088Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Indie Pop",
-      "Pop Rock",
-      "Classical"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
