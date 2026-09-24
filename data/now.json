@@ -1,31 +1,15 @@
 {
-  "updatedAt": "2026-09-24T02:58:24.576Z",
+  "updatedAt": "2026-09-24T18:08:13.999Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
-      {
-        "name": "never get over me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/55srcWA7TioKV0LZVNXltY",
-        "playedAt": "2026-09-23T22:09:39.532Z"
-      },
-      {
-        "name": "kiss me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
-        "playedAt": "2026-09-23T22:02:16.676Z"
-      },
       {
         "name": "petal",
         "artists": "Ariana Grande",
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
-        "playedAt": "2026-09-23T21:55:53.099Z"
+        "playedAt": "2026-09-24T14:24:11.465Z"
       },
       {
         "name": "stay",
@@ -33,7 +17,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
-        "playedAt": "2026-09-23T21:52:47.836Z"
+        "playedAt": "2026-09-24T14:21:06.700Z"
       },
       {
         "name": "oh well",
@@ -41,7 +25,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
-        "playedAt": "2026-09-23T21:50:18.462Z"
+        "playedAt": "2026-09-24T14:18:37.729Z"
       },
       {
         "name": "big feelings",
@@ -49,7 +33,15 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
-        "playedAt": "2026-09-23T21:47:01.792Z"
+        "playedAt": "2026-09-24T14:15:21.027Z"
+      },
+      {
+        "name": "warning signs (interlude)",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
+        "playedAt": "2026-09-24T14:12:26.865Z"
       },
       {
         "name": "nowhere, nobody",
@@ -57,7 +49,7 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
-        "playedAt": "2026-09-23T21:22:31.383Z"
+        "playedAt": "2026-09-24T14:11:08.991Z"
       },
       {
         "name": "freak",
@@ -65,7 +57,15 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
-        "playedAt": "2026-09-23T21:19:24.088Z"
+        "playedAt": "2026-09-24T14:08:16.481Z"
+      },
+      {
+        "name": "bad thing (bunny hop)",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+        "playedAt": "2026-09-24T14:04:56.147Z"
       }
     ],
     "top": [
