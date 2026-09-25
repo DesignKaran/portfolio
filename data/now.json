@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-09-25T15:24:11.333Z",
+  "updatedAt": "2026-09-25T22:37:32.260Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "big feelings",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+        "playedAt": "2026-09-25T21:35:47.973Z"
+      },
+      {
+        "name": "nowhere, nobody",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
+        "playedAt": "2026-09-25T21:31:48.972Z"
+      },
+      {
+        "name": "freak",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
+        "playedAt": "2026-09-25T21:28:55.967Z"
+      },
+      {
+        "name": "bad thing (bunny hop)",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
+        "playedAt": "2026-09-25T21:25:35.631Z"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+        "playedAt": "2026-09-25T21:22:07.116Z"
+      },
       {
         "name": "like i do",
         "artists": "Ariana Grande",
@@ -26,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
         "playedAt": "2026-09-24T14:24:11.465Z"
-      },
-      {
-        "name": "stay",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/0QltPqkR4dnhbINyBOU5SY",
-        "playedAt": "2026-09-24T14:21:06.700Z"
-      },
-      {
-        "name": "oh well",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx",
-        "playedAt": "2026-09-24T14:18:37.729Z"
-      },
-      {
-        "name": "big feelings",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
-        "playedAt": "2026-09-24T14:15:21.027Z"
-      },
-      {
-        "name": "warning signs (interlude)",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/0cJRr7kw5FkV5e8ejEB2j6",
-        "playedAt": "2026-09-24T14:12:26.865Z"
-      },
-      {
-        "name": "nowhere, nobody",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
-        "playedAt": "2026-09-24T14:11:08.991Z"
       }
     ],
     "top": [
@@ -91,13 +91,6 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
-        "artists": "Black Sabbath",
-        "album": "Paranoid (Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
-        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
-      },
-      {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -117,6 +110,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
+      },
+      {
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1"
       },
       {
         "name": "Close Up",
