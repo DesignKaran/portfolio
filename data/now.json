@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-09-24T18:08:13.999Z",
+  "updatedAt": "2026-09-25T15:24:11.333Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "like i do",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+        "playedAt": "2026-09-25T14:22:13.434Z"
+      },
+      {
+        "name": "kiss me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+        "playedAt": "2026-09-25T14:06:31.942Z"
+      },
       {
         "name": "petal",
         "artists": "Ariana Grande",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
         "playedAt": "2026-09-24T14:11:08.991Z"
-      },
-      {
-        "name": "freak",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
-        "playedAt": "2026-09-24T14:08:16.481Z"
-      },
-      {
-        "name": "bad thing (bunny hop)",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
-        "playedAt": "2026-09-24T14:04:56.147Z"
       }
     ],
     "top": [
