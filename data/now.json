@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-25T22:37:32.260Z",
+  "updatedAt": "2026-09-26T01:09:29.779Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "big feelings",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
-        "playedAt": "2026-09-25T21:35:47.973Z"
+        "name": "FourFiveSeconds",
+        "artists": "Rihanna, Kanye West, Paul McCartney",
+        "album": "FourFiveSeconds",
+        "art": "https://i.scdn.co/image/ab67616d00001e0236a9ed72b45e54ff307641be",
+        "url": "https://open.spotify.com/track/78TTtXnFQPzwqlbtbwqN0y",
+        "playedAt": "2026-09-26T01:02:23.126Z"
       },
       {
-        "name": "nowhere, nobody",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/5JbnupagBhD0AanbkCELdH",
-        "playedAt": "2026-09-25T21:31:48.972Z"
+        "name": "Stairway to Heaven (Live At The Kennedy Center Honors)",
+        "artists": "Heart",
+        "album": "Stairway to Heaven (Live At The Kennedy Center Honors)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0279c017d5404951e25e28879d",
+        "url": "https://open.spotify.com/track/6gOgTWY8trzXja4ZfmqFKt",
+        "playedAt": "2026-09-25T23:44:32.636Z"
       },
       {
-        "name": "freak",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6QhsCYcFdfyMbPWCiViI8K",
-        "playedAt": "2026-09-25T21:28:55.967Z"
+        "name": "Rumour Has It",
+        "artists": "Adele",
+        "album": "21",
+        "art": "https://i.scdn.co/image/ab67616d00001e027e7e5dd9d1ab19fcded8a17f",
+        "url": "https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs",
+        "playedAt": "2026-09-25T23:37:35.326Z"
       },
       {
-        "name": "bad thing (bunny hop)",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/4zmXWmILSBkn7gTvIyCiNi",
-        "playedAt": "2026-09-25T21:25:35.631Z"
+        "name": "One Of Your Girls",
+        "artists": "Troye Sivan",
+        "album": "Something To Give Each Other",
+        "art": "https://i.scdn.co/image/ab67616d00001e0267103283a4eb57578a428252",
+        "url": "https://open.spotify.com/track/5Eh1nj7IjV9lwpcKAkidyY",
+        "playedAt": "2026-09-25T23:33:52.257Z"
       },
       {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
-        "playedAt": "2026-09-25T21:22:07.116Z"
+        "name": "Tongue Tied",
+        "artists": "GROUPLOVE",
+        "album": "Never Trust a Happy Song",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d84a9bbcba91cb6a4a212b1b",
+        "url": "https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N",
+        "playedAt": "2026-09-25T23:30:50.970Z"
       },
       {
-        "name": "like i do",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
-        "playedAt": "2026-09-25T14:22:13.434Z"
+        "name": "Brazil",
+        "artists": "Declan McKenna",
+        "album": "What Do You Think About the Car?",
+        "art": "https://i.scdn.co/image/ab67616d00001e0211b78d26863f111044c4060f",
+        "url": "https://open.spotify.com/track/4sNG6zQBmtq7M8aeeKJRMQ",
+        "playedAt": "2026-09-25T23:27:13.121Z"
       },
       {
-        "name": "kiss me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
-        "playedAt": "2026-09-25T14:06:31.942Z"
+        "name": "Are You Bored Yet? (feat. Clairo)",
+        "artists": "Wallows, Clairo",
+        "album": "Nothing Happens",
+        "art": "https://i.scdn.co/image/ab67616d00001e021df393f4cf29c80c04456f77",
+        "url": "https://open.spotify.com/track/57RA3JGafJm5zRtKJiKPIm",
+        "playedAt": "2026-09-25T23:23:00.998Z"
       },
       {
-        "name": "petal",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e",
-        "playedAt": "2026-09-24T14:24:11.465Z"
+        "name": "Nostalgia",
+        "artists": "Tate McRae",
+        "album": "So Close To What",
+        "art": "https://i.scdn.co/image/ab67616d00001e0230420759f1a2cd4923c5c65b",
+        "url": "https://open.spotify.com/track/1YZOcaGiN1cCwANvG3Ib9G",
+        "playedAt": "2026-09-25T23:20:03.149Z"
       }
     ],
     "top": [
