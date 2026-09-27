@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-26T06:22:05.293Z",
+  "updatedAt": "2026-09-27T11:19:28.292Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "A Horse with No Name",
+        "artists": "America, George Martin",
+        "album": "America",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+        "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+        "playedAt": "2026-09-27T04:50:22.989Z"
+      },
       {
         "name": "Best Part (feat. H.E.R.)",
         "artists": "Daniel Caesar, H.E.R.",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0211b78d26863f111044c4060f",
         "url": "https://open.spotify.com/track/4sNG6zQBmtq7M8aeeKJRMQ",
         "playedAt": "2026-09-25T23:27:13.121Z"
-      },
-      {
-        "name": "Are You Bored Yet? (feat. Clairo)",
-        "artists": "Wallows, Clairo",
-        "album": "Nothing Happens",
-        "art": "https://i.scdn.co/image/ab67616d00001e021df393f4cf29c80c04456f77",
-        "url": "https://open.spotify.com/track/57RA3JGafJm5zRtKJiKPIm",
-        "playedAt": "2026-09-25T23:23:00.998Z"
       }
     ],
     "top": [
