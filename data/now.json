@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-27T15:44:24.382Z",
+  "updatedAt": "2026-09-28T07:16:28.103Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "My Hero",
+        "artists": "Foo Fighters",
+        "album": "The Colour And The Shape",
+        "art": "https://i.scdn.co/image/ab67616d00001e024bc9bcdbdc9ac34e37d8b6bb",
+        "url": "https://open.spotify.com/track/4dVbhS6OiYvFikshyaQaCN",
+        "playedAt": "2026-09-28T02:17:07.941Z"
+      },
       {
         "name": "A Horse with No Name",
         "artists": "America, George Martin",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d84a9bbcba91cb6a4a212b1b",
         "url": "https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N",
         "playedAt": "2026-09-25T23:30:50.970Z"
-      },
-      {
-        "name": "Brazil",
-        "artists": "Declan McKenna",
-        "album": "What Do You Think About the Car?",
-        "art": "https://i.scdn.co/image/ab67616d00001e0211b78d26863f111044c4060f",
-        "url": "https://open.spotify.com/track/4sNG6zQBmtq7M8aeeKJRMQ",
-        "playedAt": "2026-09-25T23:27:13.121Z"
       }
     ],
     "top": [
