@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-09-28T15:44:23.414Z",
+  "updatedAt": "2026-09-28T21:33:28.834Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Good Reason",
+      "artists": "Gracie Abrams",
+      "album": "Daughter from Hell",
+      "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+      "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ"
+    },
     "recent": [
+      {
+        "name": "Real Love Baby",
+        "artists": "Father John Misty",
+        "album": "Real Love Baby",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
+        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
+        "playedAt": "2026-09-28T21:30:23.575Z"
+      },
       {
         "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
         "artists": "Olivia Dean",
@@ -58,14 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
         "playedAt": "2026-09-28T12:14:42.113Z"
-      },
-      {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-09-28T12:11:35.645Z"
       }
     ],
     "top": [
