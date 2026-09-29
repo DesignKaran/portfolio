@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-09-29T01:26:38.815Z",
+  "updatedAt": "2026-09-29T07:17:47.130Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Times Like These - Acoustic Version",
+        "artists": "Foo Fighters",
+        "album": "00020225",
+        "art": "https://i.scdn.co/image/ab67616d00001e029e4641ee6ee7dda1df7c1a5f",
+        "url": "https://open.spotify.com/track/1pXgBjIvALm97lDhroan2E",
+        "playedAt": "2026-09-29T03:38:18.591Z"
+      },
       {
         "name": "Tom Sawyer",
         "artists": "Rush",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
         "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
         "playedAt": "2026-09-28T21:40:13.201Z"
-      },
-      {
-        "name": "Good Reason",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ",
-        "playedAt": "2026-09-28T21:34:32.252Z"
       }
     ],
     "top": [
