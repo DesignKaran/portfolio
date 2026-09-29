@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-09-29T14:12:44.811Z",
+  "updatedAt": "2026-09-29T19:33:13.722Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Man I Need",
+      "artists": "Olivia Dean",
+      "album": "The Art of Loving",
+      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+      "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps"
+    },
     "recent": [
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
+        "playedAt": "2026-09-29T19:30:57.345Z"
+      },
+      {
+        "name": "The Art of Loving (Intro)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
+        "playedAt": "2026-09-29T19:27:27.568Z"
+      },
+      {
+        "name": "Something Inbetween",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
+        "playedAt": "2026-09-29T19:26:46.264Z"
+      },
       {
         "name": "Taste",
         "artists": "Sabrina Carpenter",
@@ -42,30 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e022530375a57729aea52060137",
         "url": "https://open.spotify.com/track/2BqwuaG2o7SmWASv8IhlJi",
         "playedAt": "2026-09-29T10:56:39.806Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-09-29T10:52:36.975Z"
-      },
-      {
-        "name": "Crazy On You",
-        "artists": "Heart",
-        "album": "Dreamboat Annie",
-        "art": "https://i.scdn.co/image/ab67616d00001e028e8c08ca2feb999bb84f05e6",
-        "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
-        "playedAt": "2026-09-29T10:46:13.903Z"
-      },
-      {
-        "name": "Wish You Were Here",
-        "artists": "Pink Floyd",
-        "album": "Wish You Were Here",
-        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
-        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
-        "playedAt": "2026-09-29T10:41:19.870Z"
       }
     ],
     "top": [
