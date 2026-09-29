@@ -1,77 +1,71 @@
 {
-  "updatedAt": "2026-09-29T19:33:13.722Z",
+  "updatedAt": "2026-09-29T23:24:42.031Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Man I Need",
-      "artists": "Olivia Dean",
-      "album": "The Art of Loving",
-      "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-      "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps"
-    },
+    "nowPlaying": null,
     "recent": [
       {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
-        "playedAt": "2026-09-29T19:30:57.345Z"
+        "name": "Slow Dancin'",
+        "artists": "STELLA LEFTY",
+        "album": "Boston",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e6cb19b02e38d18246ac334f",
+        "url": "https://open.spotify.com/track/7xwgzQNqCdIWItr7l0MwKo",
+        "playedAt": "2026-09-29T22:51:29.404Z"
       },
       {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
-        "playedAt": "2026-09-29T19:27:27.568Z"
+        "name": "Boston",
+        "artists": "STELLA LEFTY",
+        "album": "Boston",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e6cb19b02e38d18246ac334f",
+        "url": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
+        "playedAt": "2026-09-29T22:49:25.377Z"
       },
       {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-09-29T19:26:46.264Z"
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-09-29T22:37:11.027Z"
       },
       {
-        "name": "Taste",
-        "artists": "Sabrina Carpenter",
-        "album": "Short n' Sweet (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02047d6b756e8f5e3f8b50f025",
-        "url": "https://open.spotify.com/track/0lTDxglypMd8e8Q5hnmDnI",
-        "playedAt": "2026-09-29T11:12:32.407Z"
-      },
-      {
-        "name": "My Man on Willpower",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/3EMfeKtNK4q4k3sVjwg5Yy",
-        "playedAt": "2026-09-29T11:08:00.247Z"
-      },
-      {
-        "name": "cigarette smoke",
+        "name": "stupid song",
         "artists": "Olivia Rodrigo",
         "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/0e4u0sFRGxHL4U2iFBrUvZ",
-        "playedAt": "2026-09-29T11:04:41.940Z"
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
+        "playedAt": "2026-09-29T21:51:03.730Z"
       },
       {
-        "name": "Keep Driving",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/2NcQic8JxdjAlAHuNbOIRE",
-        "playedAt": "2026-09-29T10:59:00.514Z"
+        "name": "Close To You",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e024ba1c73e08db2c003a78e148",
+        "url": "https://open.spotify.com/track/5wbg8kepMFoMzHOEuxiI0q",
+        "playedAt": "2026-09-29T21:47:33.509Z"
       },
       {
-        "name": "I have a friend",
-        "artists": "Lizzy McAlpine",
-        "album": "Angel",
-        "art": "https://i.scdn.co/image/ab67616d00001e022530375a57729aea52060137",
-        "url": "https://open.spotify.com/track/2BqwuaG2o7SmWASv8IhlJi",
-        "playedAt": "2026-09-29T10:56:39.806Z"
+        "name": "Dive",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
+        "playedAt": "2026-09-29T21:43:31.213Z"
+      },
+      {
+        "name": "expectations",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/4bkClAuofJULiaIZsuL3gT",
+        "playedAt": "2026-09-29T21:39:42.016Z"
+      },
+      {
+        "name": "I Love You, I'm Sorry",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
+        "url": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy",
+        "playedAt": "2026-09-29T21:15:06.916Z"
       }
     ],
     "top": [
@@ -125,11 +119,11 @@
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
       },
       {
-        "name": "Loud",
+        "name": "Something Inbetween",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT"
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7"
       }
     ],
     "genres": [
