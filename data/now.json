@@ -1,77 +1,71 @@
 {
-  "updatedAt": "2026-09-28T21:33:28.834Z",
+  "updatedAt": "2026-09-29T01:26:38.815Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Good Reason",
-      "artists": "Gracie Abrams",
-      "album": "Daughter from Hell",
-      "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-      "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ"
-    },
+    "nowPlaying": null,
     "recent": [
       {
-        "name": "Real Love Baby",
-        "artists": "Father John Misty",
-        "album": "Real Love Baby",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
-        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
-        "playedAt": "2026-09-28T21:30:23.575Z"
+        "name": "Tom Sawyer",
+        "artists": "Rush",
+        "album": "Moving Pictures (2011 Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
+        "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+        "playedAt": "2026-09-28T23:17:01.672Z"
       },
       {
-        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
-        "artists": "Olivia Dean",
-        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
-        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
-        "playedAt": "2026-09-28T12:35:22.988Z"
+        "name": "Comfortably Numb",
+        "artists": "Pink Floyd",
+        "album": "The Wall",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b694e89ba937dd2631ff584c",
+        "url": "https://open.spotify.com/track/5HNCy40Ni5BZJFw1TKzRsC",
+        "playedAt": "2026-09-28T23:06:46.619Z"
       },
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-09-28T12:31:46.516Z"
+        "name": "Stairway to Heaven (Live At The Kennedy Center Honors)",
+        "artists": "Heart",
+        "album": "Stairway to Heaven (Live At The Kennedy Center Honors)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0279c017d5404951e25e28879d",
+        "url": "https://open.spotify.com/track/6gOgTWY8trzXja4ZfmqFKt",
+        "playedAt": "2026-09-28T22:47:34.358Z"
       },
       {
-        "name": "Nice To Each Other",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
-        "playedAt": "2026-09-28T12:28:29.013Z"
+        "name": "Gypsy",
+        "artists": "Fleetwood Mac",
+        "album": "Greatest Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eb832efe061888ee7ef10456",
+        "url": "https://open.spotify.com/track/19Ym5Sg0YyOCa6ao21bdoG",
+        "playedAt": "2026-09-28T22:37:37.342Z"
       },
       {
-        "name": "Close Up",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-09-28T12:24:59.536Z"
+        "name": "EVERYTHING HALLELUJAH",
+        "artists": "Justin Bieber",
+        "album": "SWAG II",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a958d093e94944dd0e7258b2",
+        "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
+        "playedAt": "2026-09-28T22:23:07.864Z"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-09-28T12:21:44.061Z"
+        "name": "honeybee",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
+        "playedAt": "2026-09-28T21:43:57.264Z"
       },
       {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
-        "playedAt": "2026-09-28T12:18:11.585Z"
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-09-28T21:40:13.201Z"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-09-28T12:14:42.113Z"
+        "name": "Good Reason",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ",
+        "playedAt": "2026-09-28T21:34:32.252Z"
       }
     ],
     "top": [
