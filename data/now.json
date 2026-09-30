@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T15:34:32.363Z",
+  "updatedAt": "2026-09-30T20:30:10.267Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -91,18 +91,18 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
         "name": "The Art of Loving (Intro)",
@@ -112,18 +112,18 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
-        "name": "Close Up",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
-      },
-      {
         "name": "Something Inbetween",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
       }
     ],
     "genres": [
