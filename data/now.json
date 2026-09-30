@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-30T02:15:52.529Z",
+  "updatedAt": "2026-09-30T15:34:32.363Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Juno",
+        "name": "Busy Woman",
         "artists": "Sabrina Carpenter",
-        "album": "Short n' Sweet",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
-        "url": "https://open.spotify.com/track/21B4gaTWnTkuSh77iWEXdS",
-        "playedAt": "2026-09-29T23:34:49.147Z"
+        "album": "Short n' Sweet (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02047d6b756e8f5e3f8b50f025",
+        "url": "https://open.spotify.com/track/0b0Dz0Gi86SVdBxYeiQcCP",
+        "playedAt": "2026-09-30T12:44:14.513Z"
       },
       {
-        "name": "Slow Dancin'",
-        "artists": "STELLA LEFTY",
-        "album": "Boston",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e6cb19b02e38d18246ac334f",
-        "url": "https://open.spotify.com/track/7xwgzQNqCdIWItr7l0MwKo",
-        "playedAt": "2026-09-29T22:51:29.404Z"
+        "name": "Too Sweet",
+        "artists": "Hozier",
+        "album": "Unreal Unearth: Unaired",
+        "art": "https://i.scdn.co/image/ab67616d00001e028217a2c528bf9ad2ccbc82dc",
+        "url": "https://open.spotify.com/track/76JKIsdKrAfWUMjaA0u7v5",
+        "playedAt": "2026-09-30T12:41:07.411Z"
       },
       {
-        "name": "Boston",
-        "artists": "STELLA LEFTY",
-        "album": "Boston",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e6cb19b02e38d18246ac334f",
-        "url": "https://open.spotify.com/track/36idurZmYRjJ56KQ8JD9bN",
-        "playedAt": "2026-09-29T22:49:25.377Z"
+        "name": "twilight zone",
+        "artists": "Ariana Grande",
+        "album": "eternal sunshine deluxe: brighter days ahead",
+        "art": "https://i.scdn.co/image/ab67616d00001e025ab3c842fde848df7a4ee6d9",
+        "url": "https://open.spotify.com/track/1YRbAonLvmuUILvQso0gUM",
+        "playedAt": "2026-09-30T12:36:55.506Z"
       },
       {
-        "name": "Ain't Got Nothing On You",
-        "artists": "Leon Bridges",
-        "album": "Leon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
-        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-09-29T22:37:11.027Z"
+        "name": "The Man",
+        "artists": "Taylor Swift",
+        "album": "Lover",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
+        "url": "https://open.spotify.com/track/3RauEVgRgj1IuWdJ9fDs70",
+        "playedAt": "2026-09-30T12:33:36.642Z"
       },
       {
-        "name": "stupid song",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
-        "playedAt": "2026-09-29T21:51:03.730Z"
-      },
-      {
-        "name": "Close To You",
+        "name": "That’s So True",
         "artists": "Gracie Abrams",
-        "album": "The Secret of Us",
-        "art": "https://i.scdn.co/image/ab67616d00001e024ba1c73e08db2c003a78e148",
-        "url": "https://open.spotify.com/track/5wbg8kepMFoMzHOEuxiI0q",
-        "playedAt": "2026-09-29T21:47:33.509Z"
+        "album": "The Secret of Us (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e021dac3694b3289cd903cb3acf",
+        "url": "https://open.spotify.com/track/7ne4VBA60CxGM75vw0EYad",
+        "playedAt": "2026-09-30T12:30:25.790Z"
       },
       {
-        "name": "Dive",
-        "artists": "Olivia Dean",
-        "album": "Messy",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
-        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
-        "playedAt": "2026-09-29T21:43:31.213Z"
+        "name": "Never Getting Laid",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
+        "playedAt": "2026-09-30T12:27:39.022Z"
       },
       {
-        "name": "expectations",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/4bkClAuofJULiaIZsuL3gT",
-        "playedAt": "2026-09-29T21:39:42.016Z"
+        "name": "One Of Your Girls",
+        "artists": "Troye Sivan",
+        "album": "Something To Give Each Other",
+        "art": "https://i.scdn.co/image/ab67616d00001e0267103283a4eb57578a428252",
+        "url": "https://open.spotify.com/track/5Eh1nj7IjV9lwpcKAkidyY",
+        "playedAt": "2026-09-30T12:24:10.340Z"
+      },
+      {
+        "name": "The Subway",
+        "artists": "Chappell Roan",
+        "album": "The Subway",
+        "art": "https://i.scdn.co/image/ab67616d00001e020b96f8824100aab118792442",
+        "url": "https://open.spotify.com/track/2SsY5k7UWFqgye3PUMG3Oq",
+        "playedAt": "2026-09-30T12:21:08.370Z"
       }
     ],
     "top": [
