@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-01T06:19:10.426Z",
+  "updatedAt": "2026-10-01T13:42:13.232Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "DAISIES",
-        "artists": "Justin Bieber",
-        "album": "SWAG",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d65c4773bc5061fd27facc5b",
-        "url": "https://open.spotify.com/track/5BZsQlgw21vDOAjoqkNgKb",
-        "playedAt": "2026-09-30T22:57:41.527Z"
-      },
-      {
-        "name": "Thinking 'bout You",
-        "artists": "STELLA LEFTY",
-        "album": "Boston",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e6cb19b02e38d18246ac334f",
-        "url": "https://open.spotify.com/track/1QSgdbDemykjGVIoPqOVcC",
-        "playedAt": "2026-09-30T22:20:51.890Z"
-      },
-      {
-        "name": "Pink Pony Club",
-        "artists": "Chappell Roan",
-        "album": "The Rise and Fall of a Midwest Princess",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a21d22ecf823e1c90aa22d1f",
-        "url": "https://open.spotify.com/track/6393yGahSJ9slVdOwSxOVR",
-        "playedAt": "2026-09-30T22:20:31.111Z"
-      },
-      {
-        "name": "Sugar Talking",
+        "name": "Manchild",
         "artists": "Sabrina Carpenter",
         "album": "Man’s Best Friend",
         "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
-        "playedAt": "2026-09-30T22:15:59.952Z"
+        "url": "https://open.spotify.com/track/2BwO5K8Q7EPAJSGze3AAh9",
+        "playedAt": "2026-10-01T12:39:03.745Z"
       },
       {
-        "name": "supernatural",
-        "artists": "Ariana Grande",
-        "album": "eternal sunshine",
-        "art": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
-        "url": "https://open.spotify.com/track/142PiXzA84lmEw2RstFHFa",
-        "playedAt": "2026-09-30T22:12:55.645Z"
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+        "playedAt": "2026-10-01T12:35:29.630Z"
       },
       {
-        "name": "Style",
-        "artists": "Taylor Swift",
-        "album": "1989",
-        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
-        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
-        "playedAt": "2026-09-30T22:10:11.731Z"
+        "name": "Hard Times",
+        "artists": "Paramore",
+        "album": "After Laughter",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dbd83e179619408e5d05cc99",
+        "url": "https://open.spotify.com/track/0w5Bdu51Ka25Pf3hojsKHh",
+        "playedAt": "2026-10-01T12:32:25.166Z"
       },
       {
-        "name": "12 to 12",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-        "playedAt": "2026-09-30T22:06:20.198Z"
+        "name": "The Giver",
+        "artists": "Chappell Roan",
+        "album": "The Giver",
+        "art": "https://i.scdn.co/image/ab67616d00001e023f56ecc22a0a63f3e9a80f5f",
+        "url": "https://open.spotify.com/track/5xHgo5JN0wfsV41HnRaos5",
+        "playedAt": "2026-10-01T12:29:21.997Z"
       },
       {
-        "name": "Adore You",
-        "artists": "Harry Styles",
-        "album": "Fine Line",
-        "art": "https://i.scdn.co/image/ab67616d00001e0225180571abce9472f61bd722",
-        "url": "https://open.spotify.com/track/3jjujdWJ72nww5eGnfs2E7",
-        "playedAt": "2026-09-30T22:01:20.970Z"
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
+        "playedAt": "2026-10-01T12:25:58.734Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-10-01T12:23:52.762Z"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
+        "playedAt": "2026-10-01T12:20:20.782Z"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-10-01T12:17:03.748Z"
       }
     ],
     "top": [
@@ -119,11 +119,11 @@
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
       },
       {
-        "name": "Baby Steps",
+        "name": "Lady Lady",
         "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
+        "album": "Lady Lady",
+        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
+        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r"
       }
     ],
     "genres": [
