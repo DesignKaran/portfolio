@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-01T13:42:13.232Z",
+  "updatedAt": "2026-10-02T08:48:25.581Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Manchild",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/2BwO5K8Q7EPAJSGze3AAh9",
-        "playedAt": "2026-10-01T12:39:03.745Z"
+        "name": "California Dreamin' - Mono Version",
+        "artists": "The Mamas & The Papas",
+        "album": "If You Can Believe Your Eyes And Ears (Mono Version)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0251b0ded91cc503d5e873562e",
+        "url": "https://open.spotify.com/track/6pwhPuPd4JEv4XeJDUpxBt",
+        "playedAt": "2026-10-02T04:14:30.684Z"
       },
       {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-        "playedAt": "2026-10-01T12:35:29.630Z"
+        "name": "A Horse with No Name",
+        "artists": "America, George Martin",
+        "album": "America",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cc2ef2810c85fde8ec60cbc4",
+        "url": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
+        "playedAt": "2026-10-02T04:05:11.464Z"
       },
       {
-        "name": "Hard Times",
-        "artists": "Paramore",
-        "album": "After Laughter",
-        "art": "https://i.scdn.co/image/ab67616d00001e02dbd83e179619408e5d05cc99",
-        "url": "https://open.spotify.com/track/0w5Bdu51Ka25Pf3hojsKHh",
-        "playedAt": "2026-10-01T12:32:25.166Z"
+        "name": "Rhiannon",
+        "artists": "Fleetwood Mac",
+        "album": "Fleetwood Mac",
+        "art": "https://i.scdn.co/image/ab67616d00001e024fb043195e8d07e72edc7226",
+        "url": "https://open.spotify.com/track/05oETzWbd4SI33qK2gbJfR",
+        "playedAt": "2026-10-02T04:00:58.824Z"
       },
       {
-        "name": "The Giver",
-        "artists": "Chappell Roan",
-        "album": "The Giver",
-        "art": "https://i.scdn.co/image/ab67616d00001e023f56ecc22a0a63f3e9a80f5f",
-        "url": "https://open.spotify.com/track/5xHgo5JN0wfsV41HnRaos5",
-        "playedAt": "2026-10-01T12:29:21.997Z"
+        "name": "Kickstart My Heart",
+        "artists": "Mötley Crüe",
+        "album": "Dr. Feelgood",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fc30908354ee3be55dc6feb2",
+        "url": "https://open.spotify.com/track/4Yqy0GpeDEXLibWJCZyQew",
+        "playedAt": "2026-10-02T03:56:45.819Z"
       },
       {
-        "name": "I've Seen It",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-10-01T12:25:58.734Z"
+        "name": "Wild Horses - 2009 Mix",
+        "artists": "The Rolling Stones",
+        "album": "Sticky Fingers (Remastered)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a1d9c9969f2a7ed27e449a3c",
+        "url": "https://open.spotify.com/track/52dm9op3rbfAkc1LGXgipW",
+        "playedAt": "2026-10-02T03:52:02.575Z"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-10-01T12:23:52.762Z"
+        "name": "Like a Rolling Stone",
+        "artists": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "art": "https://i.scdn.co/image/ab67616d00001e020cb0884829c5503b2e242541",
+        "url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
+        "playedAt": "2026-10-02T03:46:20.402Z"
       },
       {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-10-01T12:20:20.782Z"
+        "name": "Time",
+        "artists": "Pink Floyd",
+        "album": "The Dark Side of the Moon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02db216ca805faf5fe35df4ee6",
+        "url": "https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz",
+        "playedAt": "2026-10-02T03:40:08.307Z"
       },
       {
-        "name": "Loud",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-10-01T12:17:03.748Z"
+        "name": "War Pigs / Luke's Wall - 2012 - Remaster",
+        "artists": "Black Sabbath",
+        "album": "Paranoid (Remaster)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
+        "url": "https://open.spotify.com/track/2rd9ETlulTbz6BYZcdvIE1",
+        "playedAt": "2026-10-02T03:33:05.012Z"
       }
     ],
     "top": [
