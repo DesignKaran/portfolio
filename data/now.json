@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-03T03:48:10.358Z",
+  "updatedAt": "2026-10-03T18:30:44.537Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Boston",
+        "artists": "STELLA LEFTY",
+        "album": "Long Way Home",
+        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
+        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv",
+        "playedAt": "2026-10-03T15:04:32.650Z"
+      },
+      {
+        "name": "Blowing Smoke",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e024ba1c73e08db2c003a78e148",
+        "url": "https://open.spotify.com/track/0MIJFuEJpmgSjNjkbq29TQ",
+        "playedAt": "2026-10-03T14:58:06.614Z"
+      },
       {
         "name": "Old Winter's Song (nature version)",
         "artists": "Dee Art",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02da63600730656f3895d67bc1",
         "url": "https://open.spotify.com/track/5pXIeEdi3DcsUvFl4XTquI",
         "playedAt": "2026-10-02T23:55:43.822Z"
-      },
-      {
-        "name": "Good Doggy",
-        "artists": "Dog Music Library",
-        "album": "Music for Dogs: Relax and Chill Piano Music for Dogs & Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e028f0de57a2a3b6aae71904159",
-        "url": "https://open.spotify.com/track/2LwRUPX8lnDN0ijDLcpANJ",
-        "playedAt": "2026-10-02T23:51:34.059Z"
-      },
-      {
-        "name": "Sleeping Aid for Pets",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/7uR4nGk44HpBoFdqbUwIIU",
-        "playedAt": "2026-10-02T23:49:27.278Z"
       }
     ],
     "top": [
@@ -112,18 +112,18 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
+        "name": "Boston",
+        "artists": "STELLA LEFTY",
+        "album": "Long Way Home",
+        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
+        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
+      },
+      {
         "name": "Close Up",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
-      },
-      {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "Lady Lady",
-        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
-        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r"
       }
     ],
     "genres": [
