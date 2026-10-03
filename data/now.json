@@ -1,14 +1,48 @@
 {
-  "updatedAt": "2026-10-02T23:55:48.938Z",
+  "updatedAt": "2026-10-03T03:48:10.358Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Dawn of Day",
-      "artists": "TERRENCE NORMAN",
-      "album": "Deep Forests",
-      "art": "https://i.scdn.co/image/ab67616d00001e0262e2a6dde5609d7538964b89",
-      "url": "https://open.spotify.com/track/5WX3XqVXyUp5gv5s69V4BJ"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "Old Winter's Song (nature version)",
+        "artists": "Dee Art",
+        "album": "Autumn Dream (nature version)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0273430de09d21f24281f2c693",
+        "url": "https://open.spotify.com/track/16SeD6v1U9o0lZ2nKSKXfm",
+        "playedAt": "2026-10-03T00:17:59.833Z"
+      },
+      {
+        "name": "Canción de la brisa nocturna",
+        "artists": "Andres Torres",
+        "album": "études de piano 2: sintetic Amalgama",
+        "art": "https://i.scdn.co/image/ab67616d00001e02951fec3b63912dbc5c95c07b",
+        "url": "https://open.spotify.com/track/2mO10NZbT3BajdIKEX0xCk",
+        "playedAt": "2026-10-03T00:05:12.642Z"
+      },
+      {
+        "name": "Rebirth",
+        "artists": "Fidan Mikayilzade, Ayla D",
+        "album": "Rebirth",
+        "art": "https://i.scdn.co/image/ab67616d00001e02750cd6d22ad507cc4d9a05d5",
+        "url": "https://open.spotify.com/track/120NAac065yYu5p8MW5TCN",
+        "playedAt": "2026-10-03T00:03:16.039Z"
+      },
+      {
+        "name": "At Peace",
+        "artists": "Slowberry, SkySky, violetic",
+        "album": "At Peace",
+        "art": "https://i.scdn.co/image/ab67616d00001e0236b1ae6a398dd9dac668169c",
+        "url": "https://open.spotify.com/track/4yO3LSwwlgi9WN6YUDdBTc",
+        "playedAt": "2026-10-03T00:01:20.274Z"
+      },
+      {
+        "name": "Dawn of Day",
+        "artists": "TERRENCE NORMAN",
+        "album": "Deep Forests",
+        "art": "https://i.scdn.co/image/ab67616d00001e0262e2a6dde5609d7538964b89",
+        "url": "https://open.spotify.com/track/5WX3XqVXyUp5gv5s69V4BJ",
+        "playedAt": "2026-10-02T23:59:43.614Z"
+      },
       {
         "name": "Riverside",
         "artists": "Johnny Salib",
@@ -32,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
         "url": "https://open.spotify.com/track/7uR4nGk44HpBoFdqbUwIIU",
         "playedAt": "2026-10-02T23:49:27.278Z"
-      },
-      {
-        "name": "Sleeping Music for Dogs",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/0KnHAAAxsHvcN5ndsWfaNc",
-        "playedAt": "2026-10-02T23:47:25.149Z"
-      },
-      {
-        "name": "Soft Piano for Dogs",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/7yCNojenQPWuvsyL0rgRvJ",
-        "playedAt": "2026-10-02T23:45:35.220Z"
-      },
-      {
-        "name": "Good for Dogs Ears",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/1frKyM1ZK7go9e1vqCtQl0",
-        "playedAt": "2026-10-02T23:43:38.912Z"
-      },
-      {
-        "name": "Chill Music for Dogs",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/6vtlJGRmxc2CuRADlXRZC3",
-        "playedAt": "2026-10-02T23:41:40.669Z"
-      },
-      {
-        "name": "Dog Enlightenment",
-        "artists": "Dog Music Library",
-        "album": "Dog Music: Calm Music for a Dog's Ears and Relaxing Music for Pets",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b852723b406411493325dc56",
-        "url": "https://open.spotify.com/track/5mK99wbQlSEMeUj2FUZxoJ",
-        "playedAt": "2026-10-02T23:39:46.474Z"
       }
     ],
     "top": [
