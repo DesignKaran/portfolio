@@ -1,15 +1,63 @@
 {
-  "updatedAt": "2026-10-06T19:40:26.542Z",
+  "updatedAt": "2026-10-06T23:32:07.577Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Take Me Out",
+        "artists": "Franz Ferdinand",
+        "album": "Franz Ferdinand",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a5d1c06a8172d4861367953c",
+        "url": "https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN",
+        "playedAt": "2026-10-06T22:10:27.888Z"
+      },
+      {
+        "name": "Minority",
+        "artists": "Green Day",
+        "album": "Warning",
+        "art": "https://i.scdn.co/image/ab67616d00001e026869f1cd33bf72e00313520d",
+        "url": "https://open.spotify.com/track/4qjfQnccStTR8zNsb6Mizo",
+        "playedAt": "2026-10-06T22:06:29.796Z"
+      },
+      {
+        "name": "Runaways",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/1E3pFst1X74fCxE0K9pqhy",
+        "playedAt": "2026-10-06T22:03:40.551Z"
+      },
+      {
+        "name": "No One Knows",
+        "artists": "Queens of the Stone Age",
+        "album": "Songs For The Deaf",
+        "art": "https://i.scdn.co/image/ab67616d00001e029b62c36a1f8ac00d60f460cc",
+        "url": "https://open.spotify.com/track/6NvRxjfYkkT2SpirAlmsjH",
+        "playedAt": "2026-10-06T21:59:34.858Z"
+      },
+      {
+        "name": "Just like Heaven",
+        "artists": "The Cure",
+        "album": "Kiss Me, Kiss Me, Kiss Me",
+        "art": "https://i.scdn.co/image/ab67616d00001e027f22337546d61faca55e0f4f",
+        "url": "https://open.spotify.com/track/76GlO5H5RT6g7y0gev86Nk",
+        "playedAt": "2026-10-06T21:53:02.652Z"
+      },
+      {
+        "name": "Karma Police",
+        "artists": "Radiohead",
+        "album": "OK Computer",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+        "url": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A",
+        "playedAt": "2026-10-06T21:49:30.101Z"
+      },
       {
         "name": "12:51",
         "artists": "The Strokes",
         "album": "Room On Fire",
         "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
         "url": "https://open.spotify.com/track/6Yu1OL8I0D4vjOzYdsXYGK",
-        "playedAt": "2026-10-06T19:36:40.499Z"
+        "playedAt": "2026-10-06T21:44:08.371Z"
       },
       {
         "name": "No Surprises",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
         "url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
         "playedAt": "2026-10-06T13:10:51.149Z"
-      },
-      {
-        "name": "Misery Business",
-        "artists": "Paramore",
-        "album": "Riot!",
-        "art": "https://i.scdn.co/image/ab67616d00001e02bee754528c08d5ff6799a1eb",
-        "url": "https://open.spotify.com/track/6SpLc7EXZIPpy0sVko0aoU",
-        "playedAt": "2026-10-06T12:55:53.718Z"
-      },
-      {
-        "name": "Welcome to the Black Parade",
-        "artists": "My Chemical Romance",
-        "album": "The Black Parade",
-        "art": "https://i.scdn.co/image/ab67616d00001e02663b6ce496144fa5c3670ac0",
-        "url": "https://open.spotify.com/track/5wQnmLuC1W7ATsArWACrgW",
-        "playedAt": "2026-10-06T12:52:21.716Z"
-      },
-      {
-        "name": "Hate To Say I Told You So",
-        "artists": "The Hives",
-        "album": "Veni Vidi Vicious",
-        "art": "https://i.scdn.co/image/ab67616d00001e02597128ea7c5de493af838c6f",
-        "url": "https://open.spotify.com/track/6xxXrNJnnsQNLdgNk8S4y8",
-        "playedAt": "2026-10-06T12:47:10.138Z"
-      },
-      {
-        "name": "Lithium",
-        "artists": "Nirvana",
-        "album": "Nevermind (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e175a19e530c898d167d39bf",
-        "url": "https://open.spotify.com/track/2YodwKJnbPyNKe8XXSE9V7",
-        "playedAt": "2026-10-06T12:43:49.903Z"
-      },
-      {
-        "name": "Good Riddance (Time of Your Life)",
-        "artists": "Green Day",
-        "album": "Nimrod",
-        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
-        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
-        "playedAt": "2026-10-06T12:39:32.353Z"
-      },
-      {
-        "name": "Battle Symphony",
-        "artists": "Linkin Park",
-        "album": "One More Light",
-        "art": "https://i.scdn.co/image/ab67616d00001e02145e1cf12538f5666511237d",
-        "url": "https://open.spotify.com/track/3FQCJI2t5LTbsRPfYVBSVB",
-        "playedAt": "2026-10-06T12:36:58.398Z"
       }
     ],
     "top": [
@@ -91,13 +91,6 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
-      },
-      {
         "name": "Boston",
         "artists": "STELLA LEFTY",
         "album": "Long Way Home",
@@ -119,11 +112,18 @@
         "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       },
       {
-        "name": "Close Up",
+        "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO"
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P"
       }
     ],
     "genres": [
