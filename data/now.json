@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-06T14:21:09.414Z",
+  "updatedAt": "2026-10-06T19:40:26.542Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "12:51",
+        "artists": "The Strokes",
+        "album": "Room On Fire",
+        "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
+        "url": "https://open.spotify.com/track/6Yu1OL8I0D4vjOzYdsXYGK",
+        "playedAt": "2026-10-06T19:36:40.499Z"
+      },
       {
         "name": "No Surprises",
         "artists": "Radiohead",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02145e1cf12538f5666511237d",
         "url": "https://open.spotify.com/track/3FQCJI2t5LTbsRPfYVBSVB",
         "playedAt": "2026-10-06T12:36:58.398Z"
-      },
-      {
-        "name": "Reptilia",
-        "artists": "The Strokes",
-        "album": "Room On Fire",
-        "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
-        "url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
-        "playedAt": "2026-10-06T12:33:21.641Z"
       }
     ],
     "top": [
