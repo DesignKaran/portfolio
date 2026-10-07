@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-07T04:06:27.402Z",
+  "updatedAt": "2026-10-07T22:37:36.286Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Still into You",
+        "artists": "Paramore",
+        "album": "Paramore",
+        "art": "https://i.scdn.co/image/ab67616d00001e02532033d0d90736f661c13d35",
+        "url": "https://open.spotify.com/track/1yjY7rpaAQvKwpdUliHx0d",
+        "playedAt": "2026-10-07T21:53:40.288Z"
+      },
+      {
+        "name": "Bang Bang",
+        "artists": "Green Day",
+        "album": "Revolution Radio",
+        "art": "https://i.scdn.co/image/ab67616d00001e02af71e889d130283bcd08b8a7",
+        "url": "https://open.spotify.com/track/278Ao6KQDxWGGszv24uvhI",
+        "playedAt": "2026-10-07T21:50:03.337Z"
+      },
       {
         "name": "Rock And Roll All Nite - 2025 Remaster",
         "artists": "KISS",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027f22337546d61faca55e0f4f",
         "url": "https://open.spotify.com/track/76GlO5H5RT6g7y0gev86Nk",
         "playedAt": "2026-10-06T21:53:02.652Z"
-      },
-      {
-        "name": "Karma Police",
-        "artists": "Radiohead",
-        "album": "OK Computer",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
-        "url": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A",
-        "playedAt": "2026-10-06T21:49:30.101Z"
-      },
-      {
-        "name": "12:51",
-        "artists": "The Strokes",
-        "album": "Room On Fire",
-        "art": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f",
-        "url": "https://open.spotify.com/track/6Yu1OL8I0D4vjOzYdsXYGK",
-        "playedAt": "2026-10-06T21:44:08.371Z"
       }
     ],
     "top": [
@@ -105,13 +105,6 @@
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -124,6 +117,13 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
       }
     ],
     "genres": [
