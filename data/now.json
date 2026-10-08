@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-10-07T22:37:36.286Z",
+  "updatedAt": "2026-10-08T02:26:58.462Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Somewhere Only We Know",
+        "artists": "Keane",
+        "album": "Hopes And Fears",
+        "art": "https://i.scdn.co/image/ab67616d00001e02045d0a38105fbe7bde43c490",
+        "url": "https://open.spotify.com/track/0ll8uFnc0nANY35E0Lfxvg",
+        "playedAt": "2026-10-08T00:36:11.802Z"
+      },
+      {
+        "name": "Higher",
+        "artists": "Creed",
+        "album": "Human Clay",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f8f048a5f4749c970078a4fb",
+        "url": "https://open.spotify.com/track/1ZozJfi8u9cO2Ob8KwiwNT",
+        "playedAt": "2026-10-08T00:32:15.106Z"
+      },
+      {
+        "name": "Always Remember Us This Way",
+        "artists": "Lady Gaga",
+        "album": "A Star Is Born Soundtrack (Without Dialogue)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b5d4b4ed17ec86c4b3944af2",
+        "url": "https://open.spotify.com/track/2rbDhOo9Fh61Bbu23T2qCk",
+        "playedAt": "2026-10-08T00:26:57.826Z"
+      },
+      {
+        "name": "Slow Dancing in a Burning Room",
+        "artists": "John Mayer",
+        "album": "Continuum",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
+        "playedAt": "2026-10-08T00:20:02.182Z"
+      },
+      {
+        "name": "Wish You Were Here",
+        "artists": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
+        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
+        "playedAt": "2026-10-08T00:15:59.697Z"
+      },
+      {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+        "playedAt": "2026-10-08T00:10:20.686Z"
+      },
       {
         "name": "Still into You",
         "artists": "Paramore",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02af71e889d130283bcd08b8a7",
         "url": "https://open.spotify.com/track/278Ao6KQDxWGGszv24uvhI",
         "playedAt": "2026-10-07T21:50:03.337Z"
-      },
-      {
-        "name": "Rock And Roll All Nite - 2025 Remaster",
-        "artists": "KISS",
-        "album": "Dressed To Kill (2025 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0283c7a3d87674e9b7ecaaa1f5",
-        "url": "https://open.spotify.com/track/1Buwv1iql0YsxftE5LHIgq",
-        "playedAt": "2026-10-07T00:30:43.519Z"
-      },
-      {
-        "name": "Take Me Out",
-        "artists": "Franz Ferdinand",
-        "album": "Franz Ferdinand",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a5d1c06a8172d4861367953c",
-        "url": "https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN",
-        "playedAt": "2026-10-06T22:10:27.888Z"
-      },
-      {
-        "name": "Minority",
-        "artists": "Green Day",
-        "album": "Warning",
-        "art": "https://i.scdn.co/image/ab67616d00001e026869f1cd33bf72e00313520d",
-        "url": "https://open.spotify.com/track/4qjfQnccStTR8zNsb6Mizo",
-        "playedAt": "2026-10-06T22:06:29.796Z"
-      },
-      {
-        "name": "Runaways",
-        "artists": "The Killers",
-        "album": "Direct Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
-        "url": "https://open.spotify.com/track/1E3pFst1X74fCxE0K9pqhy",
-        "playedAt": "2026-10-06T22:03:40.551Z"
-      },
-      {
-        "name": "No One Knows",
-        "artists": "Queens of the Stone Age",
-        "album": "Songs For The Deaf",
-        "art": "https://i.scdn.co/image/ab67616d00001e029b62c36a1f8ac00d60f460cc",
-        "url": "https://open.spotify.com/track/6NvRxjfYkkT2SpirAlmsjH",
-        "playedAt": "2026-10-06T21:59:34.858Z"
-      },
-      {
-        "name": "Just like Heaven",
-        "artists": "The Cure",
-        "album": "Kiss Me, Kiss Me, Kiss Me",
-        "art": "https://i.scdn.co/image/ab67616d00001e027f22337546d61faca55e0f4f",
-        "url": "https://open.spotify.com/track/76GlO5H5RT6g7y0gev86Nk",
-        "playedAt": "2026-10-06T21:53:02.652Z"
       }
     ],
     "top": [
