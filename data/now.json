@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-08T16:45:16.528Z",
+  "updatedAt": "2026-10-08T21:47:32.282Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "I Love You, I'm Sorry",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
+        "url": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy",
+        "playedAt": "2026-10-08T15:06:17.354Z"
+      },
+      {
+        "name": "Ocean",
+        "artists": "The Goo Goo Dolls",
+        "album": "Ocean",
+        "art": "https://i.scdn.co/image/ab6742d3000052b705eeb8d4d7d6f5da544c765a",
+        "url": "https://open.spotify.com/track/5bO0YEn90kUrB1tecJKa9Z",
+        "playedAt": "2026-10-08T15:06:17.354Z"
+      },
       {
         "name": "Yellow",
         "artists": "Coldplay",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e024ea1fd36ef7d78214011371c",
         "url": "https://open.spotify.com/track/2VN7uPrbryJ7nE2MXX3f9a",
         "playedAt": "2026-10-08T12:17:21.975Z"
-      },
-      {
-        "name": "The Show Goes On",
-        "artists": "Bruce Hornsby and the Range",
-        "album": "Scenes From The Southside",
-        "art": "https://i.scdn.co/image/ab67616d00001e020947adaccfbd38cb2329258e",
-        "url": "https://open.spotify.com/track/76FnuGRKykqGIiXicVx0Y5",
-        "playedAt": "2026-10-08T12:13:31.396Z"
-      },
-      {
-        "name": "Don't Stop Believin' (2022 Remaster)",
-        "artists": "Journey",
-        "album": "Escape (2022 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0223290120a609a65e14cfe018",
-        "url": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91",
-        "playedAt": "2026-10-08T12:06:00.501Z"
       }
     ],
     "top": [
