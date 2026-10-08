@@ -1,8 +1,32 @@
 {
-  "updatedAt": "2026-10-08T02:26:58.462Z",
+  "updatedAt": "2026-10-08T09:20:12.508Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Like a Stone",
+        "artists": "Audioslave",
+        "album": "Audioslave",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a7292b6863258e889b78d787",
+        "url": "https://open.spotify.com/track/3YuaBvuZqcwN3CEAyyoaei",
+        "playedAt": "2026-10-08T03:57:47.507Z"
+      },
+      {
+        "name": "Good Riddance (Time of Your Life)",
+        "artists": "Green Day",
+        "album": "Nimrod",
+        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
+        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
+        "playedAt": "2026-10-08T02:56:36.047Z"
+      },
+      {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+        "playedAt": "2026-10-08T02:54:02.764Z"
+      },
       {
         "name": "Somewhere Only We Know",
         "artists": "Keane",
@@ -42,30 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
         "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
         "playedAt": "2026-10-08T00:15:59.697Z"
-      },
-      {
-        "name": "Iris",
-        "artists": "The Goo Goo Dolls",
-        "album": "Dizzy up the Girl",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
-        "playedAt": "2026-10-08T00:10:20.686Z"
-      },
-      {
-        "name": "Still into You",
-        "artists": "Paramore",
-        "album": "Paramore",
-        "art": "https://i.scdn.co/image/ab67616d00001e02532033d0d90736f661c13d35",
-        "url": "https://open.spotify.com/track/1yjY7rpaAQvKwpdUliHx0d",
-        "playedAt": "2026-10-07T21:53:40.288Z"
-      },
-      {
-        "name": "Bang Bang",
-        "artists": "Green Day",
-        "album": "Revolution Radio",
-        "art": "https://i.scdn.co/image/ab67616d00001e02af71e889d130283bcd08b8a7",
-        "url": "https://open.spotify.com/track/278Ao6KQDxWGGszv24uvhI",
-        "playedAt": "2026-10-07T21:50:03.337Z"
       }
     ],
     "top": [
