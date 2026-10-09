@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-08T21:47:32.282Z",
+  "updatedAt": "2026-10-09T01:42:39.103Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "I Love You, I'm Sorry",
-        "artists": "Gracie Abrams",
-        "album": "The Secret of Us",
-        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
-        "url": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy",
-        "playedAt": "2026-10-08T15:06:17.354Z"
+        "name": "First Burn",
+        "artists": "Ari Afsar, Julia Harriman, Lexi Lawson, Rachelle Ann Go, Shoba Narayan",
+        "album": "First Burn",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299ca4934c07dd1f4e0e64204",
+        "url": "https://open.spotify.com/track/1A2gifkaEngunqZAFHUS0j",
+        "playedAt": "2026-10-08T22:17:14.813Z"
       },
       {
-        "name": "Ocean",
-        "artists": "The Goo Goo Dolls",
-        "album": "Ocean",
-        "art": "https://i.scdn.co/image/ab6742d3000052b705eeb8d4d7d6f5da544c765a",
-        "url": "https://open.spotify.com/track/5bO0YEn90kUrB1tecJKa9Z",
-        "playedAt": "2026-10-08T15:06:17.354Z"
+        "name": "Congratulations",
+        "artists": "Dessa",
+        "album": "The Hamilton Mixtape",
+        "art": "https://i.scdn.co/image/ab67616d00001e021025ac991316d6cbac978373",
+        "url": "https://open.spotify.com/track/5za2K5XXuEaFWps6pYdo2y",
+        "playedAt": "2026-10-08T22:14:10.979Z"
       },
       {
-        "name": "Yellow",
-        "artists": "Coldplay",
-        "album": "Parachutes",
-        "art": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a",
-        "url": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg",
-        "playedAt": "2026-10-08T13:03:22.490Z"
+        "name": "Found/Tonight",
+        "artists": "Ben Platt, Lin-Manuel Miranda",
+        "album": "Found/Tonight",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b44db9897c23fe9f4bab505c",
+        "url": "https://open.spotify.com/track/0ileL1L3Vtpf5VZ5RQZ94m",
+        "playedAt": "2026-10-08T22:11:19.007Z"
       },
       {
-        "name": "Always Remember Us This Way",
-        "artists": "Lady Gaga",
-        "album": "A Star Is Born Soundtrack (Without Dialogue)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b5d4b4ed17ec86c4b3944af2",
-        "url": "https://open.spotify.com/track/2rbDhOo9Fh61Bbu23T2qCk",
-        "playedAt": "2026-10-08T12:58:55.177Z"
+        "name": "You Will Be Found",
+        "artists": "Ben Platt, Kristolyn Lloyd, Will Roland, Laura Dreyfuss, Original Broadway Cast of Dear Evan Hansen",
+        "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eefa3ed06dec22db89d0e793",
+        "url": "https://open.spotify.com/track/1H7Zqkq54andtaSSnLRrfp",
+        "playedAt": "2026-10-08T22:07:37.467Z"
       },
       {
-        "name": "Fake Plastic Trees",
-        "artists": "Radiohead",
-        "album": "The Bends",
-        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
-        "url": "https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F",
-        "playedAt": "2026-10-08T12:55:24.025Z"
+        "name": "The Story of Tonight",
+        "artists": "Lin-Manuel Miranda, Okieriete Onaodowan, Daveed Diggs, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/0NJWhm3hUwIZSy5s0TGJ8q",
+        "playedAt": "2026-10-08T22:01:23.580Z"
       },
       {
-        "name": "Iris",
-        "artists": "The Goo Goo Dolls",
-        "album": "Dizzy up the Girl",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
-        "playedAt": "2026-10-08T12:50:27.760Z"
+        "name": "My Shot",
+        "artists": "Lin-Manuel Miranda, Daveed Diggs, Okieriete Onaodowan, Leslie Odom Jr., Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/4cxvludVmQxryrnx1m9FqL",
+        "playedAt": "2026-10-08T21:59:51.612Z"
       },
       {
-        "name": "Surrender",
-        "artists": "Cheap Trick",
-        "album": "Heaven Tonight",
-        "art": "https://i.scdn.co/image/ab67616d00001e02661e6ba2981201a3e36a46f6",
-        "url": "https://open.spotify.com/track/2ccUQnjjNWT0rsNnsBpsCA",
-        "playedAt": "2026-10-08T12:21:38.424Z"
+        "name": "Aaron Burr, Sir",
+        "artists": "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/6dr7ekfhlbquvsVY8D7gyk",
+        "playedAt": "2026-10-08T21:54:18.397Z"
       },
       {
-        "name": "Burning Heart - From \"Rocky IV\" Soundtrack",
-        "artists": "Survivor",
-        "album": "Survivor Greatest Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e024ea1fd36ef7d78214011371c",
-        "url": "https://open.spotify.com/track/2VN7uPrbryJ7nE2MXX3f9a",
-        "playedAt": "2026-10-08T12:17:21.975Z"
+        "name": "Alexander Hamilton",
+        "artists": "Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson, Original Broadway Cast of Hamilton",
+        "album": "Hamilton (Original Broadway Cast Recording)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
+        "url": "https://open.spotify.com/track/4TTV7EcfroSLWzXRY6gLv6",
+        "playedAt": "2026-10-08T21:51:41.810Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "Indie Pop",
-      "Classical"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
