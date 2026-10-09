@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-09T01:42:39.103Z",
+  "updatedAt": "2026-10-09T08:25:44.250Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Immigrants (We Get The Job Done)",
+        "artists": "K'NAAN, Snow Tha Product, Riz Ahmed, Residente",
+        "album": "The Hamilton Mixtape",
+        "art": "https://i.scdn.co/image/ab67616d00001e021025ac991316d6cbac978373",
+        "url": "https://open.spotify.com/track/0bPREZOF43e3EIu0zdfLBp",
+        "playedAt": "2026-10-08T22:24:39.949Z"
+      },
       {
         "name": "First Burn",
         "artists": "Ari Afsar, Julia Harriman, Lexi Lawson, Rachelle Ann Go, Shoba Narayan",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
         "url": "https://open.spotify.com/track/6dr7ekfhlbquvsVY8D7gyk",
         "playedAt": "2026-10-08T21:54:18.397Z"
-      },
-      {
-        "name": "Alexander Hamilton",
-        "artists": "Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan, Lin-Manuel Miranda, Phillipa Soo, Christopher Jackson, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/4TTV7EcfroSLWzXRY6gLv6",
-        "playedAt": "2026-10-08T21:51:41.810Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Soundtrack"
+      "Rock",
+      "Pop Rock",
+      "Indie Pop",
+      "Classical"
     ]
   },
   "letterboxd": {
