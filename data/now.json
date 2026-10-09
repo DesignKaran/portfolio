@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-10-09T08:25:44.250Z",
+  "updatedAt": "2026-10-09T15:28:18.428Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Stairway to Heaven - Remaster",
+        "artists": "Led Zeppelin",
+        "album": "Led Zeppelin IV (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69",
+        "url": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc",
+        "playedAt": "2026-10-09T12:39:08.210Z"
+      },
+      {
+        "name": "Shallow",
+        "artists": "Lady Gaga, Bradley Cooper",
+        "album": "A Star Is Born Soundtrack",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e2d156fdc691f57900134342",
+        "url": "https://open.spotify.com/track/2VxeLyX666F8uXCJ0dZF8B",
+        "playedAt": "2026-10-09T12:31:04.900Z"
+      },
+      {
+        "name": "Somewhere Only We Know",
+        "artists": "Keane",
+        "album": "Hopes And Fears",
+        "art": "https://i.scdn.co/image/ab67616d00001e02045d0a38105fbe7bde43c490",
+        "url": "https://open.spotify.com/track/0ll8uFnc0nANY35E0Lfxvg",
+        "playedAt": "2026-10-09T12:27:28.686Z"
+      },
+      {
+        "name": "Higher",
+        "artists": "Creed",
+        "album": "Human Clay",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f8f048a5f4749c970078a4fb",
+        "url": "https://open.spotify.com/track/1ZozJfi8u9cO2Ob8KwiwNT",
+        "playedAt": "2026-10-09T12:19:48.204Z"
+      },
+      {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+        "playedAt": "2026-10-09T12:14:30.986Z"
+      },
+      {
+        "name": "No John Trumbull - Intro",
+        "artists": "The Roots",
+        "album": "The Hamilton Mixtape",
+        "art": "https://i.scdn.co/image/ab67616d00001e021025ac991316d6cbac978373",
+        "url": "https://open.spotify.com/track/2XxeRadxMDJQX8R9wOKR61",
+        "playedAt": "2026-10-09T12:09:35.586Z"
+      },
       {
         "name": "Immigrants (We Get The Job Done)",
         "artists": "K'NAAN, Snow Tha Product, Riz Ahmed, Residente",
@@ -18,70 +66,22 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0299ca4934c07dd1f4e0e64204",
         "url": "https://open.spotify.com/track/1A2gifkaEngunqZAFHUS0j",
         "playedAt": "2026-10-08T22:17:14.813Z"
-      },
-      {
-        "name": "Congratulations",
-        "artists": "Dessa",
-        "album": "The Hamilton Mixtape",
-        "art": "https://i.scdn.co/image/ab67616d00001e021025ac991316d6cbac978373",
-        "url": "https://open.spotify.com/track/5za2K5XXuEaFWps6pYdo2y",
-        "playedAt": "2026-10-08T22:14:10.979Z"
-      },
-      {
-        "name": "Found/Tonight",
-        "artists": "Ben Platt, Lin-Manuel Miranda",
-        "album": "Found/Tonight",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b44db9897c23fe9f4bab505c",
-        "url": "https://open.spotify.com/track/0ileL1L3Vtpf5VZ5RQZ94m",
-        "playedAt": "2026-10-08T22:11:19.007Z"
-      },
-      {
-        "name": "You Will Be Found",
-        "artists": "Ben Platt, Kristolyn Lloyd, Will Roland, Laura Dreyfuss, Original Broadway Cast of Dear Evan Hansen",
-        "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eefa3ed06dec22db89d0e793",
-        "url": "https://open.spotify.com/track/1H7Zqkq54andtaSSnLRrfp",
-        "playedAt": "2026-10-08T22:07:37.467Z"
-      },
-      {
-        "name": "The Story of Tonight",
-        "artists": "Lin-Manuel Miranda, Okieriete Onaodowan, Daveed Diggs, Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/0NJWhm3hUwIZSy5s0TGJ8q",
-        "playedAt": "2026-10-08T22:01:23.580Z"
-      },
-      {
-        "name": "My Shot",
-        "artists": "Lin-Manuel Miranda, Daveed Diggs, Okieriete Onaodowan, Leslie Odom Jr., Original Broadway Cast of Hamilton",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/4cxvludVmQxryrnx1m9FqL",
-        "playedAt": "2026-10-08T21:59:51.612Z"
-      },
-      {
-        "name": "Aaron Burr, Sir",
-        "artists": "Lin-Manuel Miranda, Leslie Odom Jr., Daveed Diggs, Okieriete Onaodowan",
-        "album": "Hamilton (Original Broadway Cast Recording)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d72fb5571087bca0a2fed008",
-        "url": "https://open.spotify.com/track/6dr7ekfhlbquvsVY8D7gyk",
-        "playedAt": "2026-10-08T21:54:18.397Z"
       }
     ],
     "top": [
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
-      },
       {
         "name": "You'll Be Back",
         "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
         "album": "Rise Up! Hamilton: The Anthology",
         "art": "https://i.scdn.co/image/ab67616d00001e02a8f84a8362feeb69d7c1cb21",
         "url": "https://open.spotify.com/track/2P9pII37uT0IktcGOCNCfE"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
         "name": "Boston",
@@ -105,6 +105,13 @@
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
       },
       {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
+      },
+      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -117,13 +124,6 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
-      },
-      {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
       }
     ],
     "genres": [
