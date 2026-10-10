@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T17:37:27.101Z",
+  "updatedAt": "2026-10-10T21:06:00.742Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -9,7 +9,7 @@
         "album": "In Your Honor",
         "art": "https://i.scdn.co/image/ab67616d00001e0250d3fff0dc3d9b55f164d8d6",
         "url": "https://open.spotify.com/track/5FZxsHWIvUsmSK1IAvm2pp",
-        "playedAt": "2026-10-10T16:20:49.010Z"
+        "playedAt": "2026-10-10T18:11:13.747Z"
       },
       {
         "name": "Holiday",
@@ -77,13 +77,6 @@
         "url": "https://open.spotify.com/track/2P9pII37uT0IktcGOCNCfE"
       },
       {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
-      },
-      {
         "name": "Boston",
         "artists": "STELLA LEFTY",
         "album": "Long Way Home",
@@ -96,6 +89,13 @@
         "album": "Man I Need",
         "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
         "name": "Let Alone The One You Love",
