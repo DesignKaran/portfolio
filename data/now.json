@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-09T20:16:00.646Z",
+  "updatedAt": "2026-10-10T00:11:48.749Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "My Best Friend's Girl",
-        "artists": "The Cars",
-        "album": "The Cars",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f725bc7907dcf15aa2c6e7b7",
-        "url": "https://open.spotify.com/track/1SRkKyJ2JjMZgyDWC30zKv",
-        "playedAt": "2026-10-09T19:17:09.875Z"
+        "name": "Boston",
+        "artists": "STELLA LEFTY",
+        "album": "Long Way Home",
+        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
+        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv",
+        "playedAt": "2026-10-09T23:12:30.744Z"
       },
       {
-        "name": "Tainted Love",
-        "artists": "Soft Cell",
-        "album": "Non-Stop Erotic Cabaret",
-        "art": "https://i.scdn.co/image/ab67616d00001e02db5f42a5cd45458926cab59d",
-        "url": "https://open.spotify.com/track/58E1XVmZTODC67YNjneuXM",
-        "playedAt": "2026-10-09T19:13:26.077Z"
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-10-09T23:09:40.069Z"
       },
       {
-        "name": "the cure",
+        "name": "Material Lover - from The Devil Wears Prada 2 Original Motion Picture",
+        "artists": "SIENNA SPIRO",
+        "album": "Visitor (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0231990a335ce5d02dc159e5c4",
+        "url": "https://open.spotify.com/track/2aQcGu5C6qFcicPsaywTEK",
+        "playedAt": "2026-10-09T23:05:31.383Z"
+      },
+      {
+        "name": "Good Reason",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/11GUkH18CKNFLKCHORkceJ",
+        "playedAt": "2026-10-09T23:02:33.498Z"
+      },
+      {
+        "name": "honeybee",
         "artists": "Olivia Rodrigo",
         "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/55pBIZO1cqoldeqpp5WR7H",
-        "playedAt": "2026-10-09T19:07:28.799Z"
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
+        "playedAt": "2026-10-09T22:58:25.568Z"
       },
       {
-        "name": "I've Seen It",
+        "name": "My Body Isn't Ready",
+        "artists": "sombr",
+        "album": "My Body Isn't Ready",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
+        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
+        "playedAt": "2026-10-09T22:54:42.699Z"
+      },
+      {
+        "name": "A Couple Minutes - A COLORS SHOW",
+        "artists": "Olivia Dean, COLORS",
+        "album": "A Couple Minutes - A COLORS SHOW",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e73d9d6037c9c6c7e8b3f438",
+        "url": "https://open.spotify.com/track/1WiHuDPI9vNkicCNg9Tkbu",
+        "playedAt": "2026-10-09T22:51:05.499Z"
+      },
+      {
+        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
         "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-10-09T19:06:28.377Z"
-      },
-      {
-        "name": "Stairway to Heaven - Remaster",
-        "artists": "Led Zeppelin",
-        "album": "Led Zeppelin IV (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8a11e48c91a982d086afc69",
-        "url": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc",
-        "playedAt": "2026-10-09T19:04:12.821Z"
-      },
-      {
-        "name": "Like a Stone",
-        "artists": "Audioslave",
-        "album": "Audioslave",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a7292b6863258e889b78d787",
-        "url": "https://open.spotify.com/track/3YuaBvuZqcwN3CEAyyoaei",
-        "playedAt": "2026-10-09T18:59:41.561Z"
-      },
-      {
-        "name": "Shallow",
-        "artists": "Lady Gaga, Bradley Cooper",
-        "album": "A Star Is Born Soundtrack",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e2d156fdc691f57900134342",
-        "url": "https://open.spotify.com/track/2VxeLyX666F8uXCJ0dZF8B",
-        "playedAt": "2026-10-09T12:31:04.900Z"
-      },
-      {
-        "name": "Somewhere Only We Know",
-        "artists": "Keane",
-        "album": "Hopes And Fears",
-        "art": "https://i.scdn.co/image/ab67616d00001e02045d0a38105fbe7bde43c490",
-        "url": "https://open.spotify.com/track/0ll8uFnc0nANY35E0Lfxvg",
-        "playedAt": "2026-10-09T12:27:28.686Z"
+        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
+        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
+        "playedAt": "2026-10-09T22:47:32.628Z"
       }
     ],
     "top": [
