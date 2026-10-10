@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-10T00:11:48.749Z",
+  "updatedAt": "2026-10-10T06:11:01.327Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Relaxing Music for Stress",
+        "artists": "Spa Music, Meditation Music, Relaxing Music for Stress Relief, Benjamin Shadows",
+        "album": "Ocean Waves Relaxation: Spa Music For Massage Therapy, Yoga and Meditation, Background Meditation Music, Relaxing Music For Stress, Healing and Wellness",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b53d6031c40dece2b4bd3507",
+        "url": "https://open.spotify.com/track/4BTN27fA0yfkGF635gXM6V",
+        "playedAt": "2026-10-10T05:15:50.084Z"
+      },
+      {
+        "name": "Dive",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
+        "playedAt": "2026-10-10T00:15:33.763Z"
+      },
       {
         "name": "Boston",
         "artists": "STELLA LEFTY",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
         "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
         "playedAt": "2026-10-09T22:54:42.699Z"
-      },
-      {
-        "name": "A Couple Minutes - A COLORS SHOW",
-        "artists": "Olivia Dean, COLORS",
-        "album": "A Couple Minutes - A COLORS SHOW",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e73d9d6037c9c6c7e8b3f438",
-        "url": "https://open.spotify.com/track/1WiHuDPI9vNkicCNg9Tkbu",
-        "playedAt": "2026-10-09T22:51:05.499Z"
-      },
-      {
-        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
-        "artists": "Olivia Dean",
-        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
-        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
-        "playedAt": "2026-10-09T22:47:32.628Z"
       }
     ],
     "top": [
