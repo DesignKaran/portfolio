@@ -1,55 +1,39 @@
 {
-  "updatedAt": "2026-10-13T08:02:50.784Z",
+  "updatedAt": "2026-10-13T16:13:13.836Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Californication",
-        "artists": "Red Hot Chili Peppers",
-        "album": "Californication (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0294d08ab63e57b0cae74e8595",
-        "url": "https://open.spotify.com/track/48UPSzbZjgc449aqz8bxox",
-        "playedAt": "2026-10-13T02:43:13.302Z"
+        "name": "Sparks",
+        "artists": "Coldplay",
+        "album": "Parachutes",
+        "art": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a",
+        "url": "https://open.spotify.com/track/7D0RhFcb3CrfPuTJ0obrod",
+        "playedAt": "2026-10-13T15:58:01.214Z"
       },
       {
-        "name": "No Surprises",
-        "artists": "Radiohead",
-        "album": "OK Computer",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
-        "url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
-        "playedAt": "2026-10-12T23:30:08.294Z"
+        "name": "When You Were Young",
+        "artists": "The Killers",
+        "album": "Sam's Town",
+        "art": "https://i.scdn.co/image/ab67616d00001e024f87f14089217e3f70a5f39e",
+        "url": "https://open.spotify.com/track/70wYA8oYHoMzhRRkARoMhU",
+        "playedAt": "2026-10-13T14:56:36.053Z"
       },
       {
-        "name": "I'm Just a Kid",
-        "artists": "Simple Plan",
-        "album": "No Pads, No Helmets...Just Balls (15th Anniversary Tour Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fbee462a3aa4e7ea05e07aa5",
-        "url": "https://open.spotify.com/track/6otiaV2fagE3s8IvP6WkwG",
-        "playedAt": "2026-10-10T23:22:12.373Z"
+        "name": "Linger - Remastered 2026",
+        "artists": "The Cranberries",
+        "album": "Everybody Else Is Doing It, So Why Can't We? (Remastered 2026)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
+        "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
+        "playedAt": "2026-10-13T14:28:04.360Z"
       },
       {
-        "name": "Best of You",
-        "artists": "Foo Fighters",
-        "album": "In Your Honor",
-        "art": "https://i.scdn.co/image/ab67616d00001e0250d3fff0dc3d9b55f164d8d6",
-        "url": "https://open.spotify.com/track/5FZxsHWIvUsmSK1IAvm2pp",
-        "playedAt": "2026-10-10T18:11:13.747Z"
-      },
-      {
-        "name": "Holiday",
-        "artists": "Green Day",
-        "album": "American Idiot (20th Anniversary Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e020436e7b2f1dc434862bb8354",
-        "url": "https://open.spotify.com/track/0lvhEsN1zkMzfp2M1o17yy",
-        "playedAt": "2026-10-10T16:12:19.112Z"
-      },
-      {
-        "name": "Vienna",
-        "artists": "Billy Joel",
-        "album": "The Stranger (Legacy Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
-        "playedAt": "2026-10-10T16:08:25.304Z"
+        "name": "Wonderwall - Remastered",
+        "artists": "Oasis",
+        "album": "(What's The Story) Morning Glory? (Deluxe Remastered Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e027a4c8c59851c88f6794c3cbf",
+        "url": "https://open.spotify.com/track/7ygpwy2qP3NbrxVkHvUhXY",
+        "playedAt": "2026-10-13T14:23:28.786Z"
       },
       {
         "name": "Wish You Were Here",
@@ -57,15 +41,31 @@
         "album": "Wish You Were Here",
         "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
         "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
-        "playedAt": "2026-10-10T16:04:50.557Z"
+        "playedAt": "2026-10-13T14:19:09.313Z"
       },
       {
-        "name": "The Chain - 2004 Remaster",
-        "artists": "Fleetwood Mac",
-        "album": "Rumours (Super Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b",
-        "url": "https://open.spotify.com/track/5e9TFTbltYBg2xThimr0rU",
-        "playedAt": "2026-10-10T15:59:10.884Z"
+        "name": "High and Dry",
+        "artists": "Radiohead",
+        "album": "The Bends",
+        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+        "url": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
+        "playedAt": "2026-10-13T14:13:29.904Z"
+      },
+      {
+        "name": "Every Breath You Take",
+        "artists": "The Police",
+        "album": "Synchronicity (Remastered 2003)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8e97cafeb2acb85b21a777e",
+        "url": "https://open.spotify.com/track/1JSTJqkT5qHq8MDJnJbRE1",
+        "playedAt": "2026-10-13T14:09:11.602Z"
+      },
+      {
+        "name": "Good Riddance (Time of Your Life)",
+        "artists": "Green Day",
+        "album": "Nimrod",
+        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
+        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
+        "playedAt": "2026-10-13T14:04:56.866Z"
       }
     ],
     "top": [
