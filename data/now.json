@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-13T01:05:18.256Z",
+  "updatedAt": "2026-10-13T08:02:50.784Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Californication",
+        "artists": "Red Hot Chili Peppers",
+        "album": "Californication (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0294d08ab63e57b0cae74e8595",
+        "url": "https://open.spotify.com/track/48UPSzbZjgc449aqz8bxox",
+        "playedAt": "2026-10-13T02:43:13.302Z"
+      },
       {
         "name": "No Surprises",
         "artists": "Radiohead",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b",
         "url": "https://open.spotify.com/track/5e9TFTbltYBg2xThimr0rU",
         "playedAt": "2026-10-10T15:59:10.884Z"
-      },
-      {
-        "name": "Relaxing Music for Stress",
-        "artists": "Spa Music, Meditation Music, Relaxing Music for Stress Relief, Benjamin Shadows",
-        "album": "Ocean Waves Relaxation: Spa Music For Massage Therapy, Yoga and Meditation, Background Meditation Music, Relaxing Music For Stress, Healing and Wellness",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b53d6031c40dece2b4bd3507",
-        "url": "https://open.spotify.com/track/4BTN27fA0yfkGF635gXM6V",
-        "playedAt": "2026-10-10T05:15:50.084Z"
       }
     ],
     "top": [
