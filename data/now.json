@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-10-13T16:13:13.836Z",
+  "updatedAt": "2026-10-13T21:24:02.759Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "All The Small Things",
+        "artists": "blink-182",
+        "album": "Enema Of The State",
+        "art": "https://i.scdn.co/image/ab67616d00001e026da502e35a7a3e48de2b0f74",
+        "url": "https://open.spotify.com/track/2m1hi0nfMR9vdGC8UcrnwU",
+        "playedAt": "2026-10-13T19:15:20.167Z"
+      },
+      {
+        "name": "Basket Case",
+        "artists": "Green Day",
+        "album": "Dookie",
+        "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
+        "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
+        "playedAt": "2026-10-13T18:12:53.282Z"
+      },
+      {
+        "name": "One Last Breath",
+        "artists": "Creed",
+        "album": "Weathered",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a32f2ae4dade83e0d7a294f4",
+        "url": "https://open.spotify.com/track/42T2QQv3xgBlpQxaSP7lnK",
+        "playedAt": "2026-10-13T18:09:50.956Z"
+      },
+      {
+        "name": "Chop Suey!",
+        "artists": "System Of A Down",
+        "album": "Toxicity",
+        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
+        "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
+        "playedAt": "2026-10-13T18:05:51.850Z"
+      },
       {
         "name": "Sparks",
         "artists": "Coldplay",
@@ -34,54 +66,22 @@
         "art": "https://i.scdn.co/image/ab67616d00001e027a4c8c59851c88f6794c3cbf",
         "url": "https://open.spotify.com/track/7ygpwy2qP3NbrxVkHvUhXY",
         "playedAt": "2026-10-13T14:23:28.786Z"
-      },
-      {
-        "name": "Wish You Were Here",
-        "artists": "Pink Floyd",
-        "album": "Wish You Were Here",
-        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
-        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
-        "playedAt": "2026-10-13T14:19:09.313Z"
-      },
-      {
-        "name": "High and Dry",
-        "artists": "Radiohead",
-        "album": "The Bends",
-        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
-        "url": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
-        "playedAt": "2026-10-13T14:13:29.904Z"
-      },
-      {
-        "name": "Every Breath You Take",
-        "artists": "The Police",
-        "album": "Synchronicity (Remastered 2003)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8e97cafeb2acb85b21a777e",
-        "url": "https://open.spotify.com/track/1JSTJqkT5qHq8MDJnJbRE1",
-        "playedAt": "2026-10-13T14:09:11.602Z"
-      },
-      {
-        "name": "Good Riddance (Time of Your Life)",
-        "artists": "Green Day",
-        "album": "Nimrod",
-        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
-        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
-        "playedAt": "2026-10-13T14:04:56.866Z"
       }
     ],
     "top": [
-      {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Rise Up! Hamilton: The Anthology",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a8f84a8362feeb69d7c1cb21",
-        "url": "https://open.spotify.com/track/2P9pII37uT0IktcGOCNCfE"
-      },
       {
         "name": "Boston",
         "artists": "STELLA LEFTY",
         "album": "Long Way Home",
         "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
         "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
+      },
+      {
+        "name": "You'll Be Back",
+        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
+        "album": "Rise Up! Hamilton: The Anthology",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a8f84a8362feeb69d7c1cb21",
+        "url": "https://open.spotify.com/track/2P9pII37uT0IktcGOCNCfE"
       },
       {
         "name": "Coming Up Roses",
