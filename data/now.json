@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-13T21:24:02.759Z",
+  "updatedAt": "2026-10-14T05:13:45.169Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Good Riddance (Time of Your Life)",
+        "artists": "Green Day",
+        "album": "Nimrod",
+        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
+        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
+        "playedAt": "2026-10-14T01:00:26.115Z"
+      },
       {
         "name": "All The Small Things",
         "artists": "blink-182",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02753dbf92830094154a21b193",
         "url": "https://open.spotify.com/track/1WYrTfvKjQYaYfVziGG1ET",
         "playedAt": "2026-10-13T14:28:04.360Z"
-      },
-      {
-        "name": "Wonderwall - Remastered",
-        "artists": "Oasis",
-        "album": "(What's The Story) Morning Glory? (Deluxe Remastered Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e027a4c8c59851c88f6794c3cbf",
-        "url": "https://open.spotify.com/track/7ygpwy2qP3NbrxVkHvUhXY",
-        "playedAt": "2026-10-13T14:23:28.786Z"
       }
     ],
     "top": [
@@ -77,25 +77,11 @@
         "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
       },
       {
-        "name": "You'll Be Back",
-        "artists": "Jonathan Groff, Original Broadway Cast of Hamilton",
-        "album": "Rise Up! Hamilton: The Anthology",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a8f84a8362feeb69d7c1cb21",
-        "url": "https://open.spotify.com/track/2P9pII37uT0IktcGOCNCfE"
-      },
-      {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
         "name": "Iris",
@@ -105,13 +91,6 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
-      },
-      {
         "name": "big feelings",
         "artists": "Ariana Grande",
         "album": "petal",
@@ -119,11 +98,32 @@
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
       },
       {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+      },
+      {
         "name": "hate that i made you love me",
         "artists": "Ariana Grande",
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
+      },
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "petal",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
       }
     ],
     "genres": [
