@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-10-14T10:25:18.267Z",
+  "updatedAt": "2026-10-14T15:20:14.417Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Put Your Records On",
+        "artists": "Corinne Bailey Rae",
+        "album": "Corinne Bailey Rae",
+        "art": "https://i.scdn.co/image/ab67616d00001e021ec9b096319afbcc2dca6879",
+        "url": "https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx",
+        "playedAt": "2026-10-14T12:41:02.398Z"
+      },
+      {
+        "name": "Die On This Hill",
+        "artists": "SIENNA SPIRO",
+        "album": "Visitor",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b09eea420767969b6729962b",
+        "url": "https://open.spotify.com/track/7gkZNvBHfI30qG7hA0eopT",
+        "playedAt": "2026-10-14T12:37:26.543Z"
+      },
+      {
+        "name": "Close Up",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-10-14T12:33:48.970Z"
+      },
+      {
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-10-14T12:30:33.477Z"
+      },
+      {
+        "name": "what’s wrong with me",
+        "artists": "Olivia Rodrigo, Robert Smith",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/2e3YJ6Hm8tR5L5Zy8HzOtv",
+        "playedAt": "2026-10-14T12:27:06.152Z"
+      },
+      {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
+        "playedAt": "2026-10-14T12:23:20.754Z"
+      },
       {
         "name": "Everybody's Changing",
         "artists": "Keane",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
         "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
         "playedAt": "2026-10-14T01:00:26.115Z"
-      },
-      {
-        "name": "All The Small Things",
-        "artists": "blink-182",
-        "album": "Enema Of The State",
-        "art": "https://i.scdn.co/image/ab67616d00001e026da502e35a7a3e48de2b0f74",
-        "url": "https://open.spotify.com/track/2m1hi0nfMR9vdGC8UcrnwU",
-        "playedAt": "2026-10-13T19:15:20.167Z"
-      },
-      {
-        "name": "Basket Case",
-        "artists": "Green Day",
-        "album": "Dookie",
-        "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
-        "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
-        "playedAt": "2026-10-13T18:12:53.282Z"
-      },
-      {
-        "name": "One Last Breath",
-        "artists": "Creed",
-        "album": "Weathered",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a32f2ae4dade83e0d7a294f4",
-        "url": "https://open.spotify.com/track/42T2QQv3xgBlpQxaSP7lnK",
-        "playedAt": "2026-10-13T18:09:50.956Z"
-      },
-      {
-        "name": "Chop Suey!",
-        "artists": "System Of A Down",
-        "album": "Toxicity",
-        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
-        "url": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN",
-        "playedAt": "2026-10-13T18:05:51.850Z"
-      },
-      {
-        "name": "Sparks",
-        "artists": "Coldplay",
-        "album": "Parachutes",
-        "art": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a",
-        "url": "https://open.spotify.com/track/7D0RhFcb3CrfPuTJ0obrod",
-        "playedAt": "2026-10-13T15:58:01.214Z"
-      },
-      {
-        "name": "When You Were Young",
-        "artists": "The Killers",
-        "album": "Sam's Town",
-        "art": "https://i.scdn.co/image/ab67616d00001e024f87f14089217e3f70a5f39e",
-        "url": "https://open.spotify.com/track/70wYA8oYHoMzhRRkARoMhU",
-        "playedAt": "2026-10-13T14:56:36.053Z"
       }
     ],
     "top": [
