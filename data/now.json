@@ -1,31 +1,39 @@
 {
-  "updatedAt": "2026-10-14T15:20:14.417Z",
+  "updatedAt": "2026-10-14T22:57:20.807Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Put Your Records On",
-        "artists": "Corinne Bailey Rae",
-        "album": "Corinne Bailey Rae",
-        "art": "https://i.scdn.co/image/ab67616d00001e021ec9b096319afbcc2dca6879",
-        "url": "https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx",
-        "playedAt": "2026-10-14T12:41:02.398Z"
+        "name": "purple",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/5Ndn1irZG8l6xpcLMGeNvc",
+        "playedAt": "2026-10-14T21:24:13.606Z"
       },
       {
-        "name": "Die On This Hill",
-        "artists": "SIENNA SPIRO",
-        "album": "Visitor",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b09eea420767969b6729962b",
-        "url": "https://open.spotify.com/track/7gkZNvBHfI30qG7hA0eopT",
-        "playedAt": "2026-10-14T12:37:26.543Z"
-      },
-      {
-        "name": "Close Up",
+        "name": "Baby Steps",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-10-14T12:33:48.970Z"
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
+        "playedAt": "2026-10-14T21:20:12.904Z"
+      },
+      {
+        "name": "The Man Who Can't Be Moved",
+        "artists": "The Script",
+        "album": "The Script",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f33a9f529c12f79b116eb218",
+        "url": "https://open.spotify.com/track/3nqqDo8CcCLke3ZoTgiOKf",
+        "playedAt": "2026-10-14T21:16:55.403Z"
+      },
+      {
+        "name": "Supercut",
+        "artists": "Lorde",
+        "album": "Melodrama",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f8553e18a11209d4becd0336",
+        "url": "https://open.spotify.com/track/6K8VQ84MqhsoakN5MjrnVR",
+        "playedAt": "2026-10-14T21:12:53.604Z"
       },
       {
         "name": "Ain't Got Nothing On You",
@@ -33,39 +41,31 @@
         "album": "Leon",
         "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
         "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-10-14T12:30:33.477Z"
+        "playedAt": "2026-10-14T21:08:14.825Z"
       },
       {
-        "name": "what’s wrong with me",
-        "artists": "Olivia Rodrigo, Robert Smith",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/2e3YJ6Hm8tR5L5Zy8HzOtv",
-        "playedAt": "2026-10-14T12:27:06.152Z"
-      },
-      {
-        "name": "Ok Love You Bye",
+        "name": "Close Up",
         "artists": "Olivia Dean",
-        "album": "Ok Love You Bye",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
-        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
-        "playedAt": "2026-10-14T12:23:20.754Z"
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-10-14T21:04:47.435Z"
       },
       {
-        "name": "Everybody's Changing",
-        "artists": "Keane",
-        "album": "Hopes And Fears",
-        "art": "https://i.scdn.co/image/ab67616d00001e02045d0a38105fbe7bde43c490",
-        "url": "https://open.spotify.com/track/5hkdfA87RZvNaxl6XiveOA",
-        "playedAt": "2026-10-14T01:16:14.464Z"
+        "name": "Never Getting Laid",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
+        "playedAt": "2026-10-14T21:01:31.930Z"
       },
       {
-        "name": "Good Riddance (Time of Your Life)",
-        "artists": "Green Day",
-        "album": "Nimrod",
-        "art": "https://i.scdn.co/image/ab67616d00001e02da4f6706ae0f2501c61ce776",
-        "url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
-        "playedAt": "2026-10-14T01:00:26.115Z"
+        "name": "Draw You Out - From The Hunger Games: Sunrise on the Reaping - The Album",
+        "artists": "Noah Kahan, The Hunger Games",
+        "album": "Draw You Out",
+        "art": "https://i.scdn.co/image/ab67616d00001e02ff163890a7e96a400bc40b8a",
+        "url": "https://open.spotify.com/track/5KTcGJKm4HgLhLt8Tc7EQ5",
+        "playedAt": "2026-10-14T20:57:50.538Z"
       }
     ],
     "top": [
