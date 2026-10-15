@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-10-14T22:57:20.807Z",
+  "updatedAt": "2026-10-15T16:14:24.293Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "death wish",
+        "artists": "Lyn Lapid",
+        "album": "BUZZKILL",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
+        "url": "https://open.spotify.com/track/2SUQxOCKTz7EzmQfEdi0xP",
+        "playedAt": "2026-10-15T12:57:30.914Z"
+      },
+      {
+        "name": "Starlight",
+        "artists": "Muse",
+        "album": "Black Holes and Revelations",
+        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
+        "playedAt": "2026-10-15T12:54:39.810Z"
+      },
+      {
+        "name": "Id",
+        "artists": "keshi",
+        "album": "Requiem (Bonus Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e052795a0ca6720da64f54a0",
+        "url": "https://open.spotify.com/track/1evDNEM27PS4z2Sep1Bhhf",
+        "playedAt": "2026-10-15T12:50:39.103Z"
+      },
+      {
+        "name": "Sleep On The Floor",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
+        "playedAt": "2026-10-15T12:47:21.448Z"
+      },
+      {
+        "name": "So I'm Growing Old on Magic Mountain",
+        "artists": "Father John Misty",
+        "album": "Pure Comedy",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
+        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
+        "playedAt": "2026-10-15T12:43:49.106Z"
+      },
+      {
+        "name": "Valerie (feat. Amy Winehouse) - Version Revisited",
+        "artists": "Mark Ronson, Amy Winehouse",
+        "album": "Version",
+        "art": "https://i.scdn.co/image/ab67616d00001e026a5beb0500ad6e3b0f7aea22",
+        "url": "https://open.spotify.com/track/6kopmMZiyLmw7h66uXcXR7",
+        "playedAt": "2026-10-15T00:30:20.271Z"
+      },
       {
         "name": "purple",
         "artists": "Olivia Rodrigo",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
         "playedAt": "2026-10-14T21:20:12.904Z"
-      },
-      {
-        "name": "The Man Who Can't Be Moved",
-        "artists": "The Script",
-        "album": "The Script",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f33a9f529c12f79b116eb218",
-        "url": "https://open.spotify.com/track/3nqqDo8CcCLke3ZoTgiOKf",
-        "playedAt": "2026-10-14T21:16:55.403Z"
-      },
-      {
-        "name": "Supercut",
-        "artists": "Lorde",
-        "album": "Melodrama",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f8553e18a11209d4becd0336",
-        "url": "https://open.spotify.com/track/6K8VQ84MqhsoakN5MjrnVR",
-        "playedAt": "2026-10-14T21:12:53.604Z"
-      },
-      {
-        "name": "Ain't Got Nothing On You",
-        "artists": "Leon Bridges",
-        "album": "Leon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
-        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-10-14T21:08:14.825Z"
-      },
-      {
-        "name": "Close Up",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-10-14T21:04:47.435Z"
-      },
-      {
-        "name": "Never Getting Laid",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/1PdUyYYw9sGU0yhLrpeHKt",
-        "playedAt": "2026-10-14T21:01:31.930Z"
-      },
-      {
-        "name": "Draw You Out - From The Hunger Games: Sunrise on the Reaping - The Album",
-        "artists": "Noah Kahan, The Hunger Games",
-        "album": "Draw You Out",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ff163890a7e96a400bc40b8a",
-        "url": "https://open.spotify.com/track/5KTcGJKm4HgLhLt8Tc7EQ5",
-        "playedAt": "2026-10-14T20:57:50.538Z"
       }
     ],
     "top": [
@@ -105,18 +105,18 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
-      },
-      {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
       },
       {
         "name": "petal",
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "Indie Pop",
-      "Classical"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
