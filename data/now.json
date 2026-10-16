@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:56:43.158Z",
+  "updatedAt": "2026-10-16T01:01:21.359Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -77,13 +77,6 @@
         "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
       },
       {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
-      },
-      {
         "name": "Iris",
         "artists": "The Goo Goo Dolls",
         "album": "Dizzy up the Girl",
@@ -96,6 +89,13 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
         "name": "Man I Need",
