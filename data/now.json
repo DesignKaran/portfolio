@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-16T16:00:14.422Z",
+  "updatedAt": "2026-10-17T05:17:09.158Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Wake Me Up Before You Go-Go",
+        "artists": "Wham!",
+        "album": "Make It Big",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a2fc41b0dd6ce4f0d16a4c46",
+        "url": "https://open.spotify.com/track/0ikz6tENMONtK6qGkOrU3c",
+        "playedAt": "2026-10-17T01:47:28.002Z"
+      },
       {
         "name": "DIRT ON MY SHOES (feat. Kehlani)",
         "artists": "Leon Thomas, Kehlani",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
         "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
         "playedAt": "2026-10-15T12:43:49.106Z"
-      },
-      {
-        "name": "Valerie (feat. Amy Winehouse) - Version Revisited",
-        "artists": "Mark Ronson, Amy Winehouse",
-        "album": "Version",
-        "art": "https://i.scdn.co/image/ab67616d00001e026a5beb0500ad6e3b0f7aea22",
-        "url": "https://open.spotify.com/track/6kopmMZiyLmw7h66uXcXR7",
-        "playedAt": "2026-10-15T00:30:20.271Z"
       }
     ],
     "top": [
@@ -119,11 +119,11 @@
         "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
       },
       {
-        "name": "petal",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF"
       }
     ],
     "genres": [
