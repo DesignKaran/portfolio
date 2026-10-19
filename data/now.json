@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-18T01:21:12.910Z",
+  "updatedAt": "2026-10-19T18:46:58.863Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "DIRT ON MY SHOES (feat. Kehlani)",
-        "artists": "Leon Thomas, Kehlani",
-        "album": "MUTT Deluxe: HEEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eeb464ea9a23de21dd7aa4c9",
-        "url": "https://open.spotify.com/track/2AA05NFvw5tPQ9pvj68fsY",
-        "playedAt": "2026-10-17T21:25:42.210Z"
-      },
-      {
-        "name": "Wake Me Up Before You Go-Go",
-        "artists": "Wham!",
-        "album": "Make It Big",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a2fc41b0dd6ce4f0d16a4c46",
-        "url": "https://open.spotify.com/track/0ikz6tENMONtK6qGkOrU3c",
-        "playedAt": "2026-10-17T01:47:28.002Z"
-      },
-      {
-        "name": "forecast",
-        "artists": "Lyn Lapid",
-        "album": "BUZZKILL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
-        "url": "https://open.spotify.com/track/2JsBbehfzt6DTUHZbgWDQJ",
-        "playedAt": "2026-10-15T17:08:53.355Z"
-      },
-      {
-        "name": "death wish",
-        "artists": "Lyn Lapid",
-        "album": "BUZZKILL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cbdd752cb56c9630fb7468eb",
-        "url": "https://open.spotify.com/track/2SUQxOCKTz7EzmQfEdi0xP",
-        "playedAt": "2026-10-15T12:57:30.914Z"
-      },
-      {
-        "name": "Starlight",
-        "artists": "Muse",
-        "album": "Black Holes and Revelations",
-        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
-        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
-        "playedAt": "2026-10-15T12:54:39.810Z"
-      },
-      {
-        "name": "Id",
+        "name": "SOMEBODY",
         "artists": "keshi",
-        "album": "Requiem (Bonus Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e052795a0ca6720da64f54a0",
-        "url": "https://open.spotify.com/track/1evDNEM27PS4z2Sep1Bhhf",
-        "playedAt": "2026-10-15T12:50:39.103Z"
+        "album": "GABRIEL",
+        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
+        "url": "https://open.spotify.com/track/3iqlzKw1tLt6tXZyKWV0fZ",
+        "playedAt": "2026-10-19T13:49:09.128Z"
       },
       {
-        "name": "Sleep On The Floor",
+        "name": "Love Affair",
+        "artists": "UMI",
+        "album": "Love Language",
+        "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
+        "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ",
+        "playedAt": "2026-10-19T13:20:36.017Z"
+      },
+      {
+        "name": "Alive x Starbright - Between Broken Live Edit",
+        "artists": "Dabin, RUNN, Trella, MitiS",
+        "album": "Between Broken (Remixes)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02136e8fa0810f65a054b35d8f",
+        "url": "https://open.spotify.com/track/56B2pHbMXoIACrsbkcHPf7",
+        "playedAt": "2026-10-19T13:17:24.517Z"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+        "playedAt": "2026-10-19T13:12:09.703Z"
+      },
+      {
+        "name": "2 soon",
+        "artists": "keshi",
+        "album": "2 soon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
+        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
+        "playedAt": "2026-10-19T13:09:05.205Z"
+      },
+      {
+        "name": "Fake Nice",
+        "artists": "Beach Weather",
+        "album": "Melt",
+        "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
+        "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
+        "playedAt": "2026-10-19T13:05:38.204Z"
+      },
+      {
+        "name": "Stubborn Love",
         "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
-        "playedAt": "2026-10-15T12:47:21.448Z"
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
+        "playedAt": "2026-10-19T13:02:10.604Z"
       },
       {
-        "name": "So I'm Growing Old on Magic Mountain",
-        "artists": "Father John Misty",
-        "album": "Pure Comedy",
-        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
-        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
-        "playedAt": "2026-10-15T12:43:49.106Z"
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
+        "playedAt": "2026-10-19T12:57:25.797Z"
       }
     ],
     "top": [
