@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T12:50:44.245Z",
+  "updatedAt": "2026-10-20T17:45:05.445Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -9,7 +9,7 @@
         "album": "GABRIEL",
         "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
         "url": "https://open.spotify.com/track/3iqlzKw1tLt6tXZyKWV0fZ",
-        "playedAt": "2026-10-19T13:49:09.128Z"
+        "playedAt": "2026-10-20T16:56:24.910Z"
       },
       {
         "name": "Love Affair",
@@ -17,7 +17,7 @@
         "album": "Love Language",
         "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
         "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ",
-        "playedAt": "2026-10-19T13:20:36.017Z"
+        "playedAt": "2026-10-20T16:53:39.414Z"
       },
       {
         "name": "Alive x Starbright - Between Broken Live Edit",
@@ -25,7 +25,7 @@
         "album": "Between Broken (Remixes)",
         "art": "https://i.scdn.co/image/ab67616d00001e02136e8fa0810f65a054b35d8f",
         "url": "https://open.spotify.com/track/56B2pHbMXoIACrsbkcHPf7",
-        "playedAt": "2026-10-19T13:17:24.517Z"
+        "playedAt": "2026-10-20T16:50:27.691Z"
       },
       {
         "name": "Man I Need",
@@ -33,7 +33,7 @@
         "album": "Man I Need",
         "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-        "playedAt": "2026-10-19T13:12:09.703Z"
+        "playedAt": "2026-10-20T16:45:12.556Z"
       },
       {
         "name": "2 soon",
@@ -41,7 +41,7 @@
         "album": "2 soon",
         "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
         "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
-        "playedAt": "2026-10-19T13:09:05.205Z"
+        "playedAt": "2026-10-20T16:42:07.758Z"
       },
       {
         "name": "Fake Nice",
@@ -49,7 +49,7 @@
         "album": "Melt",
         "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
         "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
-        "playedAt": "2026-10-19T13:05:38.204Z"
+        "playedAt": "2026-10-20T16:38:40.476Z"
       },
       {
         "name": "Stubborn Love",
@@ -57,7 +57,7 @@
         "album": "The Lumineers",
         "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
         "url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
-        "playedAt": "2026-10-19T13:02:10.604Z"
+        "playedAt": "2026-10-20T16:35:12.575Z"
       },
       {
         "name": "Leader Of The Landslide",
@@ -84,13 +84,6 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
-        "name": "big feelings",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
-      },
-      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
@@ -98,11 +91,11 @@
         "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi"
+        "name": "big feelings",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
       },
       {
         "name": "hate that i made you love me",
@@ -124,15 +117,22 @@
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx"
+      },
+      {
+        "name": "petal",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
       }
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Indie Pop",
-      "Pop Rock",
-      "Classical"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
