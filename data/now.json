@@ -1,47 +1,31 @@
 {
-  "updatedAt": "2026-10-21T05:07:17.008Z",
+  "updatedAt": "2026-10-21T15:28:37.189Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Chhote Chhote Shivji Chote Chote",
-        "artists": "Niranjan Pandya",
-        "album": "Mara Ghatma Birajta Shri Nathji",
-        "art": "https://i.scdn.co/image/ab67616d00001e022c3e69d2f3090d54a2a248f0",
-        "url": "https://open.spotify.com/track/2D2iVW6Csmd70tqozRggeX",
-        "playedAt": "2026-10-21T00:25:33.073Z"
+        "name": "Malibu Nights",
+        "artists": "LANY",
+        "album": "Malibu Nights",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c4dae9528b2a8408f463eb17",
+        "url": "https://open.spotify.com/track/0Eqg0CQ7bK3RQIMPw1A7pl",
+        "playedAt": "2026-10-21T14:58:38.574Z"
       },
       {
-        "name": "Heavy",
-        "artists": "The Marías",
-        "album": "CINEMA",
-        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
-        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
-        "playedAt": "2026-10-21T00:15:38.430Z"
+        "name": "Strawberries & Cigarettes",
+        "artists": "Troye Sivan",
+        "album": "Strawberries & Cigarettes",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c9eb4c87e1d7f5353908b712",
+        "url": "https://open.spotify.com/track/3afkJSKX0EAMsJXTZnDXXJ",
+        "playedAt": "2026-10-21T14:53:50.829Z"
       },
       {
-        "name": "Vienna",
-        "artists": "Billy Joel",
-        "album": "The Stranger (Legacy Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
-        "playedAt": "2026-10-20T22:03:26.920Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-10-20T21:59:52.142Z"
-      },
-      {
-        "name": "Castle on the Hill",
-        "artists": "Ed Sheeran",
-        "album": "÷ (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
-        "url": "https://open.spotify.com/track/6PCUP3dWmTjcTtXY02oFdT",
-        "playedAt": "2026-10-20T21:56:19.686Z"
+        "name": "Style",
+        "artists": "Taylor Swift",
+        "album": "1989",
+        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
+        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
+        "playedAt": "2026-10-21T14:50:28.573Z"
       },
       {
         "name": "Patience",
@@ -49,23 +33,39 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
-        "playedAt": "2026-10-20T21:51:58.049Z"
+        "playedAt": "2026-10-21T14:46:36.773Z"
       },
       {
-        "name": "Million Dollar Home Run",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/2nbkEofLoPSxPCDhgFS48X",
-        "playedAt": "2026-10-20T21:50:20.443Z"
-      },
-      {
-        "name": "Leader Of The Landslide",
+        "name": "Gloria",
         "artists": "The Lumineers",
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
-        "playedAt": "2026-10-20T21:48:49.147Z"
+        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
+        "playedAt": "2026-10-21T14:44:58.964Z"
+      },
+      {
+        "name": "Angela",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
+        "playedAt": "2026-10-21T14:41:22.087Z"
+      },
+      {
+        "name": "Cleopatra",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc",
+        "playedAt": "2026-10-21T14:37:59.422Z"
+      },
+      {
+        "name": "Andante Con Moto - Strings in E-flat Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/1efzDbtyPSFKxxhvoErxHM",
+        "playedAt": "2026-10-21T14:34:37.238Z"
       }
     ],
     "top": [
@@ -84,13 +84,6 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
-        "name": "big feelings",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
-      },
-      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
@@ -105,13 +98,6 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
-      },
-      {
         "name": "I've Seen It",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -124,6 +110,20 @@
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
+      },
+      {
+        "name": "big feelings",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
       }
     ],
     "genres": [
