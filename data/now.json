@@ -1,71 +1,77 @@
 {
-  "updatedAt": "2026-10-21T19:30:13.069Z",
+  "updatedAt": "2026-10-21T22:38:45.064Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Cleopatra",
+      "artists": "The Lumineers",
+      "album": "Cleopatra",
+      "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+      "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc"
+    },
     "recent": [
       {
-        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
-        "artists": "Metro Boomin, A$AP Rocky, Roisee",
-        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
-        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
-        "playedAt": "2026-10-21T19:26:52.361Z"
+        "name": "Andante Con Moto - Strings in E-flat Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/1efzDbtyPSFKxxhvoErxHM",
+        "playedAt": "2026-10-21T22:37:35.334Z"
       },
       {
-        "name": "Every Summertime",
-        "artists": "NIKI",
-        "album": "Every Summertime",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e81fd3b9a7230db447f38182",
-        "url": "https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro",
-        "playedAt": "2026-10-21T17:00:00.990Z"
+        "name": "All These Things That I've Done",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
+        "playedAt": "2026-10-21T22:35:20.641Z"
       },
       {
-        "name": "A.M. RADIO",
-        "artists": "The Lumineers",
-        "album": "BRIGHTSIDE",
-        "art": "https://i.scdn.co/image/ab67616d00001e0237ff1d816fca4dec18be406b",
-        "url": "https://open.spotify.com/track/32mcz82FOIucA49qkynFVB",
-        "playedAt": "2026-10-21T16:56:25.057Z"
+        "name": "Late Night Talking",
+        "artists": "Harry Styles",
+        "album": "Harry's House",
+        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
+        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
+        "playedAt": "2026-10-21T22:27:30.718Z"
       },
       {
-        "name": "Slow It Down",
+        "name": "Impromptu No. 2 for Piano and Orchestra",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/06Y7xgZFxikKwCrP6t8GT6",
+        "playedAt": "2026-10-21T22:24:32.233Z"
+      },
+      {
+        "name": "...Baby One More Time (from Kung Fu Panda 4)",
+        "artists": "Tenacious D",
+        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
+        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
+        "playedAt": "2026-10-21T22:22:20.309Z"
+      },
+      {
+        "name": "Flowers In Your Hair",
         "artists": "The Lumineers",
         "album": "The Lumineers",
         "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
-        "playedAt": "2026-10-21T16:52:26.441Z"
+        "url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
+        "playedAt": "2026-10-21T22:19:07.260Z"
       },
       {
-        "name": "Glow In The Dark",
-        "artists": "Friendzone, Nevve",
-        "album": "Glow In The Dark",
-        "art": "https://i.scdn.co/image/ab67616d00001e02198c8ad9430adcf8e4a6ddfd",
-        "url": "https://open.spotify.com/track/1VDglOP1aicFIAQUolynFU",
-        "playedAt": "2026-10-21T16:47:18.820Z"
+        "name": "BRIGHTSIDE",
+        "artists": "The Lumineers",
+        "album": "BRIGHTSIDE",
+        "art": "https://i.scdn.co/image/ab67616d00001e0237ff1d816fca4dec18be406b",
+        "url": "https://open.spotify.com/track/1a3QWkAM9UlDKOwR1wRBEn",
+        "playedAt": "2026-10-21T22:17:17.008Z"
       },
       {
-        "name": "Lullaby",
-        "artists": "Crystal Skies, Luma",
-        "album": "Lullaby",
-        "art": "https://i.scdn.co/image/ab67616d00001e022bd12d50969e918b0e4cdc20",
-        "url": "https://open.spotify.com/track/4H14xZLZ90XGqVXKlwRCL4",
-        "playedAt": "2026-10-21T16:43:08.272Z"
-      },
-      {
-        "name": "The Good Part",
-        "artists": "AJR",
-        "album": "The Click",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a81dc97f7119864c7437cb85",
-        "url": "https://open.spotify.com/track/44B9xspO3RycWjEJ3D8cKl",
-        "playedAt": "2026-10-21T16:39:39.354Z"
-      },
-      {
-        "name": "The Hardest Part (feat. Leon Bridges)",
-        "artists": "Olivia Dean, Leon Bridges",
-        "album": "The Hardest Part (feat. Leon Bridges)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
-        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
-        "playedAt": "2026-10-21T16:35:51.324Z"
+        "name": "Andante Con Moto - String Orchestra Variation",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 2 (Music from the HBO Series)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
+        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
+        "playedAt": "2026-10-21T22:13:26.701Z"
       }
     ],
     "top": [
