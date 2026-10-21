@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-10-20T21:12:17.322Z",
+  "updatedAt": "2026-10-21T00:00:23.130Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Vienna",
+        "artists": "Billy Joel",
+        "album": "The Stranger (Legacy Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
+        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
+        "playedAt": "2026-10-20T22:03:26.920Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-10-20T21:59:52.142Z"
+      },
+      {
+        "name": "Castle on the Hill",
+        "artists": "Ed Sheeran",
+        "album": "÷ (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
+        "url": "https://open.spotify.com/track/6PCUP3dWmTjcTtXY02oFdT",
+        "playedAt": "2026-10-20T21:56:19.686Z"
+      },
+      {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
+        "playedAt": "2026-10-20T21:51:58.049Z"
+      },
+      {
+        "name": "Million Dollar Home Run",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/2nbkEofLoPSxPCDhgFS48X",
+        "playedAt": "2026-10-20T21:50:20.443Z"
+      },
+      {
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
+        "playedAt": "2026-10-20T21:48:49.147Z"
+      },
+      {
+        "name": "SOMEBODY",
+        "artists": "keshi",
+        "album": "GABRIEL",
+        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
+        "url": "https://open.spotify.com/track/3iqlzKw1tLt6tXZyKWV0fZ",
+        "playedAt": "2026-10-20T21:42:36.949Z"
+      },
       {
         "name": "settle",
         "artists": "Lyn Lapid",
@@ -10,62 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d59a2ea329dc54c79209438b",
         "url": "https://open.spotify.com/track/6BjQFAJJRqeI5URGQc5CwT",
         "playedAt": "2026-10-20T20:32:46.367Z"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
-        "playedAt": "2026-10-20T18:53:59.829Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-10-20T18:49:58.511Z"
-      },
-      {
-        "name": "Drown",
-        "artists": "Dabin, Mokita",
-        "album": "Between Broken",
-        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
-        "url": "https://open.spotify.com/track/36TsyjtOszueVgNJ4TCVUq",
-        "playedAt": "2026-10-20T18:45:48.876Z"
-      },
-      {
-        "name": "Stick Season",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
-        "playedAt": "2026-10-20T18:41:29.615Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-10-20T18:38:26.298Z"
-      },
-      {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
-        "playedAt": "2026-10-20T18:32:45.614Z"
-      },
-      {
-        "name": "Heavy",
-        "artists": "The Marías",
-        "album": "CINEMA",
-        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
-        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
-        "playedAt": "2026-10-20T18:30:12.496Z"
       }
     ],
     "top": [
@@ -98,6 +98,13 @@
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
       },
       {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
         "name": "hate that i made you love me",
         "artists": "Ariana Grande",
         "album": "petal",
@@ -112,18 +119,11 @@
         "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF"
       },
       {
-        "name": "oh well",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/5DZOKNtaoVEssXu9ltcMjx"
-      },
-      {
-        "name": "petal",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/70pVCVMGjmIWPbWXDwf11e"
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
+        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       }
     ],
     "genres": [
