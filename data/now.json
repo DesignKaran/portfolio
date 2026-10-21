@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-21T00:00:23.130Z",
+  "updatedAt": "2026-10-21T05:07:17.008Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Chhote Chhote Shivji Chote Chote",
+        "artists": "Niranjan Pandya",
+        "album": "Mara Ghatma Birajta Shri Nathji",
+        "art": "https://i.scdn.co/image/ab67616d00001e022c3e69d2f3090d54a2a248f0",
+        "url": "https://open.spotify.com/track/2D2iVW6Csmd70tqozRggeX",
+        "playedAt": "2026-10-21T00:25:33.073Z"
+      },
+      {
+        "name": "Heavy",
+        "artists": "The Marías",
+        "album": "CINEMA",
+        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
+        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
+        "playedAt": "2026-10-21T00:15:38.430Z"
+      },
       {
         "name": "Vienna",
         "artists": "Billy Joel",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
         "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
         "playedAt": "2026-10-20T21:48:49.147Z"
-      },
-      {
-        "name": "SOMEBODY",
-        "artists": "keshi",
-        "album": "GABRIEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
-        "url": "https://open.spotify.com/track/3iqlzKw1tLt6tXZyKWV0fZ",
-        "playedAt": "2026-10-20T21:42:36.949Z"
-      },
-      {
-        "name": "settle",
-        "artists": "Lyn Lapid",
-        "album": "BUZZKILL (forever)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d59a2ea329dc54c79209438b",
-        "url": "https://open.spotify.com/track/6BjQFAJJRqeI5URGQc5CwT",
-        "playedAt": "2026-10-20T20:32:46.367Z"
       }
     ],
     "top": [
@@ -84,18 +84,18 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
-      },
-      {
         "name": "big feelings",
         "artists": "Ariana Grande",
         "album": "petal",
         "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
         "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
         "name": "A Couple Minutes",
