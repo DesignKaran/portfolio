@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-21T15:28:37.189Z",
+  "updatedAt": "2026-10-21T19:30:13.069Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Malibu Nights",
-        "artists": "LANY",
-        "album": "Malibu Nights",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c4dae9528b2a8408f463eb17",
-        "url": "https://open.spotify.com/track/0Eqg0CQ7bK3RQIMPw1A7pl",
-        "playedAt": "2026-10-21T14:58:38.574Z"
+        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+        "artists": "Metro Boomin, A$AP Rocky, Roisee",
+        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
+        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+        "playedAt": "2026-10-21T19:26:52.361Z"
       },
       {
-        "name": "Strawberries & Cigarettes",
-        "artists": "Troye Sivan",
-        "album": "Strawberries & Cigarettes",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c9eb4c87e1d7f5353908b712",
-        "url": "https://open.spotify.com/track/3afkJSKX0EAMsJXTZnDXXJ",
-        "playedAt": "2026-10-21T14:53:50.829Z"
+        "name": "Every Summertime",
+        "artists": "NIKI",
+        "album": "Every Summertime",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e81fd3b9a7230db447f38182",
+        "url": "https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro",
+        "playedAt": "2026-10-21T17:00:00.990Z"
       },
       {
-        "name": "Style",
-        "artists": "Taylor Swift",
-        "album": "1989",
-        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
-        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
-        "playedAt": "2026-10-21T14:50:28.573Z"
-      },
-      {
-        "name": "Patience",
+        "name": "A.M. RADIO",
         "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
-        "playedAt": "2026-10-21T14:46:36.773Z"
+        "album": "BRIGHTSIDE",
+        "art": "https://i.scdn.co/image/ab67616d00001e0237ff1d816fca4dec18be406b",
+        "url": "https://open.spotify.com/track/32mcz82FOIucA49qkynFVB",
+        "playedAt": "2026-10-21T16:56:25.057Z"
       },
       {
-        "name": "Gloria",
+        "name": "Slow It Down",
         "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
-        "playedAt": "2026-10-21T14:44:58.964Z"
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
+        "playedAt": "2026-10-21T16:52:26.441Z"
       },
       {
-        "name": "Angela",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
-        "playedAt": "2026-10-21T14:41:22.087Z"
+        "name": "Glow In The Dark",
+        "artists": "Friendzone, Nevve",
+        "album": "Glow In The Dark",
+        "art": "https://i.scdn.co/image/ab67616d00001e02198c8ad9430adcf8e4a6ddfd",
+        "url": "https://open.spotify.com/track/1VDglOP1aicFIAQUolynFU",
+        "playedAt": "2026-10-21T16:47:18.820Z"
       },
       {
-        "name": "Cleopatra",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc",
-        "playedAt": "2026-10-21T14:37:59.422Z"
+        "name": "Lullaby",
+        "artists": "Crystal Skies, Luma",
+        "album": "Lullaby",
+        "art": "https://i.scdn.co/image/ab67616d00001e022bd12d50969e918b0e4cdc20",
+        "url": "https://open.spotify.com/track/4H14xZLZ90XGqVXKlwRCL4",
+        "playedAt": "2026-10-21T16:43:08.272Z"
       },
       {
-        "name": "Andante Con Moto - Strings in E-flat Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/1efzDbtyPSFKxxhvoErxHM",
-        "playedAt": "2026-10-21T14:34:37.238Z"
+        "name": "The Good Part",
+        "artists": "AJR",
+        "album": "The Click",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a81dc97f7119864c7437cb85",
+        "url": "https://open.spotify.com/track/44B9xspO3RycWjEJ3D8cKl",
+        "playedAt": "2026-10-21T16:39:39.354Z"
+      },
+      {
+        "name": "The Hardest Part (feat. Leon Bridges)",
+        "artists": "Olivia Dean, Leon Bridges",
+        "album": "The Hardest Part (feat. Leon Bridges)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
+        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
+        "playedAt": "2026-10-21T16:35:51.324Z"
       }
     ],
     "top": [
