@@ -1,14 +1,56 @@
 {
-  "updatedAt": "2026-10-21T22:38:45.064Z",
+  "updatedAt": "2026-10-22T01:10:30.307Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Cleopatra",
-      "artists": "The Lumineers",
-      "album": "Cleopatra",
-      "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-      "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "Strawberries & Cigarettes",
+        "artists": "Troye Sivan",
+        "album": "Strawberries & Cigarettes",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c9eb4c87e1d7f5353908b712",
+        "url": "https://open.spotify.com/track/3afkJSKX0EAMsJXTZnDXXJ",
+        "playedAt": "2026-10-21T22:56:47.904Z"
+      },
+      {
+        "name": "Style",
+        "artists": "Taylor Swift",
+        "album": "1989",
+        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
+        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
+        "playedAt": "2026-10-21T22:53:25.802Z"
+      },
+      {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
+        "playedAt": "2026-10-21T22:49:34.299Z"
+      },
+      {
+        "name": "Gloria",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
+        "playedAt": "2026-10-21T22:47:56.739Z"
+      },
+      {
+        "name": "Angela",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
+        "playedAt": "2026-10-21T22:44:20.094Z"
+      },
+      {
+        "name": "Cleopatra",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc",
+        "playedAt": "2026-10-21T22:40:57.184Z"
+      },
       {
         "name": "Andante Con Moto - Strings in E-flat Minor",
         "artists": "Nicholas Britell",
@@ -24,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
         "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
         "playedAt": "2026-10-21T22:35:20.641Z"
-      },
-      {
-        "name": "Late Night Talking",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
-        "playedAt": "2026-10-21T22:27:30.718Z"
-      },
-      {
-        "name": "Impromptu No. 2 for Piano and Orchestra",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/06Y7xgZFxikKwCrP6t8GT6",
-        "playedAt": "2026-10-21T22:24:32.233Z"
-      },
-      {
-        "name": "...Baby One More Time (from Kung Fu Panda 4)",
-        "artists": "Tenacious D",
-        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
-        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
-        "playedAt": "2026-10-21T22:22:20.309Z"
-      },
-      {
-        "name": "Flowers In Your Hair",
-        "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
-        "playedAt": "2026-10-21T22:19:07.260Z"
-      },
-      {
-        "name": "BRIGHTSIDE",
-        "artists": "The Lumineers",
-        "album": "BRIGHTSIDE",
-        "art": "https://i.scdn.co/image/ab67616d00001e0237ff1d816fca4dec18be406b",
-        "url": "https://open.spotify.com/track/1a3QWkAM9UlDKOwR1wRBEn",
-        "playedAt": "2026-10-21T22:17:17.008Z"
-      },
-      {
-        "name": "Andante Con Moto - String Orchestra Variation",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 2 (Music from the HBO Series)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
-        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
-        "playedAt": "2026-10-21T22:13:26.701Z"
       }
     ],
     "top": [
@@ -118,18 +112,18 @@
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
-        "name": "hate that i made you love me",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB"
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       },
       {
-        "name": "big feelings",
-        "artists": "Ariana Grande",
-        "album": "petal",
-        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
-        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4"
+        "name": "The Art of Loving (Intro)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       }
     ],
     "genres": [
