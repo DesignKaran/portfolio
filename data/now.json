@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-22T06:21:22.820Z",
+  "updatedAt": "2026-10-22T12:13:30.078Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Glow In The Dark",
+        "artists": "Friendzone, Nevve",
+        "album": "Glow In The Dark",
+        "art": "https://i.scdn.co/image/ab67616d00001e02198c8ad9430adcf8e4a6ddfd",
+        "url": "https://open.spotify.com/track/1VDglOP1aicFIAQUolynFU",
+        "playedAt": "2026-10-22T07:46:48.360Z"
+      },
       {
         "name": "Long Way From Home",
         "artists": "The Lumineers",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
         "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
         "playedAt": "2026-10-22T02:01:54.588Z"
-      },
-      {
-        "name": "Fake Plastic Trees",
-        "artists": "Radiohead",
-        "album": "The Bends",
-        "art": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
-        "url": "https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F",
-        "playedAt": "2026-10-22T01:36:32.154Z"
       }
     ],
     "top": [
@@ -105,6 +105,13 @@
         "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF"
       },
       {
+        "name": "Andante Moderato - End Credits - \"Amen\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
+      },
+      {
         "name": "Leader Of The Landslide",
         "artists": "The Lumineers",
         "album": "III",
@@ -117,13 +124,6 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
-      },
-      {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz"
       }
     ],
     "genres": [
