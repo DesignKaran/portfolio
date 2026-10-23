@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-10-23T08:44:47.267Z",
+  "updatedAt": "2026-10-23T14:02:04.721Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "What I've Done",
+        "artists": "Linkin Park",
+        "album": "Minutes to Midnight",
+        "art": "https://i.scdn.co/image/ab67616d00001e026e996745f2c7b8036abef213",
+        "url": "https://open.spotify.com/track/18lR4BzEs7e3qzc0KVkTpU",
+        "playedAt": "2026-10-23T11:50:53.846Z"
+      },
+      {
+        "name": "1979 - Remastered 2012",
+        "artists": "The Smashing Pumpkins",
+        "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02431ac6e6f393acf475730ec6",
+        "url": "https://open.spotify.com/track/5QLHGv0DfpeXLNFo7SFEy1",
+        "playedAt": "2026-10-23T11:47:28.151Z"
+      },
+      {
+        "name": "Toxicity",
+        "artists": "System Of A Down",
+        "album": "Toxicity",
+        "art": "https://i.scdn.co/image/ab67616d00001e0207bc7d2a745636c356b4d0aa",
+        "url": "https://open.spotify.com/track/0snQkGI5qnAmohLE7jTsTn",
+        "playedAt": "2026-10-23T11:43:01.441Z"
+      },
+      {
+        "name": "Say It Ain't So - Original Mix",
+        "artists": "Weezer",
+        "album": "Weezer",
+        "art": "https://i.scdn.co/image/ab67616d00001e02345536847e60f622ee0eae96",
+        "url": "https://open.spotify.com/track/6VoIBz0VhCyz7OdEoRYDiA",
+        "playedAt": "2026-10-23T11:39:11.017Z"
+      },
       {
         "name": "Hate To Say I Told You So",
         "artists": "The Hives",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02e175a19e530c898d167d39bf",
         "url": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T",
         "playedAt": "2026-10-23T03:58:26.737Z"
-      },
-      {
-        "name": "Come As You Are",
-        "artists": "Nirvana",
-        "album": "Nevermind (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e175a19e530c898d167d39bf",
-        "url": "https://open.spotify.com/track/4P5KoWXOxwuobLmHXLMobV",
-        "playedAt": "2026-10-23T03:53:24.234Z"
-      },
-      {
-        "name": "Can't Stop",
-        "artists": "Red Hot Chili Peppers",
-        "album": "By the Way (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02de1af2785a83cc660155a0c4",
-        "url": "https://open.spotify.com/track/3ZOEytgrvLwQaqXreDs2Jx",
-        "playedAt": "2026-10-23T03:49:44.876Z"
-      },
-      {
-        "name": "Basket Case",
-        "artists": "Green Day",
-        "album": "Dookie",
-        "art": "https://i.scdn.co/image/ab67616d00001e02db89b08034de626ebee6823d",
-        "url": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s",
-        "playedAt": "2026-10-23T03:45:15.381Z"
-      },
-      {
-        "name": "Tom Sawyer",
-        "artists": "Rush",
-        "album": "Moving Pictures (2011 Remaster)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073",
-        "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
-        "playedAt": "2026-10-23T03:42:13.376Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Indie Pop",
-      "Pop Rock",
-      "Classical"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
