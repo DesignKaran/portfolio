@@ -1,8 +1,32 @@
 {
-  "updatedAt": "2026-10-27T19:47:48.037Z",
+  "updatedAt": "2026-10-27T23:26:47.211Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Smooth Criminal - 2012 Remaster",
+        "artists": "Michael Jackson",
+        "album": "Bad (Remastered)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
+        "url": "https://open.spotify.com/track/5T7ywazdGIydr6JCW6t02j",
+        "playedAt": "2026-10-27T22:30:47.751Z"
+      },
+      {
+        "name": "Human Nature",
+        "artists": "Michael Jackson",
+        "album": "Thriller",
+        "art": "https://i.scdn.co/image/ab67616d00001e0232a7d87248d1b75463483df5",
+        "url": "https://open.spotify.com/track/4cgjA7B4fJBHyB9Ya2bu0t",
+        "playedAt": "2026-10-27T22:01:26.973Z"
+      },
+      {
+        "name": "Don't Stop 'Til You Get Enough",
+        "artists": "Michael Jackson",
+        "album": "Off the Wall",
+        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
+        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ",
+        "playedAt": "2026-10-27T21:53:02.464Z"
+      },
       {
         "name": "Thriller",
         "artists": "Michael Jackson",
@@ -42,30 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b4a878f008a0eda552446701",
         "url": "https://open.spotify.com/track/3wuCCNCnBhJlwkIJTBZFiv",
         "playedAt": "2026-10-27T19:19:51.099Z"
-      },
-      {
-        "name": "Human Nature",
-        "artists": "Michael Jackson",
-        "album": "Thriller",
-        "art": "https://i.scdn.co/image/ab67616d00001e0232a7d87248d1b75463483df5",
-        "url": "https://open.spotify.com/track/4cgjA7B4fJBHyB9Ya2bu0t",
-        "playedAt": "2026-10-27T19:15:06.032Z"
-      },
-      {
-        "name": "Smooth Criminal - 2012 Remaster",
-        "artists": "Michael Jackson",
-        "album": "Bad (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-        "url": "https://open.spotify.com/track/5T7ywazdGIydr6JCW6t02j",
-        "playedAt": "2026-10-27T19:10:59.270Z"
-      },
-      {
-        "name": "Don't Stop 'Til You Get Enough",
-        "artists": "Michael Jackson",
-        "album": "Off the Wall",
-        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
-        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ",
-        "playedAt": "2026-10-27T19:06:40.689Z"
       }
     ],
     "top": [
@@ -84,6 +84,13 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
+        "name": "Don't Stop 'Til You Get Enough",
+        "artists": "Michael Jackson",
+        "album": "Off the Wall",
+        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
+        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+      },
+      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -96,13 +103,6 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
         "name": "Andante Moderato - End Credits - \"Amen\"",
