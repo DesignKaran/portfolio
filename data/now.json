@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:26:47.211Z",
+  "updatedAt": "2026-10-28T02:30:31.154Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "R&B",
-      "Dance-Pop"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
@@ -198,7 +198,7 @@
         "title": "Good Will Hunting",
         "year": 1997,
         "url": "https://letterboxd.com/film/good-will-hunting/",
-        "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "poster": null
       },
       {
         "title": "Interstellar",
