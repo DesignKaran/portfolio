@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-28T02:30:31.154Z",
+  "updatedAt": "2026-10-28T09:16:21.088Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Smooth Criminal - 2012 Remaster",
-        "artists": "Michael Jackson",
-        "album": "Bad (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-        "url": "https://open.spotify.com/track/5T7ywazdGIydr6JCW6t02j",
-        "playedAt": "2026-10-27T22:30:47.751Z"
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
+        "playedAt": "2026-10-28T04:13:06.825Z"
       },
       {
-        "name": "Human Nature",
-        "artists": "Michael Jackson",
-        "album": "Thriller",
-        "art": "https://i.scdn.co/image/ab67616d00001e0232a7d87248d1b75463483df5",
-        "url": "https://open.spotify.com/track/4cgjA7B4fJBHyB9Ya2bu0t",
-        "playedAt": "2026-10-27T22:01:26.973Z"
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-10-28T04:10:02.285Z"
       },
       {
-        "name": "Don't Stop 'Til You Get Enough",
-        "artists": "Michael Jackson",
-        "album": "Off the Wall",
-        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
-        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ",
-        "playedAt": "2026-10-27T21:53:02.464Z"
+        "name": "Heavy",
+        "artists": "The Marías",
+        "album": "CINEMA",
+        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
+        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
+        "playedAt": "2026-10-28T04:05:52.982Z"
       },
       {
-        "name": "Thriller",
-        "artists": "Michael Jackson",
-        "album": "Thriller",
-        "art": "https://i.scdn.co/image/ab67616d00001e0232a7d87248d1b75463483df5",
-        "url": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC",
-        "playedAt": "2026-10-27T19:39:34.917Z"
+        "name": "The Hardest Part (feat. Leon Bridges)",
+        "artists": "Olivia Dean, Leon Bridges",
+        "album": "The Hardest Part (feat. Leon Bridges)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
+        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
+        "playedAt": "2026-10-28T04:01:39.281Z"
       },
       {
-        "name": "Remember the Time",
-        "artists": "Michael Jackson",
-        "album": "Dangerous",
-        "art": "https://i.scdn.co/image/ab67616d00001e02bf4cf0f48b94d0c8297b751a",
-        "url": "https://open.spotify.com/track/4jnFqNWeJCeCRHc4HCdxfd",
-        "playedAt": "2026-10-27T19:32:41.846Z"
+        "name": "Something I Need",
+        "artists": "OneRepublic",
+        "album": "Native",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e80e7dbce3996a1ae5967751",
+        "url": "https://open.spotify.com/track/4KANJH1baadr3U7XsVbM17",
+        "playedAt": "2026-10-28T03:58:42.702Z"
       },
       {
-        "name": "Dirty Diana - 2012 Remaster",
-        "artists": "Michael Jackson",
-        "album": "Bad (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-        "url": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-        "playedAt": "2026-10-27T19:28:40.885Z"
+        "name": "Starlight",
+        "artists": "Muse",
+        "album": "Black Holes and Revelations",
+        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
+        "playedAt": "2026-10-28T03:54:40.969Z"
       },
       {
-        "name": "Bad - 2012 Remaster",
-        "artists": "Michael Jackson",
-        "album": "Bad (Remastered)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-        "url": "https://open.spotify.com/track/2gSNBigeWMVtY3QBIvPAEc",
-        "playedAt": "2026-10-27T19:23:59.279Z"
+        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+        "artists": "Metro Boomin, A$AP Rocky, Roisee",
+        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
+        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+        "playedAt": "2026-10-28T03:50:40.174Z"
       },
       {
-        "name": "They Don't Care About Us",
+        "name": "Chicago",
         "artists": "Michael Jackson",
-        "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b4a878f008a0eda552446701",
-        "url": "https://open.spotify.com/track/3wuCCNCnBhJlwkIJTBZFiv",
-        "playedAt": "2026-10-27T19:19:51.099Z"
+        "album": "XSCAPE",
+        "art": "https://i.scdn.co/image/ab67616d00001e0235f36cb686b0d5a12ab3a9f0",
+        "url": "https://open.spotify.com/track/5BKKy9fIJL5uM9fz1SnqyP",
+        "playedAt": "2026-10-28T03:39:34.272Z"
       }
     ],
     "top": [
@@ -89,6 +89,13 @@
         "album": "Off the Wall",
         "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "Man I Need",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
+        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
       },
       {
         "name": "A Couple Minutes",
@@ -117,22 +124,15 @@
         "album": "Love Language",
         "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
         "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ"
-      },
-      {
-        "name": "Patience",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       }
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Soundtrack"
+      "Rock",
+      "Pop Rock",
+      "R&B",
+      "Dance-Pop"
     ]
   },
   "letterboxd": {
@@ -198,7 +198,7 @@
         "title": "Good Will Hunting",
         "year": 1997,
         "url": "https://letterboxd.com/film/good-will-hunting/",
-        "poster": null
+        "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "title": "Interstellar",
