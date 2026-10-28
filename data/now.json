@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-28T09:16:21.088Z",
+  "updatedAt": "2026-10-28T16:11:33.225Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-        "playedAt": "2026-10-28T04:13:06.825Z"
+        "name": "august",
+        "artists": "Taylor Swift",
+        "album": "folklore",
+        "art": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+        "url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K",
+        "playedAt": "2026-10-28T13:35:03.853Z"
       },
       {
-        "name": "Coming Up Roses",
+        "name": "Almost (Sweet Music)",
+        "artists": "Hozier",
+        "album": "Wasteland, Baby!",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8aa333b95c1c4e6b43bb2a4",
+        "url": "https://open.spotify.com/track/5Apvsk0suoivI1H8CmBglv",
+        "playedAt": "2026-10-28T13:30:41.005Z"
+      },
+      {
+        "name": "New Light",
+        "artists": "John Mayer",
+        "album": "Sob Rock",
+        "art": "https://i.scdn.co/image/ab67616d00001e02779063301154e835a91a35e0",
+        "url": "https://open.spotify.com/track/4T6FWA703h6H7zk1FoSARw",
+        "playedAt": "2026-10-28T13:26:59.967Z"
+      },
+      {
+        "name": "Sweet Disposition",
+        "artists": "The Temper Trap",
+        "album": "Conditions",
+        "art": "https://i.scdn.co/image/ab67616d00001e023ff39c2f14c0088b77af749a",
+        "url": "https://open.spotify.com/track/0fIDUXVyJ1JISqB4HP4D5H",
+        "playedAt": "2026-10-28T13:23:21.737Z"
+      },
+      {
+        "name": "Daylight",
         "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-10-28T04:10:02.285Z"
+        "album": "Harry's House",
+        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
+        "url": "https://open.spotify.com/track/51Zw1cKDgkad0CXv23HCMU",
+        "playedAt": "2026-10-28T13:19:24.522Z"
       },
       {
-        "name": "Heavy",
-        "artists": "The Marías",
-        "album": "CINEMA",
-        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
-        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
-        "playedAt": "2026-10-28T04:05:52.982Z"
+        "name": "Style",
+        "artists": "Taylor Swift",
+        "album": "1989",
+        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
+        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
+        "playedAt": "2026-10-28T12:39:26.176Z"
       },
       {
-        "name": "The Hardest Part (feat. Leon Bridges)",
-        "artists": "Olivia Dean, Leon Bridges",
-        "album": "The Hardest Part (feat. Leon Bridges)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
-        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
-        "playedAt": "2026-10-28T04:01:39.281Z"
+        "name": "...Baby One More Time (from Kung Fu Panda 4)",
+        "artists": "Tenacious D",
+        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
+        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
+        "playedAt": "2026-10-28T12:35:34.672Z"
       },
       {
-        "name": "Something I Need",
-        "artists": "OneRepublic",
-        "album": "Native",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e80e7dbce3996a1ae5967751",
-        "url": "https://open.spotify.com/track/4KANJH1baadr3U7XsVbM17",
-        "playedAt": "2026-10-28T03:58:42.702Z"
-      },
-      {
-        "name": "Starlight",
-        "artists": "Muse",
-        "album": "Black Holes and Revelations",
-        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
-        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
-        "playedAt": "2026-10-28T03:54:40.969Z"
-      },
-      {
-        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
-        "artists": "Metro Boomin, A$AP Rocky, Roisee",
-        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
-        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
-        "playedAt": "2026-10-28T03:50:40.174Z"
-      },
-      {
-        "name": "Chicago",
-        "artists": "Michael Jackson",
-        "album": "XSCAPE",
-        "art": "https://i.scdn.co/image/ab67616d00001e0235f36cb686b0d5a12ab3a9f0",
-        "url": "https://open.spotify.com/track/5BKKy9fIJL5uM9fz1SnqyP",
-        "playedAt": "2026-10-28T03:39:34.272Z"
+        "name": "Hypnotize",
+        "artists": "System Of A Down",
+        "album": "Hypnotize",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f5e7b2e5adaa87430a3eccff",
+        "url": "https://open.spotify.com/track/6oO7WMjD6kEvCITLbVj0mu",
+        "playedAt": "2026-10-28T12:32:21.472Z"
       }
     ],
     "top": [
