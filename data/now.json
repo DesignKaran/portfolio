@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-10-28T21:13:33.051Z",
+  "updatedAt": "2026-10-29T01:07:46.081Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Runaways",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/1E3pFst1X74fCxE0K9pqhy",
+        "playedAt": "2026-10-28T22:02:23.365Z"
+      },
+      {
+        "name": "Andante Moderato - End Credits - \"Amen\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM",
+        "playedAt": "2026-10-28T21:56:43.607Z"
+      },
+      {
+        "name": "Cleopatra",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc",
+        "playedAt": "2026-10-28T21:53:52.650Z"
+      },
+      {
+        "name": "coraline",
+        "artists": "Lyn Lapid",
+        "album": "coraline",
+        "art": "https://i.scdn.co/image/ab67616d00001e025da651b722039916b52ce480",
+        "url": "https://open.spotify.com/track/35UnweHI2mOrBbIIlYNClF",
+        "playedAt": "2026-10-28T21:39:44.803Z"
+      },
       {
         "name": "Rollercoaster",
         "artists": "Bleachers",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02779063301154e835a91a35e0",
         "url": "https://open.spotify.com/track/4T6FWA703h6H7zk1FoSARw",
         "playedAt": "2026-10-28T13:26:59.967Z"
-      },
-      {
-        "name": "Sweet Disposition",
-        "artists": "The Temper Trap",
-        "album": "Conditions",
-        "art": "https://i.scdn.co/image/ab67616d00001e023ff39c2f14c0088b77af749a",
-        "url": "https://open.spotify.com/track/0fIDUXVyJ1JISqB4HP4D5H",
-        "playedAt": "2026-10-28T13:23:21.737Z"
-      },
-      {
-        "name": "Daylight",
-        "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/51Zw1cKDgkad0CXv23HCMU",
-        "playedAt": "2026-10-28T13:19:24.522Z"
-      },
-      {
-        "name": "Style",
-        "artists": "Taylor Swift",
-        "album": "1989",
-        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
-        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
-        "playedAt": "2026-10-28T12:39:26.176Z"
-      },
-      {
-        "name": "...Baby One More Time (from Kung Fu Panda 4)",
-        "artists": "Tenacious D",
-        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
-        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
-        "playedAt": "2026-10-28T12:35:34.672Z"
       }
     ],
     "top": [
@@ -91,6 +91,13 @@
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
       },
       {
+        "name": "Andante Moderato - End Credits - \"Amen\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
+      },
+      {
         "name": "Man I Need",
         "artists": "Olivia Dean",
         "album": "Man I Need",
@@ -110,13 +117,6 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF"
-      },
-      {
-        "name": "Andante Moderato - End Credits - \"Amen\"",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
       },
       {
         "name": "Love Affair",
