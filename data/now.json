@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-10-30T13:17:35.033Z",
+  "updatedAt": "2026-10-30T22:45:23.213Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Beyond - Acoustic",
+        "artists": "Leon Bridges",
+        "album": "Beyond",
+        "art": "https://i.scdn.co/image/ab67616d00001e0297ab11d8d4e0f8dcbf06c219",
+        "url": "https://open.spotify.com/track/51yjH6e35yHWJhPo9YPGD3",
+        "playedAt": "2026-10-30T22:17:49.416Z"
+      },
+      {
+        "name": "Dive",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
+        "playedAt": "2026-10-30T22:11:06.025Z"
+      },
+      {
+        "name": "River",
+        "artists": "Leon Bridges",
+        "album": "Coming Home (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
+        "url": "https://open.spotify.com/track/3hhbDnFUb2bicI2df6VurK",
+        "playedAt": "2026-10-30T22:06:12.148Z"
+      },
+      {
+        "name": "Stop This Train",
+        "artists": "John Mayer",
+        "album": "Continuum",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/63oeAdHjvCp38yrhd2H0db",
+        "playedAt": "2026-10-30T21:56:24.810Z"
+      },
+      {
+        "name": "Real Love Baby",
+        "artists": "Father John Misty",
+        "album": "Real Love Baby",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
+        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
+        "playedAt": "2026-10-30T21:51:39.108Z"
+      },
+      {
+        "name": "The Hardest Part",
+        "artists": "Olivia Dean",
+        "album": "Messy",
+        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
+        "url": "https://open.spotify.com/track/3cPoiK69oQ1SdbB2j2ulGm",
+        "playedAt": "2026-10-30T21:41:28.209Z"
+      },
+      {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
+        "playedAt": "2026-10-30T21:38:31.708Z"
+      },
       {
         "name": "Ain't Got Nothing On You",
         "artists": "Leon Bridges",
@@ -10,62 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
         "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
         "playedAt": "2026-10-30T12:30:32.389Z"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
-        "playedAt": "2026-10-30T12:19:37.659Z"
-      },
-      {
-        "name": "Something Inbetween",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
-        "playedAt": "2026-10-30T12:19:19.596Z"
-      },
-      {
-        "name": "The Hardest Part (feat. Leon Bridges)",
-        "artists": "Olivia Dean, Leon Bridges",
-        "album": "The Hardest Part (feat. Leon Bridges)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
-        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
-        "playedAt": "2026-10-30T12:05:39.215Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-10-30T12:02:42.608Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-10-30T11:57:02.310Z"
-      },
-      {
-        "name": "MISS ME",
-        "artists": "keshi",
-        "album": "MISS ME",
-        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
-        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf",
-        "playedAt": "2026-10-30T11:52:52.890Z"
-      },
-      {
-        "name": "Each Time You Fall in Love",
-        "artists": "Cigarettes After Sex",
-        "album": "Cigarettes After Sex",
-        "art": "https://i.scdn.co/image/ab67616d00001e02dfed999f959177dfc4f33cdc",
-        "url": "https://open.spotify.com/track/4cV9zzKtPtW4i0FhnEwazU",
-        "playedAt": "2026-10-30T02:12:31.394Z"
       }
     ],
     "top": [
