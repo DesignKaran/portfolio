@@ -1,55 +1,47 @@
 {
-  "updatedAt": "2026-10-30T06:10:21.756Z",
+  "updatedAt": "2026-10-30T13:17:35.033Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Each Time You Fall in Love",
-        "artists": "Cigarettes After Sex",
-        "album": "Cigarettes After Sex",
-        "art": "https://i.scdn.co/image/ab67616d00001e02dfed999f959177dfc4f33cdc",
-        "url": "https://open.spotify.com/track/4cV9zzKtPtW4i0FhnEwazU",
-        "playedAt": "2026-10-30T02:12:31.394Z"
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-10-30T12:30:32.389Z"
       },
       {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-10-30T01:59:56.577Z"
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
+        "playedAt": "2026-10-30T12:19:37.659Z"
       },
       {
-        "name": "A Couple Minutes - A COLORS SHOW",
-        "artists": "Olivia Dean, COLORS",
-        "album": "A Couple Minutes - A COLORS SHOW",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e73d9d6037c9c6c7e8b3f438",
-        "url": "https://open.spotify.com/track/1WiHuDPI9vNkicCNg9Tkbu",
-        "playedAt": "2026-10-30T01:56:31.981Z"
+        "name": "Something Inbetween",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
+        "playedAt": "2026-10-30T12:19:19.596Z"
       },
       {
-        "name": "Slow Dancing in a Burning Room",
-        "artists": "John Mayer",
-        "album": "Continuum",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
-        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
-        "playedAt": "2026-10-30T01:50:01.711Z"
+        "name": "The Hardest Part (feat. Leon Bridges)",
+        "artists": "Olivia Dean, Leon Bridges",
+        "album": "The Hardest Part (feat. Leon Bridges)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
+        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
+        "playedAt": "2026-10-30T12:05:39.215Z"
       },
       {
-        "name": "Sextape",
-        "artists": "Deftones",
-        "album": "Diamond Eyes",
-        "art": "https://i.scdn.co/image/ab67616d00001e0272c2145d48f68917a7361b15",
-        "url": "https://open.spotify.com/track/1EryAkZ0VHstC6haIxVBiE",
-        "playedAt": "2026-10-30T01:45:59.388Z"
-      },
-      {
-        "name": "Mystery of Love (From the Original Motion Picture “Call Me by Your Name”)",
-        "artists": "Sufjan Stevens",
-        "album": "Mystery of Love (From the Original Motion Picture “Call Me by Your Name”)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0291a1c3c3d6fba1f63a010152",
-        "url": "https://open.spotify.com/track/0oTtnnedK0C4unALxVTPhz",
-        "playedAt": "2026-10-30T01:41:57.474Z"
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-10-30T12:02:42.608Z"
       },
       {
         "name": "Coming Up Roses",
@@ -57,31 +49,39 @@
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-10-30T01:37:07.205Z"
+        "playedAt": "2026-10-30T11:57:02.310Z"
       },
       {
-        "name": "Do I Wanna Know? - BBC Live Lounge",
-        "artists": "Hozier",
-        "album": "Hozier (Special Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e024f1facd12893c3625eeec6bf",
-        "url": "https://open.spotify.com/track/32btQnrL0HR6M1KKAPf3D3",
-        "playedAt": "2026-10-30T01:32:57.683Z"
+        "name": "MISS ME",
+        "artists": "keshi",
+        "album": "MISS ME",
+        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
+        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf",
+        "playedAt": "2026-10-30T11:52:52.890Z"
+      },
+      {
+        "name": "Each Time You Fall in Love",
+        "artists": "Cigarettes After Sex",
+        "album": "Cigarettes After Sex",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dfed999f959177dfc4f33cdc",
+        "url": "https://open.spotify.com/track/4cV9zzKtPtW4i0FhnEwazU",
+        "playedAt": "2026-10-30T02:12:31.394Z"
       }
     ],
     "top": [
-      {
-        "name": "Boston",
-        "artists": "STELLA LEFTY",
-        "album": "Long Way Home",
-        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
-        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
-      },
       {
         "name": "Iris",
         "artists": "The Goo Goo Dolls",
         "album": "Dizzy up the Girl",
         "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
+      },
+      {
+        "name": "Boston",
+        "artists": "STELLA LEFTY",
+        "album": "Long Way Home",
+        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
+        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
@@ -96,6 +96,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "MISS ME",
+        "artists": "keshi",
+        "album": "MISS ME",
+        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
+        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       },
       {
         "name": "Andante Moderato - End Credits - \"Amen\"",
@@ -117,13 +124,6 @@
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
-      },
-      {
-        "name": "Minuet in B Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
       }
     ],
     "genres": [
