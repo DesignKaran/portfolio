@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-29T14:34:16.921Z",
+  "updatedAt": "2026-10-30T06:10:21.756Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Glow In The Dark",
-        "artists": "Friendzone, Nevve",
-        "album": "Glow In The Dark",
-        "art": "https://i.scdn.co/image/ab67616d00001e02198c8ad9430adcf8e4a6ddfd",
-        "url": "https://open.spotify.com/track/1VDglOP1aicFIAQUolynFU",
-        "playedAt": "2026-10-29T13:03:22.069Z"
+        "name": "Each Time You Fall in Love",
+        "artists": "Cigarettes After Sex",
+        "album": "Cigarettes After Sex",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dfed999f959177dfc4f33cdc",
+        "url": "https://open.spotify.com/track/4cV9zzKtPtW4i0FhnEwazU",
+        "playedAt": "2026-10-30T02:12:31.394Z"
       },
       {
-        "name": "Stubborn Love",
-        "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
-        "playedAt": "2026-10-29T12:59:11.973Z"
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-10-30T01:59:56.577Z"
       },
       {
-        "name": "DIRT ON MY SHOES (feat. Kehlani)",
-        "artists": "Leon Thomas, Kehlani",
-        "album": "MUTT Deluxe: HEEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eeb464ea9a23de21dd7aa4c9",
-        "url": "https://open.spotify.com/track/2AA05NFvw5tPQ9pvj68fsY",
-        "playedAt": "2026-10-29T12:54:32.472Z"
+        "name": "A Couple Minutes - A COLORS SHOW",
+        "artists": "Olivia Dean, COLORS",
+        "album": "A Couple Minutes - A COLORS SHOW",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e73d9d6037c9c6c7e8b3f438",
+        "url": "https://open.spotify.com/track/1WiHuDPI9vNkicCNg9Tkbu",
+        "playedAt": "2026-10-30T01:56:31.981Z"
       },
       {
-        "name": "Patience",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
-        "playedAt": "2026-10-29T12:50:52.368Z"
+        "name": "Slow Dancing in a Burning Room",
+        "artists": "John Mayer",
+        "album": "Continuum",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
+        "playedAt": "2026-10-30T01:50:01.711Z"
       },
       {
-        "name": "Scherzo in F Minor - Strings",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/681Q0ngEIOMctYw2I5qd3m",
-        "playedAt": "2026-10-29T12:49:14.810Z"
+        "name": "Sextape",
+        "artists": "Deftones",
+        "album": "Diamond Eyes",
+        "art": "https://i.scdn.co/image/ab67616d00001e0272c2145d48f68917a7361b15",
+        "url": "https://open.spotify.com/track/1EryAkZ0VHstC6haIxVBiE",
+        "playedAt": "2026-10-30T01:45:59.388Z"
       },
       {
-        "name": "Leader Of The Landslide",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
-        "playedAt": "2026-10-29T12:48:29.068Z"
+        "name": "Mystery of Love (From the Original Motion Picture “Call Me by Your Name”)",
+        "artists": "Sufjan Stevens",
+        "album": "Mystery of Love (From the Original Motion Picture “Call Me by Your Name”)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0291a1c3c3d6fba1f63a010152",
+        "url": "https://open.spotify.com/track/0oTtnnedK0C4unALxVTPhz",
+        "playedAt": "2026-10-30T01:41:57.474Z"
       },
       {
-        "name": "Fake Nice",
-        "artists": "Beach Weather",
-        "album": "Melt",
-        "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
-        "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
-        "playedAt": "2026-10-29T12:42:33.759Z"
-      },
-      {
-        "name": "Late Night Talking",
+        "name": "Coming Up Roses",
         "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
-        "playedAt": "2026-10-29T12:39:06.260Z"
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-10-30T01:37:07.205Z"
+      },
+      {
+        "name": "Do I Wanna Know? - BBC Live Lounge",
+        "artists": "Hozier",
+        "album": "Hozier (Special Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e024f1facd12893c3625eeec6bf",
+        "url": "https://open.spotify.com/track/32btQnrL0HR6M1KKAPf3D3",
+        "playedAt": "2026-10-30T01:32:57.683Z"
       }
     ],
     "top": [
@@ -91,18 +91,18 @@
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
       },
       {
-        "name": "Andante Moderato - End Credits - \"Amen\"",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Andante Moderato - End Credits - \"Amen\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
       },
       {
         "name": "Patience",
