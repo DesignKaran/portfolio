@@ -1,39 +1,23 @@
 {
-  "updatedAt": "2026-10-30T22:45:23.213Z",
+  "updatedAt": "2026-10-31T19:03:42.715Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Beyond - Acoustic",
-        "artists": "Leon Bridges",
-        "album": "Beyond",
-        "art": "https://i.scdn.co/image/ab67616d00001e0297ab11d8d4e0f8dcbf06c219",
-        "url": "https://open.spotify.com/track/51yjH6e35yHWJhPo9YPGD3",
-        "playedAt": "2026-10-30T22:17:49.416Z"
-      },
-      {
-        "name": "Dive",
-        "artists": "Olivia Dean",
-        "album": "Messy",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
-        "url": "https://open.spotify.com/track/36vmaZyO0iAE6FZ7287fg2",
-        "playedAt": "2026-10-30T22:11:06.025Z"
-      },
-      {
-        "name": "River",
+        "name": "Here In My Arms",
         "artists": "Leon Bridges",
         "album": "Coming Home (Deluxe)",
         "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
-        "url": "https://open.spotify.com/track/3hhbDnFUb2bicI2df6VurK",
-        "playedAt": "2026-10-30T22:06:12.148Z"
+        "url": "https://open.spotify.com/track/6squXSZ3rl7tENdZiOuIEj",
+        "playedAt": "2026-10-31T16:37:16.421Z"
       },
       {
-        "name": "Stop This Train",
-        "artists": "John Mayer",
-        "album": "Continuum",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
-        "url": "https://open.spotify.com/track/63oeAdHjvCp38yrhd2H0db",
-        "playedAt": "2026-10-30T21:56:24.810Z"
+        "name": "Dive - Acoustic",
+        "artists": "Olivia Dean",
+        "album": "Dive (Acoustic)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02af363535762643e02d78a42b",
+        "url": "https://open.spotify.com/track/5jC2oXJu7BWpVw9pTBIyRb",
+        "playedAt": "2026-10-31T16:35:08.436Z"
       },
       {
         "name": "Real Love Baby",
@@ -41,31 +25,47 @@
         "album": "Real Love Baby",
         "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
         "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
-        "playedAt": "2026-10-30T21:51:39.108Z"
+        "playedAt": "2026-10-31T16:32:01.413Z"
       },
       {
-        "name": "The Hardest Part",
-        "artists": "Olivia Dean",
-        "album": "Messy",
-        "art": "https://i.scdn.co/image/ab67616d00001e02cac9b52107643faf13a7587b",
-        "url": "https://open.spotify.com/track/3cPoiK69oQ1SdbB2j2ulGm",
-        "playedAt": "2026-10-30T21:41:28.209Z"
+        "name": "XO",
+        "artists": "John Mayer",
+        "album": "XO",
+        "art": "https://i.scdn.co/image/ab67616d00001e024a705d7def1a3fef53ec6dec",
+        "url": "https://open.spotify.com/track/7cpCU3Denug5NGZsSpQl8v",
+        "playedAt": "2026-10-31T16:28:51.610Z"
       },
       {
-        "name": "Ok Love You Bye",
+        "name": "Got You Right",
+        "artists": "GoldFord",
+        "album": "Got You Right",
+        "art": "https://i.scdn.co/image/ab67616d00001e024ab234c2a6480389bbe3014f",
+        "url": "https://open.spotify.com/track/1AMvRbr8thMA47fC6iNJa2",
+        "playedAt": "2026-10-31T16:25:17.412Z"
+      },
+      {
+        "name": "The Mates Of Soul - 2015 Remastered",
+        "artists": "Taylor John Williams",
+        "album": "Song of a Dead Man",
+        "art": "https://i.scdn.co/image/ab67616d00001e02085968152a90c10f05a00e10",
+        "url": "https://open.spotify.com/track/70B3wYPCHZhsNaJCfvpZoh",
+        "playedAt": "2026-10-31T16:21:51.903Z"
+      },
+      {
+        "name": "Mrs.",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/2R4O7MgIrN35QXnyLKMFVl",
+        "playedAt": "2026-10-31T16:17:51.822Z"
+      },
+      {
+        "name": "Reason To Stay",
         "artists": "Olivia Dean",
         "album": "Ok Love You Bye",
         "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
-        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
-        "playedAt": "2026-10-30T21:38:31.708Z"
-      },
-      {
-        "name": "Ain't Got Nothing On You",
-        "artists": "Leon Bridges",
-        "album": "Leon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
-        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-10-30T12:30:32.389Z"
+        "url": "https://open.spotify.com/track/56DxR1jHbX6xlGwZdUuN0v",
+        "playedAt": "2026-10-31T16:13:48.799Z"
       }
     ],
     "top": [
@@ -75,13 +75,6 @@
         "album": "Dizzy up the Girl",
         "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
-      },
-      {
-        "name": "Boston",
-        "artists": "STELLA LEFTY",
-        "album": "Long Way Home",
-        "art": "https://i.scdn.co/image/ab67616d00001e027b6c2112750367e20464b6b7",
-        "url": "https://open.spotify.com/track/2QihEF7BIfPCJjkB0c4Rrv"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
@@ -124,6 +117,13 @@
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
+      },
+      {
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
       }
     ],
     "genres": [
