@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T12:44:16.292Z",
+  "updatedAt": "2026-11-02T22:06:01.412Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -9,7 +9,7 @@
         "album": "Nation of Two",
         "art": "https://i.scdn.co/image/ab67616d00001e029ac709b94022896013465886",
         "url": "https://open.spotify.com/track/6Qwuw0eOeszVlewLpu24gR",
-        "playedAt": "2026-10-31T19:10:19.407Z"
+        "playedAt": "2026-11-02T18:39:44.910Z"
       },
       {
         "name": "Here In My Arms",
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Score",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Soundtrack"
+      "Rock",
+      "Pop Rock",
+      "R&B",
+      "Dance-Pop"
     ]
   },
   "letterboxd": {
