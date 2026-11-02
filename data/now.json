@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-10-31T19:03:42.715Z",
+  "updatedAt": "2026-11-02T12:44:16.292Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "I'm with You",
+        "artists": "Vance Joy",
+        "album": "Nation of Two",
+        "art": "https://i.scdn.co/image/ab67616d00001e029ac709b94022896013465886",
+        "url": "https://open.spotify.com/track/6Qwuw0eOeszVlewLpu24gR",
+        "playedAt": "2026-10-31T19:10:19.407Z"
+      },
       {
         "name": "Here In My Arms",
         "artists": "Leon Bridges",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
         "url": "https://open.spotify.com/track/2R4O7MgIrN35QXnyLKMFVl",
         "playedAt": "2026-10-31T16:17:51.822Z"
-      },
-      {
-        "name": "Reason To Stay",
-        "artists": "Olivia Dean",
-        "album": "Ok Love You Bye",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
-        "url": "https://open.spotify.com/track/56DxR1jHbX6xlGwZdUuN0v",
-        "playedAt": "2026-10-31T16:13:48.799Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "R&B",
-      "Dance-Pop"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
