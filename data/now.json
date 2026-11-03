@@ -1,71 +1,77 @@
 {
-  "updatedAt": "2026-11-03T18:59:10.835Z",
+  "updatedAt": "2026-11-03T23:55:41.080Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Thinking out Loud",
+      "artists": "Ed Sheeran",
+      "album": "x (Wembley Edition)",
+      "art": "https://i.scdn.co/image/ab67616d00001e02d08209944468440145f01524",
+      "url": "https://open.spotify.com/track/1Slwb6dOYkBlWal1PGtnNg"
+    },
     "recent": [
       {
-        "name": "Malibu Nights",
-        "artists": "LANY",
-        "album": "Malibu Nights",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c4dae9528b2a8408f463eb17",
-        "url": "https://open.spotify.com/track/0Eqg0CQ7bK3RQIMPw1A7pl",
-        "playedAt": "2026-11-03T13:22:20.809Z"
-      },
-      {
-        "name": "Happy Where We Are",
-        "artists": "Tritonal, Au5, Dylan Matthew",
-        "album": "Happy Where We Are",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c4ce8f64933d8881c3522ead",
-        "url": "https://open.spotify.com/track/3ASXc0RC6vH0vHgv7OgeiK",
-        "playedAt": "2026-11-03T13:17:33.406Z"
-      },
-      {
-        "name": "Andante Con Moto - Strings in E-flat Minor",
+        "name": "Andante Con Moto - String Orchestra Variation",
         "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/1efzDbtyPSFKxxhvoErxHM",
-        "playedAt": "2026-11-03T13:12:12.921Z"
+        "album": "Succession: Season 2 (Music from the HBO Series)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
+        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
+        "playedAt": "2026-11-03T23:51:50.196Z"
       },
       {
-        "name": "Style",
-        "artists": "Taylor Swift",
-        "album": "1989",
-        "art": "https://i.scdn.co/image/ab67616d00001e029abdf14e6058bd3903686148",
-        "url": "https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5",
-        "playedAt": "2026-11-03T13:09:58.413Z"
+        "name": "Lullaby",
+        "artists": "Crystal Skies, Luma",
+        "album": "Lullaby",
+        "art": "https://i.scdn.co/image/ab67616d00001e022bd12d50969e918b0e4cdc20",
+        "url": "https://open.spotify.com/track/4H14xZLZ90XGqVXKlwRCL4",
+        "playedAt": "2026-11-03T23:49:22.499Z"
       },
       {
-        "name": "Flowers In Your Hair",
+        "name": "Under Cover of Darkness",
+        "artists": "The Strokes",
+        "album": "Angles",
+        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
+        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
+        "playedAt": "2026-11-03T23:45:53.883Z"
+      },
+      {
+        "name": "...Baby One More Time (from Kung Fu Panda 4)",
+        "artists": "Tenacious D",
+        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
+        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
+        "playedAt": "2026-11-03T23:41:57.785Z"
+      },
+      {
+        "name": "Leader Of The Landslide",
         "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
-        "playedAt": "2026-11-03T13:06:06.916Z"
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
+        "playedAt": "2026-11-03T23:38:44.800Z"
       },
       {
-        "name": "Vienna",
-        "artists": "Billy Joel",
-        "album": "The Stranger (Legacy Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
-        "playedAt": "2026-11-03T13:04:16.625Z"
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-11-03T23:32:49.293Z"
       },
       {
-        "name": "coraline",
-        "artists": "Lyn Lapid",
-        "album": "coraline",
-        "art": "https://i.scdn.co/image/ab67616d00001e025da651b722039916b52ce480",
-        "url": "https://open.spotify.com/track/35UnweHI2mOrBbIIlYNClF",
-        "playedAt": "2026-11-03T13:00:41.914Z"
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-11-03T23:29:42.791Z"
       },
       {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
-        "playedAt": "2026-11-03T12:57:52.419Z"
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-11-03T23:24:02.446Z"
       }
     ],
     "top": [
@@ -77,18 +83,11 @@
         "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
-        "name": "Long Way From Home",
+        "name": "Patience",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
-        "name": "Don't Stop 'Til You Get Enough",
-        "artists": "Michael Jackson",
-        "album": "Off the Wall",
-        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
-        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       },
       {
         "name": "A Couple Minutes",
@@ -98,25 +97,11 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "MISS ME",
-        "artists": "keshi",
-        "album": "MISS ME",
-        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
-        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
-      },
-      {
-        "name": "Andante Moderato - End Credits - \"Amen\"",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/14BOSGH6R6FgksCvu8c9iM"
-      },
-      {
-        "name": "Patience",
+        "name": "Long Way From Home",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       },
       {
         "name": "Leader Of The Landslide",
@@ -124,6 +109,27 @@
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
+      },
+      {
+        "name": "Don't Stop 'Til You Get Enough",
+        "artists": "Michael Jackson",
+        "album": "Off the Wall",
+        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
+        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+      },
+      {
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
+      },
+      {
+        "name": "MISS ME",
+        "artists": "keshi",
+        "album": "MISS ME",
+        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
+        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       }
     ],
     "genres": [
