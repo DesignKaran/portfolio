@@ -1,71 +1,77 @@
 {
-  "updatedAt": "2026-11-04T12:45:13.027Z",
+  "updatedAt": "2026-11-04T20:14:47.837Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "MISS ME",
+      "artists": "keshi",
+      "album": "MISS ME",
+      "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
+      "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
+    },
     "recent": [
       {
-        "name": "Id",
-        "artists": "keshi",
-        "album": "Requiem (Bonus Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e052795a0ca6720da64f54a0",
-        "url": "https://open.spotify.com/track/1evDNEM27PS4z2Sep1Bhhf",
-        "playedAt": "2026-11-04T01:06:59.116Z"
+        "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+        "artists": "Kendrick Lamar, SZA",
+        "album": "Black Panther The Album Music From And Inspired By",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c027ad28821777b00dcaa888",
+        "url": "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s",
+        "playedAt": "2026-11-04T20:12:41.177Z"
       },
       {
-        "name": "So I'm Growing Old on Magic Mountain",
-        "artists": "Father John Misty",
-        "album": "Pure Comedy",
-        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
-        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
-        "playedAt": "2026-11-04T00:03:57.747Z"
+        "name": "Cigarette Daydreams",
+        "artists": "Cage The Elephant",
+        "album": "Melophobia",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fb1cb900d28642e668d77b12",
+        "url": "https://open.spotify.com/track/2tznHmp70DxMyr2XhWLOW0",
+        "playedAt": "2026-11-04T20:08:48.099Z"
       },
       {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-11-03T23:59:57.007Z"
+        "name": "Here With Me",
+        "artists": "d4vd",
+        "album": "Petals to Thorns",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e5ff1941799cd30cb2aa072b",
+        "url": "https://open.spotify.com/track/0NLm9bQG7ikL5k9x9TtYT7",
+        "playedAt": "2026-11-04T20:05:18.570Z"
       },
       {
-        "name": "Thinking out Loud",
-        "artists": "Ed Sheeran",
-        "album": "x (Wembley Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d08209944468440145f01524",
-        "url": "https://open.spotify.com/track/1Slwb6dOYkBlWal1PGtnNg",
-        "playedAt": "2026-11-03T23:56:32.313Z"
+        "name": "Love On The Brain",
+        "artists": "Rihanna",
+        "album": "ANTI (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026be9bac15995f089579074de",
+        "url": "https://open.spotify.com/track/5oO3drDxtziYU2H1X23ZIp",
+        "playedAt": "2026-11-04T20:01:15.255Z"
       },
       {
-        "name": "Andante Con Moto - String Orchestra Variation",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 2 (Music from the HBO Series)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
-        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
-        "playedAt": "2026-11-03T23:51:50.196Z"
+        "name": "luther (with sza)",
+        "artists": "Kendrick Lamar, SZA",
+        "album": "GNX",
+        "art": "https://i.scdn.co/image/ab67616d00001e027e5e269471fe4a43a42e2f15",
+        "url": "https://open.spotify.com/track/2CGNAOSuO1MEFCbBRgUzjd",
+        "playedAt": "2026-11-04T19:57:30.468Z"
       },
       {
-        "name": "Lullaby",
-        "artists": "Crystal Skies, Luma",
-        "album": "Lullaby",
-        "art": "https://i.scdn.co/image/ab67616d00001e022bd12d50969e918b0e4cdc20",
-        "url": "https://open.spotify.com/track/4H14xZLZ90XGqVXKlwRCL4",
-        "playedAt": "2026-11-03T23:49:22.499Z"
+        "name": "Lodi",
+        "artists": "Creedence Clearwater Revival",
+        "album": "Green River (Expanded Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023efcd243aaa5638f55318f91",
+        "url": "https://open.spotify.com/track/1Ay5MiilZj2ZGQLeTWVJ6o",
+        "playedAt": "2026-11-04T19:54:00.826Z"
       },
       {
-        "name": "Under Cover of Darkness",
-        "artists": "The Strokes",
-        "album": "Angles",
-        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
-        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
-        "playedAt": "2026-11-03T23:45:53.883Z"
+        "name": "Cotton Fields",
+        "artists": "Creedence Clearwater Revival",
+        "album": "Willy And The Poor Boys (Expanded Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e029f39192f9f8ca1c90847b3e5",
+        "url": "https://open.spotify.com/track/3vO2BbrhKNV2PDl276BUIZ",
+        "playedAt": "2026-11-04T19:50:46.698Z"
       },
       {
-        "name": "...Baby One More Time (from Kung Fu Panda 4)",
-        "artists": "Tenacious D",
-        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
-        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
-        "playedAt": "2026-11-03T23:41:57.785Z"
+        "name": "Born On The Bayou",
+        "artists": "Creedence Clearwater Revival",
+        "album": "Bayou Country (Expanded Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e021afccd261170f1d8f3cadb3d",
+        "url": "https://open.spotify.com/track/587bVBCHYW5Q2VNRLig4AS",
+        "playedAt": "2026-11-04T19:47:48.659Z"
       }
     ],
     "top": [
@@ -128,11 +134,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Score",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "R&B",
-      "Dance-Pop"
+      "Alternative Rock",
+      "Soundtrack"
     ]
   },
   "letterboxd": {
