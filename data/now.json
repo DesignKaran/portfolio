@@ -1,14 +1,32 @@
 {
-  "updatedAt": "2026-11-03T23:55:41.080Z",
+  "updatedAt": "2026-11-04T04:49:13.936Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Thinking out Loud",
-      "artists": "Ed Sheeran",
-      "album": "x (Wembley Edition)",
-      "art": "https://i.scdn.co/image/ab67616d00001e02d08209944468440145f01524",
-      "url": "https://open.spotify.com/track/1Slwb6dOYkBlWal1PGtnNg"
-    },
+    "nowPlaying": null,
     "recent": [
+      {
+        "name": "So I'm Growing Old on Magic Mountain",
+        "artists": "Father John Misty",
+        "album": "Pure Comedy",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
+        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
+        "playedAt": "2026-11-04T00:03:57.747Z"
+      },
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-11-03T23:59:57.007Z"
+      },
+      {
+        "name": "Thinking out Loud",
+        "artists": "Ed Sheeran",
+        "album": "x (Wembley Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d08209944468440145f01524",
+        "url": "https://open.spotify.com/track/1Slwb6dOYkBlWal1PGtnNg",
+        "playedAt": "2026-11-03T23:56:32.313Z"
+      },
       {
         "name": "Andante Con Moto - String Orchestra Variation",
         "artists": "Nicholas Britell",
@@ -48,30 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
         "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
         "playedAt": "2026-11-03T23:38:44.800Z"
-      },
-      {
-        "name": "Let Alone The One You Love",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
-        "playedAt": "2026-11-03T23:32:49.293Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-11-03T23:29:42.791Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-11-03T23:24:02.446Z"
       }
     ],
     "top": [
@@ -90,6 +84,13 @@
         "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       },
       {
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
+        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
+      },
+      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -102,13 +103,6 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
-        "name": "Leader Of The Landslide",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
-        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
