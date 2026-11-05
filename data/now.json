@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-11-05T07:47:14.970Z",
+  "updatedAt": "2026-11-05T22:09:51.344Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "big feelings",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/6MFSqc8pzXlwfzXqWZEKd4",
+        "playedAt": "2026-11-05T16:32:47.315Z"
+      },
+      {
+        "name": "hate that i made you love me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3iy2QuCtCzpWnR6tia39AB",
+        "playedAt": "2026-11-05T16:29:53.119Z"
+      },
+      {
+        "name": "kiss me",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/0lok0VDJn0zRvHLBCITSSw",
+        "playedAt": "2026-11-05T16:26:35.213Z"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH",
+        "playedAt": "2026-11-05T16:22:55.090Z"
+      },
+      {
+        "name": "like i do",
+        "artists": "Ariana Grande",
+        "album": "petal",
+        "art": "https://i.scdn.co/image/ab67616d00001e028baf677ee2d8dda6cc9fcbd7",
+        "url": "https://open.spotify.com/track/3d1oTMjtfVySbAYQp3v4MU",
+        "playedAt": "2026-11-05T16:19:26.123Z"
+      },
       {
         "name": "Who'll Stop The Rain",
         "artists": "Creedence Clearwater Revival",
@@ -26,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02a958d093e94944dd0e7258b2",
         "url": "https://open.spotify.com/track/5AwNJ5mr7mHyIhlKnQICEJ",
         "playedAt": "2026-11-04T20:20:04.639Z"
-      },
-      {
-        "name": "MISS ME",
-        "artists": "keshi",
-        "album": "MISS ME",
-        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
-        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf",
-        "playedAt": "2026-11-04T20:15:54.894Z"
-      },
-      {
-        "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
-        "artists": "Kendrick Lamar, SZA",
-        "album": "Black Panther The Album Music From And Inspired By",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c027ad28821777b00dcaa888",
-        "url": "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s",
-        "playedAt": "2026-11-04T20:12:41.177Z"
-      },
-      {
-        "name": "Cigarette Daydreams",
-        "artists": "Cage The Elephant",
-        "album": "Melophobia",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fb1cb900d28642e668d77b12",
-        "url": "https://open.spotify.com/track/2tznHmp70DxMyr2XhWLOW0",
-        "playedAt": "2026-11-04T20:08:48.099Z"
-      },
-      {
-        "name": "Here With Me",
-        "artists": "d4vd",
-        "album": "Petals to Thorns",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e5ff1941799cd30cb2aa072b",
-        "url": "https://open.spotify.com/track/0NLm9bQG7ikL5k9x9TtYT7",
-        "playedAt": "2026-11-04T20:05:18.570Z"
-      },
-      {
-        "name": "Love On The Brain",
-        "artists": "Rihanna",
-        "album": "ANTI (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026be9bac15995f089579074de",
-        "url": "https://open.spotify.com/track/5oO3drDxtziYU2H1X23ZIp",
-        "playedAt": "2026-11-04T20:01:15.255Z"
       }
     ],
     "top": [
@@ -105,13 +105,6 @@
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       },
       {
-        "name": "Iris",
-        "artists": "The Goo Goo Dolls",
-        "album": "Dizzy up the Girl",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
-      },
-      {
         "name": "Don't Stop 'Til You Get Enough",
         "artists": "Michael Jackson",
         "album": "Off the Wall",
@@ -124,6 +117,13 @@
         "album": "Good Thing",
         "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
         "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
+      },
+      {
+        "name": "Minuet in B Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
       }
     ],
     "genres": [
