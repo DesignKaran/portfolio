@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-05T00:58:03.567Z",
+  "updatedAt": "2026-11-05T07:47:14.970Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Who'll Stop The Rain",
+        "artists": "Creedence Clearwater Revival",
+        "album": "Cosmo's Factory",
+        "art": "https://i.scdn.co/image/ab67616d00001e026e186edfb8fe3710fdc1f7c2",
+        "url": "https://open.spotify.com/track/2ciMJGCDW70hqq18Vgui68",
+        "playedAt": "2026-11-05T01:08:24.967Z"
+      },
       {
         "name": "Walls",
         "artists": "The Lumineers",
@@ -58,24 +66,9 @@
         "art": "https://i.scdn.co/image/ab67616d00001e026be9bac15995f089579074de",
         "url": "https://open.spotify.com/track/5oO3drDxtziYU2H1X23ZIp",
         "playedAt": "2026-11-04T20:01:15.255Z"
-      },
-      {
-        "name": "luther (with sza)",
-        "artists": "Kendrick Lamar, SZA",
-        "album": "GNX",
-        "art": "https://i.scdn.co/image/ab67616d00001e027e5e269471fe4a43a42e2f15",
-        "url": "https://open.spotify.com/track/2CGNAOSuO1MEFCbBRgUzjd",
-        "playedAt": "2026-11-04T19:57:30.468Z"
       }
     ],
     "top": [
-      {
-        "name": "Iris",
-        "artists": "The Goo Goo Dolls",
-        "album": "Dizzy up the Girl",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
-      },
       {
         "name": "Patience",
         "artists": "The Lumineers",
@@ -110,6 +103,13 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+      },
+      {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
