@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-06T17:37:28.614Z",
+  "updatedAt": "2026-11-06T22:40:34.385Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Iris",
+        "artists": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+        "playedAt": "2026-11-06T17:54:09.594Z"
+      },
       {
         "name": "Northern Attitude",
         "artists": "Noah Kahan",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b",
         "url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz",
         "playedAt": "2026-11-06T15:32:01.956Z"
-      },
-      {
-        "name": "Dakota",
-        "artists": "Stereophonics",
-        "album": "Language.Sex.Violence.Other?",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ecdb914ea9cbbb31c5a6b71b",
-        "url": "https://open.spotify.com/track/3qaSqrrevBrb84xl5JlptU",
-        "playedAt": "2026-11-06T15:06:12.150Z"
       }
     ],
     "top": [
