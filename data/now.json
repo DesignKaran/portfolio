@@ -1,15 +1,47 @@
 {
-  "updatedAt": "2026-11-08T21:17:08.850Z",
+  "updatedAt": "2026-11-09T18:59:21.235Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
+        "playedAt": "2026-11-09T13:44:04.977Z"
+      },
+      {
+        "name": "Hit the Wall",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
+        "playedAt": "2026-11-09T13:41:30.074Z"
+      },
+      {
+        "name": "My Body Isn't Ready",
+        "artists": "sombr",
+        "album": "My Body Isn't Ready",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
+        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
+        "playedAt": "2026-11-09T13:38:15.177Z"
+      },
+      {
+        "name": "Homewrecker",
+        "artists": "sombr",
+        "album": "Homewrecker",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
+        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
+        "playedAt": "2026-11-09T13:34:37.376Z"
+      },
       {
         "name": "Rein Me In (with Olivia Dean)",
         "artists": "Sam Fender, Olivia Dean",
         "album": "People Watching (Deluxe Edition)",
         "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
         "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-11-08T17:11:58.906Z"
+        "playedAt": "2026-11-09T13:31:07.801Z"
       },
       {
         "name": "The Great Divide",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
         "url": "https://open.spotify.com/track/4O2rRsoSPb5aN7N3tG6Y3v",
         "playedAt": "2026-11-06T15:57:22.845Z"
-      },
-      {
-        "name": "People Watching",
-        "artists": "Sam Fender",
-        "album": "People Watching",
-        "art": "https://i.scdn.co/image/ab67616d00001e02236df2fbddaf61fe0926284f",
-        "url": "https://open.spotify.com/track/6gBjUipB0ZxHd1BvwdJTDQ",
-        "playedAt": "2026-11-06T15:52:54.837Z"
-      },
-      {
-        "name": "Sugar Talking",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
-        "playedAt": "2026-11-06T15:47:49.478Z"
-      },
-      {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-11-06T15:42:23.049Z"
-      },
-      {
-        "name": "maggots for brains",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/6jfiwkcwt8iYCdkbLukxeI",
-        "playedAt": "2026-11-06T15:39:05.267Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "Dance-Pop",
-      "R&B"
+      "Alternative Rock",
+      "Score",
+      "Nu Metal"
     ]
   },
   "letterboxd": {
