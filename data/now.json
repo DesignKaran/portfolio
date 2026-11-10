@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-11-09T18:59:21.235Z",
+  "updatedAt": "2026-11-10T01:57:16.892Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Ok Love You Bye",
-        "artists": "Olivia Dean",
-        "album": "Ok Love You Bye",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
-        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
-        "playedAt": "2026-11-09T13:44:04.977Z"
+        "name": "Gloria",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
+        "playedAt": "2026-11-09T23:30:32.277Z"
       },
       {
-        "name": "Hit the Wall",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
-        "playedAt": "2026-11-09T13:41:30.074Z"
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-11-09T22:30:54.849Z"
       },
       {
-        "name": "My Body Isn't Ready",
-        "artists": "sombr",
-        "album": "My Body Isn't Ready",
-        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
-        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
-        "playedAt": "2026-11-09T13:38:15.177Z"
-      },
-      {
-        "name": "Homewrecker",
-        "artists": "sombr",
-        "album": "Homewrecker",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
-        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
-        "playedAt": "2026-11-09T13:34:37.376Z"
-      },
-      {
-        "name": "Rein Me In (with Olivia Dean)",
-        "artists": "Sam Fender, Olivia Dean",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
-        "playedAt": "2026-11-09T13:31:07.801Z"
-      },
-      {
-        "name": "The Great Divide",
-        "artists": "Noah Kahan",
-        "album": "The Great Divide",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d879855b819250d3d00a1a38",
-        "url": "https://open.spotify.com/track/4ck9vo0gEmjVHWUb5q2rYe",
-        "playedAt": "2026-11-07T19:15:33.949Z"
-      },
-      {
-        "name": "Iris",
-        "artists": "The Goo Goo Dolls",
-        "album": "Dizzy up the Girl",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
-        "playedAt": "2026-11-06T17:54:09.594Z"
-      },
-      {
-        "name": "Northern Attitude",
+        "name": "Stick Season",
         "artists": "Noah Kahan",
         "album": "Stick Season",
         "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/4O2rRsoSPb5aN7N3tG6Y3v",
-        "playedAt": "2026-11-06T15:57:22.845Z"
+        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
+        "playedAt": "2026-11-09T22:30:22.125Z"
+      },
+      {
+        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+        "artists": "Metro Boomin, A$AP Rocky, Roisee",
+        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
+        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
+        "playedAt": "2026-11-09T22:27:17.753Z"
+      },
+      {
+        "name": "Good Luck, Babe!",
+        "artists": "Chappell Roan",
+        "album": "Good Luck, Babe!",
+        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
+        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
+        "playedAt": "2026-11-09T22:23:00.890Z"
+      },
+      {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
+        "playedAt": "2026-11-09T22:19:21.829Z"
+      },
+      {
+        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
+        "playedAt": "2026-11-09T22:17:43.795Z"
+      },
+      {
+        "name": "DIRT ON MY SHOES (feat. Kehlani)",
+        "artists": "Leon Thomas, Kehlani",
+        "album": "MUTT Deluxe: HEEL",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eeb464ea9a23de21dd7aa4c9",
+        "url": "https://open.spotify.com/track/2AA05NFvw5tPQ9pvj68fsY",
+        "playedAt": "2026-11-09T22:14:18.023Z"
       }
     ],
     "top": [
@@ -105,6 +105,13 @@
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       },
       {
+        "name": "Love Affair",
+        "artists": "UMI",
+        "album": "Love Language",
+        "art": "https://i.scdn.co/image/ab67616d00001e02434fca871f8262f28c5a1481",
+        "url": "https://open.spotify.com/track/4ZaRg5Sf4TKr0YcFRLh7QJ"
+      },
+      {
         "name": "Don't Stop 'Til You Get Enough",
         "artists": "Michael Jackson",
         "album": "Off the Wall",
@@ -117,22 +124,15 @@
         "album": "Good Thing",
         "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
         "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
-      },
-      {
-        "name": "Minuet in B Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
       }
     ],
     "genres": [
       "Pop",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Score",
-      "Nu Metal"
+      "Rock",
+      "Pop Rock",
+      "Dance-Pop",
+      "R&B"
     ]
   },
   "letterboxd": {
