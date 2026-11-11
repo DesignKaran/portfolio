@@ -1,15 +1,37 @@
 {
-  "updatedAt": "2026-11-11T17:39:58.268Z",
+  "updatedAt": "2026-11-11T23:59:17.645Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Soft Spot",
+      "artists": "keshi",
+      "album": "Requiem",
+      "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+      "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
+    },
     "recent": [
+      {
+        "name": "Fake Nice",
+        "artists": "Beach Weather",
+        "album": "Melt",
+        "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
+        "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
+        "playedAt": "2026-11-11T23:56:42.673Z"
+      },
       {
         "name": "Gloria",
         "artists": "The Lumineers",
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
         "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
-        "playedAt": "2026-11-09T23:30:32.277Z"
+        "playedAt": "2026-11-11T23:53:15.175Z"
+      },
+      {
+        "name": "Chhote Chhote Shivji Chote Chote",
+        "artists": "Niranjan Pandya",
+        "album": "Mara Ghatma Birajta Shri Nathji",
+        "art": "https://i.scdn.co/image/ab67616d00001e022c3e69d2f3090d54a2a248f0",
+        "url": "https://open.spotify.com/track/2D2iVW6Csmd70tqozRggeX",
+        "playedAt": "2026-11-11T23:49:48.710Z"
       },
       {
         "name": "Coming Up Roses",
@@ -50,22 +72,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
         "playedAt": "2026-11-09T22:19:21.829Z"
-      },
-      {
-        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
-        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
-        "playedAt": "2026-11-09T22:17:43.795Z"
-      },
-      {
-        "name": "DIRT ON MY SHOES (feat. Kehlani)",
-        "artists": "Leon Thomas, Kehlani",
-        "album": "MUTT Deluxe: HEEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eeb464ea9a23de21dd7aa4c9",
-        "url": "https://open.spotify.com/track/2AA05NFvw5tPQ9pvj68fsY",
-        "playedAt": "2026-11-09T22:14:18.023Z"
       }
     ],
     "top": [
