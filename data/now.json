@@ -1,77 +1,71 @@
 {
-  "updatedAt": "2026-11-11T23:59:17.645Z",
+  "updatedAt": "2026-11-12T06:56:04.713Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Soft Spot",
-      "artists": "keshi",
-      "album": "Requiem",
-      "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-      "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
-    },
+    "nowPlaying": null,
     "recent": [
       {
-        "name": "Fake Nice",
-        "artists": "Beach Weather",
-        "album": "Melt",
-        "art": "https://i.scdn.co/image/ab67616d00001e025ef5ba06e943e72689c5aa5e",
-        "url": "https://open.spotify.com/track/0dK3P7orK9XUTeAcebUHwK",
-        "playedAt": "2026-11-11T23:56:42.673Z"
+        "name": "In Time",
+        "artists": "Robbie Robb",
+        "album": "Bill & Ted’s Excellent Adventure",
+        "art": "https://i.scdn.co/image/ab67616d00001e02253e11f4458033448afd2b77",
+        "url": "https://open.spotify.com/track/6fzcYViF8iRCXLOOp0BffJ",
+        "playedAt": "2026-11-12T01:02:04.379Z"
       },
       {
-        "name": "Gloria",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
-        "playedAt": "2026-11-11T23:53:15.175Z"
+        "name": "Minuet in B Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw",
+        "playedAt": "2026-11-12T00:56:53.858Z"
       },
       {
-        "name": "Chhote Chhote Shivji Chote Chote",
-        "artists": "Niranjan Pandya",
-        "album": "Mara Ghatma Birajta Shri Nathji",
-        "art": "https://i.scdn.co/image/ab67616d00001e022c3e69d2f3090d54a2a248f0",
-        "url": "https://open.spotify.com/track/2D2iVW6Csmd70tqozRggeX",
-        "playedAt": "2026-11-11T23:49:48.710Z"
+        "name": "Strawberries & Cigarettes",
+        "artists": "Troye Sivan",
+        "album": "Strawberries & Cigarettes",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c9eb4c87e1d7f5353908b712",
+        "url": "https://open.spotify.com/track/3afkJSKX0EAMsJXTZnDXXJ",
+        "playedAt": "2026-11-12T00:55:15.372Z"
       },
       {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-11-09T22:30:54.849Z"
+        "name": "Andante Con Moto - String Orchestra Variation",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 2 (Music from the HBO Series)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d95144d4409c0bc9967dcfd3",
+        "url": "https://open.spotify.com/track/5TC6MpTKbr1UOZeDwqRCed",
+        "playedAt": "2026-11-12T00:51:53.242Z"
       },
       {
-        "name": "Stick Season",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
-        "playedAt": "2026-11-09T22:30:22.125Z"
-      },
-      {
-        "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
-        "artists": "Metro Boomin, A$AP Rocky, Roisee",
-        "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ed9aef791159496b286179f",
-        "url": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW",
-        "playedAt": "2026-11-09T22:27:17.753Z"
-      },
-      {
-        "name": "Good Luck, Babe!",
-        "artists": "Chappell Roan",
-        "album": "Good Luck, Babe!",
-        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
-        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
-        "playedAt": "2026-11-09T22:23:00.890Z"
-      },
-      {
-        "name": "Patience",
+        "name": "Long Way From Home",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
-        "playedAt": "2026-11-09T22:19:21.829Z"
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
+        "playedAt": "2026-11-12T00:15:55.876Z"
+      },
+      {
+        "name": "So I'm Growing Old on Magic Mountain",
+        "artists": "Father John Misty",
+        "album": "Pure Comedy",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
+        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
+        "playedAt": "2026-11-12T00:13:23.178Z"
+      },
+      {
+        "name": "Last Nite",
+        "artists": "The Strokes",
+        "album": "Is This It",
+        "art": "https://i.scdn.co/image/ab67616d00001e0213f2466b83507515291acce4",
+        "url": "https://open.spotify.com/track/3SUusuA9jH1v6PVwtYMbdv",
+        "playedAt": "2026-11-12T00:03:24.375Z"
+      },
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-11-12T00:00:10.471Z"
       }
     ],
     "top": [
@@ -90,6 +84,13 @@
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
+        "name": "Long Way From Home",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+      },
+      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -104,11 +105,11 @@
         "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       },
       {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+        "name": "Minuet in B Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
       },
       {
         "name": "Love Affair",
@@ -123,13 +124,6 @@
         "album": "Off the Wall",
         "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
       }
     ],
     "genres": [
