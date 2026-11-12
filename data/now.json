@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-12T15:46:22.993Z",
+  "updatedAt": "2026-11-12T22:01:31.602Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Put Your Records On",
+        "artists": "Corinne Bailey Rae",
+        "album": "Corinne Bailey Rae",
+        "art": "https://i.scdn.co/image/ab67616d00001e021ec9b096319afbcc2dca6879",
+        "url": "https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx",
+        "playedAt": "2026-11-12T20:03:12.513Z"
+      },
       {
         "name": "A World Alone",
         "artists": "Lorde",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
         "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
         "playedAt": "2026-11-12T13:37:38.040Z"
-      },
-      {
-        "name": "People Watching",
-        "artists": "Sam Fender",
-        "album": "People Watching (Deluxe Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
-        "url": "https://open.spotify.com/track/1DCbT0gDb7DEuU8rdz8pLl",
-        "playedAt": "2026-11-12T13:34:28.278Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Score",
-      "Nu Metal"
+      "Rock",
+      "Pop Rock",
+      "Dance-Pop",
+      "R&B"
     ]
   },
   "letterboxd": {
