@@ -1,15 +1,39 @@
 {
-  "updatedAt": "2026-11-13T10:28:22.330Z",
+  "updatedAt": "2026-11-13T17:58:24.758Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Look at My Life",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/4Yf6QS1hjFWT1qMqvpzNcK",
+        "playedAt": "2026-11-13T12:46:36.566Z"
+      },
+      {
+        "name": "Sugar Talking",
+        "artists": "Sabrina Carpenter",
+        "album": "Man’s Best Friend",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
+        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
+        "playedAt": "2026-11-13T12:43:25.463Z"
+      },
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "Lady Lady",
+        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
+        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r",
+        "playedAt": "2026-11-13T12:40:21.161Z"
+      },
       {
         "name": "u + me = <3",
         "artists": "Olivia Rodrigo",
         "album": "you seem pretty sad for a girl so in love",
         "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
         "url": "https://open.spotify.com/track/6Hdc3IQeyCxG5d14uAcwQW",
-        "playedAt": "2026-11-13T01:25:39.419Z"
+        "playedAt": "2026-11-13T12:36:51.658Z"
       },
       {
         "name": "12 to 12",
@@ -17,7 +41,7 @@
         "album": "I Barely Know Her",
         "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
         "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-        "playedAt": "2026-11-13T01:21:31.319Z"
+        "playedAt": "2026-11-13T12:32:43.555Z"
       },
       {
         "name": "Doors",
@@ -25,7 +49,7 @@
         "album": "The Great Divide",
         "art": "https://i.scdn.co/image/ab67616d00001e02d879855b819250d3d00a1a38",
         "url": "https://open.spotify.com/track/3iU2qsthCTo5EeTE03l3Si",
-        "playedAt": "2026-11-13T01:17:27.897Z"
+        "playedAt": "2026-11-13T12:28:40.249Z"
       },
       {
         "name": "Slow Dancing in a Burning Room",
@@ -33,7 +57,7 @@
         "album": "Continuum",
         "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
         "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
-        "playedAt": "2026-11-13T01:13:36.314Z"
+        "playedAt": "2026-11-13T12:24:48.647Z"
       },
       {
         "name": "Gypsy",
@@ -41,31 +65,7 @@
         "album": "Greatest Hits",
         "art": "https://i.scdn.co/image/ab67616d00001e02eb832efe061888ee7ef10456",
         "url": "https://open.spotify.com/track/19Ym5Sg0YyOCa6ao21bdoG",
-        "playedAt": "2026-11-13T01:09:33.820Z"
-      },
-      {
-        "name": "Put Your Records On",
-        "artists": "Corinne Bailey Rae",
-        "album": "Corinne Bailey Rae",
-        "art": "https://i.scdn.co/image/ab67616d00001e021ec9b096319afbcc2dca6879",
-        "url": "https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx",
-        "playedAt": "2026-11-13T01:05:08.408Z"
-      },
-      {
-        "name": "A World Alone",
-        "artists": "Lorde",
-        "album": "Pure Heroine",
-        "art": "https://i.scdn.co/image/ab67616d00001e02187331e276c898d39764cc98",
-        "url": "https://open.spotify.com/track/55N0YHhO55Q1lWsc4dDPcI",
-        "playedAt": "2026-11-12T13:59:26.193Z"
-      },
-      {
-        "name": "Stop The Wedding!",
-        "artists": "Ashe",
-        "album": "The Girl Of Your Dreams",
-        "art": "https://i.scdn.co/image/ab67616d00001e02efe09b635b15763133198101",
-        "url": "https://open.spotify.com/track/7MOO89Qv9AV7VZkt5mcqA8",
-        "playedAt": "2026-11-12T13:54:31.452Z"
+        "playedAt": "2026-11-13T12:20:46.149Z"
       }
     ],
     "top": [
