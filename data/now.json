@@ -1,15 +1,55 @@
 {
-  "updatedAt": "2026-11-12T22:01:31.602Z",
+  "updatedAt": "2026-11-13T02:45:34.432Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "u + me = <3",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
+        "url": "https://open.spotify.com/track/6Hdc3IQeyCxG5d14uAcwQW",
+        "playedAt": "2026-11-13T01:25:39.419Z"
+      },
+      {
+        "name": "12 to 12",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
+        "playedAt": "2026-11-13T01:21:31.319Z"
+      },
+      {
+        "name": "Doors",
+        "artists": "Noah Kahan",
+        "album": "The Great Divide",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d879855b819250d3d00a1a38",
+        "url": "https://open.spotify.com/track/3iU2qsthCTo5EeTE03l3Si",
+        "playedAt": "2026-11-13T01:17:27.897Z"
+      },
+      {
+        "name": "Slow Dancing in a Burning Room",
+        "artists": "John Mayer",
+        "album": "Continuum",
+        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
+        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
+        "playedAt": "2026-11-13T01:13:36.314Z"
+      },
+      {
+        "name": "Gypsy",
+        "artists": "Fleetwood Mac",
+        "album": "Greatest Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e02eb832efe061888ee7ef10456",
+        "url": "https://open.spotify.com/track/19Ym5Sg0YyOCa6ao21bdoG",
+        "playedAt": "2026-11-13T01:09:33.820Z"
+      },
       {
         "name": "Put Your Records On",
         "artists": "Corinne Bailey Rae",
         "album": "Corinne Bailey Rae",
         "art": "https://i.scdn.co/image/ab67616d00001e021ec9b096319afbcc2dca6879",
         "url": "https://open.spotify.com/track/2nGFzvICaeEWjIrBrL2RAx",
-        "playedAt": "2026-11-12T20:03:12.513Z"
+        "playedAt": "2026-11-13T01:05:08.408Z"
       },
       {
         "name": "A World Alone",
@@ -26,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02efe09b635b15763133198101",
         "url": "https://open.spotify.com/track/7MOO89Qv9AV7VZkt5mcqA8",
         "playedAt": "2026-11-12T13:54:31.452Z"
-      },
-      {
-        "name": "Minibar",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/4bDlONk2X1TMBHKaf8tjCn",
-        "playedAt": "2026-11-12T13:51:11.448Z"
-      },
-      {
-        "name": "Dakota",
-        "artists": "Stereophonics",
-        "album": "Language.Sex.Violence.Other?",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ecdb914ea9cbbb31c5a6b71b",
-        "url": "https://open.spotify.com/track/3qaSqrrevBrb84xl5JlptU",
-        "playedAt": "2026-11-12T13:49:10.671Z"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "Man I Need",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3d69e17dde129037a1f09e2",
-        "url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX",
-        "playedAt": "2026-11-12T13:44:12.745Z"
-      },
-      {
-        "name": "stupid song",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/49j6SvuvWfbEKZKzsHCdLJ",
-        "playedAt": "2026-11-12T13:41:08.236Z"
-      },
-      {
-        "name": "Real Love Baby",
-        "artists": "Father John Misty",
-        "album": "Real Love Baby",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eca90909f4e566b1569d0e7d",
-        "url": "https://open.spotify.com/track/0Z57YWES04xGh3AImDz6Qr",
-        "playedAt": "2026-11-12T13:37:38.040Z"
       }
     ],
     "top": [
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
+      "Folk Pop",
       "Rock",
-      "Pop Rock",
-      "Dance-Pop",
-      "R&B"
+      "Alternative Rock",
+      "Score",
+      "Nu Metal"
     ]
   },
   "letterboxd": {
