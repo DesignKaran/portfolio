@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T03:26:48.160Z",
+  "updatedAt": "2026-11-14T10:46:58.975Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
@@ -128,8 +128,8 @@
     ],
     "genres": [
       "Pop",
-      "Alternative Rock",
       "Rock",
+      "Alternative Rock",
       "Pop Rock",
       "Dance-Pop",
       "R&B"
