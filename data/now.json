@@ -1,74 +1,81 @@
 {
-  "updatedAt": "2026-11-13T23:24:49.717Z",
+  "updatedAt": "2026-11-14T03:26:48.160Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Look at My Life",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/4Yf6QS1hjFWT1qMqvpzNcK",
-        "playedAt": "2026-11-13T12:46:36.566Z"
+        "name": "Heavy",
+        "artists": "The Marías",
+        "album": "CINEMA",
+        "art": "https://i.scdn.co/image/ab67616d00001e02657d6776f64aa731c8d1748b",
+        "url": "https://open.spotify.com/track/1ShRHPAiiIrh0arZbSFmx1",
+        "playedAt": "2026-11-14T00:06:49.416Z"
       },
       {
-        "name": "Sugar Talking",
-        "artists": "Sabrina Carpenter",
-        "album": "Man’s Best Friend",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b1863bf95557ea7f357c4947",
-        "url": "https://open.spotify.com/track/5B3GZOZYXNzWpUXQC42hxZ",
-        "playedAt": "2026-11-13T12:43:25.463Z"
+        "name": "All These Things That I've Done",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
+        "playedAt": "2026-11-14T00:02:35.676Z"
       },
       {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "Lady Lady",
-        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
-        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r",
-        "playedAt": "2026-11-13T12:40:21.161Z"
+        "name": "...Baby One More Time (from Kung Fu Panda 4)",
+        "artists": "Tenacious D",
+        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
+        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
+        "playedAt": "2026-11-13T23:57:31.876Z"
       },
       {
-        "name": "u + me = <3",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e025cf234eeb7a2edf44bf64a46",
-        "url": "https://open.spotify.com/track/6Hdc3IQeyCxG5d14uAcwQW",
-        "playedAt": "2026-11-13T12:36:51.658Z"
+        "name": "A.M. RADIO",
+        "artists": "The Lumineers",
+        "album": "BRIGHTSIDE",
+        "art": "https://i.scdn.co/image/ab67616d00001e0237ff1d816fca4dec18be406b",
+        "url": "https://open.spotify.com/track/32mcz82FOIucA49qkynFVB",
+        "playedAt": "2026-11-13T23:54:18.844Z"
       },
       {
-        "name": "12 to 12",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
-        "playedAt": "2026-11-13T12:32:43.555Z"
+        "name": "Slow It Down",
+        "artists": "The Lumineers",
+        "album": "The Lumineers",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
+        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
+        "playedAt": "2026-11-13T23:50:21.018Z"
       },
       {
-        "name": "Doors",
+        "name": "Orange Juice",
         "artists": "Noah Kahan",
-        "album": "The Great Divide",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d879855b819250d3d00a1a38",
-        "url": "https://open.spotify.com/track/3iU2qsthCTo5EeTE03l3Si",
-        "playedAt": "2026-11-13T12:28:40.249Z"
+        "album": "Stick Season",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "url": "https://open.spotify.com/track/07UFnnK3uPIuKv5Rs9TmXl",
+        "playedAt": "2026-11-13T23:45:13.469Z"
       },
       {
-        "name": "Slow Dancing in a Burning Room",
-        "artists": "John Mayer",
-        "album": "Continuum",
-        "art": "https://i.scdn.co/image/ab67616d00001e02fa8e8cc9d6d0862b7033dbaa",
-        "url": "https://open.spotify.com/track/75zIfJpcYFYHSBMVlmdiYc",
-        "playedAt": "2026-11-13T12:24:48.647Z"
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-11-13T23:40:15.770Z"
       },
       {
-        "name": "Gypsy",
-        "artists": "Fleetwood Mac",
-        "album": "Greatest Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e02eb832efe061888ee7ef10456",
-        "url": "https://open.spotify.com/track/19Ym5Sg0YyOCa6ao21bdoG",
-        "playedAt": "2026-11-13T12:20:46.149Z"
+        "name": "Material Lover - from The Devil Wears Prada 2 Original Motion Picture",
+        "artists": "SIENNA SPIRO",
+        "album": "Visitor (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0231990a335ce5d02dc159e5c4",
+        "url": "https://open.spotify.com/track/2aQcGu5C6qFcicPsaywTEK",
+        "playedAt": "2026-11-13T23:36:36.531Z"
       }
     ],
     "top": [
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
       {
         "name": "Patience",
         "artists": "The Lumineers",
@@ -89,13 +96,6 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
         "name": "MISS ME",
@@ -128,11 +128,11 @@
     ],
     "genres": [
       "Pop",
-      "Folk Pop",
-      "Rock",
       "Alternative Rock",
-      "Score",
-      "Nu Metal"
+      "Rock",
+      "Pop Rock",
+      "Dance-Pop",
+      "R&B"
     ]
   },
   "letterboxd": {
