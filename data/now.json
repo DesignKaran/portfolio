@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-15T01:10:10.054Z",
+  "updatedAt": "2026-11-15T08:07:54.419Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Andante Agitato - End Credits - “The Raid”",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi",
+        "playedAt": "2026-11-15T06:07:13.378Z"
+      },
       {
         "name": "The Hardest Part (feat. Leon Bridges)",
         "artists": "Olivia Dean, Leon Bridges",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
         "playedAt": "2026-11-14T19:31:03.764Z"
-      },
-      {
-        "name": "Flowers In Your Hair",
-        "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/5PbdVk09VHHcvGa0pX86RP",
-        "playedAt": "2026-11-14T19:27:41.465Z"
       }
     ],
     "top": [
