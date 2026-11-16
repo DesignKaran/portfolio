@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-11-15T08:07:54.419Z",
+  "updatedAt": "2026-11-16T07:36:04.933Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Co2",
+        "artists": "Prateek Kuhad",
+        "album": "The Way That Lovers Do",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dc8799fc0000992578ec96e9",
+        "url": "https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N",
+        "playedAt": "2026-11-16T04:53:10.430Z"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH",
+        "playedAt": "2026-11-16T03:20:27.840Z"
+      },
       {
         "name": "Andante Agitato - End Credits - “The Raid”",
         "artists": "Nicholas Britell",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02eeb464ea9a23de21dd7aa4c9",
         "url": "https://open.spotify.com/track/2AA05NFvw5tPQ9pvj68fsY",
         "playedAt": "2026-11-14T19:35:29.569Z"
-      },
-      {
-        "name": "Scherzo in F Minor - Strings",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/681Q0ngEIOMctYw2I5qd3m",
-        "playedAt": "2026-11-14T19:31:49.503Z"
-      },
-      {
-        "name": "Angela",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
-        "playedAt": "2026-11-14T19:31:03.764Z"
       }
     ],
     "top": [
