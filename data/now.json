@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-16T17:52:27.577Z",
+  "updatedAt": "2026-11-17T01:30:27.998Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "All These Things That I've Done",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
+        "playedAt": "2026-11-17T01:28:02.242Z"
+      },
       {
         "name": "Let It Happen",
         "artists": "Gracie Abrams",
@@ -50,14 +58,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e028ecc33f195df6aa257c39eaa",
         "url": "https://open.spotify.com/track/2913xXOVAIDAqxzV2g4VcU",
         "playedAt": "2026-11-16T15:10:27.387Z"
-      },
-      {
-        "name": "All These Things That I've Done",
-        "artists": "The Killers",
-        "album": "Direct Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
-        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
-        "playedAt": "2026-11-16T15:02:37.783Z"
       },
       {
         "name": "Linger - SiriusXM Session",
