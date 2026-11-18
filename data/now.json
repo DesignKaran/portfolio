@@ -1,81 +1,74 @@
 {
-  "updatedAt": "2026-11-18T09:41:05.574Z",
+  "updatedAt": "2026-11-18T18:37:05.534Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "Good Luck, Babe!",
-        "artists": "Chappell Roan",
-        "album": "Good Luck, Babe!",
-        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
-        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
-        "playedAt": "2026-11-17T21:31:26.050Z"
+        "name": "...Baby One More Time (from Kung Fu Panda 4)",
+        "artists": "Tenacious D",
+        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
+        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
+        "playedAt": "2026-11-18T15:29:52.591Z"
       },
       {
-        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
+        "name": "Starlight",
+        "artists": "Muse",
+        "album": "Black Holes and Revelations",
+        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
+        "playedAt": "2026-11-18T15:26:39.489Z"
+      },
+      {
+        "name": "Minuet in B Minor",
         "artists": "Nicholas Britell",
-        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
-        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
-        "playedAt": "2026-11-17T20:31:11.771Z"
+        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
+        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw",
+        "playedAt": "2026-11-18T15:22:38.788Z"
       },
       {
-        "name": "2 soon",
-        "artists": "keshi",
-        "album": "2 soon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
-        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
-        "playedAt": "2026-11-17T20:27:45.869Z"
+        "name": "Stick Season",
+        "artists": "Noah Kahan",
+        "album": "Stick Season",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
+        "playedAt": "2026-11-18T15:21:00.328Z"
       },
       {
-        "name": "coraline",
-        "artists": "Lyn Lapid",
-        "album": "coraline",
-        "art": "https://i.scdn.co/image/ab67616d00001e025da651b722039916b52ce480",
-        "url": "https://open.spotify.com/track/35UnweHI2mOrBbIIlYNClF",
-        "playedAt": "2026-11-17T20:24:18.629Z"
+        "name": "Alive x Starbright - Between Broken Live Edit",
+        "artists": "Dabin, RUNN, Trella, MitiS",
+        "album": "Between Broken (Remixes)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02136e8fa0810f65a054b35d8f",
+        "url": "https://open.spotify.com/track/56B2pHbMXoIACrsbkcHPf7",
+        "playedAt": "2026-11-18T15:17:57.487Z"
       },
       {
-        "name": "Something I Need",
-        "artists": "OneRepublic",
-        "album": "Native",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e80e7dbce3996a1ae5967751",
-        "url": "https://open.spotify.com/track/4KANJH1baadr3U7XsVbM17",
-        "playedAt": "2026-11-17T20:21:28.803Z"
+        "name": "Andante Agitato - End Credits - “The Raid”",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
+        "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi",
+        "playedAt": "2026-11-18T15:12:42.589Z"
       },
       {
-        "name": "Late Night Talking",
+        "name": "Starbright",
+        "artists": "Dabin, Trella",
+        "album": "Between Broken",
+        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
+        "url": "https://open.spotify.com/track/6huKKoWv2Xy4KM2rwUNa7X",
+        "playedAt": "2026-11-18T15:08:32.800Z"
+      },
+      {
+        "name": "Coming Up Roses",
         "artists": "Harry Styles",
-        "album": "Harry's House",
-        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
-        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
-        "playedAt": "2026-11-17T20:10:27.028Z"
-      },
-      {
-        "name": "Castle on the Hill",
-        "artists": "Ed Sheeran",
-        "album": "÷ (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
-        "url": "https://open.spotify.com/track/6PCUP3dWmTjcTtXY02oFdT",
-        "playedAt": "2026-11-17T20:07:28.300Z"
-      },
-      {
-        "name": "All These Things That I've Done",
-        "artists": "The Killers",
-        "album": "Direct Hits",
-        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
-        "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
-        "playedAt": "2026-11-17T01:28:02.242Z"
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
+        "playedAt": "2026-11-18T15:04:29.291Z"
       }
     ],
     "top": [
-      {
-        "name": "Patience",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
-      },
       {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
@@ -105,11 +98,11 @@
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       },
       {
-        "name": "All These Things That I've Done",
-        "artists": "The Killers",
-        "album": "Hot Fuss",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
-        "url": "https://open.spotify.com/track/5vollujufHY0jMZxx77VWr"
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       },
       {
         "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
@@ -124,6 +117,13 @@
         "album": "Off the Wall",
         "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+      },
+      {
+        "name": "Good Luck, Babe!",
+        "artists": "Chappell Roan",
+        "album": "Good Luck, Babe!",
+        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
+        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu"
       }
     ],
     "genres": [
