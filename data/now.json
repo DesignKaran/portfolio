@@ -1,15 +1,63 @@
 {
-  "updatedAt": "2026-11-17T19:15:52.793Z",
+  "updatedAt": "2026-11-18T01:45:38.006Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Good Luck, Babe!",
+        "artists": "Chappell Roan",
+        "album": "Good Luck, Babe!",
+        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
+        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
+        "playedAt": "2026-11-17T21:31:26.050Z"
+      },
+      {
+        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5",
+        "playedAt": "2026-11-17T20:31:11.771Z"
+      },
+      {
+        "name": "2 soon",
+        "artists": "keshi",
+        "album": "2 soon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
+        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
+        "playedAt": "2026-11-17T20:27:45.869Z"
+      },
+      {
+        "name": "coraline",
+        "artists": "Lyn Lapid",
+        "album": "coraline",
+        "art": "https://i.scdn.co/image/ab67616d00001e025da651b722039916b52ce480",
+        "url": "https://open.spotify.com/track/35UnweHI2mOrBbIIlYNClF",
+        "playedAt": "2026-11-17T20:24:18.629Z"
+      },
+      {
+        "name": "Something I Need",
+        "artists": "OneRepublic",
+        "album": "Native",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e80e7dbce3996a1ae5967751",
+        "url": "https://open.spotify.com/track/4KANJH1baadr3U7XsVbM17",
+        "playedAt": "2026-11-17T20:21:28.803Z"
+      },
+      {
+        "name": "Late Night Talking",
+        "artists": "Harry Styles",
+        "album": "Harry's House",
+        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
+        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
+        "playedAt": "2026-11-17T20:10:27.028Z"
+      },
       {
         "name": "Castle on the Hill",
         "artists": "Ed Sheeran",
         "album": "÷ (Deluxe)",
         "art": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
         "url": "https://open.spotify.com/track/6PCUP3dWmTjcTtXY02oFdT",
-        "playedAt": "2026-11-17T09:38:33.862Z"
+        "playedAt": "2026-11-17T20:07:28.300Z"
       },
       {
         "name": "All These Things That I've Done",
@@ -18,54 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
         "url": "https://open.spotify.com/track/4yyMjJrrjaDRXyIoM4JbbC",
         "playedAt": "2026-11-17T01:28:02.242Z"
-      },
-      {
-        "name": "Let It Happen",
-        "artists": "Gracie Abrams",
-        "album": "The Secret of Us",
-        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
-        "url": "https://open.spotify.com/track/7mFhyM0k5ZKG8jxcwmPVYl",
-        "playedAt": "2026-11-16T16:30:23.536Z"
-      },
-      {
-        "name": "Young Blood",
-        "artists": "Noah Kahan",
-        "album": "Busyhead",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a82b6363eb1895f2e9aae530",
-        "url": "https://open.spotify.com/track/5ngcqrs4Xq915GUqNtNNr5",
-        "playedAt": "2026-11-16T15:26:06.771Z"
-      },
-      {
-        "name": "The Night We Met",
-        "artists": "Lord Huron",
-        "album": "Strange Trails",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b4916183f769aca218acb85f",
-        "url": "https://open.spotify.com/track/5yJaXWIErrrsjQ3J0eR5aK",
-        "playedAt": "2026-11-16T15:22:37.410Z"
-      },
-      {
-        "name": "Best Part (feat. H.E.R.)",
-        "artists": "Daniel Caesar, H.E.R.",
-        "album": "Freudian",
-        "art": "https://i.scdn.co/image/ab67616d00001e027aa8783ad8def37cc548a9cf",
-        "url": "https://open.spotify.com/track/1Q7EgiMOuwDcB0PJC6AzON",
-        "playedAt": "2026-11-16T15:19:08.836Z"
-      },
-      {
-        "name": "Vodka Cranberry",
-        "artists": "Conan Gray",
-        "album": "Wishbone",
-        "art": "https://i.scdn.co/image/ab67616d00001e029939165f617ebca847c4ac10",
-        "url": "https://open.spotify.com/track/6qGVKjUodwfWPg4ZzZiA6S",
-        "playedAt": "2026-11-16T15:14:33.838Z"
-      },
-      {
-        "name": "The Bolter",
-        "artists": "Taylor Swift",
-        "album": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-        "art": "https://i.scdn.co/image/ab67616d00001e028ecc33f195df6aa257c39eaa",
-        "url": "https://open.spotify.com/track/2913xXOVAIDAqxzV2g4VcU",
-        "playedAt": "2026-11-16T15:10:27.387Z"
       }
     ],
     "top": [
@@ -84,27 +84,6 @@
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
-        "name": "Leader Of The Landslide",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
-        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
-      },
-      {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
-      },
-      {
         "name": "MISS ME",
         "artists": "keshi",
         "album": "MISS ME",
@@ -119,20 +98,41 @@
         "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
       },
       {
+        "name": "Long Way From Home",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+      },
+      {
         "name": "All These Things That I've Done",
         "artists": "The Killers",
         "album": "Hot Fuss",
         "art": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
         "url": "https://open.spotify.com/track/5vollujufHY0jMZxx77VWr"
+      },
+      {
+        "name": "Andante Espressivo - String Orchestra - \"Number One Boy\"",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1GnHXpV2oYzZlKaaniFxl5"
+      },
+      {
+        "name": "Don't Stop 'Til You Get Enough",
+        "artists": "Michael Jackson",
+        "album": "Off the Wall",
+        "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
+        "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
       }
     ],
     "genres": [
       "Pop",
       "Rock",
+      "Folk Pop",
       "Alternative Rock",
-      "Pop Rock",
-      "Dance-Pop",
-      "R&B"
+      "Score",
+      "Nu Metal"
     ]
   },
   "letterboxd": {
