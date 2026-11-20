@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-11-20T07:36:36.408Z",
+  "updatedAt": "2026-11-20T16:39:33.063Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "undressed",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/0TFTAtCYhp2tQ9KcJIZb55",
+        "playedAt": "2026-11-20T14:37:04.248Z"
+      },
+      {
+        "name": "My Body Isn't Ready",
+        "artists": "sombr",
+        "album": "My Body Isn't Ready",
+        "art": "https://i.scdn.co/image/ab67616d00001e0255615e9242bd96706c68a743",
+        "url": "https://open.spotify.com/track/79RJg6MqIJlBuedcMqB9F0",
+        "playedAt": "2026-11-20T14:34:01.653Z"
+      },
+      {
+        "name": "12 to 12",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/05od2qm2MTSKCHxy1GBp5W",
+        "playedAt": "2026-11-20T14:30:23.787Z"
+      },
+      {
+        "name": "Homewrecker",
+        "artists": "sombr",
+        "album": "Homewrecker",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
+        "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
+        "playedAt": "2026-11-20T14:26:20.339Z"
+      },
+      {
+        "name": "back to friends",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/7qjZnBKE73H4Oxkopwulqe",
+        "playedAt": "2026-11-20T14:22:19.535Z"
+      },
       {
         "name": "Co2",
         "artists": "Prateek Kuhad",
@@ -26,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
         "playedAt": "2026-11-20T03:19:19.917Z"
-      },
-      {
-        "name": "Malibu Nights",
-        "artists": "LANY",
-        "album": "Malibu Nights",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c4dae9528b2a8408f463eb17",
-        "url": "https://open.spotify.com/track/0Eqg0CQ7bK3RQIMPw1A7pl",
-        "playedAt": "2026-11-19T22:13:12.918Z"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
-        "playedAt": "2026-11-19T21:12:03.837Z"
-      },
-      {
-        "name": "So I'm Growing Old on Magic Mountain",
-        "artists": "Father John Misty",
-        "album": "Pure Comedy",
-        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
-        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
-        "playedAt": "2026-11-19T21:08:31.146Z"
-      },
-      {
-        "name": "Gloria",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
-        "playedAt": "2026-11-19T20:58:28.810Z"
-      },
-      {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-11-19T20:54:50.998Z"
       }
     ],
     "top": [
