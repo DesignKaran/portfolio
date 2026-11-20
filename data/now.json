@@ -1,8 +1,32 @@
 {
-  "updatedAt": "2026-11-20T00:15:44.919Z",
+  "updatedAt": "2026-11-20T07:36:36.408Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Co2",
+        "artists": "Prateek Kuhad",
+        "album": "The Way That Lovers Do",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dc8799fc0000992578ec96e9",
+        "url": "https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N",
+        "playedAt": "2026-11-20T05:27:54.230Z"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH",
+        "playedAt": "2026-11-20T05:27:37.825Z"
+      },
+      {
+        "name": "Sleep On The Floor",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
+        "playedAt": "2026-11-20T03:19:19.917Z"
+      },
       {
         "name": "Malibu Nights",
         "artists": "LANY",
@@ -42,30 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
         "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
         "playedAt": "2026-11-19T20:54:50.998Z"
-      },
-      {
-        "name": "Leader Of The Landslide",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
-        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
-        "playedAt": "2026-11-19T20:51:26.039Z"
-      },
-      {
-        "name": "Under Cover of Darkness",
-        "artists": "The Strokes",
-        "album": "Angles",
-        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
-        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
-        "playedAt": "2026-11-19T20:45:30.348Z"
-      },
-      {
-        "name": "Sleep On The Floor",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
-        "playedAt": "2026-11-19T20:41:33.967Z"
       }
     ],
     "top": [
@@ -84,18 +84,18 @@
         "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       },
       {
-        "name": "Minuet in B Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw"
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
+        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
-        "name": "Long Way From Home",
+        "name": "Sleep On The Floor",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
@@ -105,25 +105,25 @@
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
       },
       {
-        "name": "Good Luck, Babe!",
-        "artists": "Chappell Roan",
-        "album": "Good Luck, Babe!",
-        "art": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
-        "url": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu"
-      },
-      {
-        "name": "Leader Of The Landslide",
-        "artists": "The Lumineers",
-        "album": "III",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
-        "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
-      },
-      {
         "name": "Andante Agitato - End Credits - “The Raid”",
         "artists": "Nicholas Britell",
         "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
         "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
         "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi"
+      },
+      {
+        "name": "Long Way From Home",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+      },
+      {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       }
     ],
     "genres": [
