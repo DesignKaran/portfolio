@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-11-19T08:27:02.767Z",
+  "updatedAt": "2026-11-20T00:15:44.919Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Malibu Nights",
+        "artists": "LANY",
+        "album": "Malibu Nights",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c4dae9528b2a8408f463eb17",
+        "url": "https://open.spotify.com/track/0Eqg0CQ7bK3RQIMPw1A7pl",
+        "playedAt": "2026-11-19T22:13:12.918Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-11-19T21:12:03.837Z"
+      },
+      {
+        "name": "So I'm Growing Old on Magic Mountain",
+        "artists": "Father John Misty",
+        "album": "Pure Comedy",
+        "art": "https://i.scdn.co/image/ab67616d00001e022e74e5926952e461ea94f0e3",
+        "url": "https://open.spotify.com/track/6ZVUeBk7Y9EGG1l6OBplU1",
+        "playedAt": "2026-11-19T21:08:31.146Z"
+      },
+      {
+        "name": "Gloria",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/4Io6Ms746qox95yffpjU3q",
+        "playedAt": "2026-11-19T20:58:28.810Z"
+      },
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-11-19T20:54:50.998Z"
+      },
+      {
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
+        "playedAt": "2026-11-19T20:51:26.039Z"
+      },
+      {
+        "name": "Under Cover of Darkness",
+        "artists": "The Strokes",
+        "album": "Angles",
+        "art": "https://i.scdn.co/image/ab67616d00001e02397d02cfe1aab2923f9d1697",
+        "url": "https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c",
+        "playedAt": "2026-11-19T20:45:30.348Z"
+      },
       {
         "name": "Sleep On The Floor",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
-        "playedAt": "2026-11-19T03:44:20.047Z"
-      },
-      {
-        "name": "...Baby One More Time (from Kung Fu Panda 4)",
-        "artists": "Tenacious D",
-        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
-        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
-        "playedAt": "2026-11-18T15:29:52.591Z"
-      },
-      {
-        "name": "Starlight",
-        "artists": "Muse",
-        "album": "Black Holes and Revelations",
-        "art": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
-        "url": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj",
-        "playedAt": "2026-11-18T15:26:39.489Z"
-      },
-      {
-        "name": "Minuet in B Minor",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e654bc3bc09b6c1e013f74a3",
-        "url": "https://open.spotify.com/track/0tWDAlNT5dI9ttZRB0sbxw",
-        "playedAt": "2026-11-18T15:22:38.788Z"
-      },
-      {
-        "name": "Stick Season",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
-        "playedAt": "2026-11-18T15:21:00.328Z"
-      },
-      {
-        "name": "Alive x Starbright - Between Broken Live Edit",
-        "artists": "Dabin, RUNN, Trella, MitiS",
-        "album": "Between Broken (Remixes)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02136e8fa0810f65a054b35d8f",
-        "url": "https://open.spotify.com/track/56B2pHbMXoIACrsbkcHPf7",
-        "playedAt": "2026-11-18T15:17:57.487Z"
-      },
-      {
-        "name": "Andante Agitato - End Credits - “The Raid”",
-        "artists": "Nicholas Britell",
-        "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
-        "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi",
-        "playedAt": "2026-11-18T15:12:42.589Z"
-      },
-      {
-        "name": "Starbright",
-        "artists": "Dabin, Trella",
-        "album": "Between Broken",
-        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
-        "url": "https://open.spotify.com/track/6huKKoWv2Xy4KM2rwUNa7X",
-        "playedAt": "2026-11-18T15:08:32.800Z"
+        "playedAt": "2026-11-19T20:41:33.967Z"
       }
     ],
     "top": [
@@ -129,10 +129,10 @@
     "genres": [
       "Pop",
       "Rock",
-      "Folk Pop",
       "Alternative Rock",
-      "Score",
-      "Nu Metal"
+      "Pop Rock",
+      "Dance-Pop",
+      "R&B"
     ]
   },
   "letterboxd": {
