@@ -1,8 +1,40 @@
 {
-  "updatedAt": "2026-11-20T16:39:33.063Z",
+  "updatedAt": "2026-11-20T22:56:37.063Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "Lady Lady",
+        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
+        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r",
+        "playedAt": "2026-11-20T22:23:54.057Z"
+      },
+      {
+        "name": "My Body Isn't Ready - Orchestral Version from Sound City",
+        "artists": "sombr",
+        "album": "My Body Isn't Ready (Orchestral Version from Sound City)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02224e4610703960a262e82207",
+        "url": "https://open.spotify.com/track/5wA2qmCu9hcu6KAqNE4FOC",
+        "playedAt": "2026-11-20T21:21:19.471Z"
+      },
+      {
+        "name": "Ok Love You Bye",
+        "artists": "Olivia Dean",
+        "album": "Ok Love You Bye",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
+        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
+        "playedAt": "2026-11-20T21:17:37.086Z"
+      },
+      {
+        "name": "we never dated",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/0t1fdMrn7JOg9DDsT95bxt",
+        "playedAt": "2026-11-20T19:24:05.849Z"
+      },
       {
         "name": "undressed",
         "artists": "sombr",
@@ -34,38 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a8d41dca4c7d0ef23d76dd7",
         "url": "https://open.spotify.com/track/7tICCrK3CcyRFKza7yrR0z",
         "playedAt": "2026-11-20T14:26:20.339Z"
-      },
-      {
-        "name": "back to friends",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/7qjZnBKE73H4Oxkopwulqe",
-        "playedAt": "2026-11-20T14:22:19.535Z"
-      },
-      {
-        "name": "Co2",
-        "artists": "Prateek Kuhad",
-        "album": "The Way That Lovers Do",
-        "art": "https://i.scdn.co/image/ab67616d00001e02dc8799fc0000992578ec96e9",
-        "url": "https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N",
-        "playedAt": "2026-11-20T05:27:54.230Z"
-      },
-      {
-        "name": "sweetener",
-        "artists": "Ariana Grande",
-        "album": "Sweetener",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
-        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH",
-        "playedAt": "2026-11-20T05:27:37.825Z"
-      },
-      {
-        "name": "Sleep On The Floor",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
-        "playedAt": "2026-11-20T03:19:19.917Z"
       }
     ],
     "top": [
@@ -75,6 +75,13 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Sleep On The Floor",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
         "name": "MISS ME",
@@ -89,13 +96,6 @@
         "album": "III",
         "art": "https://i.scdn.co/image/ab67616d00001e02a0597558ceea871c35de00ab",
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
-      },
-      {
-        "name": "Sleep On The Floor",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
         "name": "Don't Stop 'Til You Get Enough",
