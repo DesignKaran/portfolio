@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-11-21T03:47:01.034Z",
+  "updatedAt": "2026-11-21T12:02:13.398Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Co2",
+        "artists": "Prateek Kuhad",
+        "album": "The Way That Lovers Do",
+        "art": "https://i.scdn.co/image/ab67616d00001e02dc8799fc0000992578ec96e9",
+        "url": "https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N",
+        "playedAt": "2026-11-21T08:05:23.068Z"
+      },
+      {
+        "name": "Pyar Manga Hai Tumhi Se - From \"College Girl\"",
+        "artists": "Kishore Kumar",
+        "album": "Hindi Songs",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e3e80a0edf0c3114cfbc0f00",
+        "url": "https://open.spotify.com/track/5MVCKumZJm9XBzTOHL1iqB",
+        "playedAt": "2026-11-21T08:05:05.312Z"
+      },
       {
         "name": "LIMBO",
         "artists": "keshi",
@@ -50,22 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02224e4610703960a262e82207",
         "url": "https://open.spotify.com/track/5wA2qmCu9hcu6KAqNE4FOC",
         "playedAt": "2026-11-20T21:21:19.471Z"
-      },
-      {
-        "name": "Ok Love You Bye",
-        "artists": "Olivia Dean",
-        "album": "Ok Love You Bye",
-        "art": "https://i.scdn.co/image/ab67616d00001e02b05c07b076354a0542c92544",
-        "url": "https://open.spotify.com/track/66YywMJbAgzQrGkFKjnSsK",
-        "playedAt": "2026-11-20T21:17:37.086Z"
-      },
-      {
-        "name": "we never dated",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/0t1fdMrn7JOg9DDsT95bxt",
-        "playedAt": "2026-11-20T19:24:05.849Z"
       }
     ],
     "top": [
@@ -75,13 +75,6 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
-      },
-      {
-        "name": "Sleep On The Floor",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
         "name": "MISS ME",
@@ -98,11 +91,25 @@
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
+        "name": "Sleep On The Floor",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
+      },
+      {
         "name": "Don't Stop 'Til You Get Enough",
         "artists": "Michael Jackson",
         "album": "Off the Wall",
         "art": "https://i.scdn.co/image/ab67616d00001e022b74bf21c7e4f56758610949",
         "url": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ"
+      },
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       },
       {
         "name": "Andante Agitato - End Credits - “The Raid”",
@@ -117,22 +124,15 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
-        "name": "Patience",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
       }
     ],
     "genres": [
       "Pop",
       "Rock",
-      "Folk Pop",
       "Alternative Rock",
-      "Score",
-      "Classic Rock"
+      "Pop Rock",
+      "Dance-Pop",
+      "R&B"
     ]
   },
   "letterboxd": {
