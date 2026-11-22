@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-11-22T07:13:29.910Z",
+  "updatedAt": "2026-11-22T21:29:32.103Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
       {
-        "name": "In Time",
-        "artists": "Robbie Robb",
-        "album": "Bill & Ted’s Excellent Adventure",
-        "art": "https://i.scdn.co/image/ab67616d00001e02253e11f4458033448afd2b77",
-        "url": "https://open.spotify.com/track/6fzcYViF8iRCXLOOp0BffJ",
-        "playedAt": "2026-11-22T06:05:06.377Z"
+        "name": "Starbright",
+        "artists": "Dabin, Trella",
+        "album": "Between Broken",
+        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
+        "url": "https://open.spotify.com/track/6huKKoWv2Xy4KM2rwUNa7X",
+        "playedAt": "2026-11-22T18:05:07.428Z"
       },
       {
-        "name": "Beyond",
-        "artists": "Leon Bridges",
-        "album": "Good Thing",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
-        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0",
-        "playedAt": "2026-11-22T01:18:42.644Z"
+        "name": "Last Nite",
+        "artists": "The Strokes",
+        "album": "Is This It",
+        "art": "https://i.scdn.co/image/ab67616d00001e0213f2466b83507515291acce4",
+        "url": "https://open.spotify.com/track/3SUusuA9jH1v6PVwtYMbdv",
+        "playedAt": "2026-11-22T18:01:03.929Z"
       },
       {
-        "name": "Cleopatra",
+        "name": "Leader Of The Landslide",
+        "artists": "The Lumineers",
+        "album": "III",
+        "art": "https://i.scdn.co/image/ab67616d00001e02b2c968addfb1c26ab117877a",
+        "url": "https://open.spotify.com/track/6hsJk3xqDGDHb9brnKysNw",
+        "playedAt": "2026-11-22T17:57:49.949Z"
+      },
+      {
+        "name": "Sleep On The Floor",
         "artists": "The Lumineers",
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/2AXY5WABx7NjWw1zb4qCdc",
-        "playedAt": "2026-11-22T01:13:57.948Z"
+        "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc",
+        "playedAt": "2026-11-22T17:49:02.544Z"
       },
       {
-        "name": "Slow It Down",
+        "name": "Patience",
         "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/4OEtHWJffG6hwDsFjvnv9q",
-        "playedAt": "2026-11-22T01:10:36.134Z"
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC",
+        "playedAt": "2026-11-22T17:45:30.178Z"
       },
       {
-        "name": "Vienna",
-        "artists": "Billy Joel",
-        "album": "The Stranger (Legacy Edition)",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
-        "url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7",
-        "playedAt": "2026-11-22T01:05:28.534Z"
+        "name": "Rein Me In (with Olivia Dean)",
+        "artists": "Sam Fender, Olivia Dean",
+        "album": "People Watching (Deluxe Edition)",
+        "art": "https://i.scdn.co/image/ab67616d00001e0270722c52a53ef4a56f0c2eb0",
+        "url": "https://open.spotify.com/track/0MUXBhPUDF8or0kfQ0EHwV",
+        "playedAt": "2026-11-22T17:43:52.641Z"
       },
       {
-        "name": "Hypnotize",
-        "artists": "System Of A Down",
-        "album": "Hypnotize",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f5e7b2e5adaa87430a3eccff",
-        "url": "https://open.spotify.com/track/6oO7WMjD6kEvCITLbVj0mu",
-        "playedAt": "2026-11-22T01:01:53.841Z"
+        "name": "End Credits - Vivace Appassionato in G Minor",
+        "artists": "Nicholas Britell",
+        "album": "Succession: Season 4 (HBO Original Series Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e026f85ddf6fbb47ddecd32b7ae",
+        "url": "https://open.spotify.com/track/1xPbaDlmx5i7MYoLTENrFG",
+        "playedAt": "2026-11-22T17:38:12.141Z"
       },
       {
-        "name": "Castle on the Hill",
-        "artists": "Ed Sheeran",
-        "album": "÷ (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
-        "url": "https://open.spotify.com/track/6PCUP3dWmTjcTtXY02oFdT",
-        "playedAt": "2026-11-22T00:58:43.849Z"
-      },
-      {
-        "name": "Stubborn Love",
-        "artists": "The Lumineers",
-        "album": "The Lumineers",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f350c13195ce048876b5fea4",
-        "url": "https://open.spotify.com/track/4wG82w1L31yQhgGiWt6gIb",
-        "playedAt": "2026-11-22T00:54:22.240Z"
+        "name": "beside you",
+        "artists": "keshi",
+        "album": "beside you",
+        "art": "https://i.scdn.co/image/ab67616d00001e02da53f97b4b0f1e14d854f777",
+        "url": "https://open.spotify.com/track/1Fhb9iJPufNMZSwupsXiRe",
+        "playedAt": "2026-11-22T16:51:03.477Z"
       }
     ],
     "top": [
@@ -84,13 +84,6 @@
         "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       },
       {
-        "name": "sweetener",
-        "artists": "Ariana Grande",
-        "album": "Sweetener",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
-        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH"
-      },
-      {
         "name": "Leader Of The Landslide",
         "artists": "The Lumineers",
         "album": "III",
@@ -105,6 +98,20 @@
         "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH"
+      },
+      {
         "name": "Don't Stop 'Til You Get Enough",
         "artists": "Michael Jackson",
         "album": "Off the Wall",
@@ -117,13 +124,6 @@
         "album": "Good Thing",
         "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
         "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
-      },
-      {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       }
     ],
     "genres": [
