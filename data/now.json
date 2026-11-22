@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-11-21T12:02:13.398Z",
+  "updatedAt": "2026-11-22T00:03:44.214Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Runaways",
+        "artists": "The Killers",
+        "album": "Direct Hits",
+        "art": "https://i.scdn.co/image/ab67616d00001e0248488c2eee5727efc30bf657",
+        "url": "https://open.spotify.com/track/1E3pFst1X74fCxE0K9pqhy",
+        "playedAt": "2026-11-21T21:29:10.674Z"
+      },
+      {
+        "name": "Late Night Talking",
+        "artists": "Harry Styles",
+        "album": "Harry's House",
+        "art": "https://i.scdn.co/image/ab67616d00001e0282ce362511fb3d9dda6578ee",
+        "url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
+        "playedAt": "2026-11-21T21:25:04.972Z"
+      },
+      {
+        "name": "settle",
+        "artists": "Lyn Lapid",
+        "album": "BUZZKILL (forever)",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d59a2ea329dc54c79209438b",
+        "url": "https://open.spotify.com/track/6BjQFAJJRqeI5URGQc5CwT",
+        "playedAt": "2026-11-21T21:22:06.569Z"
+      },
+      {
+        "name": "Drown",
+        "artists": "Dabin, Mokita",
+        "album": "Between Broken",
+        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
+        "url": "https://open.spotify.com/track/36TsyjtOszueVgNJ4TCVUq",
+        "playedAt": "2026-11-21T21:19:31.970Z"
+      },
+      {
+        "name": "SOMEBODY",
+        "artists": "keshi",
+        "album": "GABRIEL",
+        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
+        "url": "https://open.spotify.com/track/3iqlzKw1tLt6tXZyKWV0fZ",
+        "playedAt": "2026-11-21T21:15:12.765Z"
+      },
+      {
+        "name": "Every Summertime",
+        "artists": "NIKI",
+        "album": "Every Summertime",
+        "art": "https://i.scdn.co/image/ab67616d00001e02e81fd3b9a7230db447f38182",
+        "url": "https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro",
+        "playedAt": "2026-11-21T21:12:27.662Z"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH",
+        "playedAt": "2026-11-21T21:08:51.446Z"
+      },
       {
         "name": "Co2",
         "artists": "Prateek Kuhad",
@@ -10,62 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02dc8799fc0000992578ec96e9",
         "url": "https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N",
         "playedAt": "2026-11-21T08:05:23.068Z"
-      },
-      {
-        "name": "Pyar Manga Hai Tumhi Se - From \"College Girl\"",
-        "artists": "Kishore Kumar",
-        "album": "Hindi Songs",
-        "art": "https://i.scdn.co/image/ab67616d00001e02e3e80a0edf0c3114cfbc0f00",
-        "url": "https://open.spotify.com/track/5MVCKumZJm9XBzTOHL1iqB",
-        "playedAt": "2026-11-21T08:05:05.312Z"
-      },
-      {
-        "name": "LIMBO",
-        "artists": "keshi",
-        "album": "GABRIEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
-        "url": "https://open.spotify.com/track/2bdVgAQgosGUJoViVDNeOV",
-        "playedAt": "2026-11-21T03:06:34.438Z"
-      },
-      {
-        "name": "UNDERSTAND",
-        "artists": "keshi",
-        "album": "GABRIEL",
-        "art": "https://i.scdn.co/image/ab67616d00001e0219aff2da63b211d75341e8eb",
-        "url": "https://open.spotify.com/track/72sfmdpuO5r8cBDgs7MqZZ",
-        "playedAt": "2026-11-21T03:03:01.632Z"
-      },
-      {
-        "name": "MISS ME",
-        "artists": "keshi",
-        "album": "MISS ME",
-        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
-        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf",
-        "playedAt": "2026-11-21T03:00:30.552Z"
-      },
-      {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-11-21T02:57:16.955Z"
-      },
-      {
-        "name": "Lady Lady",
-        "artists": "Olivia Dean",
-        "album": "Lady Lady",
-        "art": "https://i.scdn.co/image/ab67616d00001e02567808375ab783974642afd0",
-        "url": "https://open.spotify.com/track/1XwbJNPOcLuSRTQNR9zz4r",
-        "playedAt": "2026-11-20T22:23:54.057Z"
-      },
-      {
-        "name": "My Body Isn't Ready - Orchestral Version from Sound City",
-        "artists": "sombr",
-        "album": "My Body Isn't Ready (Orchestral Version from Sound City)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02224e4610703960a262e82207",
-        "url": "https://open.spotify.com/track/5wA2qmCu9hcu6KAqNE4FOC",
-        "playedAt": "2026-11-20T21:21:19.471Z"
       }
     ],
     "top": [
@@ -82,6 +82,13 @@
         "album": "MISS ME",
         "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
         "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
+      },
+      {
+        "name": "sweetener",
+        "artists": "Ariana Grande",
+        "album": "Sweetener",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
+        "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH"
       },
       {
         "name": "Leader Of The Landslide",
@@ -117,13 +124,6 @@
         "album": "Succession: Season 3 (HBO Original Series Soundtrack)",
         "art": "https://i.scdn.co/image/ab67616d00001e026d40664403c68c903e59c4f8",
         "url": "https://open.spotify.com/track/2ZQiPRPoIvbNDmzspeb7Zi"
-      },
-      {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       }
     ],
     "genres": [
