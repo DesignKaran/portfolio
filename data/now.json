@@ -1,71 +1,77 @@
 {
-  "updatedAt": "2026-11-23T10:17:07.285Z",
+  "updatedAt": "2026-11-23T22:09:06.032Z",
   "spotify": {
-    "nowPlaying": null,
+    "nowPlaying": {
+      "name": "Iris",
+      "artists": "The Goo Goo Dolls",
+      "album": "Dizzy up the Girl",
+      "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+      "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
+    },
     "recent": [
       {
-        "name": "2 soon",
+        "name": "honeybee",
+        "artists": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
+        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
+        "playedAt": "2026-11-23T22:06:20.226Z"
+      },
+      {
+        "name": "Ain't Got Nothing On You",
+        "artists": "Leon Bridges",
+        "album": "Leon",
+        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
+        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
+        "playedAt": "2026-11-23T22:02:36.779Z"
+      },
+      {
+        "name": "Hit the Wall",
+        "artists": "Gracie Abrams",
+        "album": "Daughter from Hell",
+        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
+        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
+        "playedAt": "2026-11-23T16:46:20.896Z"
+      },
+      {
+        "name": "Let Down",
+        "artists": "Radiohead",
+        "album": "OK Computer",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+        "url": "https://open.spotify.com/track/2fuYa3Lx06QQJAm0MjztKr",
+        "playedAt": "2026-11-23T16:43:05.996Z"
+      },
+      {
+        "name": "Wish You Were Here",
+        "artists": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
+        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
+        "playedAt": "2026-11-23T16:38:05.889Z"
+      },
+      {
+        "name": "back to friends",
+        "artists": "sombr",
+        "album": "I Barely Know Her",
+        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
+        "url": "https://open.spotify.com/track/7qjZnBKE73H4Oxkopwulqe",
+        "playedAt": "2026-11-23T16:32:26.992Z"
+      },
+      {
+        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
+        "artists": "Olivia Dean",
+        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
+        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
+        "playedAt": "2026-11-23T16:29:07.393Z"
+      },
+      {
+        "name": "Soft Spot",
         "artists": "keshi",
-        "album": "2 soon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d2cd2645f470f8eb4f10f81a",
-        "url": "https://open.spotify.com/track/5SlU0Yhi51jobhEiGE4xDv",
-        "playedAt": "2026-11-23T05:32:19.916Z"
-      },
-      {
-        "name": "Stick Season",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv",
-        "playedAt": "2026-11-23T05:28:52.874Z"
-      },
-      {
-        "name": "The Hardest Part (feat. Leon Bridges)",
-        "artists": "Olivia Dean, Leon Bridges",
-        "album": "The Hardest Part (feat. Leon Bridges)",
-        "art": "https://i.scdn.co/image/ab67616d00001e02a99c466f806031aaebbfa9b6",
-        "url": "https://open.spotify.com/track/1fXALB3kb14ngMRGNdV5wD",
-        "playedAt": "2026-11-23T05:25:50.057Z"
-      },
-      {
-        "name": "Angela",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/0dV2XGlA08rObQZdL4mPOK",
-        "playedAt": "2026-11-23T05:22:53.521Z"
-      },
-      {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z",
-        "playedAt": "2026-11-23T05:19:31.178Z"
-      },
-      {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ",
-        "playedAt": "2026-11-23T05:16:58.483Z"
-      },
-      {
-        "name": "...Baby One More Time (from Kung Fu Panda 4)",
-        "artists": "Tenacious D",
-        "album": "Kung Fu Panda 4 (Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e0257ba52e5a0489481ee1bc7e9",
-        "url": "https://open.spotify.com/track/5wViaajeHHPZlEjBY9nhU3",
-        "playedAt": "2026-11-23T05:08:16.951Z"
-      },
-      {
-        "name": "Starbright",
-        "artists": "Dabin, Trella",
-        "album": "Between Broken",
-        "art": "https://i.scdn.co/image/ab67616d00001e02beda6259a336ccc9c149b5f9",
-        "url": "https://open.spotify.com/track/6huKKoWv2Xy4KM2rwUNa7X",
-        "playedAt": "2026-11-22T18:05:07.428Z"
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
+        "playedAt": "2026-11-23T16:25:30.992Z"
       }
     ],
     "top": [
@@ -75,13 +81,6 @@
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
-      },
-      {
-        "name": "MISS ME",
-        "artists": "keshi",
-        "album": "MISS ME",
-        "art": "https://i.scdn.co/image/ab67616d00001e029f2c9d2c307e24f93a1831b5",
-        "url": "https://open.spotify.com/track/6btmjh1p327BMAJAczq9Lf"
       },
       {
         "name": "Leader Of The Landslide",
@@ -117,6 +116,13 @@
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
+      },
+      {
+        "name": "Soft Spot",
+        "artists": "keshi",
+        "album": "Requiem",
+        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
+        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       },
       {
         "name": "Long Way From Home",
