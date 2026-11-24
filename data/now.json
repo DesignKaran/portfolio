@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-11-24T06:14:39.644Z",
+  "updatedAt": "2026-11-24T18:04:22.745Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "The Art of Loving (Intro)",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
+        "playedAt": "2026-11-24T12:34:41.957Z"
+      },
+      {
+        "name": "Man I Need",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
+        "playedAt": "2026-11-24T12:34:00.956Z"
+      },
+      {
+        "name": "Baby Steps",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
+        "playedAt": "2026-11-24T12:30:56.456Z"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-11-24T12:27:39.454Z"
+      },
+      {
+        "name": "Nice To Each Other",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
+        "playedAt": "2026-11-24T12:24:34.945Z"
+      },
+      {
+        "name": "Everywhere, Everything",
+        "artists": "Noah Kahan",
+        "album": "Stick Season",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "url": "https://open.spotify.com/track/32iNr3J93tqFkxaMYwdRYi",
+        "playedAt": "2026-11-24T12:18:07.247Z"
+      },
+      {
+        "name": "No Surprises",
+        "artists": "Radiohead",
+        "album": "OK Computer",
+        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+        "url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
+        "playedAt": "2026-11-24T12:13:49.144Z"
+      },
       {
         "name": "Close Up",
         "artists": "Olivia Dean",
@@ -10,62 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
         "playedAt": "2026-11-23T23:05:49.881Z"
-      },
-      {
-        "name": "Northern Attitude",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/4O2rRsoSPb5aN7N3tG6Y3v",
-        "playedAt": "2026-11-23T23:02:34.429Z"
-      },
-      {
-        "name": "Best Part (feat. H.E.R.)",
-        "artists": "Daniel Caesar, H.E.R.",
-        "album": "Freudian",
-        "art": "https://i.scdn.co/image/ab67616d00001e027aa8783ad8def37cc548a9cf",
-        "url": "https://open.spotify.com/track/1Q7EgiMOuwDcB0PJC6AzON",
-        "playedAt": "2026-11-23T22:58:06.578Z"
-      },
-      {
-        "name": "Coming Home",
-        "artists": "Leon Bridges",
-        "album": "Coming Home (Deluxe)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
-        "url": "https://open.spotify.com/track/65GbQI9VDTs7vo6MJL2iJA",
-        "playedAt": "2026-11-23T22:54:36.277Z"
-      },
-      {
-        "name": "Self Aware",
-        "artists": "Temper City",
-        "album": "Self Aware",
-        "art": "https://i.scdn.co/image/ab67616d00001e02d6c26d2ae723f7ab553d64cc",
-        "url": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
-        "playedAt": "2026-11-23T22:50:28.946Z"
-      },
-      {
-        "name": "intro (end of the world)",
-        "artists": "Ariana Grande",
-        "album": "eternal sunshine",
-        "art": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
-        "url": "https://open.spotify.com/track/2o1pb13quMReXZqE7jWsgq",
-        "playedAt": "2026-11-23T22:47:27.651Z"
-      },
-      {
-        "name": "I Love You, I'm Sorry",
-        "artists": "Gracie Abrams",
-        "album": "The Secret of Us",
-        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
-        "url": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy",
-        "playedAt": "2026-11-23T22:34:20.352Z"
-      },
-      {
-        "name": "I've Seen It",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
-        "playedAt": "2026-11-23T22:31:42.755Z"
       }
     ],
     "top": [
@@ -119,11 +119,11 @@
         "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       },
       {
-        "name": "Orange Juice",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/07UFnnK3uPIuKv5Rs9TmXl"
+        "name": "Long Way From Home",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
       }
     ],
     "genres": [
