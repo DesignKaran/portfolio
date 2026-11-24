@@ -1,87 +1,74 @@
 {
-  "updatedAt": "2026-11-23T22:09:06.032Z",
+  "updatedAt": "2026-11-24T06:14:39.644Z",
   "spotify": {
-    "nowPlaying": {
-      "name": "Iris",
-      "artists": "The Goo Goo Dolls",
-      "album": "Dizzy up the Girl",
-      "art": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-      "url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
-    },
+    "nowPlaying": null,
     "recent": [
       {
-        "name": "honeybee",
-        "artists": "Olivia Rodrigo",
-        "album": "you seem pretty sad for a girl so in love",
-        "art": "https://i.scdn.co/image/ab67616d00001e026949b83f85d782b21ce70583",
-        "url": "https://open.spotify.com/track/4kX7xkopoXZCfE1D6fNwl2",
-        "playedAt": "2026-11-23T22:06:20.226Z"
-      },
-      {
-        "name": "Ain't Got Nothing On You",
-        "artists": "Leon Bridges",
-        "album": "Leon",
-        "art": "https://i.scdn.co/image/ab67616d00001e02f48c6b7df709454b5785253e",
-        "url": "https://open.spotify.com/track/3rHRwx3G8o6VAfaFAliw5d",
-        "playedAt": "2026-11-23T22:02:36.779Z"
-      },
-      {
-        "name": "Hit the Wall",
-        "artists": "Gracie Abrams",
-        "album": "Daughter from Hell",
-        "art": "https://i.scdn.co/image/ab67616d00001e0299bc33b47a0a67fd50783055",
-        "url": "https://open.spotify.com/track/61Oyg0lrAOMjBpEStqfOZ1",
-        "playedAt": "2026-11-23T16:46:20.896Z"
-      },
-      {
-        "name": "Let Down",
-        "artists": "Radiohead",
-        "album": "OK Computer",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
-        "url": "https://open.spotify.com/track/2fuYa3Lx06QQJAm0MjztKr",
-        "playedAt": "2026-11-23T16:43:05.996Z"
-      },
-      {
-        "name": "Wish You Were Here",
-        "artists": "Pink Floyd",
-        "album": "Wish You Were Here",
-        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
-        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
-        "playedAt": "2026-11-23T16:38:05.889Z"
-      },
-      {
-        "name": "back to friends",
-        "artists": "sombr",
-        "album": "I Barely Know Her",
-        "art": "https://i.scdn.co/image/ab67616d00001e024229702de91cb3d3a4383302",
-        "url": "https://open.spotify.com/track/7qjZnBKE73H4Oxkopwulqe",
-        "playedAt": "2026-11-23T16:32:26.992Z"
-      },
-      {
-        "name": "It Isn’t Perfect But It Might Be - from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack",
-        "artists": "Olivia Dean",
-        "album": "It Isn’t Perfect But It Might Be (from “Bridget Jones: Mad About the Boy” Original Motion Picture Soundtrack)",
-        "art": "https://i.scdn.co/image/ab67616d00001e023af34b93a5eb9b68b62c6aab",
-        "url": "https://open.spotify.com/track/1wsLt0uxVHxUMXfwfI6Gsn",
-        "playedAt": "2026-11-23T16:29:07.393Z"
-      },
-      {
-        "name": "Soft Spot",
-        "artists": "keshi",
-        "album": "Requiem",
-        "art": "https://i.scdn.co/image/ab67616d00001e02617997bc09bb7fa23624eff5",
-        "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7",
-        "playedAt": "2026-11-23T16:25:30.992Z"
-      }
-    ],
-    "top": [
-      {
-        "name": "A Couple Minutes",
+        "name": "Close Up",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
+        "playedAt": "2026-11-23T23:05:49.881Z"
       },
+      {
+        "name": "Northern Attitude",
+        "artists": "Noah Kahan",
+        "album": "Stick Season",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "url": "https://open.spotify.com/track/4O2rRsoSPb5aN7N3tG6Y3v",
+        "playedAt": "2026-11-23T23:02:34.429Z"
+      },
+      {
+        "name": "Best Part (feat. H.E.R.)",
+        "artists": "Daniel Caesar, H.E.R.",
+        "album": "Freudian",
+        "art": "https://i.scdn.co/image/ab67616d00001e027aa8783ad8def37cc548a9cf",
+        "url": "https://open.spotify.com/track/1Q7EgiMOuwDcB0PJC6AzON",
+        "playedAt": "2026-11-23T22:58:06.578Z"
+      },
+      {
+        "name": "Coming Home",
+        "artists": "Leon Bridges",
+        "album": "Coming Home (Deluxe)",
+        "art": "https://i.scdn.co/image/ab67616d00001e023921e3e980d81e65f259cc78",
+        "url": "https://open.spotify.com/track/65GbQI9VDTs7vo6MJL2iJA",
+        "playedAt": "2026-11-23T22:54:36.277Z"
+      },
+      {
+        "name": "Self Aware",
+        "artists": "Temper City",
+        "album": "Self Aware",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d6c26d2ae723f7ab553d64cc",
+        "url": "https://open.spotify.com/track/4qW3BbQAwZsrnu8a3ZRdyT",
+        "playedAt": "2026-11-23T22:50:28.946Z"
+      },
+      {
+        "name": "intro (end of the world)",
+        "artists": "Ariana Grande",
+        "album": "eternal sunshine",
+        "art": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+        "url": "https://open.spotify.com/track/2o1pb13quMReXZqE7jWsgq",
+        "playedAt": "2026-11-23T22:47:27.651Z"
+      },
+      {
+        "name": "I Love You, I'm Sorry",
+        "artists": "Gracie Abrams",
+        "album": "The Secret of Us",
+        "art": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
+        "url": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy",
+        "playedAt": "2026-11-23T22:34:20.352Z"
+      },
+      {
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
+        "playedAt": "2026-11-23T22:31:42.755Z"
+      }
+    ],
+    "top": [
       {
         "name": "Leader Of The Landslide",
         "artists": "The Lumineers",
@@ -118,6 +105,13 @@
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       },
       {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
         "name": "Soft Spot",
         "artists": "keshi",
         "album": "Requiem",
@@ -125,11 +119,11 @@
         "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       },
       {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+        "name": "Orange Juice",
+        "artists": "Noah Kahan",
+        "album": "Stick Season",
+        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "url": "https://open.spotify.com/track/07UFnnK3uPIuKv5Rs9TmXl"
       }
     ],
     "genres": [
