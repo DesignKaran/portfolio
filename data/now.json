@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-24T18:04:22.745Z",
+  "updatedAt": "2026-11-25T02:41:23.631Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Lady Lady",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
+        "playedAt": "2026-11-24T20:08:21.027Z"
+      },
       {
         "name": "The Art of Loving (Intro)",
         "artists": "Olivia Dean",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
         "url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
         "playedAt": "2026-11-24T12:13:49.144Z"
-      },
-      {
-        "name": "Close Up",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/15yaPgTazHHemSnHYYl8HO",
-        "playedAt": "2026-11-23T23:05:49.881Z"
       }
     ],
     "top": [
