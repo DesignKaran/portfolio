@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-25T02:41:23.631Z",
+  "updatedAt": "2026-11-25T12:03:51.492Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Something Inbetween",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/28HadeGsalBfbVfMEkCcF7",
+        "playedAt": "2026-11-25T04:59:41.304Z"
+      },
       {
         "name": "Lady Lady",
         "artists": "Olivia Dean",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
         "url": "https://open.spotify.com/track/32iNr3J93tqFkxaMYwdRYi",
         "playedAt": "2026-11-24T12:18:07.247Z"
-      },
-      {
-        "name": "No Surprises",
-        "artists": "Radiohead",
-        "album": "OK Computer",
-        "art": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
-        "url": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB",
-        "playedAt": "2026-11-24T12:13:49.144Z"
       }
     ],
     "top": [
@@ -98,13 +98,6 @@
         "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH"
       },
       {
-        "name": "Coming Up Roses",
-        "artists": "Harry Styles",
-        "album": "Kiss All The Time. Disco, Occasionally.",
-        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
-        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
-      },
-      {
         "name": "A Couple Minutes",
         "artists": "Olivia Dean",
         "album": "The Art of Loving",
@@ -124,6 +117,13 @@
         "album": "Cleopatra",
         "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
         "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
+      },
+      {
+        "name": "Coming Up Roses",
+        "artists": "Harry Styles",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
+        "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
       }
     ],
     "genres": [
