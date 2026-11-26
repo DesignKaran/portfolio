@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-25T21:53:23.670Z",
+  "updatedAt": "2026-11-26T22:31:48.968Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Let Alone The One You Love",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3Vd4fHzwS6pBS3muymjiDi",
+        "playedAt": "2026-11-26T15:20:56.146Z"
+      },
       {
         "name": "Something Inbetween",
         "artists": "Olivia Dean",
@@ -58,14 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
         "playedAt": "2026-11-24T12:24:34.945Z"
-      },
-      {
-        "name": "Everywhere, Everything",
-        "artists": "Noah Kahan",
-        "album": "Stick Season",
-        "art": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "url": "https://open.spotify.com/track/32iNr3J93tqFkxaMYwdRYi",
-        "playedAt": "2026-11-24T12:18:07.247Z"
       }
     ],
     "top": [
@@ -77,25 +77,11 @@
         "url": "https://open.spotify.com/track/1GobnJwog1V9M7UsITz8u5"
       },
       {
-        "name": "Patience",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
-      },
-      {
         "name": "sweetener",
         "artists": "Ariana Grande",
         "album": "Sweetener",
         "art": "https://i.scdn.co/image/ab67616d00001e02c3af0c2355c24ed7023cd394",
         "url": "https://open.spotify.com/track/70khXICDeTTxgYtw3EysKH"
-      },
-      {
-        "name": "A Couple Minutes",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
       },
       {
         "name": "Soft Spot",
@@ -105,13 +91,6 @@
         "url": "https://open.spotify.com/track/2aL4lMGhWdPpyPL6COPou7"
       },
       {
-        "name": "Long Way From Home",
-        "artists": "The Lumineers",
-        "album": "Cleopatra",
-        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
-        "url": "https://open.spotify.com/track/3ySCUGgxRXaP39gbO9Zu3Z"
-      },
-      {
         "name": "Sleep On The Floor",
         "artists": "The Lumineers",
         "album": "Cleopatra",
@@ -119,11 +98,32 @@
         "url": "https://open.spotify.com/track/4RvW5ggYKC7bCDX4UUSSDc"
       },
       {
+        "name": "Patience",
+        "artists": "The Lumineers",
+        "album": "Cleopatra",
+        "art": "https://i.scdn.co/image/ab67616d00001e0221b550b66cf1391c6642088c",
+        "url": "https://open.spotify.com/track/6FRo3Zj550jo20vJzhH5UC"
+      },
+      {
         "name": "Coming Up Roses",
         "artists": "Harry Styles",
         "album": "Kiss All The Time. Disco, Occasionally.",
         "art": "https://i.scdn.co/image/ab67616d00001e0274959140f550b11049c18a38",
         "url": "https://open.spotify.com/track/0QPdjsMOUhwouq1NS3HwfQ"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk"
+      },
+      {
+        "name": "Beyond",
+        "artists": "Leon Bridges",
+        "album": "Good Thing",
+        "art": "https://i.scdn.co/image/ab67616d00001e02d8ba7edac14684336ba0f507",
+        "url": "https://open.spotify.com/track/1Omt5bfz1tZUCqd26HxbS0"
       }
     ],
     "genres": [
