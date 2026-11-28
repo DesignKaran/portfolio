@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-11-27T04:44:48.144Z",
+  "updatedAt": "2026-11-28T04:50:23.751Z",
   "spotify": {
     "nowPlaying": null,
     "recent": [
+      {
+        "name": "Nice To Each Other",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
+        "playedAt": "2026-11-28T04:33:44.374Z"
+      },
+      {
+        "name": "Loud",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
+        "playedAt": "2026-11-28T04:30:14.809Z"
+      },
+      {
+        "name": "A Couple Minutes",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/312z6PZ8wwREck8613PkJk",
+        "playedAt": "2026-11-28T04:26:10.044Z"
+      },
+      {
+        "name": "I've Seen It",
+        "artists": "Olivia Dean",
+        "album": "The Art of Loving",
+        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
+        "url": "https://open.spotify.com/track/6tHVEMyRfxGgQuXRzl2yOF",
+        "playedAt": "2026-11-28T04:22:37.543Z"
+      },
+      {
+        "name": "Wish You Were Here",
+        "artists": "Pink Floyd",
+        "album": "Wish You Were Here",
+        "art": "https://i.scdn.co/image/ab67616d00001e02828e52cfb7bf22869349799e",
+        "url": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1",
+        "playedAt": "2026-11-27T05:07:19.976Z"
+      },
       {
         "name": "Let Alone The One You Love",
         "artists": "Olivia Dean",
@@ -26,46 +66,6 @@
         "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
         "url": "https://open.spotify.com/track/2dmBAIjIfisvCG7G9YEh0g",
         "playedAt": "2026-11-24T20:08:21.027Z"
-      },
-      {
-        "name": "The Art of Loving (Intro)",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/1TZgdopOZCUxpS5bp1i0Zz",
-        "playedAt": "2026-11-24T12:34:41.957Z"
-      },
-      {
-        "name": "Man I Need",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/0mYXRQpTGjaLJt1l9MY4ps",
-        "playedAt": "2026-11-24T12:34:00.956Z"
-      },
-      {
-        "name": "Baby Steps",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/5SruEBX3KpgpDvEcIuN53P",
-        "playedAt": "2026-11-24T12:30:56.456Z"
-      },
-      {
-        "name": "Loud",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/3bUpRf4GN6SV6ejgQ4IQxT",
-        "playedAt": "2026-11-24T12:27:39.454Z"
-      },
-      {
-        "name": "Nice To Each Other",
-        "artists": "Olivia Dean",
-        "album": "The Art of Loving",
-        "art": "https://i.scdn.co/image/ab67616d00001e029a336bfb6d40bbd90a507417",
-        "url": "https://open.spotify.com/track/7qEiBWlztvDFrILdizFULx",
-        "playedAt": "2026-11-24T12:24:34.945Z"
       }
     ],
     "top": [
